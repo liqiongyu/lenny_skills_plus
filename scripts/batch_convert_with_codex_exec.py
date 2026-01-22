@@ -9,7 +9,7 @@ You should still review every generated skill pack.
 
 Prereqs:
 - Codex CLI installed and authenticated
-- Sources already downloaded into `sources/refound/raw/<slug>/SKILL.md` (or `page.html` fallback)
+- Sources already downloaded into `sources/refound/raw/<slug>/SKILL.md` (or HTML fallback: `page.html` / legacy `skill_page.html`)
 - This repo contains the meta-skill at `.codex/skills/lenny-skillpack-creator`
 
 Usage:
@@ -18,8 +18,9 @@ Usage:
   python scripts/batch_convert_with_codex_exec.py --start-after-slug retention-engagement
 
 Notes:
-- `codex exec --full-auto` uses the low-friction automation preset (workspace-write sandbox + on-request approvals).
-  Adjust flags to match your risk tolerance.
+- By default, this runs Codex unattended in a sandbox:
+  `codex --sandbox workspace-write --ask-for-approval never exec ...`
+- Pass `--no-full-auto` to run `codex exec ...` using your Codex config defaults (may prompt for approvals).
 """
 
 from __future__ import annotations
@@ -32,16 +33,19 @@ from typing import Optional
 
 def find_source(slug: str) -> Optional[Path]:
     base = Path("sources/refound/raw") / slug
-    for candidate in [base / "SKILL.md", base / "page.html"]:
+    # Support both legacy and current fallback HTML filenames.
+    for candidate in [base / "SKILL.md", base / "skill_page.html", base / "page.html"]:
         if candidate.exists():
             return candidate
     return None
 
 def run_codex(prompt: str, full_auto: bool = True) -> int:
-    cmd = ["codex", "exec"]
+    cmd = ["codex"]
     if full_auto:
-        cmd.append("--full-auto")
-    cmd.append(prompt)
+        # Unattended, still sandboxed (no network by default in workspace-write).
+        # NOTE: `--ask-for-approval` is a global flag and must appear before `exec`.
+        cmd += ["--sandbox", "workspace-write", "--ask-for-approval", "never"]
+    cmd += ["exec", prompt]
     proc = subprocess.run(cmd)
     return proc.returncode
 
@@ -52,7 +56,11 @@ def main() -> int:
     ap.add_argument("--only-category", default="", help="Only convert skills in this category name")
     ap.add_argument("--start-after-slug", default="", help="Skip until after this slug is seen")
     ap.add_argument("--out-root", default="skills", help="Where to write converted skill packs")
-    ap.add_argument("--no-full-auto", action="store_true", help="Do not pass --full-auto to codex exec")
+    ap.add_argument(
+        "--no-full-auto",
+        action="store_true",
+        help="Run codex exec without unattended flags (uses your Codex config defaults).",
+    )
     args = ap.parse_args()
 
     manifest = Path(args.manifest)
@@ -92,10 +100,12 @@ def main() -> int:
             out_dir.mkdir(parents=True, exist_ok=True)
 
             prompt = (
-                f"Use the \\\$lenny-skillpack-creator skill to convert the Refound/Lenny skill at: {src}\n"
+                f"Use the $lenny-skillpack-creator skill to convert the Refound/Lenny skill at: {src}\n"
                 f"Target persona: inferred from category = {category}\n"
                 f"Output: write a complete executable skill pack to: {out_dir}\n"
-                f"All output must be English. After writing files, run the linter script.\n"
+                f"All output must be English.\n"
+                f"After writing files, run: python3 .codex/skills/lenny-skillpack-creator/scripts/lint_skillpack.py {out_dir}\n"
+                f"If lint fails, fix the skill pack and re-run lint until it passes, then stop.\n"
             )
 
             rc = run_codex(prompt, full_auto=(not args.no_full_auto))
