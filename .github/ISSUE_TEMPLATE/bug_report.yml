@@ -1,0 +1,38 @@
+name: Bug report
+description: Report a problem with scripts, linting, or repo tooling.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting an issue. Please include enough detail to reproduce.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect to happen, and what happened instead?
+      placeholder: Steps + observed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction steps
+      description: Minimal steps to reproduce (commands, inputs, file paths).
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Python version, Codex/Claude versions if relevant.
+      placeholder: |
+        OS:
+        Python:
+        Codex CLI:
+        Claude Code:
+    validations:
+      required: false

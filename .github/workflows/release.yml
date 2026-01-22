@@ -1,0 +1,62 @@
+name: Release
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+
+      - name: Package skill packs
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+          found=0
+          for d in skills/*; do
+            if [ -f "$d/SKILL.md" ]; then
+              found=1
+              python .codex/skills/lenny-skillpack-creator/scripts/package_skillpack.py "$d" dist
+            fi
+          done
+          if [ "$found" -eq 0 ]; then
+            echo "[info] no skill packs under skills/; nothing to package"
+          fi
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: skillpacks
+          path: dist/*.zip
+          if-no-files-found: ignore
+
+      - name: Create GitHub release (tags only)
+        if: startsWith(github.ref, 'refs/tags/')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          tag="${GITHUB_REF_NAME}"
+          if ls dist/*.zip >/dev/null 2>&1; then
+            gh release create "$tag" dist/*.zip --generate-notes
+          else
+            gh release create "$tag" --generate-notes
+          fi
