@@ -16,6 +16,13 @@
 - [USING_WITH_CODEX.zh-CN.md](USING_WITH_CODEX.zh-CN.md)
 - [USING_WITH_CLAUDE.zh-CN.md](USING_WITH_CLAUDE.zh-CN.md)
 
+其他安装方式：
+- clone 本仓库后，把 `skills/` 复制到 `~/.codex/skills` 和/或 `~/.claude/skills`
+- 如果你只需要少量 skills 且使用 Codex，可以通过 `$skill-installer` 从 GitHub 直接安装单个 skill
+
+推荐：先从 playbook 开始（按角色打包的一组 skills + 建议使用顺序）：
+- [PLAYBOOKS.zh-CN.md](PLAYBOOKS.zh-CN.md)
+
 ## 我想共创 / 修改 skills
 
 一个 “skill pack” 是一个目录，包含：

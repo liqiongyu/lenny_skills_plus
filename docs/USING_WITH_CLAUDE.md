@@ -65,3 +65,7 @@ rsync -a skills/ ~/.claude/skills/
 ```
 
 Claude Code supports automatic discovery in nested directories, so you can also place `.claude/skills/` inside subfolders of a monorepo if you want package-specific skills.
+
+## Note on “installers”
+
+Unlike Codex’s `$skill-installer`, Claude Code skills are installed by placing skill folders under `~/.claude/skills` (or `.claude/skills` in a project).

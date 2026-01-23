@@ -82,6 +82,21 @@ rsync -a skills/ ~/.codex/skills/
 
 安装新 skills 后请重启 Codex。
 
+## 用 Codex 的 `$skill-installer` 安装少量 skills（不需要 clone）
+
+Codex 内置了 `$skill-installer`，可以从 GitHub 直接安装 skills 到 `~/.codex/skills`。
+
+它更适合只安装 1–5 个 skills（如果你想装全量，推荐使用 `skills-all.zip`）。
+
+示例：
+
+```text
+$skill-installer
+Install `writing-prds` from `liqiongyu/lenny_skills_plus` at `skills/writing-prds`.
+```
+
+安装后重启 Codex。
+
 ## Skill 元数据约束（重要）
 
 为了最大化跨工具兼容性，建议 `name` 与 `description`：

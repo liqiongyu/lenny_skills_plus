@@ -66,3 +66,6 @@ rsync -a skills/ ~/.claude/skills/
 
 Claude Code 支持在嵌套目录自动发现 skills，因此在 monorepo 中也可以把 `.claude/skills/` 放到子目录下，作为包级 skills 使用。
 
+## 关于“安装器”
+
+与 Codex 的 `$skill-installer` 不同，Claude Code 的 skills 通过把 skill 文件夹放到 `~/.claude/skills`（或项目内的 `.claude/skills`）来安装。
