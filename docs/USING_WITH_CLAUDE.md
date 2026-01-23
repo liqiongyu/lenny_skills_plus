@@ -2,6 +2,28 @@
 
 Claude Code supports skills that follow the Agent Skills open standard.
 
+## Install from a release (recommended; no cloning)
+
+Download `skills-all.zip` from the latest GitHub Release, then install it either globally or per-repo.
+
+If your release doesn’t include `skills-all.zip` yet, you can still download individual per-skill zip files from the release.
+
+### Global install
+
+```bash
+mkdir -p ~/.claude/skills
+unzip -o skills-all.zip -d ~/.claude/skills
+```
+
+### Project-local install
+
+From the root of *your* repo:
+
+```bash
+mkdir -p .claude/skills
+unzip -o skills-all.zip -d .claude/skills
+```
+
 ## Where Claude Code looks for skills
 
 Common locations:
@@ -10,7 +32,7 @@ Common locations:
 
 This repo keeps canonical skill packs in `skills/`, and mirrors them into `.claude/skills/` for discovery.
 
-## Project-local usage (recommended)
+## If you cloned this repo (contributors)
 
 1) Mirror canonical skills into `.claude/skills/`:
 
@@ -31,9 +53,9 @@ Example:
 Turn these notes into a decision-ready PRD. Ask up to 5 questions first.
 ```
 
-## Global installation (optional)
+## Global installation from a clone (optional)
 
-To use these skills across all projects:
+If you cloned this repo and want to use these skills across all projects:
 
 ```bash
 mkdir -p ~/.claude/skills

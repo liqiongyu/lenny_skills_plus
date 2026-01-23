@@ -6,6 +6,7 @@
 
 - 原始来源：RefoundAI “Lenny skills” 数据库：`https://refoundai.com/lenny-skills/`
 - 本仓库与 RefoundAI、以及 Lenny / Lenny’s Podcast **没有官方关联**。
+- 如果你希望把本仓库作为公开/共创项目长期运营，建议主动请求明确授权：`REQUESTING_UPSTREAM_PERMISSION.zh-CN.md`。
 
 ## 本仓库包含什么（以及刻意避免什么）
 
@@ -42,4 +43,3 @@
 - skill pack 内容保持**英文**（最大化工具兼容性）。
 - 尽量小 PR（一次改 1 个或少量 skills），便于 review。
 - 修改 skill 时请同步更新 `references/EXAMPLES.md`，让他人可复现/验证。
-
