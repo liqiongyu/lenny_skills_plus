@@ -16,10 +16,10 @@ Use language like:
 
 “Use `delegating-work`. Work: <what I’m delegating>. Owner: <who>. Why now: <context>. Outcome/DoD: <what good looks like>. Constraints: <non-negotiables>. Timeline: <dates>. Output: a Delegation Pack.”
 
-If key details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and proceed with explicit assumptions.
+If key details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and proceed with explicit assumptions.
 
 ## Optional file output
-If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/delegation/<project>/`) using `references/TEMPLATES.md`.
+If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/delegation/<project>/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “I need to delegate our Q2 pricing experiment to a PM. Draft the delegation brief + decision rights + weekly cadence.”

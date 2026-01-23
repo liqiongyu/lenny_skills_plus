@@ -32,7 +32,7 @@ description: "Create a Delegation Pack (delegation brief, decision rights, conte
 - Delegatee context (role, current load, experience level, growth goals if relevant)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If details are unavailable, proceed with explicit assumptions and label unknowns.
 
 ## Outputs (deliverables)
@@ -46,7 +46,7 @@ Produce a **Delegation Pack** (Markdown in-chat, or files if requested) in this 
 6) **Debrief plan** (learning capture + ownership updates)
 7) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (8 steps)
 
@@ -99,7 +99,7 @@ Templates: `references/TEMPLATES.md`
 - **Checks:** Ownership is durable (not “it snaps back to you” after delivery).
 
 ## Quality gate (required)
-- Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`.
+- Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

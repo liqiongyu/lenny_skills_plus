@@ -17,10 +17,10 @@ Create an **Onboarding & Activation Pack** to improve product onboarding (FTUE) 
 
 “Use `user-onboarding`. Product: <what it is + for whom>. Segment: <1–2>. Platform: <web/mobile>. Baseline: <signup→activation funnel + time-to-value>. Problem: <where users drop + why>. Constraints: <timebox/capacity/channels/privacy>. Output: an Onboarding & Activation Pack.”
 
-If details are missing, the skill asks up to 5 intake questions (see `references/INTAKE.md`) and proceeds with explicit assumptions.
+If details are missing, the skill asks up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and proceeds with explicit assumptions.
 
 ## Optional file output
-If you want deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/onboarding/`) using `references/TEMPLATES.md`.
+If you want deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/onboarding/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “Define our activation event and redesign onboarding to improve D7 activation by 30% this quarter.”

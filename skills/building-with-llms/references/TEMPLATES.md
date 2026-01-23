@@ -100,7 +100,7 @@ Create a table:
 - Difficulty / failure mode tag
 
 ### Rubric
-Define 3–7 criteria with 1–5 scoring and clear anchors (see `RUBRIC.md`).
+Define 3–7 criteria with 1–5 scoring and clear anchors (see [RUBRIC.md](RUBRIC.md)).
 
 ### Automated checks (where possible)
 - Schema validity

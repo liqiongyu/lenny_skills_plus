@@ -36,7 +36,7 @@ description: "Generate and evaluate startup ideas using off-the-beaten-path insi
 - Any starting ideas (even rough) + what prompted them
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If still missing, proceed with explicit assumptions and list **Open questions** that could change the recommendation.
 
 ## Outputs (deliverables)
@@ -53,13 +53,13 @@ Produce a **Startup Ideation Pack** in Markdown (in-chat; or as files if the use
 8) **2‑week validation plan** (fastest tests for the highest-risk assumptions)
 9) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + decision framing
-- **Inputs:** User context; `references/INTAKE.md`.
+- **Inputs:** User context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Clarify decision, time horizon, and constraints. Define success as “pick 1 idea to validate next” (or similar).
 - **Outputs:** Context snapshot.
 - **Checks:** You can restate the decision in one sentence (“We are deciding whether to… by <date>”).
@@ -89,25 +89,25 @@ Expanded guidance: `references/WORKFLOW.md`
 - **Checks:** The remaining shortlist has at least one concrete advantage (distribution, insight, data, speed, regulatory, workflow depth).
 
 ### 6) Score + shortlist top 3–5
-- **Inputs:** Pruned list; `references/RUBRIC.md`.
+- **Inputs:** Pruned list; [references/RUBRIC.md](references/RUBRIC.md).
 - **Actions:** Score each shortlisted idea with evidence and assumptions. Highlight the 1–2 criteria that dominate the outcome (sensitivity).
 - **Outputs:** Idea scorecard + top 3–5 recommendation.
 - **Checks:** Scores cite specific evidence or clearly labeled assumptions (no hand-wavy numbers).
 
 ### 7) Draft the top idea 1‑pager + 2‑week validation plan
-- **Inputs:** Top idea; `references/TEMPLATES.md`.
+- **Inputs:** Top idea; [references/TEMPLATES.md](references/TEMPLATES.md).
 - **Actions:** Write a crisp 1‑pager (ICP, problem, Why Now, wedge, GTM motion hypothesis). Then design the fastest validation plan focused on the riskiest assumptions.
 - **Outputs:** Top idea brief + validation plan.
 - **Checks:** The plan includes: who to talk to, what to build (if anything), success criteria, and a stop/pivot rule.
 
 ### 8) Quality gate + finalize pack
 - **Inputs:** Full draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add **Risks / Open questions / Next steps**.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add **Risks / Open questions / Next steps**.
 - **Outputs:** Final Startup Ideation Pack.
 - **Checks:** A stakeholder can review async and decide “validate / park / discard” without a meeting.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

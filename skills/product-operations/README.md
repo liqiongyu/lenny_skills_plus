@@ -16,10 +16,10 @@ Build a **Product Ops Operating System Pack**: charter + operating model + caden
 
 “Use `product-operations`. Context: <company + product + org stage>. Pain: <top 2–3 frictions>. Stakeholders: <teams + decision owners>. Current cadence/artifacts: <what exists>. Constraints: <time/tools/resourcing>. Output: a Product Ops Operating System Pack.”
 
-If key details are missing, the skill asks up to 5 intake questions (see `references/INTAKE.md`) and then proceeds with explicit assumptions.
+If key details are missing, the skill asks up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceeds with explicit assumptions.
 
 ## Optional file output
-If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/product-ops/`) using `references/TEMPLATES.md`.
+If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/product-ops/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “Create a Product Ops charter and operating cadence for a 12-person PM org; standardize roadmap updates and decision logs.”

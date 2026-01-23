@@ -36,7 +36,7 @@ description: "Manage up effectively and produce a Managing Up Operating System P
 - Constraints (sensitive topics, confidentiality/PII rules, upcoming deadlines)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md` (3–5 at a time).
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md) (3–5 at a time).
 - If details are missing, proceed with a **default managing-up operating system** and clearly label assumptions.
 - Do not request secrets (passwords/tokens) or sensitive personal data; use anonymized summaries.
 
@@ -54,13 +54,13 @@ Produce a **Managing Up Operating System Pack** in Markdown (in-chat; or as file
 8) **Influence / seat-at-the-table plan** (pre-wiring, strategic contribution loop)
 9) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + objective + boundaries
-- **Inputs:** user context; `references/INTAKE.md`.
+- **Inputs:** user context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Clarify the outcome (autonomy, clarity, influence, speed, boundaries) and define what “better” means in 4–8 weeks. Identify constraints (HR/legal/PII). Choose pack scope (full pack vs subset).
 - **Outputs:** Context snapshot + assumptions/unknowns list.
 - **Checks:** Goal is measurable enough to evaluate after 4 weeks.
@@ -103,12 +103,12 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 8) Quality gate + 4-week pilot + iteration plan
 - **Inputs:** full draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add **Risks / Open questions / Next steps**. Propose a 4-week pilot and a retro prompt set.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add **Risks / Open questions / Next steps**. Propose a 4-week pilot and a retro prompt set.
 - **Outputs:** Final Managing Up Operating System Pack.
 - **Checks:** Pack is immediately usable; next interactions are scheduled (cadence + checkpoints).
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

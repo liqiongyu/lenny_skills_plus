@@ -8,12 +8,12 @@ The original skill is insight-heavy (quotes + brief “apply this by” bullets)
 
 ### Vision is not a tagline (Melissa Perri)
 - **Rule:** A vision must be elaboratable into a concrete 5–10 year future state (not a vague slogan).
-- **Check:** Run the “what does that mean?” elaboration test in `CHECKLISTS.md`.
+- **Check:** Run the “what does that mean?” elaboration test in [CHECKLISTS.md](CHECKLISTS.md).
 - **Artifact:** Vision narrative + problem anchor + pillars that specify future customers and what’s different.
 
 ### Strong visions are lofty, realistic, tech-agnostic, and problem-grounded (Ebi Atawodi)
 - **Rule:** Every draft vision must pass the 4-point test.
-- **Check:** Use `CHECKLISTS.md` section “A) Vision quality checklist”.
+- **Check:** Use [CHECKLISTS.md](CHECKLISTS.md) section “A) Vision quality checklist”.
 - **Artifact:** Vision options + chosen vision narrative framed as outcomes/experience.
 
 ### Center on the core value, and the experience that helps users act (Alex Hardimen)

@@ -1,6 +1,6 @@
 # 发布（Releases）
 
-> English version: `RELEASES.md`
+> English version: [RELEASES.md](RELEASES.md)
 
 本仓库使用一个简单的发布节奏：
 
@@ -15,7 +15,7 @@
    ```
 2) 更新 `CHANGELOG.md`、`CHANGELOG.zh-CN.md` 与 `VERSION`。
 3) 打 tag 并发布（如果使用 GitHub）：
-   - 使用 `gh release create ...`（参见 `PROJECT_MEMORY.zh-CN.md`）。
+   - 使用 `gh release create ...`（参见 [PROJECT_MEMORY.zh-CN.md](PROJECT_MEMORY.zh-CN.md)）。
 
 打包提示：
 - GitHub Releases 会发布每个 skill 的单独 zip，同时也会发布一个合集：`skills-all.zip`。

@@ -18,5 +18,5 @@ Invoke with a concrete request and context. Examples:
 - “Create a design review brief + agenda + feedback log for a 45-minute live review.”
 - “Synthesize these scattered comments into Value/Ease/Delight priorities and next steps.”
 
-Expected deliverable: a **Design Review Pack** as described in `SKILL.md`, using templates in `references/TEMPLATES.md`.
+Expected deliverable: a **Design Review Pack** as described in [SKILL.md](SKILL.md), using templates in [references/TEMPLATES.md](references/TEMPLATES.md).
 

@@ -18,10 +18,10 @@ Use language like:
 
 “Use `startup-ideation`. Context: <team background + domain>. Constraints: <time/budget/skills>. Decision: <what we need to pick by when>. Output: a Startup Ideation Pack.”
 
-If details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and then proceed with explicit assumptions.
+If details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceed with explicit assumptions.
 
 ## Optional file output
-If you want deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/startup-ideation/`) using the templates in `references/TEMPLATES.md`.
+If you want deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/startup-ideation/`) using the templates in [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “We’re 2 founders with fintech + compliance experience. Generate startup ideas; avoid tarpits; pick 1 to validate in 14 days.”

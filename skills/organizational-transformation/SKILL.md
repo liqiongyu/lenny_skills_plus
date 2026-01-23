@@ -35,7 +35,7 @@ description: "Lead an organizational transformation toward a modern product oper
 - Constraints: timelines, budget/headcount, must-keep processes, critical launches
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If answers aren’t available, proceed with explicit assumptions and label unknowns.
 
 ## Outputs (deliverables)
@@ -50,7 +50,7 @@ Produce an **Organizational Transformation Pack** (Markdown in-chat, or files if
 7) **Governance + Metrics** (leading indicators, review cadence, escalation, “framework hygiene” guardrails)
 8) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (8 steps)
 
@@ -98,12 +98,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 8) Quality gate + finalize
 - **Inputs:** Draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Ensure Risks/Open questions/Next steps are present.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Ensure Risks/Open questions/Next steps are present.
 - **Outputs:** Final Organizational Transformation Pack + rubric score.
 - **Checks:** If rubric score is low, do one more intake round (max 5 questions) and revise.
 
 ## Quality gate (required)
-- Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md` before finalizing.
+- Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md) before finalizing.
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

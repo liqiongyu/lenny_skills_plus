@@ -16,10 +16,10 @@ Use language like:
 
 “Use `ai-evals`. SUT: <what the AI does + inputs/outputs>. Decision: <ship/no-ship | compare A vs B>. Target behaviors: <3–10>. Constraints: <privacy/safety, languages, cost/time>. Output: AI Evals Pack.”
 
-If details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and then proceed with explicit assumptions.
+If details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceed with explicit assumptions.
 
 ## Optional file output
-If you want the pack as files, ask the agent to write the artifacts under a folder you specify (e.g., `docs/evals/<initiative>/`) using `references/TEMPLATES.md`.
+If you want the pack as files, ask the agent to write the artifacts under a folder you specify (e.g., `docs/evals/<initiative>/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “Design evals for our RAG support bot. Include a safety rubric, golden set schema, and an LLM-as-judge plan.”

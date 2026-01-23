@@ -16,11 +16,11 @@ Typical prompts:
 
 ## What you’ll get
 
-The agent should output a **Launch Marketing Pack** in the order defined in `SKILL.md`, using:
-- `references/INTAKE.md` (question bank)
-- `references/TEMPLATES.md` (copy/paste templates)
-- `references/WORKFLOW.md` (expanded heuristics)
-- `references/CHECKLISTS.md` + `references/RUBRIC.md` (quality gate)
+The agent should output a **Launch Marketing Pack** in the order defined in [SKILL.md](SKILL.md), using:
+- [references/INTAKE.md](references/INTAKE.md) (question bank)
+- [references/TEMPLATES.md](references/TEMPLATES.md) (copy/paste templates)
+- [references/WORKFLOW.md](references/WORKFLOW.md) (expanded heuristics)
+- [references/CHECKLISTS.md](references/CHECKLISTS.md) + [references/RUBRIC.md](references/RUBRIC.md) (quality gate)
 
 ## Notes
 

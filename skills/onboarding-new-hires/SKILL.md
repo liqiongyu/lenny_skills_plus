@@ -39,7 +39,7 @@ description: "Design a high-signal onboarding experience and produce a New Hire 
 - Constraints: urgency, confidentiality/PII, systems access constraints, onboarding time budget
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md` (3–5 at a time).
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md) (3–5 at a time).
 - If success metrics aren’t known, propose a **draft success definition** and label assumptions clearly.
 - Do not request secrets. If context is sensitive, ask for **redacted** or **high-level** summaries.
 
@@ -57,13 +57,13 @@ Produce a **New Hire Onboarding Pack** in Markdown (in-chat; or as files if requ
 8) **30-day state-of-the-union memo** (what I heard, themes, proposed focus, open questions)
 9) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (7 steps)
 
 ### 1) Intake + role success definition (don’t skip)
-- **Inputs:** user context; `references/INTAKE.md`.
+- **Inputs:** user context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm role, seniority, start date, manager, and constraints. Draft success definitions for 30/60/90 + 1y/2y (or confirm existing ones). Identify onboarding risks (ambiguity, politics, skill gaps, time constraints).
 - **Outputs:** Onboarding brief (draft) + assumptions/unknowns list.
 - **Checks:** You can state “what great looks like” in 5–10 bullets across 30/60/90 + 1y/2y.
@@ -104,12 +104,12 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 7) Quality gate + finalize the pack
 - **Inputs:** full draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add **Risks / Open questions / Next steps**. If important inputs are missing, propose the smallest next action to resolve them (one meeting, one doc, one data pull).
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add **Risks / Open questions / Next steps**. If important inputs are missing, propose the smallest next action to resolve them (one meeting, one doc, one data pull).
 - **Outputs:** Final New Hire Onboarding Pack.
 - **Checks:** The plan is realistic for the hire’s seniority + context; it contains concrete calendars/docs, not just advice.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

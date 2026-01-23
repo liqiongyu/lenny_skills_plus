@@ -1,6 +1,6 @@
 # External references
 
-> 中文版: `EXTERNAL_REFERENCES.zh-CN.md`
+> 中文版: [EXTERNAL_REFERENCES.zh-CN.md](EXTERNAL_REFERENCES.zh-CN.md)
 
 These upstream docs are the source of truth for tool behavior.
 

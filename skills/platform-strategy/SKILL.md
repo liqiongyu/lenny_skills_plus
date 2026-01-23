@@ -37,7 +37,7 @@ description: "Create a Platform Strategy Pack (platform-as-product charter, inte
 - Decision context: who decides, what decisions are on the table (open/close, pricing, governance), target date
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md` (3–5 at a time).
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md) (3–5 at a time).
 - If still missing, proceed with explicit assumptions and present 2–3 strategy options (e.g., internal-only vs partner beta vs public API).
 - Do not request secrets or credentials. Require explicit confirmation for any production changes or external outreach.
 
@@ -54,7 +54,7 @@ Produce a **Platform Strategy Pack** (in chat; or as files if requested), in thi
 7) **12‑month Roadmap** (milestones, bets, sequencing, dependencies)
 8) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (8 steps)
 
@@ -102,12 +102,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 8) Sequence the roadmap and quality-gate the pack
 - **Inputs:** All draft artifacts.
-- **Actions:** Create a 12‑month roadmap with 3 horizons (Now / Next / Later). Add dependencies, resourcing, and rollback/exit paths. Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Always include **Risks / Open questions / Next steps**.
+- **Actions:** Create a 12‑month roadmap with 3 horizons (Now / Next / Later). Add dependencies, resourcing, and rollback/exit paths. Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Always include **Risks / Open questions / Next steps**.
 - **Outputs:** Final **Platform Strategy Pack**.
 - **Checks:** A stakeholder can make a decision (owner, date, next actions) and understand trade-offs.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

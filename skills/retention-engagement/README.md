@@ -17,10 +17,10 @@ Create a **Retention & Engagement Improvement Pack**: retention diagnosis, activ
 
 “Use `retention-engagement`. Product: <what it is + for whom>. Segment(s): <1–2>. Stage: <pre-PMF/early PMF/growth>. Baseline: <retention + engagement numbers>. Problem: <where users drop/churn>. Constraints: <timebox/capacity/channels/privacy>. Output: a Retention & Engagement Improvement Pack.”
 
-If details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and proceed with explicit assumptions.
+If details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and proceed with explicit assumptions.
 
 ## Optional file output
-If you want deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/retention/`) using `references/TEMPLATES.md`.
+If you want deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/retention/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “Our D1 is fine but D7 falls off a cliff. Diagnose the failure mode and propose experiments to improve weekly habit.”

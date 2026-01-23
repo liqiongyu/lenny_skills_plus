@@ -16,10 +16,10 @@ Use language like:
 
 “Use `building-with-llms`. Context: <product + users + workflow>. Goal: <what the LLM must do>. Constraints: <privacy, latency, cost, reliability>. Integrations: <tools/APIs + output schema>. Output: LLM Build Pack.”
 
-If details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and then proceed with explicit assumptions.
+If details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceed with explicit assumptions.
 
 ## Optional file output
-If you want the pack as files, ask the agent to write the artifacts under a folder you specify (e.g., `docs/llm/<initiative>/`) using `references/TEMPLATES.md`.
+If you want the pack as files, ask the agent to write the artifacts under a folder you specify (e.g., `docs/llm/<initiative>/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “We’re adding an LLM copilot to our CRM. Use `building-with-llms` and include an eval plan, red-team tests, and monitoring/rollback.”

@@ -36,7 +36,7 @@ description: "Plan and execute a product launch/release with speed and safety. P
 - Stakeholders + DRI (who decides go/no-go) + who is on point during the launch
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If answers aren’t available, proceed with explicit assumptions and list **Open questions** that would change the ship decision.
 
 ## Outputs (deliverables)
@@ -52,13 +52,13 @@ Produce a **Shipping & Launch Pack** in Markdown (in-chat; or as files if the us
 7) **Post-launch review plan** (what we’ll learn, retro prompts, follow-ups)
 8) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + define “what does shipped mean?”
-- **Inputs:** User request; `references/INTAKE.md`.
+- **Inputs:** User request; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Clarify the change, target users, ship date, DRI, constraints, and what “live” means (where/for whom).
 - **Outputs:** Release brief (draft).
 - **Checks:** You can state the release in one sentence: “We will ship <what> to <who> by <when> via <rollout>.”
@@ -97,7 +97,7 @@ Expanded guidance: `references/WORKFLOW.md`
 - **Inputs:** Full pack draft; PQL; checklists.
 - **Actions:** Run a go/no-go review, finalize the runbook timeline, confirm roles, and ensure dependencies are ready.
 - **Outputs:** Final Shipping & Launch Pack (ready to execute).
-- **Checks:** `references/CHECKLISTS.md` passes with no open “stop-ship” items.
+- **Checks:** [references/CHECKLISTS.md](references/CHECKLISTS.md) passes with no open “stop-ship” items.
 
 ### 8) Post-launch review + iterate the system
 - **Inputs:** Launch outcomes; incident notes; feedback.
@@ -106,7 +106,7 @@ Expanded guidance: `references/WORKFLOW.md`
 - **Checks:** At least 1 process improvement is identified and owners/dates are assigned.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

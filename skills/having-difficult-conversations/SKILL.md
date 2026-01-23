@@ -37,7 +37,7 @@ description: "Prepare and lead difficult conversations as a manager/leader and p
 - Any support you can offer (coaching, resources, training, timeline, check-ins)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md` (in 3–5 question batches).
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md) (in 3–5 question batches).
 - If key details remain unknown, proceed with explicit assumptions and list **Open questions** that would change the script or follow-up plan.
 - Do not request secrets or sensitive personal data; use anonymized summaries.
 
@@ -51,13 +51,13 @@ Produce a **Difficult Conversation Pack** in Markdown (in-chat; or as files if t
 4) **Follow-up artifacts** (written follow-up note + next steps/check-ins; optional documentation note)
 5) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + classify the conversation (and set safety boundaries)
-- **Inputs:** user request; `references/INTAKE.md`.
+- **Inputs:** user request; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Determine conversation type and stakes. Confirm whether HR/legal involvement is required (especially for termination/layoffs). Decide deliverable scope (full pack vs just script + follow-up).
 - **Outputs:** Conversation type + constraints + assumptions/unknowns list.
 - **Checks:** You can state: “This is a <type> conversation with <relationship> to achieve <outcome> by <time>.”
@@ -100,12 +100,12 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 8) Follow up + quality gate
 - **Inputs:** full draft pack.
-- **Actions:** Draft the follow-up note (summary + next steps + check-in). If appropriate, draft a documentation note aligned with policy. Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add **Risks / Open questions / Next steps**.
+- **Actions:** Draft the follow-up note (summary + next steps + check-in). If appropriate, draft a documentation note aligned with policy. Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add **Risks / Open questions / Next steps**.
 - **Outputs:** Final Difficult Conversation Pack.
 - **Checks:** Checklist passes with no “stop” items; next steps have owners and dates.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

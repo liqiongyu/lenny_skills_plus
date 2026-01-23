@@ -1,6 +1,6 @@
 # Lenny Skills Plus
 
-> 中文版: `README.zh-CN.md`
+> 中文版: [README.zh-CN.md](README.zh-CN.md)
 
 A curated library of **86 high-density, agent-executable skill packs** converted from RefoundAI’s “Lenny skills” database, plus a meta-skill (`lenny-skillpack-creator`) for converting additional skills.
 
@@ -15,7 +15,7 @@ If you just want to **use the skills**, you do *not* need to clone this repo or 
 
 ## Attribution & IP
 
-These skill packs are derived from RefoundAI’s “Lenny skills” database. Upstream credit and takedown policy: `docs/ATTRIBUTION_AND_IP.md`.
+These skill packs are derived from RefoundAI’s “Lenny skills” database. Upstream credit and takedown policy: [docs/ATTRIBUTION_AND_IP.md](docs/ATTRIBUTION_AND_IP.md).
 
 ## Quickstart
 
@@ -43,8 +43,8 @@ If you prefer **project-local** skills, unzip into your repo at:
 - `.claude/skills/` (Claude Code)
 
 See:
-- `docs/USING_WITH_CODEX.md`
-- `docs/USING_WITH_CLAUDE.md`
+- [docs/USING_WITH_CODEX.md](docs/USING_WITH_CODEX.md)
+- [docs/USING_WITH_CLAUDE.md](docs/USING_WITH_CLAUDE.md)
 
 ### Option B: Clone + mirror (for contributors)
 
@@ -85,17 +85,17 @@ These mirror folders are ignored by git.
 
 ## Skill catalog
 
-See: `docs/SKILLS_CATALOG.md`
+See: [docs/SKILLS_CATALOG.md](docs/SKILLS_CATALOG.md)
 
 ## Why this exists
 
-High-level advice is hard for agents to execute reliably. This repo turns skills into execution contracts (inputs → deliverables → workflow → quality gate). See: `docs/WHY_THIS_PROJECT.md`.
+High-level advice is hard for agents to execute reliably. This repo turns skills into execution contracts (inputs → deliverables → workflow → quality gate). See: [docs/WHY_THIS_PROJECT.md](docs/WHY_THIS_PROJECT.md).
 
 ## Contributing / regeneration
 
 If you want to help improve skill quality, add examples, or regenerate skill packs, start with:
-- `CONTRIBUTING.md`
-- `docs/WORKFLOW.md`
+- [CONTRIBUTING.md](CONTRIBUTING.md)
+- [docs/WORKFLOW.md](docs/WORKFLOW.md)
 
 ## Quality + CI
 
@@ -122,8 +122,8 @@ python3 scripts/ci_check_skillpacks.py
 
 ## Contributing
 
-See `CONTRIBUTING.md`.
+See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-Apache-2.0 — see `LICENSE`.
+Apache-2.0 — see [LICENSE](LICENSE).

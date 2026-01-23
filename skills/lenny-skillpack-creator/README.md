@@ -23,7 +23,7 @@ That populates one (or both) of these locations inside your repo:
 
 Note: `.codex/` and `.claude/` are generated local directories and are typically ignored by git.
 
-The `SKILL.md` ends up at:
+The [SKILL.md](SKILL.md) ends up at:
 
 - `.codex/skills/lenny-skillpack-creator/SKILL.md`
 - `.claude/skills/lenny-skillpack-creator/SKILL.md`
@@ -35,7 +35,7 @@ The `SKILL.md` ends up at:
 
 ## Use
 
-1) Provide the source Refound/Lenny skill content (either the original `SKILL.md` or copied guide text).
+1) Provide the source Refound/Lenny skill content (either the original [SKILL.md](SKILL.md) or copied guide text).
 2) Tell the agent:
    - the intended agent persona (PM, recruiter, founder, etc.)
    - the desired deliverables (artifacts)
@@ -57,7 +57,7 @@ Each converted skill becomes a folder like:
 - `<skill-slug>/references/*` (templates, checklists, rubrics, source notes)
 - `<skill-slug>/scripts/*` (optional helpers)
 
-See `references/SKILL_PACK_SPEC.md` for the exact structure used by this generator.
+See [references/SKILL_PACK_SPEC.md](references/SKILL_PACK_SPEC.md) for the exact structure used by this generator.
 
 ## Scripts
 

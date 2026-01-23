@@ -103,7 +103,7 @@ For each experiment card:
 
 ## F) Assemble the final pack
 
-Use `TEMPLATES.md` to produce a single “Retention & Engagement Improvement Pack” that includes:
+Use [TEMPLATES.md](TEMPLATES.md) to produce a single “Retention & Engagement Improvement Pack” that includes:
 - Diagnosis + activation spec + experiment backlog + measurement plan + 30/60/90 plan
 - Risks / Open questions / Next steps (required)
 

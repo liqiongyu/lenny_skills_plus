@@ -39,7 +39,7 @@ description: "Measure product-market fit (PMF) and produce a PMF Measurement Pac
 - Time horizon and constraints (deadline, privacy/PII constraints, internal-only vs shareable)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`, then proceed.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md), then proceed.
 - If key inputs are missing, proceed with explicit assumptions and label confidence.
 - Do not request secrets. If data includes PII, ask for **redacted excerpts** or **aggregated fields**.
 
@@ -57,14 +57,14 @@ Produce a **PMF Measurement Pack** (Markdown in-chat; or as files if requested) 
 8) **Risks / Open questions / Next steps** (always included)
 
 Templates and checklists:
-- `references/TEMPLATES.md`
-- `references/CHECKLISTS.md`
-- `references/RUBRIC.md`
+- [references/TEMPLATES.md](references/TEMPLATES.md)
+- [references/CHECKLISTS.md](references/CHECKLISTS.md)
+- [references/RUBRIC.md](references/RUBRIC.md)
 
 ## Workflow (7 steps)
 
 ### 1) Intake + decision framing
-- **Inputs:** User context; `references/INTAKE.md`.
+- **Inputs:** User context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm the decision (scale spend, launch, refocus ICP, pricing), the timebox, and the audience. Define “what will we do differently based on this?”
 - **Outputs:** Context snapshot + measurement constraints.
 - **Checks:** A stakeholder can answer: “What decision will this change by <date>?”
@@ -79,7 +79,7 @@ Templates and checklists:
 - **Checks:** Each signal has (a) a metric definition, (b) a data source, and (c) a limitation note.
 
 ### 3) Run the Sean Ellis PMF survey (must-have test)
-- **Inputs:** Target population list (active users); distribution channel; `references/TEMPLATES.md` (PMF block).
+- **Inputs:** Target population list (active users); distribution channel; [references/TEMPLATES.md](references/TEMPLATES.md) (PMF block).
 - **Actions:** Draft and run:
   - “How would you feel if you could no longer use <product>?” (Very / Somewhat / Not disappointed)
   - Follow-up: “What is the primary benefit you receive?” (text)
@@ -116,7 +116,7 @@ Templates and checklists:
 - **Checks:** Diagnosis is segment-specific and evidence-backed; “unknowns” are explicit.
 
 ### 7) Quality gate + action plan + cadence
-- **Inputs:** Draft pack; `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- **Inputs:** Draft pack; [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - **Actions:** Run the checklist + score with rubric. Produce:
   - Prioritized next actions/experiments (what to change, how to measure impact)
   - A PMF re-measurement cadence + drift triggers
@@ -125,7 +125,7 @@ Templates and checklists:
 - **Checks:** Actions are concrete enough to execute next sprint/quarter; measurement plan includes owners and dates (if known).
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

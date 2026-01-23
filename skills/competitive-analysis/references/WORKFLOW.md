@@ -93,7 +93,7 @@ Monitoring plan should define:
 - Owners and update triggers (e.g., win/loss pattern changes; major competitor launch)
 
 Before finalizing:
-- Run `CHECKLISTS.md`
-- Score with `RUBRIC.md`
+- Run [CHECKLISTS.md](CHECKLISTS.md)
+- Score with [RUBRIC.md](RUBRIC.md)
 - Add **Risks / Open questions / Next steps**
 

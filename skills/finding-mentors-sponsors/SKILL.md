@@ -39,7 +39,7 @@ description: "Build a Mentor & Sponsor Plan Pack (mentor portfolio, sponsor stra
 - Your current network starting point (at least 5 names or communities, even if weak ties)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md` (3–5 at a time).
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md) (3–5 at a time).
 - If the user can’t share names, use anonymized placeholders and focus on targeting criteria + scripts.
 - If context is thin, assume: early-to-mid career, seeking both internal and external relationships, and 1–2 hours/week available.
 
@@ -56,13 +56,13 @@ Produce a **Mentor & Sponsor Plan Pack** (Markdown in-chat; or as files if reque
 7) **Optional: coach selection scorecard** (criteria + interview questions + decision)
 8) **Risks / Open questions / Next steps** (always)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + goal clarity
-- **Inputs:** user context; `references/INTAKE.md`.
+- **Inputs:** user context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm the primary goal (mentor, sponsor, or both). Define success in 3–6 months. Capture constraints and confidentiality boundaries.
 - **Outputs:** 1-paragraph goal statement + assumptions/unknowns list.
 - **Checks:** Goal is specific (not “grow my career”); constraints are explicit.
@@ -86,7 +86,7 @@ Expanded guidance: `references/WORKFLOW.md`
 - **Checks:** Messages are personalized; no guilt pressure; clear next action.
 
 ### 5) Run first conversations (agenda, questions, close)
-- **Inputs:** scheduled chats; `references/TEMPLATES.md` agendas.
+- **Inputs:** scheduled chats; [references/TEMPLATES.md](references/TEMPLATES.md) agendas.
 - **Actions:** Prepare a 30-minute agenda, ask high-signal questions, and close with a clear next step (one concrete action + permission to follow up). Send a recap within 24 hours.
 - **Outputs:** First-meeting pack + recap notes template.
 - **Checks:** Each meeting ends with an explicit next step (or a respectful “no”).
@@ -105,12 +105,12 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 8) Quality gate + finalize
 - **Inputs:** full draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Tighten weak sections. Add **Risks / Open questions / Next steps**.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Tighten weak sections. Add **Risks / Open questions / Next steps**.
 - **Outputs:** Final Mentor & Sponsor Plan Pack.
 - **Checks:** The plan is actionable this week; scripts are copy/paste ready; risks are explicit.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

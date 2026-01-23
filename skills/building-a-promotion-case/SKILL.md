@@ -39,7 +39,7 @@ description: "Build a promotion case and produce a Promotion Case Pack (target r
 - Stakeholders involved (manager, partners, potential sponsors, promo committee style if known)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md` (3–5 at a time).
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md) (3–5 at a time).
 - If the ladder/process is unclear, proceed with a **generic ladder mapping** and label assumptions for the user to correct.
 - Don’t request confidential/PII; use anonymized numbers and redacted descriptions.
 
@@ -56,13 +56,13 @@ Produce a **Promotion Case Pack** (Markdown in-chat; or as files if requested) i
 7) **Sponsor/visibility map** (who needs to believe what; how you’ll socialize)
 8) **Risks / Open questions / Next steps** (always)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + promotion process snapshot
-- **Inputs:** user context; `references/INTAKE.md`.
+- **Inputs:** user context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm the goal (promotion vs broader career planning). Capture timing, process, and decision-makers. Identify constraints (confidentiality, limited metrics, org politics).
 - **Outputs:** Promotion context snapshot + assumptions/unknowns list.
 - **Checks:** Target level and promo window are explicit; boundaries are respected.
@@ -105,12 +105,12 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 8) Quality gate + finalize
 - **Inputs:** full pack draft.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Tighten weak sections. Add **Risks / Open questions / Next steps**. Produce a submission-ready doc and a short “manager email” version.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Tighten weak sections. Add **Risks / Open questions / Next steps**. Produce a submission-ready doc and a short “manager email” version.
 - **Outputs:** Final Promotion Case Pack.
 - **Checks:** Pack is evidence-based, ladder-aligned, and process-ready; risks and unknowns are explicit.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

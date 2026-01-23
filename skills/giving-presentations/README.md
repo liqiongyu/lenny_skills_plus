@@ -18,5 +18,5 @@ Invoke with a concrete request and context. Examples:
 - “Create a slide-by-slide outline and talk track for my all-hands update.”
 - “Prep me for Q&A and objections for a roadmap review.”
 
-Expected deliverable: a **Presentation Pack** as described in `SKILL.md`, using templates in `references/TEMPLATES.md`.
+Expected deliverable: a **Presentation Pack** as described in [SKILL.md](SKILL.md), using templates in [references/TEMPLATES.md](references/TEMPLATES.md).
 

@@ -38,7 +38,7 @@ description: "Decide whether/how to pivot a startup or product and produce a Piv
 - Current “theory of winning” (who + problem + why you win)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If answers aren’t available, proceed with explicit assumptions and offer 2 scope options (lean 60–90 min analysis vs thorough 1–2 day pack).
 
 ## Outputs (deliverables)
@@ -54,13 +54,13 @@ Produce a **Pivot Decision & Execution Pack** in Markdown (in-chat; or as files 
 7) **Execution plan** (pivot sprint plan; cut list; resourcing; comms; risks)
 8) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (7 steps)
 
 ### 1) Frame the decision (and the clock)
-- **Inputs:** Request + runway/timebox + `references/INTAKE.md`.
+- **Inputs:** Request + runway/timebox + [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Define the decision: **pivot vs persevere vs shut down** (or “pivot A vs pivot B”). Name the decision owner and the decision date. Capture non-negotiables.
 - **Outputs:** Context snapshot + decision statement.
 - **Checks:** The decision is binary/explicit and time-bounded (no “let’s think about it”).
@@ -73,7 +73,7 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 3) Run the exhaustion check (Butterfield rule)
 - **Inputs:** Stuck diagnosis + constraints + prior attempts.
-- **Actions:** Use `references/TEMPLATES.md` to complete the **Exhaustion Check**: list the most credible non-pivot levers and whether they were tried well. Identify the “last best” 1–3 non-pivot moves worth time-boxing (if any).
+- **Actions:** Use [references/TEMPLATES.md](references/TEMPLATES.md) to complete the **Exhaustion Check**: list the most credible non-pivot levers and whether they were tried well. Identify the “last best” 1–3 non-pivot moves worth time-boxing (if any).
 - **Outputs:** Exhaustion Check + time-boxed “last best tries” plan (or explicit rationale for skipping).
 - **Checks:** If you recommend pivoting, you can explain why remaining non-pivot levers are unlikely/too slow vs runway.
 
@@ -97,12 +97,12 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 7) Quality gate + finalize pack
 - **Inputs:** Full draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add **Risks / Open questions / Next steps** and confirm the human checkpoint (decision owner/date).
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add **Risks / Open questions / Next steps** and confirm the human checkpoint (decision owner/date).
 - **Outputs:** Final Pivot Decision & Execution Pack.
 - **Checks:** A stakeholder can read it async and understand: (a) why you’re pivoting, (b) what you’ll do, (c) how you’ll know, (d) when you’ll decide.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

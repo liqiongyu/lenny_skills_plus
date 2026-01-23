@@ -35,7 +35,7 @@ description: "Build a Personal Productivity System Pack (weekly timebox plan, ca
 - What “better” means in 2–4 weeks (e.g., fewer dropped tasks, more deep-work blocks, lower weekend spillover)
 
 **Missing-info strategy**
-- Ask **3–5 questions at a time** from `references/INTAKE.md`.
+- Ask **3–5 questions at a time** from [references/INTAKE.md](references/INTAKE.md).
 - If the calendar is unavailable, proceed with a **default-week draft** using explicit assumptions and ask the user to correct it.
 - Do not request secrets, credentials, or sensitive personal/medical details.
 
@@ -52,13 +52,13 @@ Produce a **Personal Productivity System Pack** (Markdown in chat; or as files i
 7) **7-Day Rollout Plan** (setup steps + first-week experiments)
 8) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (7 steps)
 
 ### 1) Intake + success definition + boundaries
-- **Inputs:** user context; `references/INTAKE.md`.
+- **Inputs:** user context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm scope (personal productivity for career execution). Define “better” in 2–4 weeks and 1–2 measurable signals (e.g., dropped tasks/week, deep-work blocks/week). Confirm boundaries (not medical/therapy; not a team policy rewrite).
 - **Outputs:** Context Snapshot (draft) + assumptions/unknowns list.
 - **Checks:** Success definition is specific enough to evaluate after 2 weeks.
@@ -95,12 +95,12 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 7) Quality gate + finalize rollout plan
 - **Inputs:** full draft pack.
-- **Actions:** Produce a 7-day rollout plan (setup + first experiments). Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Include **Risks / Open questions / Next steps**.
+- **Actions:** Produce a 7-day rollout plan (setup + first experiments). Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Include **Risks / Open questions / Next steps**.
 - **Outputs:** Final Personal Productivity System Pack.
 - **Checks:** Next 7 days have specific actions scheduled; risks and unknowns are explicit.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

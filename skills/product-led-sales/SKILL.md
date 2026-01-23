@@ -40,7 +40,7 @@ description: "Create a Product-Led Sales Motion Pack (PQL/PQA definition, usage-
 - Constraints: regions/compliance, “don’t use these signals,” messaging tone/brand rules
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If answers aren’t available, proceed with explicit assumptions and label unknowns in **Assumptions & unknowns** plus a short **Validation plan**.
 
 ## Outputs (deliverables)
@@ -56,12 +56,12 @@ Produce a **Product-Led Sales Motion Pack** in Markdown (in-chat; or as files if
 7) **Pilot + scale plan** (timeline, experiment design, rollout guardrails)
 8) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (7 steps)
 
 ### 1) Intake + readiness gate (PLS is a layer, not a substitute)
-- **Inputs:** User context; `references/INTAKE.md`.
+- **Inputs:** User context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm the primary objective and target segment(s). Run a readiness gate: do you have activation/usage depth + identity/account mapping to create reliable signals? Capture constraints (sales capacity, SLA expectations, privacy/compliance).
 - **Outputs:** Context snapshot + readiness verdict (Ready / Needs prerequisites) + assumptions/unknowns.
 - **Checks:** Objective is measurable; segment is explicit; prerequisites and constraints are documented.
@@ -101,12 +101,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 7) Pilot, measure, iterate, and scale
 - **Inputs:** Draft pack; baseline metrics; pilot constraints.
-- **Actions:** Propose a pilot (segment + duration + sample size), define success metrics and leading indicators (time-to-first-touch, meeting rate, conversion, expansion, retention). Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Finalize with **Risks / Open questions / Next steps** and a rollout plan.
+- **Actions:** Propose a pilot (segment + duration + sample size), define success metrics and leading indicators (time-to-first-touch, meeting rate, conversion, expansion, retention). Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Finalize with **Risks / Open questions / Next steps** and a rollout plan.
 - **Outputs:** Final Product-Led Sales Motion Pack + pilot/measurement plan.
 - **Checks:** Pilot is bounded; dashboards are specified; iteration cadence is scheduled and owned.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

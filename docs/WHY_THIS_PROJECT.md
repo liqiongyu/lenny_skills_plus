@@ -1,6 +1,6 @@
 # Why this project exists
 
-> 中文版: `WHY_THIS_PROJECT.zh-CN.md`
+> 中文版: [WHY_THIS_PROJECT.zh-CN.md](WHY_THIS_PROJECT.zh-CN.md)
 
 RefoundAI’s “Lenny skills” are full of high-quality product/leadership patterns, but many entries are **too high-level** for reliable agent execution.
 
@@ -14,7 +14,7 @@ This repo converts the upstream skills into **agent-executable skill packs** tha
 - Include quality gates (checklists + rubric) so results are reviewable
 - Are compatible with both **Codex** and **Claude Code** (common Agent Skills subset)
 
-Upstream credit & IP policy: see `ATTRIBUTION_AND_IP.md`.
+Upstream credit & IP policy: see [ATTRIBUTION_AND_IP.md](ATTRIBUTION_AND_IP.md).
 
 ## How to use (quick)
 

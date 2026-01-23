@@ -1,6 +1,6 @@
 # Skill pack 格式（仓库规范 / house style）
 
-> English version: `SKILL_PACK_FORMAT.md`
+> English version: [SKILL_PACK_FORMAT.md](SKILL_PACK_FORMAT.md)
 
 本仓库对每个 skill pack 做了统一结构规范，以最大化 Agent 执行可靠性，并保证 Codex + Claude Code 的可移植性。
 

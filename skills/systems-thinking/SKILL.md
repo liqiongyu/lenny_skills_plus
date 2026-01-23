@@ -36,7 +36,7 @@ description: "Apply systems thinking to leadership decisions and produce a Syste
 - What has been tried already (and what happened)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If answers aren’t available, proceed with clearly labeled assumptions and provide 2–3 alternative system framings/boundaries.
 
 ## Outputs (deliverables)
@@ -51,12 +51,12 @@ Produce a **Systems Thinking Pack** in Markdown (in-chat; or as files if request
 6) **System-build opportunities** (what to automate/standardize to reduce recurring pain)
 7) **Risks / Open questions / Next steps** (required)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + pick the focal decision/problem
-- **Inputs:** User context; use `references/INTAKE.md`.
+- **Inputs:** User context; use [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Restate the focal decision/problem, desired outcome, and time horizon; list constraints/guardrails.
 - **Outputs:** Draft **Context + System boundary**.
 - **Checks:** The problem is not a solution in disguise; scope and non-scope are explicit.
@@ -99,12 +99,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 8) Quality gate + finalize pack
 - **Inputs:** All draft sections.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add **Risks / Open questions / Next steps**.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add **Risks / Open questions / Next steps**.
 - **Outputs:** Final **Systems Thinking Pack**.
 - **Checks:** A reader can act without a live meeting; trade-offs and uncertainties are explicit.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

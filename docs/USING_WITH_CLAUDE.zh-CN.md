@@ -1,6 +1,6 @@
 # 在 Claude Code 中使用
 
-> English version: `USING_WITH_CLAUDE.md`
+> English version: [USING_WITH_CLAUDE.md](USING_WITH_CLAUDE.md)
 
 Claude Code 支持遵循 Agent Skills open standard 的 skills。
 

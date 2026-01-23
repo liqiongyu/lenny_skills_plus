@@ -18,5 +18,5 @@ Invoke with a concrete request and context. Examples:
 - “Redesign our weekly ops meeting so it’s structured and stays out of strategy.”
 - “Turn this calendar invite and context notes into a pre-read + agenda + facilitation script.”
 
-Expected deliverable: a **Meeting Pack** as described in `SKILL.md`, using templates in `references/TEMPLATES.md`.
+Expected deliverable: a **Meeting Pack** as described in [SKILL.md](SKILL.md), using templates in [references/TEMPLATES.md](references/TEMPLATES.md).
 

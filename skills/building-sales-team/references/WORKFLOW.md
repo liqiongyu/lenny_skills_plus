@@ -81,8 +81,8 @@ Include:
 
 ## Step 7 — Finalize with a quality gate
 Run:
-- `CHECKLISTS.md` (must-haves)
-- `RUBRIC.md` (score; identify gaps)
+- [CHECKLISTS.md](CHECKLISTS.md) (must-haves)
+- [RUBRIC.md](RUBRIC.md) (score; identify gaps)
 
 Always output:
 - Risks

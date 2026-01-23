@@ -18,5 +18,5 @@ Invoke with a concrete flow and decision context. Examples:
 - “Design a Wizard of Oz usability test to validate an AI feature before building.”
 - “Synthesize these usability notes into a prioritized issue list with recommendations.”
 
-Expected deliverable: a **Usability Test Pack** as described in `SKILL.md`, using templates in `references/TEMPLATES.md`.
+Expected deliverable: a **Usability Test Pack** as described in [SKILL.md](SKILL.md), using templates in [references/TEMPLATES.md](references/TEMPLATES.md).
 

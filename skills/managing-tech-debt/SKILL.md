@@ -37,7 +37,7 @@ description: "Manage technical debt by producing a Tech Debt Management Pack (de
 - Constraints: team capacity, freeze windows, compliance/security requirements
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`, then proceed with explicit assumptions.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md), then proceed with explicit assumptions.
 - If estimates are unavailable, use **ranges** and label confidence.
 - Do not request secrets/credentials; use redacted or synthetic identifiers if needed.
 
@@ -54,12 +54,12 @@ Produce a **Tech Debt Management Pack** in Markdown (in-chat; or as files if req
 7) **Metrics plan** (baseline, targets, leading indicators, instrumentation gaps, small tests)
 8) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + decision framing
-- **Inputs:** User context; `references/INTAKE.md`.
+- **Inputs:** User context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm the decision(s) to be made, scope boundaries, time horizon, and constraints. Define what “success” means (e.g., fewer incidents, faster deploys, simpler UX integration).
 - **Outputs:** Context snapshot (draft).
 - **Checks:** A stakeholder can answer: “What will we decide/do differently after reading this?”
@@ -102,12 +102,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 8) Align stakeholders + quality gate + finalization
 - **Inputs:** Draft pack.
-- **Actions:** Add stakeholder cadence (updates, review gates). Run `references/CHECKLISTS.md` and score using `references/RUBRIC.md`. Finalize **Risks / Open questions / Next steps**.
+- **Actions:** Add stakeholder cadence (updates, review gates). Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score using [references/RUBRIC.md](references/RUBRIC.md). Finalize **Risks / Open questions / Next steps**.
 - **Outputs:** Final Tech Debt Management Pack.
 - **Checks:** Plan is incrementally executable, risks are explicit, and the first milestone can start immediately.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

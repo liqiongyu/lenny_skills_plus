@@ -37,7 +37,7 @@ description: "Design and launch a product survey and produce a Survey Pack (brie
 - Privacy/compliance constraints (what data you can/can’t collect)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If still missing, proceed with explicit assumptions and list **Open questions** that would change the design.
 
 ## Outputs (deliverables)
@@ -52,13 +52,13 @@ Produce a **Survey Pack** in Markdown (in-chat; or as files if the user requests
 6) **Launch plan + QA checklist** (pilot, mobile QA, bias checks, comms, follow-ups)
 7) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`  
-Expanded heuristics: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded heuristics: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (7 steps)
 
 ### 1) Intake + decision framing
-- **Inputs:** User context; `references/INTAKE.md`.
+- **Inputs:** User context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Clarify the decision, timeline, primary audience, and distribution channel(s). Name the “unknowns” the survey must resolve.
 - **Outputs:** Context snapshot + survey goal.
 - **Checks:** You can state the decision in one sentence (“We are deciding whether to… by <date>”).
@@ -95,12 +95,12 @@ Expanded heuristics: `references/WORKFLOW.md`
 
 ### 7) Analysis + report plan + quality gate
 - **Inputs:** Final instrument + goals.
-- **Actions:** Define how you’ll analyze (segments, cuts, coding of open-ended), the decision thresholds, and how results will be communicated. Run `references/CHECKLISTS.md` and score `references/RUBRIC.md`. Add Risks/Open questions/Next steps.
+- **Actions:** Define how you’ll analyze (segments, cuts, coding of open-ended), the decision thresholds, and how results will be communicated. Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score [references/RUBRIC.md](references/RUBRIC.md). Add Risks/Open questions/Next steps.
 - **Outputs:** Final Survey Pack.
 - **Checks:** A stakeholder can review async and decide “ship / adjust / investigate” without another meeting.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

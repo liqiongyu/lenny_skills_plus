@@ -16,10 +16,10 @@ Use language like:
 
 “Use `defining-product-vision`. Context: <product + customer + problem>. Horizon: <5–10 years>. Constraints: <must-haves / must-not-break>. Output: a Product Vision Pack.”
 
-If details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and then proceed with explicit assumptions and 2–3 options.
+If details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceed with explicit assumptions and 2–3 options.
 
 ## Optional file output
-If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/product-vision/`) using the templates in `references/TEMPLATES.md`.
+If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/product-vision/`) using the templates in [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “We’re a B2B workflow automation product for IT teams. Define a 5–10 year product vision with pillars and a strategy bridge (choices + non-goals).”

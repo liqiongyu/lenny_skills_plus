@@ -40,5 +40,5 @@
 ## F) Final pack checklist
 - [ ] All deliverables are present in the specified order.
 - [ ] Risks, open questions, and next steps are included and concrete.
-- [ ] Checklist B–E pass; rubric score meets the bar (see `RUBRIC.md`).
+- [ ] Checklist B–E pass; rubric score meets the bar (see [RUBRIC.md](RUBRIC.md)).
 

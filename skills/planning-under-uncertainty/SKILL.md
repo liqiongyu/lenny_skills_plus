@@ -37,7 +37,7 @@ description: "Plan and lead execution when outcomes are uncertain and requiremen
 - Current signals (what data exists; what feels true but unproven?)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If answers aren’t available, proceed with explicit assumptions and list **Open questions** that could change the plan.
 
 ## Outputs (deliverables)
@@ -51,13 +51,13 @@ Produce an **Uncertainty Planning Pack** in Markdown (in-chat; or as files if th
 5) **Cadence + comms** (learning review ritual, update template, decision log)
 6) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (7 steps)
 
 ### 1) Intake + mode setting (wartime vs peacetime)
-- **Inputs:** User request; `references/INTAKE.md`.
+- **Inputs:** User request; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Clarify urgency, stakes, and what decision is needed. Decide whether you’re in **diagnosis-first wartime mode** or **exploration peacetime mode**.
 - **Outputs:** Short decision frame draft + mode declaration.
 - **Checks:** You can state: “We’re optimizing for <fast stabilization / learning / growth>. The decision we need by <date> is <pivot/stop/scale/commit>.”
@@ -94,12 +94,12 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 7) Quality gate + finalize
 - **Inputs:** Full draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Ensure **Risks / Open questions / Next steps** exist with owners and time bounds.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Ensure **Risks / Open questions / Next steps** exist with owners and time bounds.
 - **Outputs:** Final Uncertainty Planning Pack.
 - **Checks:** A stakeholder can approve the plan async and the team can execute without re-litigating the ambiguity.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

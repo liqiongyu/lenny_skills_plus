@@ -41,7 +41,7 @@ description: "Create a Founder Sales Sprint Pack (ICP wedge + target list, outre
 - Constraints: founder time per week + preferred channels (warm intros, email, LinkedIn, communities)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If answers aren’t available, proceed with explicit assumptions and label unknowns. Include an **Assumptions & unknowns** section and a short **Validation plan**.
 
 ## Outputs (deliverables)
@@ -58,12 +58,12 @@ Produce a **Founder Sales Sprint Pack** in Markdown (in-chat; or as files if req
 8) **Learning loop** (tracking + weekly review + message iteration plan)
 9) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (7 steps)
 
 ### 1) Intake + stage gating (founder-led focus)
-- **Inputs:** User context; `references/INTAKE.md`.
+- **Inputs:** User context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm the goal (e.g., first 10 customers), time box, ICP hypothesis, and founder availability. Identify “must-not-do” constraints (ethics, brand, compliance). Decide what a *successful* 30-day customer outcome looks like.
 - **Outputs:** Context snapshot + success definition + constraints list.
 - **Checks:** The goal is measurable and time-boxed (who/what/by when). Founder involvement is explicit.
@@ -81,7 +81,7 @@ Templates: `references/TEMPLATES.md`
 - **Checks:** Each message has a single clear ask and a believable reason for the recipient to respond.
 
 ### 4) Run diagnostic discovery (no demo first)
-- **Inputs:** Discovery goals; `references/TEMPLATES.md` (Discovery kit).
+- **Inputs:** Discovery goals; [references/TEMPLATES.md](references/TEMPLATES.md) (Discovery kit).
 - **Actions:** Write a diagnostic call script that keeps the first conversation problem-first. Use questions that help the buyer *self-diagnose* and quantify impact. Capture language verbatim for future messaging.
 - **Outputs:** Discovery agenda + question bank + call notes template.
 - **Checks:** The script does not default to a product demo. The call ends with a concrete next step.
@@ -100,12 +100,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 7) Quality gate + finalize (learning loop)
 - **Inputs:** Draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add a lightweight tracking + weekly review loop. Always include **Risks / Open questions / Next steps** and a short validation plan.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add a lightweight tracking + weekly review loop. Always include **Risks / Open questions / Next steps** and a short validation plan.
 - **Outputs:** Final Founder Sales Sprint Pack.
 - **Checks:** Assumptions are explicit; next steps are executable; artifacts are copy/paste ready.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

@@ -37,7 +37,7 @@ description: "Manage imposter syndrome at work and produce an Imposter Syndrome 
 - Your support context (manager relationship, mentor/peer access) and any constraints (time, privacy)
 
 **Missing-info strategy**
-- Ask **3–5 questions at a time** from `references/INTAKE.md`.
+- Ask **3–5 questions at a time** from [references/INTAKE.md](references/INTAKE.md).
 - If the user can’t name episodes, propose common triggers/patterns and let them select + correct.
 - If “success criteria” is vague, define a behavioral target (e.g., “speak once per meeting”).
 - If there are safety signals (panic, inability to function, self-harm thoughts), stop and recommend professional support.
@@ -55,13 +55,13 @@ Produce an **Imposter Syndrome Management Pack** (Markdown in chat; or as files 
 7) **Maintenance + Relapse Plan** (daily/weekly routine; what to do when it returns)
 8) **Risks / Open questions / Next steps** (always)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (7 steps)
 
 ### 1) Intake + safety boundary check
-- **Inputs:** user context; `references/INTAKE.md`.
+- **Inputs:** user context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm the goal (reduce imposter costs, increase healthy visibility). Screen for out-of-scope safety/clinical needs. Define success criteria as behaviors/outcomes.
 - **Outputs:** Situation Snapshot + explicit assumptions/unknowns.
 - **Checks:** Success criteria is observable; boundaries are stated.
@@ -98,12 +98,12 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 7) Quality gate + finalize support + maintenance
 - **Inputs:** full draft pack.
-- **Actions:** Draft scripts for manager/mentor/peer support. Create a daily/weekly routine and a relapse response. Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add **Risks / Open questions / Next steps**.
+- **Actions:** Draft scripts for manager/mentor/peer support. Create a daily/weekly routine and a relapse response. Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add **Risks / Open questions / Next steps**.
 - **Outputs:** Final Imposter Syndrome Management Pack.
 - **Checks:** Plan is realistic for time/energy; includes support; risks and unknowns are explicit.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

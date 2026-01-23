@@ -1,6 +1,6 @@
 # 安全策略（Security policy）
 
-> English version: `SECURITY.md`
+> English version: [SECURITY.md](SECURITY.md)
 
 ## 报告安全漏洞
 

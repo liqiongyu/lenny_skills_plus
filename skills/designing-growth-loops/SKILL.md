@@ -38,7 +38,7 @@ description: "Design growth loops (viral/referral/acquisition loops, flywheels) 
 - For paid loops: rough unit economics (LTV, gross margin, CAC/payback targets) or a proxy
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`, then proceed.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md), then proceed.
 - If data is missing, proceed with explicit assumptions and label confidence.
 - Do not request secrets or PII; prefer aggregated metrics or redacted excerpts.
 
@@ -56,15 +56,15 @@ Produce a **Growth Loop Design Pack** (Markdown in-chat; or as files if requeste
 8) **Risks / Open questions / Next steps** (always included)
 
 Templates and checklists:
-- `references/TEMPLATES.md`
-- `references/CHECKLISTS.md`
-- `references/RUBRIC.md`
-- Expanded guidance: `references/WORKFLOW.md`
+- [references/TEMPLATES.md](references/TEMPLATES.md)
+- [references/CHECKLISTS.md](references/CHECKLISTS.md)
+- [references/RUBRIC.md](references/RUBRIC.md)
+- Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (7 steps)
 
 ### 1) Intake + growth goal framing
-- **Inputs:** User context; `references/INTAKE.md`.
+- **Inputs:** User context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Clarify the growth goal (what metric, by when), the target segment(s), and constraints (budget, brand, platform rules, capacity). Decide whether the priority is **innovation** (new loop) vs **optimization** (existing loop).
 - **Outputs:** Context snapshot + “decision this work informs.”
 - **Checks:** A stakeholder can answer: “Which metric changes by when, and what will we do differently if it doesn’t?”
@@ -102,13 +102,13 @@ Templates and checklists:
 - **Checks:** Every experiment metric is traceable to an event definition and a data source.
 
 ### 7) Build the experiment plan + quality gate
-- **Inputs:** Draft pack; `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- **Inputs:** Draft pack; [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - **Actions:** Create an experiment backlog and 30/60/90 plan (sequencing, dependencies, owners if known). Run the checklist and score with the rubric. Always include **Risks / Open questions / Next steps**.
 - **Outputs:** Final Growth Loop Design Pack.
 - **Checks:** Next 2 weeks of work are unblocked and measurable; risks include policy/ethics considerations.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

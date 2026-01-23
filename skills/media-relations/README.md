@@ -18,10 +18,10 @@ Use language like:
 
 “Use `media-relations`. Announcement: <what’s new>. Timing: <date/window>. Audience: <who we want to reach>. Goal: <what success looks like>. Geos: <where>. Spokesperson: <who>. Proof/assets: <links/metrics>. Constraints: <what we can’t say>. Output: a Media Relations Pack.”
 
-If key details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and then proceed with explicit assumptions and placeholders (no invented facts).
+If key details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceed with explicit assumptions and placeholders (no invented facts).
 
 ## Optional file output
-If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/media-relations/`) using `references/TEMPLATES.md`.
+If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/media-relations/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “Create a tiered media list and an exclusive plan for our product launch next month.”

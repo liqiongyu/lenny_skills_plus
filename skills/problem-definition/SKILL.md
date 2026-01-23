@@ -37,7 +37,7 @@ description: "Define a product problem and produce a Problem Definition Pack (pr
 - Known constraints (tech/legal/privacy/compliance/capacity)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If still missing, proceed with clearly labeled assumptions and list **Open questions** that would change the decision.
 
 ## Outputs (deliverables)
@@ -54,13 +54,13 @@ Produce a **Problem Definition Pack** in Markdown (in-chat; or as files if the u
 8) **Prototype / learning plan** (fast prototype + tests to de-risk)
 9) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`  
-Expanded heuristics: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded heuristics: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + decision framing
-- **Inputs:** User context; `references/INTAKE.md`.
+- **Inputs:** User context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Clarify the decision, time horizon, stakeholders, and constraints. Capture the trigger signal (data/quotes/event).
 - **Outputs:** Context snapshot.
 - **Checks:** You can state the decision in one sentence (“We are deciding whether to… by <date>”).
@@ -74,7 +74,7 @@ Expanded heuristics: `references/WORKFLOW.md`
 ### 3) Write the problem statement (1-liner + expanded)
 - **Inputs:** Target user + trigger signal.
 - **Actions:** Draft a crisp 1-liner, then expand with symptoms, root causes (hypotheses), and impact. Include **why now**.
-- **Outputs:** Problem statement section (using `references/TEMPLATES.md`).
+- **Outputs:** Problem statement section (using [references/TEMPLATES.md](references/TEMPLATES.md)).
 - **Checks:** Statement describes the problem without implying a specific solution or technology.
 
 ### 4) Map current alternatives (including non-digital) + “why use this”
@@ -103,12 +103,12 @@ Expanded heuristics: `references/WORKFLOW.md`
 
 ### 8) Quality gate + finalize the pack
 - **Inputs:** Full draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add Risks/Open questions/Next steps.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add Risks/Open questions/Next steps.
 - **Outputs:** Final Problem Definition Pack.
 - **Checks:** A stakeholder can review async and decide “proceed / pause / stop” without a meeting.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

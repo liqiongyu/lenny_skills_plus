@@ -17,10 +17,10 @@ Use language like:
 
 “Use `product-led-sales`. Product: <what it is + freemium/trial model>. ICP: <roles + company types + ACV band>. Objective: <conversion/expansion/ACV lift>. Signals available: <events + account mapping>. Sales capacity: <roles + SLAs>. Constraints: <compliance + messaging>. Output: a Product-Led Sales Motion Pack.”
 
-If key details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and then proceed with explicit assumptions.
+If key details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceed with explicit assumptions.
 
 ## Optional file output
-If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/product-led-sales/`) using `references/TEMPLATES.md`.
+If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/product-led-sales/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “We’re adding sales to PLG—define PQLs and routing rules based on usage signals.”

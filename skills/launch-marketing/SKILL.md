@@ -38,7 +38,7 @@ description: "Plan and execute launch marketing by producing a Launch Marketing 
 - Constraints (legal/compliance, privacy, brand voice, approvals, embargo/exclusive constraints)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md` (3–5 at a time).
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md) (3–5 at a time).
 - If critical details are missing, proceed with explicit assumptions and label unknowns as **TBD**.
 - Never invent numbers, customer names, quotes, or endorsements.
 - Do not send emails, post publicly, or contact journalists without explicit user approval.
@@ -55,13 +55,13 @@ Produce a **Launch Marketing Pack** in Markdown (in-chat; or as files if request
 6) **Measurement + Experiment Plan** (metrics, instrument assumptions, experiments, what to double down on)
 7) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + success definition
-- **Inputs:** User context + `references/INTAKE.md`.
+- **Inputs:** User context + [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm launch type, audience, goal, constraints, and what “success” means (with 1–3 measurable metrics). Capture assumptions/TBDs.
 - **Outputs:** Context snapshot + assumptions/TBD list.
 - **Checks:** You can state in one sentence: “This launch succeeds if ____ by ____.”
@@ -104,12 +104,12 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 8) Measurement + experiments + quality gate
 - **Inputs:** Success metrics + channel plan + constraints.
-- **Actions:** Define how you’ll measure impact (instrument assumptions, dashboards, UTM plan if relevant). Create a short experiment backlog and a “double down” rule. Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add Risks/Open questions/Next steps.
+- **Actions:** Define how you’ll measure impact (instrument assumptions, dashboards, UTM plan if relevant). Create a short experiment backlog and a “double down” rule. Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add Risks/Open questions/Next steps.
 - **Outputs:** Final Launch Marketing Pack.
 - **Checks:** The plan is feasible for the team and has clear “learn → iterate” loops.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

@@ -37,7 +37,7 @@ description: "Analyze user/customer feedback and produce a User Feedback Analysi
 - Constraints: privacy/PII rules, internal-only vs shareable, deadline/time box
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If data access is limited, proceed using a **small representative sample** and label confidence/limitations.
 - Do not request secrets. If feedback contains PII, ask for **redacted excerpts** or aggregated fields only.
 
@@ -54,12 +54,12 @@ Produce a **User Feedback Analysis Pack** in Markdown (in-chat; or as files if r
 7) **Feedback loop plan** (cadence, stakeholders, how engineering participates, how insights are stored)
 8) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + decision framing
-- **Inputs:** User context; `references/INTAKE.md`.
+- **Inputs:** User context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm the decision, scope, time window, audience, and constraints. Define what “good” looks like.
 - **Outputs:** Context snapshot.
 - **Checks:** A stakeholder can answer: “What decision will this analysis change?”
@@ -102,12 +102,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 8) Share out + establish the feedback loop + quality gate
 - **Inputs:** Draft pack.
-- **Actions:** Propose the share-out format (doc + review). Define cadence, owners, and storage (where insights live). Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add Risks/Open questions/Next steps.
+- **Actions:** Propose the share-out format (doc + review). Define cadence, owners, and storage (where insights live). Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add Risks/Open questions/Next steps.
 - **Outputs:** Final User Feedback Analysis Pack.
 - **Checks:** Pack is shareable as-is; limitations are explicit; follow-up actions are scheduled.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

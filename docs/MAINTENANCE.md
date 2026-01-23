@@ -1,6 +1,6 @@
 # Maintenance
 
-> 中文版: `MAINTENANCE.zh-CN.md`
+> 中文版: [MAINTENANCE.zh-CN.md](MAINTENANCE.zh-CN.md)
 
 ## Updating upstream sources
 

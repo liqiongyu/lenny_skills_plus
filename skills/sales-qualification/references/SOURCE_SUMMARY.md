@@ -11,8 +11,8 @@ The source skill is extremely lightweight and centers on a single core idea: **m
 Original quote: “It’s qualification… if you spend your time on the wrong leads, that equates to a zero.”  
 Preserved as:
 - Step 2 (hard disqualifiers) and Step 4 (pipeline hygiene) in `../SKILL.md`
-- Checklist **B** (disqualifiers) and **E** (pipeline hygiene) in `CHECKLISTS.md`
-- Rubric categories **2** and **5** in `RUBRIC.md`
+- Checklist **B** (disqualifiers) and **E** (pipeline hygiene) in [CHECKLISTS.md](CHECKLISTS.md)
+- Rubric categories **2** and **5** in [RUBRIC.md](RUBRIC.md)
 
 ## Notes on additions (manufactured execution layers)
 The source did not include an explicit framework, workflow, or artifacts. This skill pack adds:

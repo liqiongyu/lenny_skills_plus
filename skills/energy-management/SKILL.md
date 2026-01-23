@@ -35,7 +35,7 @@ description: "Build an Energy Management Operating System Pack (energy drivers/d
 - Constraints/non-negotiables (time zones, caregiving, deadlines, on-call, travel, “can’t move” meetings)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md` (3–5 at a time).
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md) (3–5 at a time).
 - If calendar detail is unavailable, proceed with a **7-day energy log first** and provide a conservative default-week plan with explicit assumptions.
 - Do not request secrets, credentials, or sensitive personal health details.
 
@@ -52,13 +52,13 @@ Produce an **Energy Management Operating System Pack** (Markdown in-chat; or as 
 7) **2-Week Pilot + Experiment Tracker** (what changes, how we measure)
 8) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + objective + safety boundaries
-- **Inputs:** user context; `references/INTAKE.md`.
+- **Inputs:** user context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Clarify the goal in 4–8 weeks (e.g., “end week with energy”, “reduce decision fatigue”, “make space for deep work”). Confirm boundaries (not medical/HR/legal). Choose scope: full OS pack vs subset.
 - **Outputs:** Context snapshot (draft) + assumptions/unknowns.
 - **Checks:** Success is measurable enough to evaluate after 4 weeks (even with qualitative measures).
@@ -101,12 +101,12 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 8) Run a 2-week pilot + measure + iterate
 - **Inputs:** full draft pack.
-- **Actions:** Define 2–4 experiments (time-shift, reduce meetings, add buffers, delegate, change meeting format). Decide what you’ll measure (daily energy rating, end-of-week energy, number of deep-work blocks, “drain count”). Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add **Risks / Open questions / Next steps**.
+- **Actions:** Define 2–4 experiments (time-shift, reduce meetings, add buffers, delegate, change meeting format). Decide what you’ll measure (daily energy rating, end-of-week energy, number of deep-work blocks, “drain count”). Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add **Risks / Open questions / Next steps**.
 - **Outputs:** Final Energy Management Operating System Pack + 2-week tracking sheet.
 - **Checks:** Experiments have clear decision rules: keep / modify / stop after 2 weeks.
 
 ## Quality gate (required)
-- Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`.
+- Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

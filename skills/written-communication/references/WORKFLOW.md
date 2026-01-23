@@ -74,8 +74,8 @@ Include “last updated” and an update cadence to reduce anxiety and follow-up
 
 ## Step 8 — Quality gate
 Before sending:
-- Run `CHECKLISTS.md`
-- Score `RUBRIC.md`
+- Run [CHECKLISTS.md](CHECKLISTS.md)
+- Score [RUBRIC.md](RUBRIC.md)
 - Add **Risks / Open questions / Next steps**
 
 Failure mode: sending a draft that creates more meetings and confusion than it prevents.

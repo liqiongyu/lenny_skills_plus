@@ -68,5 +68,5 @@ Close the loop quickly:
 - Share what you can (high-level learnings, not confidential internal plans)
 - Invite 5–10 engaged participants into a lightweight panel (opt-in, respectful cadence)
 
-Run the quality gate (`CHECKLISTS.md` + `RUBRIC.md`) before finalizing the pack.
+Run the quality gate ([CHECKLISTS.md](CHECKLISTS.md) + [RUBRIC.md](RUBRIC.md)) before finalizing the pack.
 

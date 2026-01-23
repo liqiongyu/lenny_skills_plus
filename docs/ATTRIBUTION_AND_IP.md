@@ -1,6 +1,6 @@
 # Attribution & IP policy (Refound/Lenny)
 
-> 中文版: `ATTRIBUTION_AND_IP.zh-CN.md`
+> 中文版: [ATTRIBUTION_AND_IP.zh-CN.md](ATTRIBUTION_AND_IP.zh-CN.md)
 
 This project exists to make the “Lenny skills” content easier for modern AI agents to **execute** (concrete artifacts, checklists, templates, quality gates), while **respecting the upstream creators**.
 
@@ -8,7 +8,7 @@ This project exists to make the “Lenny skills” content easier for modern AI 
 
 - Primary upstream source: RefoundAI “Lenny skills” database: `https://refoundai.com/lenny-skills/`
 - This repository is **not affiliated with RefoundAI** or with Lenny / Lenny’s Podcast.
-- If you operate this as a public/community project, we recommend requesting explicit permission: `REQUESTING_UPSTREAM_PERMISSION.md`.
+- If you operate this as a public/community project, we recommend requesting explicit permission: [REQUESTING_UPSTREAM_PERMISSION.md](REQUESTING_UPSTREAM_PERMISSION.md).
 
 ## What this repo contains (and avoids)
 

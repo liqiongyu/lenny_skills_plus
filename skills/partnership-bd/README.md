@@ -17,10 +17,10 @@ Use language like:
 
 “Use `partnership-bd`. Objective: <what outcome + metric>. Partner type: <platform/integration | channel/referral | strategic/co-marketing>. Market/ICP: <who we sell to>. What we offer partners: <API/audience/revenue share/credibility>. Constraints: <timeline, eng/marketing capacity, compliance, exclusivity>. Output: a Partnership & BD Execution Pack with target list + scoring, pitch kit, outreach sequences, negotiation parameters, and launch plan.”
 
-If key details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and then proceed with explicit assumptions.
+If key details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceed with explicit assumptions.
 
 ## Optional file output
-If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/partnership-bd/`) using `references/TEMPLATES.md`.
+If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/partnership-bd/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “Create a partner scoring model and shortlist 15 integration partners.”

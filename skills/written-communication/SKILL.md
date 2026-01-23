@@ -35,7 +35,7 @@ description: "Draft and edit high-signal written artifacts and produce a Written
 - Source material (notes, existing draft, Slack threads, etc.)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md` (3–5 at a time), then proceed.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md) (3–5 at a time), then proceed.
 - If critical info remains missing, make explicit assumptions and offer 2–3 options (structure/tone/ask).
 
 ## Outputs (deliverables)
@@ -48,13 +48,13 @@ Produce a **Written Communication Pack** in Markdown (in-chat; or as files if re
 4) **Canonical doc skeleton** (optional; when the project needs a single source of truth)
 5) **Risks / Open questions / Next steps** (always)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + choose the lightest artifact
-- **Inputs:** user request + `references/INTAKE.md`.
+- **Inputs:** user request + [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Clarify the channel and pick the smallest artifact that works (email vs memo vs doc vs status update vs canonical doc).
 - **Outputs:** Message brief (draft) + artifact selection.
 - **Checks:** You can answer: “Who is this for, and what should they do after reading?”
@@ -97,12 +97,12 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 8) Quality gate + finalize
 - **Inputs:** full pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add Risks/Open questions/Next steps.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add Risks/Open questions/Next steps.
 - **Outputs:** Final Written Communication Pack.
 - **Checks:** Clarity, actionability, and ownership meet the bar (≥ 3 on each rubric dimension).
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

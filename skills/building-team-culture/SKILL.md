@@ -38,7 +38,7 @@ description: "Build or refresh a team culture and produce a Team Culture Operati
 - Confidentiality constraints (avoid names/PII; use anonymized examples)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md` (3–5 at a time).
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md) (3–5 at a time).
 - If specifics are missing, proceed with a **default** culture OS and clearly label assumptions.
 - Do not request secrets or personally identifying details; ask for redacted summaries instead.
 
@@ -54,13 +54,13 @@ Produce a **Team Culture Operating System Pack** in Markdown (in-chat; or as fil
 6) **Measurement plan** (leading indicators + pulse questions)
 7) **Risks / Open questions / Next steps** (always)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (7 steps)
 
 ### 1) Intake + constraints + safety
-- **Inputs:** user context; `references/INTAKE.md`.
+- **Inputs:** user context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm goals, constraints, and what *must not* change. Identify whether the request includes HR/legal risk; if yes, pause and recommend HR/legal involvement. Clarify what artifacts the user wants (culture code only vs full pack).
 - **Outputs:** Context snapshot + assumptions/unknowns list.
 - **Checks:** Decision owner and timeline are explicit; sensitive topics are routed appropriately.
@@ -80,7 +80,7 @@ Expanded guidance: `references/WORKFLOW.md`
 ### 4) Articulate culture as an operating system (culture code v1)
 - **Inputs:** focus areas; existing values; constraints.
 - **Actions:** Write 3–7 principles. For each: definition, behaviors, do/don’t, decision rules, and anti-patterns. Prefer **articulating what already works** and making gaps explicit.
-- **Outputs:** Culture code (v1) using `references/TEMPLATES.md`.
+- **Outputs:** Culture code (v1) using [references/TEMPLATES.md](references/TEMPLATES.md).
 - **Checks:** Every principle has behavior-level examples; “culture fit” language is replaced with observable standards.
 
 ### 5) Turn principles into norms + rituals (make it real)
@@ -97,12 +97,12 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 7) Quality gate + finalize
 - **Inputs:** full draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add **Risks / Open questions / Next steps**. Recommend the smallest next experiment (1–2 rituals or norms) to validate impact.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add **Risks / Open questions / Next steps**. Recommend the smallest next experiment (1–2 rituals or norms) to validate impact.
 - **Outputs:** Final Team Culture Operating System Pack.
 - **Checks:** Pack is actionable and internally consistent; tradeoffs and risks are explicit.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

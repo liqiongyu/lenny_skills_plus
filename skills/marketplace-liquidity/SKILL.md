@@ -37,7 +37,7 @@ description: "Diagnose and improve marketplace liquidity (match rate/fill rate, 
 - Constraints: budget, incentives you can/can’t use, policy/brand/trust, engineering capacity, timebox
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`, then proceed.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md), then proceed.
 - If data is missing, proceed with explicit assumptions and label confidence.
 - Do not request secrets or PII; prefer aggregated metrics or redacted examples.
 
@@ -56,15 +56,15 @@ Produce a **Marketplace Liquidity Management Pack** (Markdown in-chat; or as fil
 9) **Risks / Open questions / Next steps** (always included)
 
 Templates and expanded guidance:
-- `references/TEMPLATES.md`
-- `references/WORKFLOW.md`
-- `references/CHECKLISTS.md`
-- `references/RUBRIC.md`
+- [references/TEMPLATES.md](references/TEMPLATES.md)
+- [references/WORKFLOW.md](references/WORKFLOW.md)
+- [references/CHECKLISTS.md](references/CHECKLISTS.md)
+- [references/RUBRIC.md](references/RUBRIC.md)
 
 ## Workflow (7 steps)
 
 ### 1) Intake + define the decision and local market(s)
-- **Inputs:** User context; `references/INTAKE.md`.
+- **Inputs:** User context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Clarify the goal (metric + target + by when), define the core action, pick the “local market” unit (e.g., city × category × week), and decide the decision this work will inform (what you’ll do differently).
 - **Outputs:** Context snapshot + local market definition.
 - **Checks:** A stakeholder can answer: “Which segment(s) improve by how much, by when, and what will we change based on the result?”
@@ -105,13 +105,13 @@ Templates and expanded guidance:
 - **Checks:** Each key metric is tied to a data source and update frequency; the cadence produces concrete decisions, not status updates.
 
 ### 7) Quality gate + finalize the pack
-- **Inputs:** Draft pack; `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- **Inputs:** Draft pack; [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - **Actions:** Run the checklist and score with the rubric. Tighten the pack until it is specific, segment-aware, and testable. Always include **Risks / Open questions / Next steps**.
 - **Outputs:** Final Marketplace Liquidity Management Pack.
 - **Checks:** The next 2 weeks of work are unblocked (data pulls, 1–3 experiments, cadence).
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

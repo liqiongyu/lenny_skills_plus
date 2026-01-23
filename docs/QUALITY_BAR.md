@@ -1,6 +1,6 @@
 # Quality bar for generated skills
 
-> 中文版: `QUALITY_BAR.zh-CN.md`
+> 中文版: [QUALITY_BAR.zh-CN.md](QUALITY_BAR.zh-CN.md)
 
 A generated skill pack is “good” only if it is executable by an agent under uncertainty.
 

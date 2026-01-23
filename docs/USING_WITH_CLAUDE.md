@@ -1,6 +1,6 @@
 # Using with Claude Code
 
-> 中文版: `USING_WITH_CLAUDE.zh-CN.md`
+> 中文版: [USING_WITH_CLAUDE.zh-CN.md](USING_WITH_CLAUDE.zh-CN.md)
 
 Claude Code supports skills that follow the Agent Skills open standard.
 

@@ -74,11 +74,15 @@ def main() -> int:
             continue
 
         # Markers: ensure quick language navigation exists near the top.
-        if not has_marker(pair.en, f"> 中文版: `{pair.zh.name}`"):
-            errors.append(f"Missing/incorrect zh marker in {en_rel} (expected: `> 中文版: `{pair.zh.name}``)")
+        zh_marker_new = f"> 中文版: [{pair.zh.name}]({pair.zh.name})"
+        zh_marker_old = f"> 中文版: `{pair.zh.name}`"
+        if not (has_marker(pair.en, zh_marker_new) or has_marker(pair.en, zh_marker_old)):
+            errors.append(f"Missing/incorrect zh marker in {en_rel} (expected: {zh_marker_new})")
 
-        if not has_marker(pair.zh, f"> English version: `{pair.en.name}`"):
-            errors.append(f"Missing/incorrect EN marker in {zh_rel} (expected: `> English version: `{pair.en.name}``)")
+        en_marker_new = f"> English version: [{pair.en.name}]({pair.en.name})"
+        en_marker_old = f"> English version: `{pair.en.name}`"
+        if not (has_marker(pair.zh, en_marker_new) or has_marker(pair.zh, en_marker_old)):
+            errors.append(f"Missing/incorrect EN marker in {zh_rel} (expected: {en_marker_new})")
 
         # Heading structure: ensure section boundaries match.
         en_headings = iter_headings_levels(pair.en)

@@ -17,10 +17,10 @@ Use language like:
 
 “Use `platform-strategy`. Platform type: <internal/external/hybrid>. Users: <who + top jobs>. Current state: <what exists + pain>. Why now: <reason>. Constraints: <security/privacy/compliance, SLOs, budget, timeline>. Decisions: <what’s on the table>. Output: Platform Strategy Pack.”
 
-If details are missing, the skill asks up to 5 intake questions (see `references/INTAKE.md`) and then proceeds with explicit assumptions.
+If details are missing, the skill asks up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceeds with explicit assumptions.
 
 ## Optional file output
-If you want the pack as files, ask the agent to write the artifacts under a folder you specify (e.g., `docs/platform/<initiative>/`) using `references/TEMPLATES.md`.
+If you want the pack as files, ask the agent to write the artifacts under a folder you specify (e.g., `docs/platform/<initiative>/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “Use `platform-strategy` to design the strategy for our internal platform: focus on reducing developer cycle time and making paved-road defaults.”

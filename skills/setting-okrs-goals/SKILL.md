@@ -38,7 +38,7 @@ description: "Set aligned, measurable OKRs/goals and produce an OKR & Goals Pack
 - Stakeholders: decider(s), contributors, approvers, review cadence participants
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If still missing, proceed with clearly labeled assumptions and provide 2–3 OKR set options (conservative/base/ambitious).
 
 ## Outputs (deliverables)
@@ -53,12 +53,12 @@ Produce an **OKR & Goals Pack** in Markdown (in-chat; or as files if the user re
 6) **Review + grading plan** (weekly check-in; mid-cycle checkpoint; end-of-cycle scoring + learning retro)
 7) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + decision framing
-- **Inputs:** User context; `references/INTAKE.md`.
+- **Inputs:** User context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm horizon, scope, strategy anchor, baseline availability, constraints, and decision-maker(s).
 - **Outputs:** Context snapshot.
 - **Checks:** Everyone agrees what OKRs are for (alignment + learning), and what they are not (performance evaluation).
@@ -101,12 +101,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 8) Quality gate + finalize the pack
 - **Inputs:** Entire OKR & Goals Pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add Risks/Open questions/Next steps.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add Risks/Open questions/Next steps.
 - **Outputs:** Final OKR & Goals Pack.
 - **Checks:** Pack is shareable as-is; alignment, metrics, guardrails, and cadence are unambiguous.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

@@ -34,7 +34,7 @@ description: "Create an AI Evals Pack (eval PRD, test set, rubric, judge plan, r
 - Constraints: privacy/compliance, safety policy, languages, cost/latency budgets, timeline
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md` (3–5 at a time).
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md) (3–5 at a time).
 - If details remain missing, proceed with explicit assumptions and provide 2–3 viable options (judge type, scoring scheme, dataset size).
 - If asked to run code or generate datasets from sensitive sources, request confirmation and apply least privilege (no secrets; redact/anonymize).
 
@@ -50,14 +50,14 @@ Produce an **AI Evals Pack** (in chat; or as files if requested), in this order:
 6) **Reporting + iteration loop**: baseline results format, regression policy, how new bugs become new tests  
 7) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (7 steps)
 
 ### 1) Define the decision and write the Eval PRD
 - **Inputs:** SUT description, stakeholders, decision to support.
 - **Actions:** Define the decision (ship/no-ship, compare A vs B), scope/non-goals, target behaviors, acceptance thresholds, and what must never happen.
-- **Outputs:** Draft **Eval PRD** (template in `references/TEMPLATES.md`).
+- **Outputs:** Draft **Eval PRD** (template in [references/TEMPLATES.md](references/TEMPLATES.md)).
 - **Checks:** A stakeholder can restate what is being measured, why, and what “pass” means.
 
 ### 2) Draft the golden set structure + coverage plan
@@ -92,12 +92,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 7) Quality gate + finalize
 - **Inputs:** Full draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Fix missing coverage, vague rubric language, or non-repeatable harness steps. Always include **Risks / Open questions / Next steps**.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Fix missing coverage, vague rubric language, or non-repeatable harness steps. Always include **Risks / Open questions / Next steps**.
 - **Outputs:** Final **AI Evals Pack**.
 - **Checks:** The eval definition functions as a product requirement: clear, testable, and actionable.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

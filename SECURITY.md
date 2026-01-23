@@ -1,6 +1,6 @@
 # Security policy
 
-> 中文版: `SECURITY.zh-CN.md`
+> 中文版: [SECURITY.zh-CN.md](SECURITY.zh-CN.md)
 
 ## Reporting a vulnerability
 

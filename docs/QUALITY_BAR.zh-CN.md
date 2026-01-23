@@ -1,6 +1,6 @@
 # 生成 skills 的质量标准（Quality bar for generated skills）
 
-> English version: `QUALITY_BAR.md`
+> English version: [QUALITY_BAR.md](QUALITY_BAR.md)
 
 一个生成的 skill pack 只有在“Agent 在不确定条件下也能执行”时，才算“好”。
 

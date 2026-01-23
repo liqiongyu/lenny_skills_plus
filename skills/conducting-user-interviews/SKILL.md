@@ -37,7 +37,7 @@ description: "Plan, conduct, and synthesize high-signal user interviews and prod
 - Constraints: number of interviews, time box, language/region, recording allowed, incentives (if any)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If answers aren’t available, proceed with explicit assumptions and label unknowns.
 
 ## Outputs (deliverables)
@@ -52,12 +52,12 @@ Produce a **User Interview Pack** in Markdown (in-chat; or as files if requested
 6) **Follow-up plan** (thank-you, keep-in-touch, “customer panel” list/cadence)
 7) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (8 steps)
 
 ### 1) Frame the decision and choose interview type
-- **Inputs:** Context + `references/INTAKE.md`.
+- **Inputs:** Context + [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Define the decision, what you need to learn (unknowns), and pick the interview type (discovery vs switch vs churn vs concept).
 - **Outputs:** Context snapshot + study intent.
 - **Checks:** You can answer: “What will we do differently after these interviews?”
@@ -100,12 +100,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 8) Share, decide, follow up, and run the quality gate
 - **Inputs:** Draft pack.
-- **Actions:** Produce a shareable readout, propose next steps, and create a lightweight customer panel habit (5–10 engaged users). Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`.
+- **Actions:** Produce a shareable readout, propose next steps, and create a lightweight customer panel habit (5–10 engaged users). Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md).
 - **Outputs:** Final User Interview Pack + Risks/Open questions/Next steps.
 - **Checks:** Stakeholders can restate (a) key learning, (b) decision implication, (c) what happens next.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

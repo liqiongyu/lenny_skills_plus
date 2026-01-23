@@ -39,7 +39,7 @@ description: "Create a Partnership & BD Execution Pack (partner thesis, target l
 - Internal capacity: BD owner, engineering bandwidth (if integration), marketing bandwidth (if co-marketing)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If key data is missing, proceed with explicit assumptions and include an **Assumptions & unknowns** section.
 - For high-stakes commitments (exclusivity, data sharing, regulated claims), require human review and document a safe default.
 
@@ -56,12 +56,12 @@ Produce a **Partnership & BD Execution Pack** (Markdown):
 7) **Launch + operating cadence** (enablement, co-marketing plan, metrics, check-ins)
 8) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (7 steps)
 
 ### 1) Intake + choose the partnership motion
-- **Inputs:** User context; `references/INTAKE.md`.
+- **Inputs:** User context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Clarify the objective and pick the partnership type(s): platform/integration, channel/referral, strategic/co-marketing. Identify whether the motion is **network-dependent** (regulated or concentrated buyer markets) and what “success” looks like in 30/60/90 days.
 - **Outputs:** Context snapshot + partnership thesis draft + assumptions.
 - **Checks:** Objective is measurable; non-goals and constraints are explicit.
@@ -97,13 +97,13 @@ Templates: `references/TEMPLATES.md`
 - **Checks:** You can explain what you will trade (and won’t) in one minute; the next step is scheduled and owned.
 
 ### 7) Launch + operate + quality gate
-- **Inputs:** Draft pack; `references/CHECKLISTS.md`; `references/RUBRIC.md`.
+- **Inputs:** Draft pack; [references/CHECKLISTS.md](references/CHECKLISTS.md); [references/RUBRIC.md](references/RUBRIC.md).
 - **Actions:** Produce a launch plan (enablement + co-marketing + measurement) and an operating cadence (weekly/biweekly check-ins, QBR). Run the checklist and score the rubric. Always add **Risks / Open questions / Next steps**.
 - **Outputs:** Final Partnership & BD Execution Pack.
 - **Checks:** The plan is executable this week and includes a learning loop.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

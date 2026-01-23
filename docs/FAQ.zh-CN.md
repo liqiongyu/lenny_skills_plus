@@ -1,6 +1,6 @@
 # 常见问题 / 排查（FAQ / troubleshooting）
 
-> English version: `FAQ.md`
+> English version: [FAQ.md](FAQ.md)
 
 ## Codex 看不到我的 skills
 

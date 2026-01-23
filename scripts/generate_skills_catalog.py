@@ -69,20 +69,20 @@ def _render(
 
     if lang == "en":
         title = "# Skills catalog"
-        counterpart = "> 中文版: `SKILLS_CATALOG.zh-CN.md`"
+        counterpart = "> 中文版: [SKILLS_CATALOG.zh-CN.md](SKILLS_CATALOG.zh-CN.md)"
         converted_line = f"Converted skills: **{converted_count}** (from Refound/Lenny)"
         meta_line = f"Meta-skill(s): **{meta_count}** (e.g., `lenny-skillpack-creator`)"
         generated_line = f"_Generated: {generated_at} by `python3 scripts/generate_skills_catalog.py`._"
-        upstream_line = "Upstream source: `https://refoundai.com/lenny-skills/`"
+        upstream_line = "Upstream source: <https://refoundai.com/lenny-skills/>"
         table_header = "| Skill | Command | Version | Description | Upstream |"
         table_sep = "|---|---|---|---|---|"
     else:
         title = "# 技能目录（Skills catalog）"
-        counterpart = "> English version: `SKILLS_CATALOG.md`"
+        counterpart = "> English version: [SKILLS_CATALOG.md](SKILLS_CATALOG.md)"
         converted_line = f"已转换 skills：**{converted_count}**（来自 Refound/Lenny）"
         meta_line = f"Meta-skill：**{meta_count}**（例如 `lenny-skillpack-creator`）"
         generated_line = f"_生成时间：{generated_at}（由 `python3 scripts/generate_skills_catalog.py` 生成）。_"
-        upstream_line = "上游来源：`https://refoundai.com/lenny-skills/`"
+        upstream_line = "上游来源：<https://refoundai.com/lenny-skills/>"
         table_header = "| Skill | 命令 | 版本 | 描述 | 上游 |"
         table_sep = "|---|---|---|---|---|"
 

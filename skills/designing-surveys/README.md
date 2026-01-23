@@ -16,10 +16,10 @@ Use language like:
 
 “Use `designing-surveys`. Context: <product + users>. Decision: <what we’ll do based on results by when>. Survey type: <onboarding/CSAT/NPS/PMF/churn/etc>. Channels: <email/in-product/etc>. Constraints: <sample size, regions, privacy>. Output: a Survey Pack.”
 
-If details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and then proceed with explicit assumptions.
+If details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceed with explicit assumptions.
 
 ## Optional file output
-If you want deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/surveys/<project>/`) using the templates in `references/TEMPLATES.md`.
+If you want deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/surveys/<project>/`) using the templates in [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “We need an onboarding profiling survey to separate buyer vs user and personalize onboarding. Build a Survey Pack; keep it under 3 minutes.”

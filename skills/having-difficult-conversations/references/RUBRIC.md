@@ -1,6 +1,6 @@
 # Rubric (Score the Pack)
 
-Score each dimension 1–5. A “pass” is **≥ 4 average** with **no dimension below 3**, and **no triggered Stop items** in `CHECKLISTS.md`.
+Score each dimension 1–5. A “pass” is **≥ 4 average** with **no dimension below 3**, and **no triggered Stop items** in [CHECKLISTS.md](CHECKLISTS.md).
 
 ## 1) Clarity + directness
 1: Message is vague/hedged; the person won’t know what’s being asked/decided.  

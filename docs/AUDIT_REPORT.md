@@ -1,8 +1,8 @@
 # Audit report
 
-> 中文版: `AUDIT_REPORT.zh-CN.md`
+> 中文版: [AUDIT_REPORT.zh-CN.md](AUDIT_REPORT.zh-CN.md)
 
-Generated: 2026-01-23 09:39:05Z
+Generated: 2026-01-23 11:53:03Z
 
 This report summarizes automated checks over the skill packs in `skills/`.
 

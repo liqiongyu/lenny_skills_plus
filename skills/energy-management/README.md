@@ -22,6 +22,6 @@ Example prompts:
 2) “I want to reduce meeting fatigue. Produce meeting rules, delegation/offload plan, and a 2-week experiment tracker.”
 
 ## Files
-- `SKILL.md` — the execution contract
+- [SKILL.md](SKILL.md) — the execution contract
 - `references/` — intake, expanded workflow, templates, checklists, rubric, source summary, examples
 

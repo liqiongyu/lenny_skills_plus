@@ -92,7 +92,7 @@ Cadence:
 - Define drift triggers (conversion drop, churn increase, engagement down, competitor shifts) that force a re-measurement.
 
 Before finalizing:
-- Run `CHECKLISTS.md`
-- Score with `RUBRIC.md`
+- Run [CHECKLISTS.md](CHECKLISTS.md)
+- Score with [RUBRIC.md](RUBRIC.md)
 - Add **Risks / Open questions / Next steps**
 

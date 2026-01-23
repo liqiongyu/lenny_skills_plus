@@ -90,7 +90,7 @@ Outputs: MAP + pilot definition + key terms outline.
 2) Operating cadence:
    - weekly/biweekly working sync; monthly metrics; quarterly review/QBR
 3) Run:
-   - `CHECKLISTS.md` and `RUBRIC.md`
+   - [CHECKLISTS.md](CHECKLISTS.md) and [RUBRIC.md](RUBRIC.md)
 
 Always output: Risks / Open questions / Next steps.
 

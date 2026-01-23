@@ -33,5 +33,5 @@
 ## F) Final pack checklist
 - [ ] All deliverables are present in the specified order (brief → spec → prompts → plan → demo → risks).
 - [ ] Risks, open questions, and next steps are specific and prioritized.
-- [ ] Rubric score meets the bar (see `RUBRIC.md`).
+- [ ] Rubric score meets the bar (see [RUBRIC.md](RUBRIC.md)).
 

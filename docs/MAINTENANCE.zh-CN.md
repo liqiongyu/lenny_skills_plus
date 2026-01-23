@@ -1,6 +1,6 @@
 # 维护指南（Maintenance）
 
-> English version: `MAINTENANCE.md`
+> English version: [MAINTENANCE.md](MAINTENANCE.md)
 
 ## 更新上游源材料
 
@@ -41,4 +41,3 @@ python3 skills/lenny-skillpack-creator/scripts/fetch_refound_skills.py --out sou
   - `python3 scripts/generate_skills_catalog.py`
 - 审计报告：
   - `python3 scripts/generate_audit_report.py`
-

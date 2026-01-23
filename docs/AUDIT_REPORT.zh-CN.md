@@ -1,8 +1,8 @@
 # 审计报告（Audit report）
 
-> English version: `AUDIT_REPORT.md`
+> English version: [AUDIT_REPORT.md](AUDIT_REPORT.md)
 
-生成时间：2026-01-23 09:39:05Z
+生成时间：2026-01-23 11:53:03Z
 
 本报告汇总了对 `skills/` 下 skill packs 的自动化检查结果。
 

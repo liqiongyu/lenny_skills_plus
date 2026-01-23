@@ -39,7 +39,7 @@ description: "Create a Pricing Strategy Pack (value metric + willingness-to-pay 
 - Any evidence: conversion/funnel metrics, retention, revenue mix, win/loss notes, customer quotes, competitor references
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If answers aren’t available, proceed with explicit assumptions and label unknowns. Include a “Validation plan” section in the output.
 
 ## Outputs (deliverables)
@@ -56,12 +56,12 @@ Produce a **Pricing Strategy Pack** in Markdown (in-chat; or as files if request
 8) **Pricing review cadence** (update triggers; default 6–12 months)
 9) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (7 steps)
 
 ### 1) Intake + decision framing
-- **Inputs:** User context; `references/INTAKE.md`.
+- **Inputs:** User context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm the decision, timeline, and who will use the output. Capture current pricing (if any), motion (self-serve vs sales-led), and constraints (billing, contracts, compliance, brand).
 - **Outputs:** Context snapshot + “success looks like” metrics.
 - **Checks:** A stakeholder can answer: “What decision will this pricing work change?”
@@ -98,12 +98,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 7) Quality gate + finalize
 - **Inputs:** Draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add **Risks / Open questions / Next steps** and a short validation plan (what to learn next, by when).
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add **Risks / Open questions / Next steps** and a short validation plan (what to learn next, by when).
 - **Outputs:** Final Pricing Strategy Pack.
 - **Checks:** Assumptions are explicit; evidence needs are clear; the pack is ready to share.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

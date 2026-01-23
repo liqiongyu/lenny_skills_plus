@@ -21,6 +21,6 @@ Example prompts:
 3) “Help me identify sponsors at my company and draft concrete sponsor asks tied to my current projects.”
 
 ## Files
-- `SKILL.md` — the execution contract
+- [SKILL.md](SKILL.md) — the execution contract
 - `references/` — intake, expanded workflow, templates, checklists, rubric, source summary
 

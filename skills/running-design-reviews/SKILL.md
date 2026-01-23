@@ -36,7 +36,7 @@ description: "Run high-signal design reviews (design critique / design crit / de
 - Review format + logistics: live vs async, time box, attendees/roles
 
 **Missing-info strategy**
-- Ask up to **5** questions from `references/INTAKE.md`, then proceed.
+- Ask up to **5** questions from [references/INTAKE.md](references/INTAKE.md), then proceed.
 - If answers aren’t available, make explicit assumptions and clearly label them.
 - Do not request secrets or credentials.
 
@@ -50,7 +50,7 @@ Produce a **Design Review Pack** in Markdown (in-chat by default; write to files
 5) **Follow-up message + next review plan** (what changed, what’s next)
 6) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (7 steps)
 
@@ -73,7 +73,7 @@ Templates: `references/TEMPLATES.md`
 - **Checks:** Decision rights are clear; the review is anchored in a live demo, not a slide deck.
 
 ### 4) Produce the pre-read (context first, then artifacts)
-- **Inputs:** `references/TEMPLATES.md` (brief template) + project context.
+- **Inputs:** [references/TEMPLATES.md](references/TEMPLATES.md) (brief template) + project context.
 - **Actions:** Write a 1–2 page brief: problem → user → success criteria → constraints → options considered → risks/tradeoffs → open questions → links.
 - **Outputs:** Shareable pre-read + “how to review” instructions.
 - **Checks:** A reviewer can give useful feedback asynchronously without a live context dump.
@@ -101,17 +101,17 @@ Templates: `references/TEMPLATES.md`
 - **Checks:** Decisions and action items are captured in writing; no critical decision is left implicit.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and score with `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples
-See `references/EXAMPLES.md`.
+See [references/EXAMPLES.md](references/EXAMPLES.md).
 
 ## Reference files
-- `references/INTAKE.md`
-- `references/WORKFLOW.md`
-- `references/TEMPLATES.md`
-- `references/CHECKLISTS.md`
-- `references/RUBRIC.md`
-- `references/SOURCE_SUMMARY.md`
-- `references/EXAMPLES.md`
+- [references/INTAKE.md](references/INTAKE.md)
+- [references/WORKFLOW.md](references/WORKFLOW.md)
+- [references/TEMPLATES.md](references/TEMPLATES.md)
+- [references/CHECKLISTS.md](references/CHECKLISTS.md)
+- [references/RUBRIC.md](references/RUBRIC.md)
+- [references/SOURCE_SUMMARY.md](references/SOURCE_SUMMARY.md)
+- [references/EXAMPLES.md](references/EXAMPLES.md)

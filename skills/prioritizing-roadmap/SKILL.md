@@ -35,7 +35,7 @@ description: "Prioritize a product roadmap/backlog and produce a Roadmap Priorit
 - Constraints: capacity, commitments, dependencies, deadlines, risk tolerance
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If still missing, proceed with clearly labeled assumptions and provide 2–3 roadmap options.
 
 ## Outputs (deliverables)
@@ -51,12 +51,12 @@ Produce a **Roadmap Prioritization Pack** in Markdown (in-chat; or as files if r
 7) **Decision narrative** (why these, why now) + “Think Bigger” ideas
 8) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + decision framing
-- **Inputs:** User context; `references/INTAKE.md`.
+- **Inputs:** User context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm the decision (backlog vs quarterly roadmap vs annual planning), horizon, stakeholders, constraints, and “must-do” commitments.
 - **Outputs:** Context snapshot.
 - **Checks:** Everyone agrees what decision will be made and by when.
@@ -99,12 +99,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 8) Quality gate + finalize the pack
 - **Inputs:** Full draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add Risks/Open questions/Next steps.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add Risks/Open questions/Next steps.
 - **Outputs:** Final Roadmap Prioritization Pack.
 - **Checks:** Pack is shareable as-is; assumptions, owners, and cadence are explicit.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

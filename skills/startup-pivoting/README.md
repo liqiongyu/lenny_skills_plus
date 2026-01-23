@@ -22,6 +22,6 @@ Example prompts:
 2) “Create a pivot options map (10% vs 200% pivots) and pick a pivot thesis with metrics + kill criteria.”
 
 ## Files
-- `SKILL.md` — the execution contract
+- [SKILL.md](SKILL.md) — the execution contract
 - `references/` — intake, expanded workflow, templates, checklists, rubric, source summary
 

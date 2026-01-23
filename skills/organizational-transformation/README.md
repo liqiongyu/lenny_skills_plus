@@ -17,10 +17,10 @@ Use language like:
 
 “Use `organizational-transformation`. Context: <company + stage + domain>. Why now: <drivers>. Current model: <how product work runs today>. Symptoms: <examples>. Constraints: <timeline/headcount/regulatory>. Output: an Organizational Transformation Pack.”
 
-If key details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and proceed with explicit assumptions.
+If key details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and proceed with explicit assumptions.
 
 ## Optional file output
-If you want deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/org-transformation/<initiative>/`) using `references/TEMPLATES.md`.
+If you want deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/org-transformation/<initiative>/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “Move us from feature teams to empowered product teams; propose 90-day pilots and a 12-month roadmap.”

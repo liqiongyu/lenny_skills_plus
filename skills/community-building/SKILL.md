@@ -36,7 +36,7 @@ description: "Build a Community Building Pack (strategy, platform plan, programm
 - Constraints: compliance/privacy, brand voice, moderation risk tolerance
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md` (3–5 at a time).
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md) (3–5 at a time).
 - If critical inputs are missing, proceed with explicit assumptions and label them; provide 2–3 options with tradeoffs.
 - Never request credentials or private access. Accept redacted exports/screenshots if offered.
 
@@ -55,13 +55,13 @@ Produce a **Community Building Pack** (Markdown in-chat; or as files if requeste
 9) **Measurement plan + weekly ops cadence**
 10) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance + decision rules: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance + decision rules: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + pick the primary job-to-be-done
-- **Inputs:** User prompt; `references/INTAKE.md`.
+- **Inputs:** User prompt; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm ICP, define the primary goal, identify where the community already gathers, and list constraints (capacity, compliance, safety).
 - **Outputs:** Context snapshot + assumptions/TBDs list.
 - **Checks:** You can finish the sentence: “In 8–12 weeks, this community will _____ for _____, measured by _____.”
@@ -103,13 +103,13 @@ Expanded guidance + decision rules: `references/WORKFLOW.md`
 - **Checks:** Incentives align to desired behaviors (helpfulness, creation, referrals) and avoid vanity metrics.
 
 ### 8) Governance + measurement + quality gate
-- **Inputs:** Draft pack; `references/CHECKLISTS.md`; `references/RUBRIC.md`.
+- **Inputs:** Draft pack; [references/CHECKLISTS.md](references/CHECKLISTS.md); [references/RUBRIC.md](references/RUBRIC.md).
 - **Actions:** Define rules, moderation workflows, escalation paths, and privacy guidelines. Create measurement plan + weekly ops cadence. Run checklist and score rubric. Always add **Risks / Open questions / Next steps**.
 - **Outputs:** Final Community Building Pack.
 - **Checks:** Next 2 weeks of execution are unblocked; governance is explicit; measurement is feasible.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

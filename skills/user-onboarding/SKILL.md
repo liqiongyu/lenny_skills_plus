@@ -41,7 +41,7 @@ description: "Design and improve product user onboarding (first-time user experi
 - Constraints: timebox, eng/design capacity, allowed channels (in-app/email/push), privacy/legal/brand limits
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`, then proceed.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md), then proceed.
 - If metrics are missing, proceed with explicit assumptions and label confidence.
 - Do not request secrets or PII; prefer aggregated funnels and redacted screenshots.
 
@@ -60,15 +60,15 @@ Produce an **Onboarding & Activation Pack** (Markdown in-chat; or as files if re
 9) Risks / Open questions / Next steps (always included)
 
 Templates and checklists:
-- `references/TEMPLATES.md`
-- `references/WORKFLOW.md`
-- `references/CHECKLISTS.md`
-- `references/RUBRIC.md`
+- [references/TEMPLATES.md](references/TEMPLATES.md)
+- [references/WORKFLOW.md](references/WORKFLOW.md)
+- [references/CHECKLISTS.md](references/CHECKLISTS.md)
+- [references/RUBRIC.md](references/RUBRIC.md)
 
 ## Workflow (7 steps)
 
 ### 1) Intake + goal framing (activation-first)
-- **Inputs:** User prompt; `references/INTAKE.md`.
+- **Inputs:** User prompt; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Define the primary segment and the activation outcome. Make the goal measurable (baseline → target, date). Capture constraints and guardrails (e.g., don’t increase drop-off, don’t add dark patterns).
 - **Outputs:** Context snapshot + goal statement.
 - **Checks:** Goal is one sentence with a metric, baseline, target, and date.
@@ -107,13 +107,13 @@ Templates and checklists:
 - **Checks:** Every experiment and milestone has a primary metric and at least one guardrail metric.
 
 ### 7) Prioritize experiments + quality gate
-- **Inputs:** Candidate interventions; measurement plan; `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- **Inputs:** Candidate interventions; measurement plan; [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - **Actions:** Convert top opportunities into experiment cards; prioritize (Impact × Confidence ÷ Effort). Add rollout/rollback guidance. Run checklist + score rubric. Always include **Risks / Open questions / Next steps**.
 - **Outputs:** Final Onboarding & Activation Pack.
 - **Checks:** Top 3 experiments are runnable within constraints and have “win/lose/learn” criteria.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

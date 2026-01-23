@@ -1,6 +1,6 @@
 # 在 OpenAI Codex 中使用（CLI / IDE）
 
-> English version: `USING_WITH_CODEX.md`
+> English version: [USING_WITH_CODEX.md](USING_WITH_CODEX.md)
 
 Codex 支持 “Agent Skills”：每个 skill 是一个文件夹，包含带 YAML frontmatter（`name`, `description`）的 `SKILL.md`，以及可选的 supporting files。
 

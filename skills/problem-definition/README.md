@@ -18,10 +18,10 @@ Use language like:
 
 “Use `problem-definition`. Context: <product + target user + signal>. Decision: <what we need to decide by when>. Constraints: <must-haves>. Output: a Problem Definition Pack.”
 
-If details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and then proceed with explicit assumptions.
+If details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceed with explicit assumptions.
 
 ## Optional file output
-If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/problem-definition/`) using the templates in `references/TEMPLATES.md`.
+If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/problem-definition/`) using the templates in [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “We’re a B2B invoicing tool. SMB admins are churning in month 2. Define the problem space and JTBD; include alternatives and a prototype plan.”

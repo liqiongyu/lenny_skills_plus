@@ -1,6 +1,6 @@
 # QA 与 CI（QA and CI）
 
-> English version: `QA_AND_CI.md`
+> English version: [QA_AND_CI.md](QA_AND_CI.md)
 
 ## 1) lint 单个 skill pack
 

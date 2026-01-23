@@ -34,7 +34,7 @@ description: "Run structured, behavioral hiring interviews and produce an Interv
 - Candidate materials (resume/portfolio) + any areas to probe
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If criteria aren’t provided, propose a default criteria set and clearly label it as an assumption.
 
 ## Outputs (deliverables)
@@ -48,13 +48,13 @@ Produce an **Interview Execution Pack** in Markdown (in-chat; or as files if req
 5) **Debrief summary template** (evidence-based strengths/concerns + hire/no-hire signal + follow-ups)
 6) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (7 steps)
 
 ### 1) Intake + define the stage
-- **Inputs:** user request; `references/INTAKE.md`.
+- **Inputs:** user request; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm role, stage(s), duration, and who else interviews. Identify must-measure criteria and any “must not” red flags.
 - **Outputs:** Interview brief + assumptions/unknowns list.
 - **Checks:** You can state the stage goal in one sentence (e.g., “screen for X; sell Y; decide Z”).
@@ -91,12 +91,12 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 7) Debrief + quality gate + finalize pack
 - **Inputs:** completed scorecard; debrief template.
-- **Actions:** Produce the debrief-ready packet; run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Include Risks/Open questions/Next steps.
+- **Actions:** Produce the debrief-ready packet; run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Include Risks/Open questions/Next steps.
 - **Outputs:** Final Interview Execution Pack.
 - **Checks:** Clear recommendation + uncertainty; fair process; next steps defined (additional interview, reference check, work sample, etc.).
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

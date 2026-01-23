@@ -38,7 +38,7 @@ description: "Write a clear, decision-ready PRD (and optionally a PR/FAQ, AI eva
 - How correctness will be evaluated (offline tests, human review, online metrics)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If answers are still missing, proceed with clearly labeled assumptions and provide 2–3 options (scope, metric, rollout).
 
 ## Outputs (deliverables)
@@ -53,7 +53,7 @@ Produce a **PRD Pack** in Markdown (in-chat; or as files if the user requests):
 6) **AI Eval Spec** (if AI) — acceptance tests + judge prompts + pass/fail criteria
 7) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (8 steps)
 
@@ -64,7 +64,7 @@ Templates: `references/TEMPLATES.md`
 - **Checks:** The artifacts match the decision being made and the audience.
 
 ### 2) Intake + clarify decision and success
-- **Inputs:** `references/INTAKE.md`.
+- **Inputs:** [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Ask up to 5 questions; confirm decision owner, timeline, constraints, and success metrics/guardrails.
 - **Outputs:** Context snapshot.
 - **Checks:** You can state “what we’re deciding” and “how we’ll measure success” in 1–2 sentences.
@@ -101,12 +101,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 8) Quality gate + finalize for circulation
 - **Inputs:** Full draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add Risks/Open questions/Next steps.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add Risks/Open questions/Next steps.
 - **Outputs:** Final PRD Pack (shareable as-is).
 - **Checks:** Decisions, owners, metrics, and open questions are explicit.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

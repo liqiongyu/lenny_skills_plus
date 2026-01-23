@@ -16,10 +16,10 @@ Use language like:
 
 “Use `evaluating-new-technology`. Candidate: <tool/vendor or what you might build>. Problem: <workflow + users + pain>. Current stack: <what exists today>. Constraints: <security/privacy/compliance, budget, timeline, deployment>. Decision context: <who decides + when>. Output: Technology Evaluation Pack.”
 
-If details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and then proceed with explicit assumptions.
+If details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceed with explicit assumptions.
 
 ## Optional file output
-If you want the pack as files, ask the agent to write the artifacts under a folder you specify (e.g., `docs/tech-evals/<initiative>/`) using `references/TEMPLATES.md`.
+If you want the pack as files, ask the agent to write the artifacts under a folder you specify (e.g., `docs/tech-evals/<initiative>/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “Use `evaluating-new-technology` to decide build vs buy for an internal analytics event pipeline. Constraints: 2 engineers for 6 weeks; data is sensitive; must support EU residency.”

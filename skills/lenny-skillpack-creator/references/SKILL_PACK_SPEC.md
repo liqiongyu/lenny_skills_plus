@@ -8,11 +8,11 @@ Goal: Convert an “insight/methodology” skill into an **execution contract** 
 - `SKILL.md`
 - `README.md`
 - `references/`
-  - `INTAKE.md` (or `INTAKE_QUESTIONNAIRE.md`)
-  - `TEMPLATES.md` (or multiple template files)
+  - [INTAKE.md](INTAKE.md) (or `INTAKE_QUESTIONNAIRE.md`)
+  - [TEMPLATES.md](TEMPLATES.md) (or multiple template files)
   - `CHECKLIST.md` (quality checklist)
-  - `RUBRIC.md` (scoring rubric)
-  - `EXAMPLES.md` (2 good, 1 bad/boundary)
+  - [RUBRIC.md](RUBRIC.md) (scoring rubric)
+  - [EXAMPLES.md](EXAMPLES.md) (2 good, 1 bad/boundary)
   - `SOURCE_NOTES.md` (what was preserved from the original skill)
 - `scripts/` (optional)
   - `lint_*.py` (validate required sections)

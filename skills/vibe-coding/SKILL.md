@@ -36,7 +36,7 @@ description: "Turn an idea into a functional, demo-ready prototype using AI-assi
 - Data/integrations: mock data ok? any APIs needed? (default to mock)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md` (3–5 at a time).
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md) (3–5 at a time).
 - If details remain missing, proceed with explicit assumptions and offer 2–3 options (e.g., mock vs real data; simple UI vs polished).
 - If asked to run commands or write/modify files, request confirmation, keep changes in a dedicated folder, and include rollback guidance.
 
@@ -51,7 +51,7 @@ Produce a **Vibe Coding Prototype Pack** (in chat; or as files if requested), in
 5) **Demo Script + Runbook** (how to run, how to demo, what to say, what to avoid)
 6) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (7 steps)
 
@@ -93,12 +93,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 7) Package the demo + quality gate + handoff
 - **Inputs:** Prototype + all draft artifacts.
-- **Actions:** Write the demo script + runbook. Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Finalize **Risks / Open questions / Next steps**.
+- **Actions:** Write the demo script + runbook. Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Finalize **Risks / Open questions / Next steps**.
 - **Outputs:** Final **Vibe Coding Prototype Pack**.
 - **Checks:** A stakeholder can demo it without you; risks and next steps are explicit and owned.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

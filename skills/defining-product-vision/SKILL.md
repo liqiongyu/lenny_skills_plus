@@ -37,7 +37,7 @@ description: "Define or refresh a product vision and produce a shareable Product
 - Stakeholders who must align (roles/names)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If answers aren’t available, proceed with clearly labeled assumptions and provide 2–3 vision options.
 
 ## Outputs (deliverables)
@@ -53,12 +53,12 @@ Produce a **Product Vision Pack** in Markdown (in-chat; or as files if requested
 7) **Rollout & alignment plan** (workshop + comms + cadence)
 8) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + constraints
-- **Inputs:** User context; use `references/INTAKE.md`.
+- **Inputs:** User context; use [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm product, target customer, horizon, mission, constraints, stakeholders, and why-now.
 - **Outputs:** 8–12 bullet **Context snapshot**.
 - **Checks:** You can restate “who we serve + what problem we solve” in 1–2 sentences.
@@ -66,7 +66,7 @@ Templates: `references/TEMPLATES.md`
 ### 2) Define the problem anchor (potent user problem)
 - **Inputs:** Context snapshot.
 - **Actions:** Write the target customer + problem as a crisp, user-centered statement; identify what “success” means for them.
-- **Outputs:** **Problem anchor** section (template in `references/TEMPLATES.md`).
+- **Outputs:** **Problem anchor** section (template in [references/TEMPLATES.md](references/TEMPLATES.md)).
 - **Checks:** Problem is specific, important, and not framed as “our feature idea”.
 
 ### 3) Draft 2–3 future states (vision options)
@@ -76,7 +76,7 @@ Templates: `references/TEMPLATES.md`
   - Tech-agnostic (not limited by today’s implementation)
   - Grounded in the user problem
 - **Outputs:** 2–3 **Vision options** (short narratives).
-- **Checks:** Each option passes the 4-point vision test in `references/CHECKLISTS.md`.
+- **Checks:** Each option passes the 4-point vision test in [references/CHECKLISTS.md](references/CHECKLISTS.md).
 
 ### 4) Write the vision statement + narrative (not a tagline)
 - **Inputs:** Chosen vision option.
@@ -104,12 +104,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 8) Quality gate + finalize pack
 - **Inputs:** All drafts.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add **Risks / Open questions / Next steps**.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add **Risks / Open questions / Next steps**.
 - **Outputs:** Final **Product Vision Pack**.
 - **Checks:** Pack is shareable as-is; choices, non-goals, and caveats are explicit.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

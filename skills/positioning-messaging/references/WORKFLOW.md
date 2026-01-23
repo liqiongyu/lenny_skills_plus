@@ -85,7 +85,7 @@ Decision rule example:
 
 ## Step 8 — Quality gate + finalize
 Before finalizing:
-- Run `CHECKLISTS.md`
-- Score with `RUBRIC.md`
+- Run [CHECKLISTS.md](CHECKLISTS.md)
+- Score with [RUBRIC.md](RUBRIC.md)
 - Include Risks/Open questions/Next steps
 

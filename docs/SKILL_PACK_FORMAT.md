@@ -1,6 +1,6 @@
 # Skill pack format (house style)
 
-> 中文版: `SKILL_PACK_FORMAT.zh-CN.md`
+> 中文版: [SKILL_PACK_FORMAT.zh-CN.md](SKILL_PACK_FORMAT.zh-CN.md)
 
 This repo standardizes each skill pack to maximize reliability in agent execution and portability across Codex + Claude Code.
 

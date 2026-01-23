@@ -1,11 +1,11 @@
 # 联系 RefoundAI 并请求明确授权（推荐）
 
-> English version: `REQUESTING_UPSTREAM_PERMISSION.md`
+> English version: [REQUESTING_UPSTREAM_PERMISSION.md](REQUESTING_UPSTREAM_PERMISSION.md)
 
 本项目基于 RefoundAI 的 “Lenny skills” 数据库进行转化。虽然我们尽量做到**不逐字搬运**、并保留清晰的上游署名与下架通道，但如果你希望把这个项目作为公开/共创项目长期运营，最稳妥的做法是：**主动联系 RefoundAI，说明用途并请求明确授权**（同时愿意遵守其任何署名要求或限制，并在必要时删除/调整内容）。
 
 另见：
-- `ATTRIBUTION_AND_IP.zh-CN.md`（署名与侵权/下架流程）
+- [ATTRIBUTION_AND_IP.zh-CN.md](ATTRIBUTION_AND_IP.zh-CN.md)（署名与侵权/下架流程）
 
 ## 建议通过哪些渠道联系
 

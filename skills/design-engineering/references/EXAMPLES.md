@@ -24,5 +24,5 @@
 
 **Recommended response**
 - Give a 2–3 sentence definition.
-- Ask whether they want to apply it (team, product, goal). If yes, proceed with up to 5 intake questions from `INTAKE.md`.
+- Ask whether they want to apply it (team, product, goal). If yes, proceed with up to 5 intake questions from [INTAKE.md](INTAKE.md).
 

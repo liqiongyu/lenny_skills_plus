@@ -22,6 +22,6 @@ Example prompts:
 2) “Design a job-relevant work sample (or paid trial) for a Senior PM and include a scoring rubric + reference check script.”
 
 ## Files
-- `SKILL.md` — the execution contract
+- [SKILL.md](SKILL.md) — the execution contract
 - `references/` — intake, expanded workflow, templates, checklists, rubric, source summary
 

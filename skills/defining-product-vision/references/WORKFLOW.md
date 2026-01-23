@@ -69,8 +69,8 @@ Aim: stakeholders can agree/disagree based on shared definitions, not vibes.
 
 ## Step 8 — Quality gate + finalize
 Before finalizing:
-- Run `CHECKLISTS.md`
-- Score with `RUBRIC.md`
+- Run [CHECKLISTS.md](CHECKLISTS.md)
+- Score with [RUBRIC.md](RUBRIC.md)
 - Add **Risks / Open questions / Next steps**
 
 If score is low, fix the lowest categories first (usually: problem clarity, concreteness, and strategic choices/non-goals).

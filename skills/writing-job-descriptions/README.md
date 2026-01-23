@@ -22,6 +22,6 @@ Example prompts:
 2) “Rewrite our existing JD (below) to be outcome-based and more high-signal. Keep it inclusive and add a ‘who will thrive / who won’t’ section.”
 
 ## Files
-- `SKILL.md` — the execution contract
+- [SKILL.md](SKILL.md) — the execution contract
 - `references/` — intake, expanded workflow, templates, checklists, rubric, source summary
 

@@ -8,7 +8,7 @@ The source skill is a collection of tactical insights on **founder-led sales** (
 ## Top insights preserved and how they were transformed
 
 1) **Founder-led sales works because the founder is the product (Jen Abel)**  
-Preserved as: Step 2 (Founder POV + ICP wedge) in `../SKILL.md` and checklist **B** in `CHECKLISTS.md`.
+Preserved as: Step 2 (Founder POV + ICP wedge) in `../SKILL.md` and checklist **B** in [CHECKLISTS.md](CHECKLISTS.md).
 
 2) **“No decision” is often the main competitor (April Dunford)**  
 Preserved as: Step 5 (Decision enablement kit) in `../SKILL.md` and checklist **D** + rubric category **5**.
