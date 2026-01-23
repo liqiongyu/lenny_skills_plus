@@ -30,6 +30,10 @@ jobs:
         run: |
           python -m compileall scripts skills
 
+      - name: Check bilingual docs
+        run: |
+          python scripts/check_bilingual_docs.py
+
       - name: Lint skill packs + validate mirrors
         run: |
           python scripts/ci_check_skillpacks.py --skip-mirror-check
