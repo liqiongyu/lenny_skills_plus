@@ -7,7 +7,7 @@ These skill packs follow the **open Agent Skills** format (a folder with `SKILL.
 - **OpenAI Codex (CLI + IDE)** via `.codex/skills/` or `~/.codex/skills/`
 - **Claude Code** via `.claude/skills/` or `~/.claude/skills/`
 
-This repo keeps **canonical** skill packs under `skills/` (tracked in git) and provides scripts to mirror them into tool-specific directories for auto-discovery.
+If you just want to **use the skills**, you do *not* need to clone this repo or run any conversion scripts — you can install the prebuilt skill packs from a GitHub Release.
 
 > Note: Some upstream pages mention “87 skills”, but the current Refound browse/manifest contains **86** skills.
 
@@ -17,9 +17,36 @@ These skill packs are derived from RefoundAI’s “Lenny skills” database. Up
 
 ## Quickstart
 
-### 1) Mirror skills for tool auto-discovery (recommended)
+### Option A (recommended): Install from a release (no cloning)
 
-From the repo root:
+1) Download `skills-all.zip` from the latest GitHub Release.
+   - If your release doesn’t include `skills-all.zip` yet, you can still download individual per-skill zip files from the release.
+
+2) Install for **Codex** (global):
+
+```bash
+mkdir -p ~/.codex/skills
+unzip -o skills-all.zip -d ~/.codex/skills
+```
+
+3) Install for **Claude Code** (global):
+
+```bash
+mkdir -p ~/.claude/skills
+unzip -o skills-all.zip -d ~/.claude/skills
+```
+
+If you prefer **project-local** skills, unzip into your repo at:
+- `.codex/skills/` (Codex)
+- `.claude/skills/` (Claude Code)
+
+See:
+- `docs/USING_WITH_CODEX.md`
+- `docs/USING_WITH_CLAUDE.md`
+
+### Option B: Clone + mirror (for contributors)
+
+This repo keeps **canonical** skill packs under `skills/` (tracked in git) and provides scripts to mirror them into tool-specific directories for auto-discovery:
 
 ```bash
 python3 scripts/mirror_skills.py --overwrite
@@ -31,9 +58,9 @@ This creates:
 
 These mirror folders are ignored by git.
 
-### 2) Use in Codex
+## Use in Codex
 
-- Start Codex in this repo (or any folder that can see `.codex/skills/`):
+- Start Codex (either globally-installed skills, or any folder that can see `.codex/skills/`):
   ```bash
   codex
   ```
@@ -44,9 +71,9 @@ These mirror folders are ignored by git.
   Turn these notes into a decision-ready PRD. Ask up to 5 questions first.
   ```
 
-### 3) Use in Claude Code
+## Use in Claude Code
 
-- Open the repo in Claude Code.
+- Open your project in Claude Code (either globally-installed skills, or a repo with `.claude/skills/`).
 - Invoke a skill directly with `/skill-name`.
 - Example:
   ```text
@@ -61,6 +88,12 @@ See: `docs/SKILLS_CATALOG.md`
 ## Why this exists
 
 High-level advice is hard for agents to execute reliably. This repo turns skills into execution contracts (inputs → deliverables → workflow → quality gate). See: `docs/WHY_THIS_PROJECT.md`.
+
+## Contributing / regeneration
+
+If you want to help improve skill quality, add examples, or regenerate skill packs, start with:
+- `CONTRIBUTING.md`
+- `docs/WORKFLOW.md`
 
 ## Quality + CI
 

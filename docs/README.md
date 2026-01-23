@@ -8,6 +8,7 @@ Start here:
 - **Using with Claude Code**: `USING_WITH_CLAUDE.md`
 - **Why this project exists**: `WHY_THIS_PROJECT.md`
 - **Attribution & IP policy**: `ATTRIBUTION_AND_IP.md`
+- **Requesting upstream permission (recommended)**: `REQUESTING_UPSTREAM_PERMISSION.md`
 - **Press kit (copy/paste)**: `PRESS_KIT.md`
 - **Skill pack format (house style)**: `SKILL_PACK_FORMAT.md`
 - **Quality bar**: `QUALITY_BAR.md`
