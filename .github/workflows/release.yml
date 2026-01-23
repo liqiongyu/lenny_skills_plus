@@ -52,21 +52,21 @@ jobs:
           python - <<'PY'
           import pathlib
           import zipfile
-          
+
           skills_dir = pathlib.Path("skills")
           out_path = pathlib.Path("dist/skills-all.zip")
-          
+
           if not skills_dir.exists():
               print("[info] no skills/ directory; skipping skills-all.zip")
               raise SystemExit(0)
-          
+
           with zipfile.ZipFile(out_path, "w", compression=zipfile.ZIP_DEFLATED) as zf:
               for path in skills_dir.rglob("*"):
                   if not path.is_file():
                       continue
                   # Zip root should be <skill-name>/..., not skills/<skill-name>/...
                   zf.write(path, arcname=path.relative_to(skills_dir))
-          
+
           print(f"[ok] wrote {out_path}")
           PY
 
@@ -75,26 +75,26 @@ jobs:
           python - <<'PY'
           import hashlib
           import pathlib
-          
+
           dist = pathlib.Path("dist")
           out = dist / "SHA256SUMS.txt"
-          
+
           zips = sorted(dist.glob("*.zip"))
           if not zips:
               print("[info] no zip artifacts found; skipping checksums")
               raise SystemExit(0)
-          
-	          lines = []
-	          for p in zips:
-	              h = hashlib.sha256()
-	              with p.open("rb") as f:
-	                  for chunk in iter(lambda: f.read(1024 * 1024), b""):
-	                      h.update(chunk)
-	              lines.append(f"{h.hexdigest()}  {p.name}")
-	          
-	          out.write_text("\n".join(lines) + "\n", encoding="utf-8")
-	          print(f"[ok] wrote {out}")
-	          PY
+
+          lines = []
+          for p in zips:
+              h = hashlib.sha256()
+              with p.open("rb") as f:
+                  for chunk in iter(lambda: f.read(1024 * 1024), b""):
+                      h.update(chunk)
+              lines.append(f"{h.hexdigest()}  {p.name}")
+
+          out.write_text("\n".join(lines) + "\n", encoding="utf-8")
+          print(f"[ok] wrote {out}")
+          PY
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
