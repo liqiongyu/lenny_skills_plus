@@ -19,4 +19,5 @@ Suggested release checklist:
 
 Packaging tip:
 - GitHub Releases publish per-skill zip files, and also a single bundle: `skills-all.zip`.
+- Releases also include `SHA256SUMS.txt` so users can verify downloads.
 - Users can install by unzipping skill folders into `.codex/skills`, `.claude/skills`, `~/.codex/skills`, or `~/.claude/skills`.
