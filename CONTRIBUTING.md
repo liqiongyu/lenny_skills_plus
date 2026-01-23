@@ -12,6 +12,7 @@ This repository exists to convert RefoundAI “Lenny skills” into **agent-exec
 - Do not commit bulk-downloaded Refound content; keep it under `sources/refound/raw/` (ignored by git).
 - Prefer small, reviewable diffs (convert 1 skill or a small batch at a time).
 - Keep generated skill pack content in **English**.
+- Do not paste upstream content verbatim; see `docs/ATTRIBUTION_AND_IP.md`.
 
 ## Converting a skill (recommended)
 

@@ -13,6 +13,10 @@
 
 > 说明：Refound 的页面写“87 skills across 11 categories”，但 browse 页当前可数到 **86**（你会在 `sources/refound/refound_lenny_skills_manifest.csv` 看到 86 行）。建议始终以脚本重新抓取为准，因为站点可能随时更新。
 
+## 署名与知识产权（重要）
+
+这些 skills 的原始来源为 RefoundAI 的 “Lenny skills” 数据库。上游致谢与侵权/下架处理流程：`docs/ATTRIBUTION_AND_IP.zh-CN.md`。
+
 ## Repo metadata
 
 - License: Apache-2.0 (`LICENSE`)
