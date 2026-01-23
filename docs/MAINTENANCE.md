@@ -1,5 +1,7 @@
 # Maintenance
 
+> 中文版: `MAINTENANCE.zh-CN.md`
+
 ## Updating upstream sources
 
 Upstream Refound content can change. This repo keeps “raw sources” out of git by default.

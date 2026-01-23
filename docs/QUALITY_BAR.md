@@ -1,5 +1,7 @@
 # Quality bar for generated skills
 
+> 中文版: `QUALITY_BAR.zh-CN.md`
+
 A generated skill pack is “good” only if it is executable by an agent under uncertainty.
 
 Mandatory:
@@ -28,4 +30,3 @@ Red flags:
 - No explicit deliverables
 - No quality gates
 - One giant wall of text in SKILL.md
-

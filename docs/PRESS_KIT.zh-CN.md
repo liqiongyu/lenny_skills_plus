@@ -1,5 +1,7 @@
 # 宣传物料（可直接复制）
 
+> English version: `PRESS_KIT.md`
+
 这份文件提供可直接复制粘贴的宣传文案/发布文案/社区招募文案。
 
 上游署名与知识产权处理：见 `ATTRIBUTION_AND_IP.zh-CN.md`。
@@ -29,14 +31,26 @@ Lenny Skills Plus 是一个社区驱动的仓库：把 RefoundAI 的 “Lenny sk
 
 ## 推荐发布文案
 
-### 朋友圈 / 社群（短）
+### X / Twitter
 
-“开源了一个 skill packs 仓库：把 RefoundAI 的 ‘Lenny skills’ 变成 Agent 可执行的工作流（86 个 skills + 转换器）。每个 skill 都能产出模板/清单/计划/文档，支持 Codex + Claude Code。欢迎来用、来提 PR 共创：<link>”
+“我们开源了 Lenny Skills Plus：86 个可给 Agent 执行的 skill packs（外加一个转换器），把高层建议变成可交付工件——PRD、checklists、templates、rubrics——可在 Codex + Claude Code 中使用。Repo: <link>”
 
-### 长文 / 公众号（结构）
+### LinkedIn
 
-- 背景：好内容太 high-level，Agent 难以执行
-- 方法：把技能写成执行契约（输入/输出/流程/质量门槛）
-- 结果：86 个 skills + 转换器 meta-skill
-- 号召：欢迎用起来提 PR，共创把每个 skill 打磨到“真能用”
+“这些年我们见过很多高质量的产品/领导力方法论，但对 Agent 来说需要的是 *执行契约*，而不是长文。  
+Lenny Skills Plus 把 RefoundAI 的 ‘Lenny skills’ 转成 86 个可执行的 skill packs（以及一个用于继续转换的 meta-skill）：边界、输入/输出契约、步骤化流程、质量门槛。  
+欢迎在真实使用中发现问题并提 PR 共创。Repo: <link>”
 
+### Hacker News
+
+标题： “Show HN: Lenny Skills Plus — 86 agent-executable skill packs for Codex + Claude Code”
+
+正文：
+- What: 86 个 skill packs + 1 个转换器 meta-skill
+- Why: 高层建议 → 可执行工作流（含 artifacts + quality gates）
+- How: 将 `skills/` 镜像到 `.codex/skills` + `.claude/skills`，然后按名字调用
+- Ask: 希望获得对格式的反馈，并欢迎基于真实使用的贡献
+
+## Boilerplate（用于文章/长文）
+
+Lenny Skills Plus 是一个开源仓库：把高层 “skills” 内容转换为可给 Agent 执行的 skill packs，强调以可交付工件为核心的输出、缺失信息处理策略，以及质量门槛（checklists + rubric）。项目欢迎社区在真实使用中通过小 PR 持续改进。

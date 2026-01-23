@@ -1,5 +1,7 @@
 # Press kit (copy & paste)
 
+> 中文版: `PRESS_KIT.zh-CN.md`
+
 This file contains ready-to-use copy for announcements, posts, and community outreach.
 
 Upstream attribution & IP policy: see `ATTRIBUTION_AND_IP.md`.
@@ -52,4 +54,3 @@ Body:
 ## Boilerplate (for articles)
 
 Lenny Skills Plus is an open-source repository that turns high-level “skills” content into agent-executable skill packs. It focuses on artifact-driven outputs, missing-info strategies, and quality gates. The project is community-driven and welcomes improvements via small pull requests based on real usage.
-

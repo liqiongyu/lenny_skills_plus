@@ -1,5 +1,7 @@
 # Getting started
 
+> 中文版: `GETTING_STARTED.zh-CN.md`
+
 This repository contains a curated set of **agent-executable skill packs** under `skills/`.
 
 ## I just want to use the skills (recommended)

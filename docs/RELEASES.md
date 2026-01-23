@@ -1,16 +1,19 @@
 # Releases
 
+> 中文版: `RELEASES.zh-CN.md`
+
 This repo follows a simple release discipline:
 
 - `VERSION` stores the current version string (SemVer-style).
 - `CHANGELOG.md` captures notable changes.
+- `CHANGELOG.zh-CN.md` mirrors the changelog in Simplified Chinese.
 
 Suggested release checklist:
 1) Run lint across all skills:
    ```bash
    python3 scripts/ci_check_skillpacks.py --skip-mirror-check
    ```
-2) Update `CHANGELOG.md` and `VERSION`.
+2) Update `CHANGELOG.md`, `CHANGELOG.zh-CN.md`, and `VERSION`.
 3) Tag and release (if using GitHub):
    - use `gh release create ...` (see `PROJECT_MEMORY.md`).
 

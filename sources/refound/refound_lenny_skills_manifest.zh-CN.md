@@ -1,6 +1,6 @@
-# Refound — Lenny Skills SKILL.md URLs
+# Refound — Lenny Skills SKILL.md URLs（中文对照）
 
-> 中文版: `refound_lenny_skills_manifest.zh-CN.md`
+> English version: `refound_lenny_skills_manifest.md`
 
 Generated on 2026-01-22.
 

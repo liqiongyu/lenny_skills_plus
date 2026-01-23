@@ -1,5 +1,7 @@
 # Contributing
 
+> 中文版: `CONTRIBUTING.zh-CN.md`
+
 Thanks for helping improve this repository.
 
 ## What this repo is for
