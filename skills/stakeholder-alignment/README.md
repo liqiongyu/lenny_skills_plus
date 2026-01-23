@@ -18,5 +18,5 @@ Invoke with a concrete alignment goal and context. Examples:
 - “Draft an alignment pre-read + meeting plan + follow-up comms for exec buy-in.”
 - “We keep leaving meetings ‘aligned’ and then un-aligning—create a no-surprises process.”
 
-Expected deliverable: a **Stakeholder Alignment Pack** as described in `SKILL.md`, using templates in `references/TEMPLATES.md`.
+Expected deliverable: a **Stakeholder Alignment Pack** as described in [SKILL.md](SKILL.md), using templates in [references/TEMPLATES.md](references/TEMPLATES.md).
 

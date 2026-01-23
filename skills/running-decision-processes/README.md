@@ -16,10 +16,10 @@ Use language like:
 
 “Use `running-decision-processes`. Decision: <one sentence>. Deadline: <date>. Context/why now: <what changed>. Constraints: <non-negotiables>. Stakeholders/approvers: <names/roles>. Options: <current options>. Output: a Decision Process Pack.”
 
-If key details are missing, the skill asks up to 5 intake questions (see `references/INTAKE.md`) and proceeds with explicit assumptions.
+If key details are missing, the skill asks up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and proceeds with explicit assumptions.
 
 ## Optional file output
-If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/decisions/<topic>/`) using `references/TEMPLATES.md`.
+If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/decisions/<topic>/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “Create a decision memo and run a DACI process to decide whether we should expand to Germany this quarter.”

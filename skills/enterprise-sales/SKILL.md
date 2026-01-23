@@ -40,7 +40,7 @@ description: "Create an Enterprise Deal Execution Pack (buying committee map + c
 - Constraints: what you can offer (pilot scope, services, security docs), internal resourcing, red lines
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If answers aren’t available, proceed with explicit assumptions and label unknowns in **Assumptions & unknowns**, plus a short **Validation plan**.
 
 ## Outputs (deliverables)
@@ -56,12 +56,12 @@ Produce an **Enterprise Deal Execution Pack** in Markdown (in-chat; or as files 
 7) **Close + implementation handoff** (commercials, signature plan, kickoff + first value milestones)
 8) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (7 steps)
 
 ### 1) Intake + enterprise qualification (what “enterprise” means here)
-- **Inputs:** User context; `references/INTAKE.md`.
+- **Inputs:** User context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm deal type (buying committee, procurement/security, ACV, timeline). Capture the core use case and desired business outcome. Identify the #1 stall risk (no decision vs procurement vs security vs POC).
 - **Outputs:** Deal snapshot + assumptions/unknowns + validation plan.
 - **Checks:** There is a clear outcome, buyer, and timeline (even if assumed).
@@ -98,12 +98,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 7) Quality gate + finalize (close-to-implementation)
 - **Inputs:** Draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add a signature plan (who signs, when) and an implementation handoff (kickoff, first value milestone). Always include **Risks / Open questions / Next steps**.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add a signature plan (who signs, when) and an implementation handoff (kickoff, first value milestone). Always include **Risks / Open questions / Next steps**.
 - **Outputs:** Final Enterprise Deal Execution Pack.
 - **Checks:** Next steps are executable this week; assumptions are explicit; “no decision” risk is actively managed.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

@@ -13,10 +13,10 @@ Note: the source references a deeper file (`references/guest-insights.md`) that 
 Preserved as: Step 4 (Decision enablement + MAP) in `../SKILL.md`, and checklist **D** + rubric category **4**.
 
 2) **Procurement requires the seller to do the paperwork; make their job easy (Jen Abel)**  
-Preserved as: Step 6 (Procurement + security execution) in `../SKILL.md`, and templates for pre-filling forms in `TEMPLATES.md`.
+Preserved as: Step 6 (Procurement + security execution) in `../SKILL.md`, and templates for pre-filling forms in [TEMPLATES.md](TEMPLATES.md).
 
 3) **Product-led sales converts self-serve usage into enterprise opportunity (Elena Verna)**  
-Preserved as: “Covers” + “When to use” triggers in `../SKILL.md`, plus intake questions on usage signals in `INTAKE.md`.
+Preserved as: “Covers” + “When to use” triggers in `../SKILL.md`, plus intake questions on usage signals in [INTAKE.md](INTAKE.md).
 
 4) **The champion is the key persona in complex buying committees (April Dunford)**  
 Preserved as: Step 2 (Buying committee map + champion) and Step 3 (Champion enablement kit) in `../SKILL.md`, and checklist **B/C**.

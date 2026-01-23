@@ -37,7 +37,7 @@ description: "Build an early sales team and operating cadence (readiness gate, h
 - Timeline + success definition (e.g., “2 reps ramped to $X pipeline/month in 90 days”)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If data is missing, proceed with explicit assumptions and deliver **two options**: (A) “Hire now (pilot)” vs (B) “Wait + founder-led milestones to hit first”.
 
 ## Outputs (deliverables)
@@ -52,12 +52,12 @@ Produce a **Sales Team Build Pack** in Markdown (in-chat; or as files if request
 6) **Onboarding + 30/60/90 ramp plan** + coaching/metrics cadence
 7) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (7 steps)
 
 ### 1) Intake + stage gating (should we hire now?)
-- **Inputs:** User context; `references/INTAKE.md`; any funnel history.
+- **Inputs:** User context; [references/INTAKE.md](references/INTAKE.md); any funnel history.
 - **Actions:** Identify the GTM motion and whether the founder has achieved a repeatable baseline. Look for: (a) organic demand/hand-raisers (if PLG), and/or (b) a repeatable win rate from first meeting → close (target range often ~15–25% over ~50–100 at-bats). Decide: **Hire now** vs **Wait**.
 - **Outputs:** Context snapshot + readiness gate decision + assumptions/unknowns.
 - **Checks:** The decision is tied to measurable evidence (or clearly labeled assumptions).
@@ -85,7 +85,7 @@ Templates: `references/TEMPLATES.md`
 - **Checks:** Scorecards are specific enough that two interviewers would rate candidates similarly.
 
 ### 5) Build an interview loop with practical tests
-- **Inputs:** Scorecards; `references/TEMPLATES.md` (interview kit).
+- **Inputs:** Scorecards; [references/TEMPLATES.md](references/TEMPLATES.md) (interview kit).
 - **Actions:** Define stages, interviewers, and exercises (e.g., mock discovery, objection handling, written follow-up email, product deep-dive, “explain to 10 engineers” test). Add structured scoring and a debrief protocol to reduce gut-feel hiring.
 - **Outputs:** Interview plan + question bank + score sheet.
 - **Checks:** Every interview maps to a scorecard signal; pass/fail criteria are explicit.
@@ -98,12 +98,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 7) Quality gate + finalize
 - **Inputs:** Draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add **Risks / Open questions / Next steps** and identify what would change the hire/wait decision.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add **Risks / Open questions / Next steps** and identify what would change the hire/wait decision.
 - **Outputs:** Final Sales Team Build Pack.
 - **Checks:** A stakeholder can approve the plan and start hiring this week (or confidently defer with clear milestones).
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

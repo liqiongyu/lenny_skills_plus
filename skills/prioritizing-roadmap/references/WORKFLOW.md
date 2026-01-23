@@ -100,7 +100,7 @@ Always add a **Think Bigger** section:
 - Capture 3–5 big-bet ideas; decide whether they belong in discovery or future seasons.
 
 ## Step 8 — Quality gate + finalize
-Run `CHECKLISTS.md` and score with `RUBRIC.md`, then finalize with:
+Run [CHECKLISTS.md](CHECKLISTS.md) and score with [RUBRIC.md](RUBRIC.md), then finalize with:
 - Risks (what could go wrong, what might we be wrong about)
 - Open questions (what would change the ranking)
 - Next steps (owners + dates if possible)

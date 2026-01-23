@@ -38,7 +38,7 @@ description: "Plan and execute earned media outreach and journalist relationship
 - Guardrails: what cannot be shared publicly; any legal/compliance requirements
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md` (3–5 at a time), then proceed.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md) (3–5 at a time), then proceed.
 - If proof is missing, use placeholders and output an “evidence to collect” list (do not invent facts).
 - If you can’t share sensitive details, accept redacted versions and write pitches at a higher level.
 
@@ -57,15 +57,15 @@ Produce a **Media Relations Pack** (Markdown in-chat; or as files if requested) 
 9) **Risks / Open questions / Next steps** (always included)
 
 Templates and checklists:
-- `references/TEMPLATES.md`
-- `references/WORKFLOW.md`
-- `references/CHECKLISTS.md`
-- `references/RUBRIC.md`
+- [references/TEMPLATES.md](references/TEMPLATES.md)
+- [references/WORKFLOW.md](references/WORKFLOW.md)
+- [references/CHECKLISTS.md](references/CHECKLISTS.md)
+- [references/RUBRIC.md](references/RUBRIC.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + success definition
-- **Inputs:** User prompt; `references/INTAKE.md`.
+- **Inputs:** User prompt; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm the announcement, primary audience, desired window, and what success means (e.g., “2–4 tier-1/2 hits” or “reach X niche audience”). Capture constraints and approvals.
 - **Outputs:** Context snapshot + assumptions/TBDs list.
 - **Checks:** You can answer in one sentence: “The goal of this outreach is _____ by _____.”
@@ -107,13 +107,13 @@ Templates and checklists:
 - **Checks:** Spokesperson is aligned on 3 key messages; sensitive topics have safe responses; logistics are confirmed.
 
 ### 8) Post-coverage: amplify + maintain relationships + quality gate
-- **Inputs:** Coverage links; tracker; `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- **Inputs:** Coverage links; tracker; [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - **Actions:** Log coverage, send thank-yous, amplify appropriately, and update relationship notes. Score the pack with the rubric and include Risks/Open questions/Next steps.
 - **Outputs:** Final Media Relations Pack + post-mortem notes (what worked/what to change).
 - **Checks:** You can re-run the outreach loop next time using the tracker and templates with minimal rework.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

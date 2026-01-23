@@ -22,6 +22,6 @@ Example prompts:
 2) “Draft a promotion denial talk track that’s direct and includes hope + a path forward. Include a follow-up note and check-in plan.”
 
 ## Files
-- `SKILL.md` — the execution contract
+- [SKILL.md](SKILL.md) — the execution contract
 - `references/` — intake, expanded workflow, templates, checklists, rubric, source summary
 

@@ -71,5 +71,5 @@ Final checks:
 - Zoom: lighting, camera angle, mic, screen share permissions
 - In-person: clicker, adapter, stage/room walk-through if possible
 
-Run `CHECKLISTS.md` + `RUBRIC.md` before finalizing.
+Run [CHECKLISTS.md](CHECKLISTS.md) + [RUBRIC.md](RUBRIC.md) before finalizing.
 

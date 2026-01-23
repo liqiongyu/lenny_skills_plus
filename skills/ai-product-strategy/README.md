@@ -17,10 +17,10 @@ Use language like:
 
 “Use `ai-product-strategy`. Context: <product, user, job, why now>. Goal: <what outcome>. Constraints: <timeline, budget, policy/legal, data>. Scope: <assistant|copilot|agent>. Output: AI Product Strategy Pack.”
 
-If details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and then proceed with explicit assumptions.
+If details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceed with explicit assumptions.
 
 ## Optional file output
-If you want artifacts as files, ask the agent to write the pack under a folder you specify (e.g., `docs/strategy/<initiative>/`) using `references/TEMPLATES.md`.
+If you want artifacts as files, ask the agent to write the pack under a folder you specify (e.g., `docs/strategy/<initiative>/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “We’re building an AI agent for expense approvals. Use `ai-product-strategy` and include autonomy limits, security risks, and a phased rollout plan.”

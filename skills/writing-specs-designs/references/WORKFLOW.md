@@ -73,7 +73,7 @@ Common failure mode: “requirements” that are actually aspirations.
 
 ## Step 8 — Quality gate + finalize
 Before circulation:
-- Run `CHECKLISTS.md` and score `RUBRIC.md`
+- Run [CHECKLISTS.md](CHECKLISTS.md) and score [RUBRIC.md](RUBRIC.md)
 - Ensure Risks/Open questions/Next steps exist
 - Clearly mark decisions vs assumptions and who owns open questions
 

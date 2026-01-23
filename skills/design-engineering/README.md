@@ -16,10 +16,10 @@ Use language like:
 
 “Use `design-engineering`. Context: <product + team>. Goal: <why now>. Current state: <design artifacts + stack + existing design system>. Constraints: <timeline/a11y/perf/compliance>. Output: a Design Engineering Execution Pack.”
 
-If key details are missing, the skill asks up to 5 intake questions (see `references/INTAKE.md`) and then proceeds with explicit assumptions.
+If key details are missing, the skill asks up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceeds with explicit assumptions.
 
 ## Optional file output
-If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/design-engineering/`) using `references/TEMPLATES.md`.
+If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/design-engineering/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “We want to create a design engineering function—write the charter, boundaries, and operating cadence.”

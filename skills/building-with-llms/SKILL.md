@@ -37,7 +37,7 @@ description: "Produce an LLM Build Pack (prompt+tool contract, data/eval plan, a
 - Integration surface: UI/workflow, downstream systems/APIs/tools, and any required output schema
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md` (3–5 at a time).
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md) (3–5 at a time).
 - If details remain missing, proceed with explicit assumptions and provide 2–3 options (prompting vs RAG vs tool use; autonomy level).
 - If asked to write code or run commands, request confirmation and use least privilege (no secrets; avoid destructive changes).
 
@@ -53,7 +53,7 @@ Produce an **LLM Build Pack** (in chat; or as files if requested), in this order
 6) **Launch + monitoring plan** (logging, dashboards/alerts, fallback/rollback, incident playbook hooks)
 7) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (8 steps)
 
@@ -101,12 +101,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 8) Quality gate + finalize
 - **Inputs:** Full draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Tighten unclear contracts, add missing tests, and always include **Risks / Open questions / Next steps**.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Tighten unclear contracts, add missing tests, and always include **Risks / Open questions / Next steps**.
 - **Outputs:** Final **LLM Build Pack**.
 - **Checks:** A team can execute the plan without a meeting; unknowns are explicit and owned.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

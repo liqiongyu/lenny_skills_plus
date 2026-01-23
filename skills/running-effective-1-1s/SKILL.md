@@ -36,7 +36,7 @@ description: "Run effective 1:1s and skip-levels as a manager/leader and produce
 - Constraints: meeting load, confidentiality/PII rules, any HR policies, time box/deadline
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md` (3–5 at a time).
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md) (3–5 at a time).
 - If key details are missing, proceed with a **default 1:1 operating system** and clearly label assumptions.
 - Do not request secrets or sensitive personal data; use anonymized summaries.
 
@@ -53,13 +53,13 @@ Produce a **1:1 Operating System Pack** in Markdown (in-chat; or as files if req
 7) **Special-situation playbooks** (post-crisis listening session; urgent topical meeting; skip-level template)
 8) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + boundaries + safety
-- **Inputs:** user context; `references/INTAKE.md`.
+- **Inputs:** user context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm goals for 1:1s, current failure modes, constraints, and any HR/safety boundaries. Decide which deliverables are needed (full pack vs just templates).
 - **Outputs:** Context snapshot + assumptions/unknowns list.
 - **Checks:** The purpose of 1:1s is explicit and does not conflict with HR/legal policy.
@@ -102,12 +102,12 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 8) Quality gate + rollout plan
 - **Inputs:** full draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add **Risks / Open questions / Next steps**. Propose a 2–4 week pilot with review prompts.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add **Risks / Open questions / Next steps**. Propose a 2–4 week pilot with review prompts.
 - **Outputs:** Final 1:1 Operating System Pack.
 - **Checks:** Pack is immediately usable; responsibilities and follow-ups are explicit.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

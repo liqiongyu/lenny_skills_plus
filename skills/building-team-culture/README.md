@@ -22,6 +22,6 @@ Example prompts:
 2) “Diagnose why psychological safety is low and propose 3 concrete changes we can implement this month. Include success signals and risks.”
 
 ## Files
-- `SKILL.md` — the execution contract
+- [SKILL.md](SKILL.md) — the execution contract
 - `references/` — intake, expanded workflow, templates, checklists, rubric, source summary
 

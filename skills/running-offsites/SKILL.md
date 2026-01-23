@@ -37,7 +37,7 @@ description: "Plan and run a high-signal team offsite/retreat and produce an Off
 - Current state: what’s broken today + any known tensions/elephants-in-the-room
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md` (3–5 at a time).
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md) (3–5 at a time).
 - If details are missing, proceed with explicit assumptions and offer 2–3 format options.
 - Do not request secrets; use anonymized/redacted context.
 
@@ -52,13 +52,13 @@ Produce an **Offsite Pack** (Markdown in-chat; or files if requested) in this or
 6) **Post-Offsite Output Pack** (notes, decisions, action plan, follow-up comms, review checkpoints)
 7) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + boundary check (don’t design the wrong offsite)
-- **Inputs:** user context; `references/INTAKE.md`.
+- **Inputs:** user context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm: offsite type, desired outputs, constraints, and whether there’s underlying conflict/trust debt that must be handled first.
 - **Outputs:** Context snapshot + assumptions/unknowns list + “offsite is appropriate” decision.
 - **Checks:** You can name the “elephants” (at a safe level) and decide whether to address them directly, defer them, or escalate.
@@ -79,7 +79,7 @@ Expanded guidance: `references/WORKFLOW.md`
 - **Checks:** The format matches the work (creative/strategic/relationship) and the energy budget (no 8 hours of talks).
 
 ### 4) Design the agenda as a sequence of outputs
-- **Inputs:** outcomes; session library in `references/WORKFLOW.md`.
+- **Inputs:** outcomes; session library in [references/WORKFLOW.md](references/WORKFLOW.md).
 - **Actions:** Build a timed agenda where every session produces an artifact (decision log entry, principles list, strategy bets, roadmap slice, working agreements). Add breaks and “connection first” time.
 - **Outputs:** Agenda + Session Output Map.
 - **Checks:** At least 60% of time is interactive/co-creation; sessions have explicit facilitators and outputs.
@@ -109,7 +109,7 @@ Expanded guidance: `references/WORKFLOW.md`
 - **Checks:** Every decision has an owner and next step; stakeholders not in the room receive a crisp summary.
 
 ## Quality gate (required)
-- Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`.
+- Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

@@ -36,7 +36,7 @@ description: "Run a high-quality decision process and produce a Decision Process
 - Current options under consideration (even if rough) and key uncertainties
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If answers are unavailable, proceed with explicit assumptions and label unknowns.
 
 ## Outputs (deliverables)
@@ -50,7 +50,7 @@ Produce a **Decision Process Pack** (Markdown in-chat, or files if requested) in
 6) **Decision Review Plan** (what to measure, when to revisit, how to learn)
 7) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (8 steps)
 
@@ -103,7 +103,7 @@ Templates: `references/TEMPLATES.md`
 - **Checks:** A review date and measurement plan exist; assumptions are testable and tracked.
 
 ## Quality gate (required)
-- Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`.
+- Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

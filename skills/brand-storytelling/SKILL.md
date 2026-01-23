@@ -38,7 +38,7 @@ description: "Create a Brand Storytelling Pack (brand narrative, founder/origin 
 - Constraints: taboo words, compliance/claims rules, tone/voice
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md` (3–5 at a time).
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md) (3–5 at a time).
 - If details are missing, proceed with explicit assumptions and label unknowns/TBDs.
 - Never invent facts; offer placeholders and a short “evidence to collect” list.
 
@@ -55,13 +55,13 @@ Produce a **Brand Storytelling Pack** in Markdown (in-chat; or as files if reque
 7) **Pithy answers + Q&A bank** (top questions + crisp responses)
 8) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + success definition
-- **Inputs:** User context + `references/INTAKE.md`.
+- **Inputs:** User context + [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Identify the primary audience, channel(s), and what must change (belief, trust, recall, conversion). Capture constraints and known proof.
 - **Outputs:** Context snapshot + assumptions/TBDs list.
 - **Checks:** You can answer in one sentence: “After hearing/reading this story, the audience will _____.”
@@ -104,12 +104,12 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 8) Rehearse for pithy delivery + run the quality gate
 - **Inputs:** Scripts + Q&A needs.
-- **Actions:** Generate pithy answers (1 sentence) for the top questions. Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add Risks/Open questions/Next steps.
+- **Actions:** Generate pithy answers (1 sentence) for the top questions. Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add Risks/Open questions/Next steps.
 - **Outputs:** Final Brand Storytelling Pack.
 - **Checks:** A teammate can repeat the core story after one read, and the story is truthful and consistent with the brand perception target.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

@@ -17,10 +17,10 @@ Use language like:
 
 “Use `managing-tech-debt`. Context: <system/service>. Pain: <symptoms + why now>. Horizon: <timeline>. Constraints: <team capacity/compliance/freeze windows>. Stakeholders: <who decides>. Output: a Tech Debt Management Pack.”
 
-If key details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and then proceed with explicit assumptions.
+If key details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceed with explicit assumptions.
 
 ## Optional file output
-If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/tech-debt/`) using `references/TEMPLATES.md`.
+If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/tech-debt/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “Create a tech debt register for our monolith and prioritize the top 10 items for the next 2 months.”

@@ -35,7 +35,7 @@ description: "Stand up a Design Engineering practice (hybrid design+engineering)
 - Constraints: team composition, timeline, quality bar, accessibility/compliance requirements
 
 **Missing-info strategy**
-- Ask up to **5** questions from `references/INTAKE.md`, then proceed with explicit assumptions.
+- Ask up to **5** questions from [references/INTAKE.md](references/INTAKE.md), then proceed with explicit assumptions.
 - If the team/stack is unknown, assume a modern web stack (component library + CI) and call out assumptions.
 - Do not request secrets/credentials; use redacted identifiers.
 
@@ -51,12 +51,12 @@ Produce a **Design Engineering Execution Pack** in Markdown (in-chat by default;
 6) **Quality bar** (checklists + rubric score)
 7) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (7 steps)
 
 ### 1) Intake + success definition
-- **Inputs:** User context; `references/INTAKE.md`.
+- **Inputs:** User context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm scope (product area), stakeholders, and what “design engineering” means here (role vs function vs project). Define success signals (e.g., faster UI iteration, fewer handoff bugs, higher consistency, improved accessibility).
 - **Outputs:** Context snapshot (draft).
 - **Checks:** The team can answer in one sentence: “What will change if we do this well?”
@@ -93,12 +93,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 7) Quality gate + alignment + finalization
 - **Inputs:** Draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add stakeholder cadence and a lightweight decision log (what was chosen, why). Finalize **Risks / Open questions / Next steps**.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add stakeholder cadence and a lightweight decision log (what was chosen, why). Finalize **Risks / Open questions / Next steps**.
 - **Outputs:** Final Design Engineering Execution Pack.
 - **Checks:** Quality bar is explicit; ownership is unambiguous; risks and open questions are not hidden.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

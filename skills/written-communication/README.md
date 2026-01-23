@@ -14,10 +14,10 @@ Use language like:
 
 “Use `written-communication`. Artifact: <email|memo|doc|status update>. Audience: <who>. Goal/ask: <what they should do>. Context: <key facts + links>. Constraints: <tone, length, deadline>. Output: <final draft + next steps>.”
 
-If details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and then proceed with explicit assumptions.
+If details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceed with explicit assumptions.
 
 ## Optional file output
-If you want the deliverables as files, specify a folder path (e.g., `docs/comms/<topic>/`) and the agent will write the pack using `references/TEMPLATES.md`.
+If you want the deliverables as files, specify a folder path (e.g., `docs/comms/<topic>/`) and the agent will write the pack using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “Draft an exec email: we’re delaying launch 2 weeks; ask is approval to cut scope; include next steps with owners.”

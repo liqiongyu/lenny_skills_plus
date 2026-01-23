@@ -38,7 +38,7 @@ description: "Turn a deadline, launch date, or delivery target into an executabl
 - Known dependencies and risks (other teams, vendors, data availability, approvals)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If answers aren’t available, proceed with explicit assumptions and list **Open questions** that could change the date or scope.
 
 ## Outputs (deliverables)
@@ -53,13 +53,13 @@ Produce a **Timeline Management Pack** in Markdown (in-chat; or as files if the 
 6) **Stakeholder comms pack** (weekly update template + escalation note)
 7) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + deadline classification
-- **Inputs:** User request; `references/INTAKE.md`.
+- **Inputs:** User request; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Identify the deadline type (fixed vs target vs window), the “why now”, and what variable can move (scope, resources, quality, or date).
 - **Outputs:** Deadline classification + constraints snapshot.
 - **Checks:** You can state: “The date is <fixed/target/window> because <reason>. The variable we will trade is <scope/resources/etc>.”
@@ -102,12 +102,12 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 8) Quality gate + finalize
 - **Inputs:** Full draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Ensure **Risks / Open questions / Next steps** exist with owners and dates.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Ensure **Risks / Open questions / Next steps** exist with owners and dates.
 - **Outputs:** Final Timeline Management Pack.
 - **Checks:** A stakeholder can approve the plan async and the team can execute without re-litigating dates every week.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

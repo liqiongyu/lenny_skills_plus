@@ -70,5 +70,5 @@ You don’t need a perfect data room early, but you do need:
 - Customer evidence (quotes, case studies, pilots)
 - Product demo/roadmap clarity
 
-Use the data-room checklist in `TEMPLATES.md` to avoid missing obvious asks.
+Use the data-room checklist in [TEMPLATES.md](TEMPLATES.md) to avoid missing obvious asks.
 

@@ -22,6 +22,6 @@ Example prompts:
 2) “Redesign my 1:1s to reduce meeting load using a barbell approach. Include skip-level templates and a 4-week pilot plan.”
 
 ## Files
-- `SKILL.md` — the execution contract
+- [SKILL.md](SKILL.md) — the execution contract
 - `references/` — intake, expanded workflow, templates, checklists, rubric, source summary
 

@@ -35,26 +35,26 @@ description: "Turn an engineering strategy into a written Technical Roadmap Pack
 - **Candidate initiatives:** known platform/architecture/tech-debt items (even a rough list).
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If answers aren’t available, proceed with explicit assumptions and list them under **Open questions**.
 
 ## Outputs (deliverables)
 
 Produce a **Technical Roadmap Pack** in Markdown (in-chat; or as files if the user requests):
 
-1) **Technical Strategy (Rumelt)**: Diagnosis → Guiding policy → Coherent actions (template: `references/TEMPLATES.md`)
+1) **Technical Strategy (Rumelt)**: Diagnosis → Guiding policy → Coherent actions (template: [references/TEMPLATES.md](references/TEMPLATES.md))
 2) **Roadmap table** (Now/Next/Later or quarters) with owners, dependencies, milestones, confidence, and metrics
 3) **Initiative briefs** for the top 3–6 roadmap items (1 page each)
 4) **Dependency + risk register** (top cross-team deps, key risks, mitigations)
 5) **Alignment + governance plan** (review cadence, update rules, decision owners, comms template)
 6) **Risks / Open questions / Next steps** (always included)
 
-Expanded guidance: `references/WORKFLOW.md`
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (7 steps)
 
 ### 1) Intake + audience alignment
-- **Inputs:** User request; `references/INTAKE.md`.
+- **Inputs:** User request; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm the audience, horizon, and roadmap “shape” (quarters vs Now/Next/Later). Identify the decision the roadmap must enable (funding, sequencing, headcount, trade-offs).
 - **Outputs:** Intake summary + explicit assumptions + open questions list (if any).
 - **Checks:** You can state: “This roadmap is for <audience> to decide <decision> over <horizon> using <format>.”
@@ -62,7 +62,7 @@ Expanded guidance: `references/WORKFLOW.md`
 ### 2) Write the strategy (Rumelt: Diagnosis → Guiding policy → Coherent actions)
 - **Inputs:** Current-state signals; constraints; product/business context.
 - **Actions:** Draft a written strategy using the Rumelt structure. Keep it concrete: name the constraints and trade-offs.
-- **Outputs:** Technical Strategy section using `references/TEMPLATES.md`.
+- **Outputs:** Technical Strategy section using [references/TEMPLATES.md](references/TEMPLATES.md).
 - **Checks:** A reader can answer: “What’s the problem?”, “What’s our approach?”, “What actions are we taking (and not taking)?”
 
 ### 3) Build the initiative inventory (candidate “coherent actions”)
@@ -86,17 +86,17 @@ Expanded guidance: `references/WORKFLOW.md`
 ### 6) Draft initiative briefs + alignment plan
 - **Inputs:** Roadmap; top items; stakeholder map.
 - **Actions:** Write 1-page briefs for the top 3–6 items and a comms/governance plan (review cadence, update rules, decision owners).
-- **Outputs:** Initiative briefs + alignment/governance section (templates in `references/TEMPLATES.md`).
+- **Outputs:** Initiative briefs + alignment/governance section (templates in [references/TEMPLATES.md](references/TEMPLATES.md)).
 - **Checks:** Stakeholders know when/how the roadmap will change and what inputs trigger a refresh.
 
 ### 7) Quality gate + finalize
 - **Inputs:** Full draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Ensure **Risks / Open questions / Next steps** are present with owners and dates where possible.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Ensure **Risks / Open questions / Next steps** are present with owners and dates where possible.
 - **Outputs:** Final Technical Roadmap Pack.
 - **Checks:** The pack is “debuggable”: written, coherent, measurable, and reviewable.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

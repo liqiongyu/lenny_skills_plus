@@ -22,6 +22,6 @@ Example prompts:
 2) “We’re debating ship fast vs ship better. Create a trade-off pack and propose a ‘worse-first’ mitigation plan.”
 
 ## Files
-- `SKILL.md` — the execution contract
+- [SKILL.md](SKILL.md) — the execution contract
 - `references/` — intake, expanded workflow, templates, checklists, rubric, source summary
 

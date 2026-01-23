@@ -1,6 +1,6 @@
 # Contributing
 
-> 中文版: `CONTRIBUTING.zh-CN.md`
+> 中文版: [CONTRIBUTING.zh-CN.md](CONTRIBUTING.zh-CN.md)
 
 Thanks for helping improve this repository.
 
@@ -14,8 +14,8 @@ This repository exists to convert RefoundAI “Lenny skills” into **agent-exec
 - Do not commit bulk-downloaded Refound content; keep it under `sources/refound/raw/` (ignored by git).
 - Prefer small, reviewable diffs (convert 1 skill or a small batch at a time).
 - Keep generated skill pack content in **English**.
-- When you modify a skill, update `skills/<skill-slug>/skillpack.json` (bump `version` and add yourself to `contributors` as appropriate).
-- Do not paste upstream content verbatim; see `docs/ATTRIBUTION_AND_IP.md`.
+- When you modify a skill, update `skills/<skill-slug>/skillpack.json` (bump [version](version) and add yourself to `contributors` as appropriate).
+- Do not paste upstream content verbatim; see [docs/ATTRIBUTION_AND_IP.md](docs/ATTRIBUTION_AND_IP.md).
 
 ## Converting a skill (recommended)
 

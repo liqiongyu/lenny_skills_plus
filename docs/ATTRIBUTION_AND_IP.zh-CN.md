@@ -1,6 +1,6 @@
 # 署名与知识产权（Refound/Lenny）
 
-> English version: `ATTRIBUTION_AND_IP.md`
+> English version: [ATTRIBUTION_AND_IP.md](ATTRIBUTION_AND_IP.md)
 
 这个项目的目标：在**尊重原创**与**明确署名来源**的前提下，把 RefoundAI 的 “Lenny skills” 从“高层方法论”转化为“Agent 可执行”的技能包（能产出具体工件、模板、清单、质量门槛）。
 
@@ -8,7 +8,7 @@
 
 - 原始来源：RefoundAI “Lenny skills” 数据库：`https://refoundai.com/lenny-skills/`
 - 本仓库与 RefoundAI、以及 Lenny / Lenny’s Podcast **没有官方关联**。
-- 如果你希望把本仓库作为公开/共创项目长期运营，建议主动请求明确授权：`REQUESTING_UPSTREAM_PERMISSION.zh-CN.md`。
+- 如果你希望把本仓库作为公开/共创项目长期运营，建议主动请求明确授权：[REQUESTING_UPSTREAM_PERMISSION.zh-CN.md](REQUESTING_UPSTREAM_PERMISSION.zh-CN.md)。
 
 ## 本仓库包含什么（以及刻意避免什么）
 

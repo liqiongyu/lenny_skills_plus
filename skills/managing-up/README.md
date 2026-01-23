@@ -22,6 +22,6 @@ Example prompts:
 2) “I need more influence with execs. Build a 30-day seat-at-the-table plan and a decision/trade-off memo template.”
 
 ## Files
-- `SKILL.md` — the execution contract
+- [SKILL.md](SKILL.md) — the execution contract
 - `references/` — intake, expanded workflow, templates, checklists, rubric, source summary
 

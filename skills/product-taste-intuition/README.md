@@ -17,10 +17,10 @@ Use language like:
 
 “Use `product-taste-intuition`. Domain: <onboarding/activation/etc>. Target user + job: <...>. Benchmarks: <list or ‘unknown—propose’>. Time box: <...>. Constraints: <platform/brand/compliance>. Output: a Taste Calibration Pack.”
 
-If key details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and then proceed with explicit assumptions.
+If key details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceed with explicit assumptions.
 
 ## Optional file output
-If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/product-taste-intuition/`) using `references/TEMPLATES.md`.
+If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/product-taste-intuition/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “Calibrate onboarding taste for our fintech app. Propose benchmarks and produce a Taste Calibration Pack.”

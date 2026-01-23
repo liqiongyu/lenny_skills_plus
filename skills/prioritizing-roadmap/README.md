@@ -17,10 +17,10 @@ Use language like:
 
 “Use `prioritizing-roadmap`. Context: <product + segment + goal>. Horizon: <timeframe>. Constraints: <capacity/deadlines/dependencies>. Input: <candidate initiatives or current backlog>. Output: a Roadmap Prioritization Pack.”
 
-If details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and then proceed with explicit assumptions.
+If details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceed with explicit assumptions.
 
 ## Optional file output
-If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/roadmap-prioritization/`) using `references/TEMPLATES.md`.
+If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/roadmap-prioritization/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “We’re a B2B SaaS. Prioritize our Q2 roadmap across Growth and Core. We have 6 engineers and 1 designer. Output a Roadmap Prioritization Pack.”

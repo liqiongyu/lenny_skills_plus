@@ -10,10 +10,10 @@ Note: the raw source content appears truncated mid-sentence in the Elena Verna s
 ## Top insights preserved and how they were transformed
 
 1) **“Product-led sales converts the usage … into a sales opportunity” (Elena Verna)**  
-Preserved as: the definition in **Scope** and the conversion-oriented deliverables in `../SKILL.md`, plus the funnel/intervention templates in `TEMPLATES.md`.
+Preserved as: the definition in **Scope** and the conversion-oriented deliverables in `../SKILL.md`, plus the funnel/intervention templates in [TEMPLATES.md](TEMPLATES.md).
 
 2) **Sales outreach should be triggered by data signals from product usage (Hila Qu)**  
-Preserved as: the signal spec + routing workflow (Steps 3–5 in `../SKILL.md`) and the usage-triggered outreach kit (Step 6), with templates in `TEMPLATES.md`.
+Preserved as: the signal spec + routing workflow (Steps 3–5 in `../SKILL.md`) and the usage-triggered outreach kit (Step 6), with templates in [TEMPLATES.md](TEMPLATES.md).
 
 ## Notes on additions (manufactured execution layers)
 The source skill is insight-heavy and light on executable process. This skill pack adds:

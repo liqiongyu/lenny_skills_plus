@@ -18,10 +18,10 @@ Use language like:
 
 “Use `design-systems`. Context: <product + platforms>. Current state: <Figma library/code/Storybook + pain points>. Goal: <why now>. Constraints: <timeline + ownership + a11y/compliance>. Output: a Design System Operating Pack.”
 
-If key details are missing, the skill asks up to 5 intake questions (see `references/INTAKE.md`) and then proceeds with explicit assumptions.
+If key details are missing, the skill asks up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceeds with explicit assumptions.
 
 ## Optional file output
-If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/design-system/`) using `references/TEMPLATES.md`.
+If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/design-system/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “We need tokens + components to standardize our UI—create a charter, token model, and a 6-week roadmap.”

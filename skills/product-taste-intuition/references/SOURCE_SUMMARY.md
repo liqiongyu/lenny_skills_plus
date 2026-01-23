@@ -11,10 +11,10 @@
 Mapped to: **Intuition → Hypothesis Log** + falsifiable checks (SKILL workflow steps 6–7).
 
 2) **Taste differentiates in an era of “slop”** (Alex Komoroske)  
-Mapped to: **Anti-pattern (“slop filter”)** checklist + rules section (workflow step 5; templates in `TEMPLATES.md`).
+Mapped to: **Anti-pattern (“slop filter”)** checklist + rules section (workflow step 5; templates in [TEMPLATES.md](TEMPLATES.md)).
 
 3) **Taste is developable through exposure hours** (Guillermo Rauch)  
-Mapped to: **Benchmark set** + **2–4 week practice plan** (workflow steps 3 and 8; `WORKFLOW.md` guidance).
+Mapped to: **Benchmark set** + **2–4 week practice plan** (workflow steps 3 and 8; [WORKFLOW.md](WORKFLOW.md) guidance).
 
 4) **Build product sense via observation + curiosity + self-observation** (Julie Zhuo)  
 Mapped to: **moment-based critique notes** + validate with qual/quant checks (workflow steps 4 and 7).

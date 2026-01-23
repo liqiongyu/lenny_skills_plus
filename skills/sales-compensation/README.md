@@ -18,10 +18,10 @@ Use language like:
 
 “Use `sales-compensation`. Context: <company stage + GTM motion>. Roles: <AE/SDR/AM>. Product/pricing: <ACV/ARR + sales cycle>. Targets: <bookings/revenue/NRR + timeframe>. Constraints: <budget, margin, simplicity>. Output: a Sales Comp Plan Pack.”
 
-If key details are missing, the skill asks up to 5 intake questions (see `references/INTAKE.md`) and then proceeds with explicit assumptions.
+If key details are missing, the skill asks up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceeds with explicit assumptions.
 
 ## Optional file output
-If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/sales-compensation/`) using `references/TEMPLATES.md`.
+If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/sales-compensation/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “Set an OTE + quota + 4-month ramp plan for our first 2 AEs.”

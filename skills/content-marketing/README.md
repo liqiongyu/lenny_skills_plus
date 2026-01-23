@@ -18,10 +18,10 @@ Create a **Content Marketing Plan Pack**: content market fit brief, demand-valid
 
 “Use `content-marketing`. Product: <what it is>. ICP: <who it’s for>. Goal: <metric + timebox>. CTA: <demo/trial/newsletter/etc>. Channels: <blog/LinkedIn/YouTube/etc>. Spokesperson: <who>. Constraints: <capacity/compliance/languages>. Output: a Content Marketing Plan Pack.”
 
-If details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and proceed with explicit assumptions.
+If details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and proceed with explicit assumptions.
 
 ## Optional file output
-If you want deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/content/`) using `references/TEMPLATES.md`.
+If you want deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/content/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “Validate which topics have search demand and build a 6-week SEO editorial calendar with 3 briefs.”

@@ -15,10 +15,10 @@ Use language like:
 
 “Use `planning-under-uncertainty`. Context: <initiative + why now>. Time horizon: <weeks/months> and urgency: <wartime/peacetime>. Constraints/guardrails: <bullets>. Stakeholders/decision owner: <who decides stop/pivot/scale>. Top unknowns: <bullets>. Output: an Uncertainty Planning Pack.”
 
-If details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and then proceed with explicit assumptions.
+If details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceed with explicit assumptions.
 
 ## Optional file output
-If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/planning-under-uncertainty/<project>/`) using the templates in `references/TEMPLATES.md`.
+If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/planning-under-uncertainty/<project>/`) using the templates in [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “We’re unsure if customers want this feature. Create a hypothesis-driven plan with 5 experiments and clear pivot triggers.”

@@ -69,7 +69,7 @@ Plan:
 - Decision rules (“when metric X moves, we do Y”)
 
 ## Step 8 — Quality gate + finalize
-Run `CHECKLISTS.md` and `RUBRIC.md`, then finalize the North Star Metric Pack with:
+Run [CHECKLISTS.md](CHECKLISTS.md) and [RUBRIC.md](RUBRIC.md), then finalize the North Star Metric Pack with:
 - Risks
 - Open questions
 - Next steps (owners + dates if possible)

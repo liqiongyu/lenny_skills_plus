@@ -16,10 +16,10 @@ Create a **Growth Loop Design Pack**: loop map (micro + macro), loop scorecard, 
 
 “Use `designing-growth-loops`. Product: <what it is + for whom>. Stage: <pre-PMF/early PMF/growth>. Goal: <metric + by when>. Current channels: <what drives growth today>. Constraints: <budget/capacity/policy>. Output: a Growth Loop Design Pack.”
 
-If details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and proceed with explicit assumptions.
+If details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and proceed with explicit assumptions.
 
 ## Optional file output
-If you want deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/growth-loops/`) using `references/TEMPLATES.md`.
+If you want deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/growth-loops/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “Map our micro and macro growth loops, pick the top two to build next quarter, and give us a 30/60/90 plan.”

@@ -21,6 +21,6 @@ Example prompts:
 2) “Lead a Q-end OKR retrospective focused on learning (not the grade). Output decisions, actions, and kill criteria for next quarter.”
 
 ## Files
-- `SKILL.md` — the execution contract
+- [SKILL.md](SKILL.md) — the execution contract
 - `references/` — intake, expanded workflow, templates, checklists, rubric, source summary
 

@@ -1,10 +1,10 @@
 # Press kit (copy & paste)
 
-> 中文版: `PRESS_KIT.zh-CN.md`
+> 中文版: [PRESS_KIT.zh-CN.md](PRESS_KIT.zh-CN.md)
 
 This file contains ready-to-use copy for announcements, posts, and community outreach.
 
-Upstream attribution & IP policy: see `ATTRIBUTION_AND_IP.md`.
+Upstream attribution & IP policy: see [ATTRIBUTION_AND_IP.md](ATTRIBUTION_AND_IP.md).
 
 ## One-liners
 

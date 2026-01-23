@@ -82,8 +82,8 @@ Design interventions with:
 
 ## Step 8 — Quality gate + finalize
 Before finalizing:
-- Run `CHECKLISTS.md`
-- Score with `RUBRIC.md`
+- Run [CHECKLISTS.md](CHECKLISTS.md)
+- Score with [RUBRIC.md](RUBRIC.md)
 - Add **Risks / Open questions / Next steps**
 
 If the score is low, fix these first:

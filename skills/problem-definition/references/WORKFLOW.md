@@ -63,7 +63,7 @@ Heuristic: if you can’t “see the end from the beginning”, the scope is too
 
 ## Step 8 — Quality gate + finalize
 Before sharing:
-- Run `CHECKLISTS.md` and score `RUBRIC.md`
+- Run [CHECKLISTS.md](CHECKLISTS.md) and score [RUBRIC.md](RUBRIC.md)
 - Ensure **Risks / Open questions / Next steps** are present
 - Ensure someone can review async without a meeting
 

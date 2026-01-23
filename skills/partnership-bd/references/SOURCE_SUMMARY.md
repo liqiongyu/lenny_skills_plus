@@ -10,7 +10,7 @@ Source: `sources/refound/raw/partnership-bd/SKILL.md`
 - **Patience and the willingness to say “no” improves terms:** delaying or declining can create leverage for better deals and exclusivity.
 
 ## How this skill pack operationalizes those insights
-- Converts “cold outreach + content” into an **Outreach kit + execution plan** (SKILL workflow Step 5; templates in `TEMPLATES.md`).
+- Converts “cold outreach + content” into an **Outreach kit + execution plan** (SKILL workflow Step 5; templates in [TEMPLATES.md](TEMPLATES.md)).
 - Converts “scale via productization” into **offer tiers + negotiation parameters** (Step 2; templates + checklist items).
 - Converts “platform pitch” into a **1-page pitch with alpha/case-study variant** (Step 4; outreach templates).
 - Converts “network dependence” into **decision-maker mapping + low-social-capital intro paths** (Step 3; partner list columns).

@@ -187,7 +187,7 @@ Define an evaluation prompt that returns a structured verdict:
 
 ## 6) Circulation note (artifact quality)
 Before you send the pack to stakeholders:
-- Run `CHECKLISTS.md`
+- Run [CHECKLISTS.md](CHECKLISTS.md)
 - Ensure definitions are unambiguous (terms, metrics, R1…Rn)
 - Ensure the doc stands alone (no meeting required to understand)
 

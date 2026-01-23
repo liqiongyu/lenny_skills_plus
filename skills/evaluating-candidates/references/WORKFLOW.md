@@ -70,8 +70,8 @@ Write a decision memo that includes:
 
 ## Step 7 — Quality gate + calibration
 Before finalizing:
-- Run `CHECKLISTS.md` (process + fairness)
-- Score with `RUBRIC.md`
+- Run [CHECKLISTS.md](CHECKLISTS.md) (process + fairness)
+- Score with [RUBRIC.md](RUBRIC.md)
 - Add **Risks / Open questions / Next steps**
 
 If uncertain, propose the smallest additional signal:

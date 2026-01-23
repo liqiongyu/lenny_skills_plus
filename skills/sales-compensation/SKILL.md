@@ -38,7 +38,7 @@ description: "Design a sales compensation plan (OTE & pay mix, quotas & ramp, co
 - Constraints: simplicity tolerance, payout timing preference, risk tolerance (for the company and for reps)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`, then proceed.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md), then proceed.
 - If key data is missing, make explicit assumptions and include:
   - **Assumptions & unknowns**
   - **Sensitivity ranges** (e.g., quota/rates under low/base/high scenarios)
@@ -59,12 +59,12 @@ Produce a **Sales Comp Plan Pack** in Markdown (in-chat; or as files if requeste
 9) **Rep-facing one-pager + FAQ** (copy/paste)
 10) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (7 steps)
 
 ### 1) Intake + plan boundaries (what problem are we solving?)
-- **Inputs:** User context; `references/INTAKE.md`.
+- **Inputs:** User context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm roles in scope, selling motion, time horizon (bookings vs retention), budget constraints, and “must-not” behaviors (discounting, churny deals, channel conflict). Identify what data you do/don’t have.
 - **Outputs:** Context snapshot + assumptions/unknowns + decision on time horizon.
 - **Checks:** Success is measurable (who/what/by when) and the plan scope is explicit.
@@ -101,12 +101,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 7) Quality gate + finalize (rep-ready + admin-ready)
 - **Inputs:** Draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score using `references/RUBRIC.md`. Produce the rep-facing one-pager + FAQ. Always include **Risks / Open questions / Next steps** and a 30–90 day validation plan.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score using [references/RUBRIC.md](references/RUBRIC.md). Produce the rep-facing one-pager + FAQ. Always include **Risks / Open questions / Next steps** and a 30–90 day validation plan.
 - **Outputs:** Final Sales Comp Plan Pack.
 - **Checks:** The plan can be explained in one page, computed from CRM fields, and aligns incentives with business + customer outcomes.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

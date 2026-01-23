@@ -37,7 +37,7 @@ description: "Run effective meetings by producing a Meeting Pack (meeting brief,
 - Context links or a 5–10 bullet background summary
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If answers aren’t available, proceed with explicit assumptions and label unknowns.
 
 ## Outputs (deliverables)
@@ -51,7 +51,7 @@ Produce a **Meeting Pack** in Markdown (in-chat; or as files if requested), in t
 6) **Follow-up message** (decisions, owners, deadlines, who-else-needs-to-know)
 7) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (7 steps)
 
@@ -101,7 +101,7 @@ Templates: `references/TEMPLATES.md`
 - **Checks:** Every action item has an owner and due date; stakeholders to inform are named.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and score with `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples
@@ -116,11 +116,11 @@ Expected: pre-read with options + evidence, timed agenda, facilitation prompts f
 Response: ask for the decision/outcome; recommend async discovery first; refuse to produce a meeting pack until objective/owner is defined.
 
 ## Reference files
-- `references/INTAKE.md`
-- `references/WORKFLOW.md`
-- `references/TEMPLATES.md`
-- `references/CHECKLISTS.md`
-- `references/RUBRIC.md`
-- `references/SOURCE_SUMMARY.md`
-- `references/EXAMPLES.md`
+- [references/INTAKE.md](references/INTAKE.md)
+- [references/WORKFLOW.md](references/WORKFLOW.md)
+- [references/TEMPLATES.md](references/TEMPLATES.md)
+- [references/CHECKLISTS.md](references/CHECKLISTS.md)
+- [references/RUBRIC.md](references/RUBRIC.md)
+- [references/SOURCE_SUMMARY.md](references/SOURCE_SUMMARY.md)
+- [references/EXAMPLES.md](references/EXAMPLES.md)
 

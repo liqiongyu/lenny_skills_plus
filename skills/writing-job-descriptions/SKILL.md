@@ -34,7 +34,7 @@ description: "Write outcome-based, high-signal job descriptions and role scoreca
 - Working model + constraints (remote/hybrid, time zones, travel, on-call, pace)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If answers aren’t available, proceed with explicit assumptions and offer 2 versions: **conservative/inclusive** and **high-intensity/polarizing** (if appropriate).
 
 ## Outputs (deliverables)
@@ -49,13 +49,13 @@ Produce a **Job Description Pack** in Markdown (in-chat; or as files if requeste
 6) **Iteration plan + version log:** what to test and how to update after candidate conversations
 7) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (7 steps)
 
 ### 1) Intake + constraints (don’t start writing yet)
-- **Inputs:** user request; `references/INTAKE.md`.
+- **Inputs:** user request; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Clarify role, level, “why now”, constraints (location, pace, comp bands if available), and what “good” looks like. Identify what you can/can’t say publicly.
 - **Outputs:** Context snapshot + assumptions/unknowns list.
 - **Checks:** You can state in one sentence: “We are hiring X to achieve Y by Z.”
@@ -86,18 +86,18 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 6) Draft the public job description (clean, inclusive, skimmable)
 - **Inputs:** templates; company/role basics.
-- **Actions:** Assemble a complete JD using `references/TEMPLATES.md`. Keep requirements minimal; separate must-haves vs nice-to-haves; avoid jargon and bias.
+- **Actions:** Assemble a complete JD using [references/TEMPLATES.md](references/TEMPLATES.md). Keep requirements minimal; separate must-haves vs nice-to-haves; avoid jargon and bias.
 - **Outputs:** JD draft (public).
 - **Checks:** In 90 seconds, a qualified candidate can answer: “What will I accomplish? Why here? What do I need to be great at?”
 
 ### 7) Iterate + quality gate + finalize pack
 - **Inputs:** JD draft; any candidate feedback; hiring manager review.
-- **Actions:** Propose what to test (which section is failing: attract vs filter). Create an iteration log. Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add Risks/Open questions/Next steps.
+- **Actions:** Propose what to test (which section is failing: attract vs filter). Create an iteration log. Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add Risks/Open questions/Next steps.
 - **Outputs:** Final Job Description Pack.
 - **Checks:** The pack is internally aligned and externally high-signal; unknowns are explicit; iteration triggers are defined.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

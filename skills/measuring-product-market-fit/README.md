@@ -16,10 +16,10 @@ Create a **PMF Measurement Pack** to assess product-market fit using survey + re
 
 “Use `measuring-product-market-fit`. Product: <what it is + for whom>. Stage: <pre-PMF/early PMF/growth>. Segments: <ICP + key segments>. Data: <survey channel + analytics/retention>. Decision: <what we’ll do based on results by when>. Output: a PMF Measurement Pack.”
 
-If details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and proceed with explicit assumptions.
+If details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and proceed with explicit assumptions.
 
 ## Optional file output
-If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/pmf-measurement/`) using `references/TEMPLATES.md`.
+If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/pmf-measurement/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “Run a Sean Ellis PMF survey plan for our B2B onboarding product and tell me what segments show must-have.”

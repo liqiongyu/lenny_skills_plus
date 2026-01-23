@@ -88,5 +88,5 @@ Pithy-answer pattern:
 2) **Action:** what we do differently
 3) **Outcome:** what changes for the customer (with proof)
 
-Finalize by running `CHECKLISTS.md` and scoring `RUBRIC.md`, then add Risks/Open questions/Next steps.
+Finalize by running [CHECKLISTS.md](CHECKLISTS.md) and scoring [RUBRIC.md](RUBRIC.md), then add Risks/Open questions/Next steps.
 

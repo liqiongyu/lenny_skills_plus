@@ -36,7 +36,7 @@ description: "Build or evolve a design system by producing a Design System Opera
 - Constraints: timeline, team ownership, level of engineering support, compliance/a11y needs
 
 **Missing-info strategy**
-- Ask up to **5** questions from `references/INTAKE.md`, then proceed with explicit assumptions.
+- Ask up to **5** questions from [references/INTAKE.md](references/INTAKE.md), then proceed with explicit assumptions.
 - If platform/stack is unknown, assume a modern web product with a component library and design tokens.
 - Do not request secrets or credentials.
 
@@ -54,12 +54,12 @@ Produce a **Design System Operating Pack** in Markdown (in-chat by default; writ
 8) **Governance + adoption plan** (contribution workflow, decision rights, champions, release cadence)
 9) **Quality gate** (checklists + rubric score) + **Risks / Open questions / Next steps**
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (7 steps)
 
 ### 1) Intake + success definition (who is this for?)
-- **Inputs:** User context; `references/INTAKE.md`.
+- **Inputs:** User context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm primary users of the system (designers, engineers, PMs, “non-designers”). Define success signals (cycle time, consistency, adoption, fewer UI bugs, faster onboarding).
 - **Outputs:** Context snapshot (draft).
 - **Checks:** Success is measurable or at least falsifiable (e.g., “80% of new screens use system components”).
@@ -96,13 +96,13 @@ Templates: `references/TEMPLATES.md`
 
 ### 7) Governance + adoption + quality gate
 - **Inputs:** Draft pack; stakeholder map; toolchain (Figma/Storybook/etc.).
-- **Actions:** Define decision rights, contribution workflow, review gates, and release cadence. Create a champion/office-hours plan to drive adoption. Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Finalize **Risks / Open questions / Next steps**.
+- **Actions:** Define decision rights, contribution workflow, review gates, and release cadence. Create a champion/office-hours plan to drive adoption. Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Finalize **Risks / Open questions / Next steps**.
 - **Outputs:** Final Design System Operating Pack.
 - **Checks:** Ownership is unambiguous; adoption plan exists; quality bar is explicit and repeatable.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples
-See `references/EXAMPLES.md`.
+See [references/EXAMPLES.md](references/EXAMPLES.md).

@@ -35,7 +35,7 @@ description: "Create an AI Product Strategy Pack (thesis, prioritized use cases,
 - Success metrics (1–3) and guardrails (2–5), including safety/trust, cost, and latency
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md` (3–5 at a time).
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md) (3–5 at a time).
 - If details remain missing, proceed with clearly labeled assumptions and provide 2–3 options (use-case focus, autonomy level, build/buy).
 
 ## Outputs (deliverables)
@@ -51,7 +51,7 @@ Produce an **AI Product Strategy Pack** in Markdown (in-chat; or as files if req
 7) **Roadmap** (phases, milestones, exit criteria, owners)
 8) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (8 steps)
 
@@ -99,12 +99,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 8) Roadmap + quality gate + finalize
 - **Inputs:** Full draft pack.
-- **Actions:** Create a phased roadmap with milestones, exit criteria, and owners. Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Always add **Risks / Open questions / Next steps**.
+- **Actions:** Create a phased roadmap with milestones, exit criteria, and owners. Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Always add **Risks / Open questions / Next steps**.
 - **Outputs:** Final **AI Product Strategy Pack**.
 - **Checks:** A stakeholder can act on the pack without a meeting; trade-offs and unknowns are explicit.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

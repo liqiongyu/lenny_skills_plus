@@ -1,6 +1,6 @@
 # Code of Conduct
 
-> 中文版: `CODE_OF_CONDUCT.zh-CN.md`
+> 中文版: [CODE_OF_CONDUCT.zh-CN.md](CODE_OF_CONDUCT.zh-CN.md)
 
 This project follows the **Contributor Covenant Code of Conduct**.
 

@@ -38,7 +38,7 @@ description: "Build a content marketing program by producing a Content Marketing
 - Spokesperson options (founder/executive/PM/other) and preferred channels (blog, LinkedIn, YouTube, podcast, newsletter)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`, then proceed with explicit assumptions.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md), then proceed with explicit assumptions.
 - If SEO demand data is unavailable, produce keyword/topic hypotheses with confidence labels and a demand-validation to-do list (no credentials required).
 - Never request secrets or credentials; accept redacted exports/screenshots if offered.
 
@@ -58,15 +58,15 @@ Produce a **Content Marketing Plan Pack** (Markdown in-chat; or as files if requ
 10) Risks / Open questions / Next steps (always included)
 
 Templates and checklists:
-- `references/TEMPLATES.md`
-- `references/WORKFLOW.md`
-- `references/CHECKLISTS.md`
-- `references/RUBRIC.md`
+- [references/TEMPLATES.md](references/TEMPLATES.md)
+- [references/WORKFLOW.md](references/WORKFLOW.md)
+- [references/CHECKLISTS.md](references/CHECKLISTS.md)
+- [references/RUBRIC.md](references/RUBRIC.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + success definition
-- **Inputs:** User prompt; `references/INTAKE.md`.
+- **Inputs:** User prompt; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm the business goal, ICP, primary CTA, and timebox. Define one primary success metric and 2–3 leading indicators. Confirm constraints (capacity, compliance, languages, distribution).
 - **Outputs:** Context snapshot (v1).
 - **Checks:** Goal is measurable and timebound (e.g., “Increase qualified demo requests from SEO by 25% in 8 weeks”).
@@ -100,24 +100,24 @@ Templates and checklists:
 
 ### 6) Create content briefs (make writing easy)
 - **Inputs:** Top topics, voice rules, CTA, distribution channels.
-- **Actions:** Write 3 briefs using `references/TEMPLATES.md`: target query/intent, angle (“information gain”), outline, proof assets needed (SME quotes/data), CTA, internal/external links, distribution checklist.
+- **Actions:** Write 3 briefs using [references/TEMPLATES.md](references/TEMPLATES.md): target query/intent, angle (“information gain”), outline, proof assets needed (SME quotes/data), CTA, internal/external links, distribution checklist.
 - **Outputs:** 3 content briefs (ready to draft).
 - **Checks:** A writer can draft without additional meetings; each brief includes what must be uniquely true (not generic).
 
 ### 7) Draft one flagship asset (blog post or announcement)
-- **Inputs:** One brief (or announcement context), `references/TEMPLATES.md`, `references/WORKFLOW.md`.
+- **Inputs:** One brief (or announcement context), [references/TEMPLATES.md](references/TEMPLATES.md), [references/WORKFLOW.md](references/WORKFLOW.md).
 - **Actions:** Draft an outline or first draft. If it’s an announcement, use a blog-post format with all “news” elements included. Use AI only per the SOP; add human insight, examples, and original framing.
 - **Outputs:** 1 draft outline/first draft + a “fact/claim check” list.
 - **Checks:** Draft has a clear POV, concrete examples, and avoids “100% AI-generated” sameness.
 
 ### 8) Measurement + quality gate + finalize
-- **Inputs:** Draft pack; `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- **Inputs:** Draft pack; [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - **Actions:** Define measurement cadence (weekly review) and iteration loop (what you’ll change based on signals). Run checklist and score rubric. Always include **Risks / Open questions / Next steps**.
 - **Outputs:** Final Content Marketing Plan Pack.
 - **Checks:** Next 2 weeks of execution are unblocked; assumptions and demand validation gaps are explicit.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

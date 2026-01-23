@@ -37,7 +37,7 @@ description: "Apply behavioral science to product design and produce a Behaviora
 - Existing evidence: user research notes, support tickets, analytics, session replays (if any)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If answers aren’t available, proceed with explicit assumptions and label unknowns. Offer 2 scopes: **narrow (1 behavior)** vs **broad (journey)**.
 
 ## Outputs (deliverables)
@@ -53,12 +53,12 @@ Produce a **Behavioral Product Design Pack** (in-chat as Markdown; or as files i
 7) **Experiment + instrumentation plan** (events, primary/guardrail metrics, rollout/rollback)
 8) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + define the target behavior
-- **Inputs:** User context; `references/INTAKE.md`.
+- **Inputs:** User context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Clarify the user, context, and *one* primary target behavior. Define success + guardrails (what must not get worse).
 - **Outputs:** Context snapshot + target behavior spec.
 - **Checks:** Target behavior is observable and time-bounded (not “be more engaged”).
@@ -77,7 +77,7 @@ Templates: `references/TEMPLATES.md`
 
 ### 4) Generate intervention ideas (mechanism-first, not UI-first)
 - **Inputs:** Diagnosis table.
-- **Actions:** Brainstorm 2–4 interventions per priority barrier using the pattern library in `references/WORKFLOW.md` (defaults, reducing uncertainty, progress/loss framing, commitment devices, reminders, celebration/pause moments).
+- **Actions:** Brainstorm 2–4 interventions per priority barrier using the pattern library in [references/WORKFLOW.md](references/WORKFLOW.md) (defaults, reducing uncertainty, progress/loss framing, commitment devices, reminders, celebration/pause moments).
 - **Outputs:** Intervention inventory (10–20 ideas) with mechanism tags.
 - **Checks:** At least one idea reduces friction (ability) and one reduces uncertainty (trust), not only “add reminders”.
 
@@ -94,19 +94,19 @@ Templates: `references/TEMPLATES.md`
 - **Checks:** Each selected bet has a clear hypothesis and measurable metric movement.
 
 ### 7) Write build-ready behavioral design specs + experiment plan
-- **Inputs:** Shortlist; `references/TEMPLATES.md`.
+- **Inputs:** Shortlist; [references/TEMPLATES.md](references/TEMPLATES.md).
 - **Actions:** For each bet, write an intervention spec: hypothesis, mechanism, UX/copy, states, edge cases, instrumentation, rollout/rollback, and guardrails.
 - **Outputs:** 1–3 behavioral design specs + experiment/instrumentation plan.
 - **Checks:** Engineering can implement without major missing decisions; measurement is feasible.
 
 ### 8) Quality gate + finalize
 - **Inputs:** Draft pack.
-- **Actions:** Run `references/CHECKLISTS.md`, score with `references/RUBRIC.md`, and add **Risks / Open questions / Next steps**.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md), score with [references/RUBRIC.md](references/RUBRIC.md), and add **Risks / Open questions / Next steps**.
 - **Outputs:** Final Behavioral Product Design Pack.
 - **Checks:** The pack is specific to this product and can be executed in 1–2 sprints.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

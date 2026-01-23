@@ -21,6 +21,6 @@
 **Prompt:** “Write our positioning.”
 
 **What to do instead:**
-- Ask 5 questions from `INTAKE.md` (ICP, use case, alternative, proof, surface)
+- Ask 5 questions from [INTAKE.md](INTAKE.md) (ICP, use case, alternative, proof, surface)
 - If unanswered, make explicit assumptions and provide 2–3 positioning directions with risks/unknowns
 

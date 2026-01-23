@@ -1,13 +1,13 @@
 # 技能目录（Skills catalog）
 
-> English version: `SKILLS_CATALOG.md`
+> English version: [SKILLS_CATALOG.md](SKILLS_CATALOG.md)
 
 已转换 skills：**86**（来自 Refound/Lenny）
 Meta-skill：**1**（例如 `lenny-skillpack-creator`）
 
-_生成时间：2026-01-23 09:39:19Z（由 `python3 scripts/generate_skills_catalog.py` 生成）。_
+_生成时间：2026-01-23 11:52:51Z（由 `python3 scripts/generate_skills_catalog.py` 生成）。_
 
-上游来源：`https://refoundai.com/lenny-skills/`
+上游来源：<https://refoundai.com/lenny-skills/>
 
 ## Product Management (22)
 | Skill | 命令 | 版本 | 描述 | 上游 |

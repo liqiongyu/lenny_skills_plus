@@ -17,10 +17,10 @@ Use language like:
 
 “Use `scoping-cutting`. Context: <product + users + what we’re building>. Appetite/date: <time budget>. Constraints: <non-negotiables>. Candidate scope: <bullets>. Output: a Scoping & Cutting Pack.”
 
-If details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and then proceed with explicit assumptions.
+If details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceed with explicit assumptions.
 
 ## Optional file output
-If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/scoping-cutting/<project>/`) using the templates in `references/TEMPLATES.md`.
+If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/scoping-cutting/<project>/`) using the templates in [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “We have 4 weeks for ‘bulk CSV import’ for admins. Cut scope and propose a minimum lovable slice; include a cut list and a Wizard-of-Oz validation plan.”

@@ -15,10 +15,10 @@ Use language like:
 
 “Use `writing-north-star-metrics`. Context: <product + customer + value moment>. Constraints: <what we can measure + horizon>. Output: a North Star Metric Pack.”
 
-If details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and then proceed with explicit assumptions.
+If details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceed with explicit assumptions.
 
 ## Optional file output
-If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/north-star-metric/`) using the templates in `references/TEMPLATES.md`.
+If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/north-star-metric/`) using the templates in [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “We’re a B2B SaaS (team collaboration). Our value moment is ‘a team successfully completes their first project together’. Propose a North Star metric and driver tree we can move this quarter.”

@@ -16,10 +16,10 @@ Use language like:
 
 “Use `cross-functional-collaboration`. Initiative: <what>. Why now: <context>. Teams: <functions + key people>. Friction: <symptoms/examples>. Constraints: <timeline/non-negotiables>. Output: a Cross-Functional Collaboration Pack.”
 
-If key details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and proceed with explicit assumptions.
+If key details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and proceed with explicit assumptions.
 
 ## Optional file output
-If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/collaboration/<initiative>/`) using `references/TEMPLATES.md`.
+If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/collaboration/<initiative>/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “We’re launching a cross-functional retention initiative; PM/Eng/Design are misaligned. Produce a Collaboration Pack and a conflict protocol.”

@@ -34,7 +34,7 @@ description: "Run an internal dogfooding program/sprint and produce a Dogfooding
 - Environment constraints (prod vs staging; data/privacy constraints; access constraints)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If answers aren’t available, proceed with explicit assumptions and label unknowns. Offer 2 scope options (lean vs thorough).
 
 ## Outputs (deliverables)
@@ -48,12 +48,12 @@ Produce a **Dogfooding Pack** in Markdown (in-chat; or as files if requested):
 5) **Weekly dogfooding report** (insights, decisions, shipped fixes, next experiments)
 6) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (7 steps)
 
 ### 1) Frame the dogfooding goal (experience, not just bugs)
-- **Inputs:** Product summary; desired outcomes; `references/INTAKE.md`.
+- **Inputs:** Product summary; desired outcomes; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Define what “success” means for this cycle (e.g., “team can complete workflow A in <10 min without workarounds”). Set constraints (environment, data, access).
 - **Outputs:** Context snapshot + explicit success criteria.
 - **Checks:** Success criteria are measurable and tied to a real workflow outcome (not “feel better”).
@@ -90,12 +90,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 7) Report + quality gate + next cycle plan
 - **Inputs:** Final log + triage outcomes.
-- **Actions:** Produce the weekly report. Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add Risks/Open questions/Next steps and propose the next dogfooding cycle focus.
+- **Actions:** Produce the weekly report. Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add Risks/Open questions/Next steps and propose the next dogfooding cycle focus.
 - **Outputs:** Final Dogfooding Pack.
 - **Checks:** Report contains decisions (what changed) and shows evidence-backed learning (not just a bug list).
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

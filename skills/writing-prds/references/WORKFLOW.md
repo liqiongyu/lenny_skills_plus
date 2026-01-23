@@ -75,7 +75,7 @@ Heuristic: if the eval can’t catch regressions, it’s not the “source of tr
 
 ## Step 8 — Quality gate + finalize
 Before circulation:
-- Run `CHECKLISTS.md` and score `RUBRIC.md`
+- Run [CHECKLISTS.md](CHECKLISTS.md) and score [RUBRIC.md](RUBRIC.md)
 - Ensure Risks/Open questions/Next steps exist
 - Ensure the artifact can be understood without a meeting
 

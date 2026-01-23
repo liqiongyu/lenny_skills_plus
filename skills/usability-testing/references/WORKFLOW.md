@@ -63,7 +63,7 @@ Turn findings into decisions:
 
 ## Step 8 — Close the loop
 Before you finalize:
-- Run `CHECKLISTS.md` + score `RUBRIC.md`
+- Run [CHECKLISTS.md](CHECKLISTS.md) + score [RUBRIC.md](RUBRIC.md)
 - Call out **Risks**, **Open questions**, **Next steps**
 - Propose the smallest follow-up (iterate prototype, retest 3 users, ship behind flag, run experiment)
 

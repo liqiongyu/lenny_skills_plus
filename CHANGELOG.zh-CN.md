@@ -1,6 +1,6 @@
 # 更新日志（Changelog）
 
-> English version: `CHANGELOG.md`
+> English version: [CHANGELOG.md](CHANGELOG.md)
 
 本文件记录本项目的所有重要变更。
 

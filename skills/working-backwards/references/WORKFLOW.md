@@ -12,7 +12,7 @@ Use this file when you need more detail than the 8-step workflow in `../SKILL.md
 ### 2) Use options to prevent solution lock-in
 - **Rule:** Draft 2–3 divergent PR options before committing to one.
 - **Check:** Options differ on the core mechanism or value delivery (not just wording).
-- **Artifact:** Use the Option A/B/C table in `TEMPLATES.md`.
+- **Artifact:** Use the Option A/B/C table in [TEMPLATES.md](TEMPLATES.md).
 
 ### 3) Backcasting is about the whole system (“machinery”), not just a doc
 - **Rule:** The output must include a backcasting plan with owners, milestones, and dependencies.

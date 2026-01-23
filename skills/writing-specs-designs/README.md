@@ -16,10 +16,10 @@ Use language like:
 
 “Use `writing-specs-designs`. Context: <product, user, problem, why now>. Platform: <web/iOS/Android>. Constraints: <timeline, dependencies>. Output: <spec+design doc pack>.”
 
-If details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and then proceed with explicit assumptions.
+If details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceed with explicit assumptions.
 
 ## Optional file output
-If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/specs/<feature>/`) using `references/TEMPLATES.md`.
+If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/specs/<feature>/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “We’re a consumer iOS app. Spec a new invite flow; goal: improve invite conversion; optimize taps to first value.”

@@ -39,7 +39,7 @@ description: "Build a Sales Qualification Pack (ICP + disqualification rules, qu
 - Constraints: rep capacity, required response times, tooling (CRM), and handoff (SDR→AE)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md` (max 3–5 at a time).
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md) (max 3–5 at a time).
 - If data is missing, proceed with explicit assumptions and ship **two variants** if needed: (A) “Simple SMB motion” vs (B) “Complex/enterprise motion”.
 
 ## Outputs (deliverables)
@@ -54,12 +54,12 @@ Produce a **Sales Qualification Pack** in Markdown (in-chat; or as files if requ
 6) **Rollout + measurement plan** (training, coaching, KPIs, iteration loop)
 7) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (7 steps)
 
 ### 1) Intake + define the qualification decision
-- **Inputs:** User context; `references/INTAKE.md`; sample deals (won/lost/stalled).
+- **Inputs:** User context; [references/INTAKE.md](references/INTAKE.md); sample deals (won/lost/stalled).
 - **Actions:** Clarify the decision you’re optimizing for: **pursue now**, **nurture**, or **disqualify**. Define the unit of analysis (lead, account, opportunity) and who qualifies (SDR, AE, founder).
 - **Outputs:** Context snapshot + decision definitions + assumptions/unknowns.
 - **Checks:** A rep can answer: “What decision am I making after this call?”
@@ -96,12 +96,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 7) Quality gate + finalize
 - **Inputs:** Draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add **Risks / Open questions / Next steps** and a short “iteration loop” (what to revisit after 20–30 calls).
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add **Risks / Open questions / Next steps** and a short “iteration loop” (what to revisit after 20–30 calls).
 - **Outputs:** Final Sales Qualification Pack.
 - **Checks:** The pack is copy/paste ready and reduces time spent on bad-fit deals immediately.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

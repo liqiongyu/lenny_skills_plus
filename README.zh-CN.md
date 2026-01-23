@@ -1,6 +1,6 @@
 # Lenny Skills Plus
 
-> English version: `README.md`
+> English version: [README.md](README.md)
 
 一个可直接使用的 **86 个高密度、可执行（agent-executable）的 skill packs** 集合，来源于 RefoundAI 的 “Lenny skills” 数据库（本项目非官方、非隶属）。
 
@@ -14,7 +14,7 @@
 
 ## 署名与知识产权（重要）
 
-本项目尊重并标注上游来源（RefoundAI “Lenny skills”）。上游致谢与侵权/下架处理流程：`docs/ATTRIBUTION_AND_IP.zh-CN.md`。
+本项目尊重并标注上游来源（RefoundAI “Lenny skills”）。上游致谢与侵权/下架处理流程：[docs/ATTRIBUTION_AND_IP.zh-CN.md](docs/ATTRIBUTION_AND_IP.zh-CN.md)。
 
 ## 快速开始（Quickstart）
 
@@ -42,8 +42,8 @@ unzip -o skills-all.zip -d ~/.claude/skills
 - Claude Code：`.claude/skills/`
 
 更详细的使用说明：
-- `docs/USING_WITH_CODEX.zh-CN.md`
-- `docs/USING_WITH_CLAUDE.zh-CN.md`
+- [docs/USING_WITH_CODEX.zh-CN.md](docs/USING_WITH_CODEX.zh-CN.md)
+- [docs/USING_WITH_CLAUDE.zh-CN.md](docs/USING_WITH_CLAUDE.zh-CN.md)
 
 ### 方案 B：clone 本仓库（适合共创/维护者）
 
@@ -89,17 +89,17 @@ Turn these notes into a decision-ready PRD. Ask up to 5 questions first.
 
 ## Skill 目录
 
-见：`docs/SKILLS_CATALOG.zh-CN.md`
+见：[docs/SKILLS_CATALOG.zh-CN.md](docs/SKILLS_CATALOG.zh-CN.md)
 
 ## 为什么做这个项目
 
-“高层方法论”对人类很有帮助，但对 agent 来说往往不够可执行。本项目把技能写成更像“执行合同”：输入 → 流程 → 交付物 → 质量门槛。详见：`docs/WHY_THIS_PROJECT.zh-CN.md`。
+“高层方法论”对人类很有帮助，但对 agent 来说往往不够可执行。本项目把技能写成更像“执行合同”：输入 → 流程 → 交付物 → 质量门槛。详见：[docs/WHY_THIS_PROJECT.zh-CN.md](docs/WHY_THIS_PROJECT.zh-CN.md)。
 
 ## 共创 / 再生成
 
 如果你希望参与打磨这些技能、补充 examples、或再生成 skill packs：
-- 贡献指南：`CONTRIBUTING.zh-CN.md`
-- 转换流程：`docs/WORKFLOW.zh-CN.md`
+- 贡献指南：[CONTRIBUTING.zh-CN.md](CONTRIBUTING.zh-CN.md)
+- 转换流程：[docs/WORKFLOW.zh-CN.md](docs/WORKFLOW.zh-CN.md)
 
 ## 质量与 CI
 
@@ -126,8 +126,8 @@ python3 scripts/ci_check_skillpacks.py
 
 ## 贡献
 
-见 `CONTRIBUTING.zh-CN.md`。
+见 [CONTRIBUTING.zh-CN.md](CONTRIBUTING.zh-CN.md)。
 
 ## License
 
-Apache-2.0 — 见 `LICENSE`。
+Apache-2.0 — 见 [LICENSE](LICENSE)。

@@ -46,7 +46,7 @@ For each flagged idea:
 
 ## 6) Idea scorecard (top 3–5)
 
-Score each 0–2 (0=weak, 1=some, 2=strong). Use `RUBRIC.md` for definitions.
+Score each 0–2 (0=weak, 1=some, 2=strong). Use [RUBRIC.md](RUBRIC.md) for definitions.
 
 | Criteria | Weight | Idea A | Idea B | Idea C | Notes / evidence |
 |---|---:|---:|---:|---:|---|

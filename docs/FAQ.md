@@ -1,6 +1,6 @@
 # FAQ / troubleshooting
 
-> 中文版: `FAQ.zh-CN.md`
+> 中文版: [FAQ.zh-CN.md](FAQ.zh-CN.md)
 
 ## Codex doesn’t see my skills
 

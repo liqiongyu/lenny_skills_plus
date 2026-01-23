@@ -35,7 +35,7 @@ description: "Create a build-ready spec + design doc pack (low-fi diagram, user 
 - Success metrics (1–3) + guardrails (2–5)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`, then proceed.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md), then proceed.
 - If key info remains missing, state assumptions explicitly and provide 2–3 options (scope/flows/prototype approach).
 
 ## Outputs (deliverables)
@@ -50,7 +50,7 @@ Produce a **Spec & Design Doc Pack** in Markdown (in-chat; or as files if the us
 6) **Measurement plan** (metrics → data/events → owner → cadence)
 7) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (8 steps)
 
@@ -61,7 +61,7 @@ Templates: `references/TEMPLATES.md`
 - **Checks:** Artifacts match the decision being made (alignment vs build execution vs interaction feel).
 
 ### 2) Intake + context snapshot
-- **Inputs:** `references/INTAKE.md`.
+- **Inputs:** [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Ask up to 5 questions; confirm audience/DRI, platform(s), constraints, and success metrics/guardrails.
 - **Outputs:** Context snapshot section.
 - **Checks:** You can state the problem, user, and success measure in 1–2 sentences.
@@ -98,12 +98,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 8) Quality gate + finalize for circulation
 - **Inputs:** Full draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add Risks/Open questions/Next steps and clearly mark decisions vs assumptions.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add Risks/Open questions/Next steps and clearly mark decisions vs assumptions.
 - **Outputs:** Final Spec & Design Doc Pack (shareable as-is).
 - **Checks:** Owners, metrics, and open questions are explicit; the diagram + flows remove the biggest ambiguities.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

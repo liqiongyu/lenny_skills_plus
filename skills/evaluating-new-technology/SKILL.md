@@ -36,7 +36,7 @@ description: "Create a Technology Evaluation Pack (problem framing, options matr
 - Decision context: who decides, adoption scope, risk tolerance
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md` (3–5 at a time).
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md) (3–5 at a time).
 - If still missing, proceed with explicit assumptions and present 2–3 options (e.g., buy vs build vs defer).
 - Do not request secrets. If asked to run tools, change production systems, or sign up for vendors, require explicit confirmation.
 
@@ -52,7 +52,7 @@ Produce a **Technology Evaluation Pack** (in chat; or as files if requested), in
 6) **Decision memo** (recommendation, rationale, trade-offs, adoption/rollback plan)
 7) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (8 steps)
 
@@ -100,12 +100,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 8) Decide, communicate, and quality-gate
 - **Inputs:** Completed pack drafts.
-- **Actions:** Write the **Decision memo** with recommendation, trade-offs, and adoption plan. Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Always include **Risks / Open questions / Next steps**.
+- **Actions:** Write the **Decision memo** with recommendation, trade-offs, and adoption plan. Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Always include **Risks / Open questions / Next steps**.
 - **Outputs:** Final **Technology Evaluation Pack**.
 - **Checks:** Decision is actionable (owner, date, next actions) and reversible where possible.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

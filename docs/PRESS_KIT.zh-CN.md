@@ -1,10 +1,10 @@
 # 宣传物料（可直接复制）
 
-> English version: `PRESS_KIT.md`
+> English version: [PRESS_KIT.md](PRESS_KIT.md)
 
 这份文件提供可直接复制粘贴的宣传文案/发布文案/社区招募文案。
 
-上游署名与知识产权处理：见 `ATTRIBUTION_AND_IP.zh-CN.md`。
+上游署名与知识产权处理：见 [ATTRIBUTION_AND_IP.zh-CN.md](ATTRIBUTION_AND_IP.zh-CN.md)。
 
 ## 一句话介绍
 

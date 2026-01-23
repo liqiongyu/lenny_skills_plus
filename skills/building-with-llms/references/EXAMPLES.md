@@ -9,7 +9,7 @@ Key choices:
 - Context strategy: RAG over approved KB only; require citations.
 - Eval: must-pass privacy cases; rubric includes “groundedness” and “policy compliance.”
 
-Artifacts to produce (using `TEMPLATES.md`):
+Artifacts to produce (using [TEMPLATES.md](TEMPLATES.md)):
 - Feature brief (with strict non-goals: “never fabricate policy”)
 - Prompt + tool contract (citations required; abstain when no KB coverage)
 - Data + eval plan (red-team: prompt injection, PII exfiltration)
@@ -32,6 +32,6 @@ Why this fails:
 - No job statement, no constraints, no success metric, no eval plan.
 
 How to respond:
-- Ask 3–5 intake questions from `INTAKE.md` (use case, failure modes, constraints).
+- Ask 3–5 intake questions from [INTAKE.md](INTAKE.md) (use case, failure modes, constraints).
 - Propose a starter eval set and a thin-slice prototype plan rather than changing prompts blindly.
 

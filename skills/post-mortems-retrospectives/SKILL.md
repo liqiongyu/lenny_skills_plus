@@ -38,7 +38,7 @@ description: "Run blameless post-mortems & retrospectives and produce a Post-mor
 - Constraints (privacy; what to anonymize; audience)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md` (3–5 at a time).
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md) (3–5 at a time).
 - If details are unavailable, proceed with explicit assumptions and label unknowns.
 - Do not request secrets or personal data; use anonymized descriptions.
 
@@ -55,13 +55,13 @@ Produce a **Post-mortems & Retrospectives Pack** in Markdown (in-chat; or as fil
 7) **Learning dissemination plan** (how to socialize + a recurring “Impact & Learnings” review)
 8) **Risks / Open questions / Next steps** (always)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (7 steps)
 
 ### 1) Classify the review + set blameless ground rules
-- **Inputs:** request context; `references/INTAKE.md`.
+- **Inputs:** request context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Identify the review type (incident / project / OKR). Set a blameless norm (“fix systems, not people”) and decide whether to reframe language as “retrospective” to signal learning. Confirm facilitator, scribe, and decision owner.
 - **Outputs:** Retro brief (draft) + attendee list + meeting invite outline.
 - **Checks:** Objective is explicit (learning + improvement). Roles are assigned.
@@ -69,7 +69,7 @@ Expanded guidance: `references/WORKFLOW.md`
 ### 2) Assemble facts and a shared timeline (separate facts from stories)
 - **Inputs:** artifacts (tickets, dashboards, logs, notes).
 - **Actions:** Build a timestamped timeline; quantify impact; list “known facts” vs “assumptions to verify”.
-- **Outputs:** Facts + timeline section using `references/TEMPLATES.md`.
+- **Outputs:** Facts + timeline section using [references/TEMPLATES.md](references/TEMPLATES.md).
 - **Checks:** Timeline has timestamps and links/evidence where possible. Assumptions are labeled.
 
 ### 3) Diagnose contributing factors (systems lens)
@@ -98,12 +98,12 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 7) Disseminate learning + quality gate + finalize
 - **Inputs:** full draft pack.
-- **Actions:** Create a 1-page shareout (TL;DR, top actions, decisions). Propose a lightweight weekly/biweekly “Impact & Learnings” review to socialize learnings beyond the team. Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add **Risks / Open questions / Next steps**.
+- **Actions:** Create a 1-page shareout (TL;DR, top actions, decisions). Propose a lightweight weekly/biweekly “Impact & Learnings” review to socialize learnings beyond the team. Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add **Risks / Open questions / Next steps**.
 - **Outputs:** Final Post-mortems & Retrospectives Pack.
 - **Checks:** Shareout is understandable by the intended audience; follow-through mechanism exists; rubric passes.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

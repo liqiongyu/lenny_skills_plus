@@ -16,10 +16,10 @@ Use language like:
 
 “Use `coaching-pms`. Context: <company/team/stage>. PM: <level/scope/tenure>. Goal: <what must be more true in 8–12 weeks>. Evidence: <2–5 anonymized examples>. Output: a PM Coaching Pack.”
 
-If key details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and proceed with explicit assumptions.
+If key details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and proceed with explicit assumptions.
 
 ## Optional file output
-If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/people/coaching/<pm-name>/`) using `references/TEMPLATES.md`.
+If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/people/coaching/<pm-name>/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “Coach my PM on strategic thinking. They ship well but struggle to pick the right problems. Build an 8-week plan.”

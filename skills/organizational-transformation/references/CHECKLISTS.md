@@ -44,5 +44,5 @@ Use these before finalizing the pack.
 
 ## 8) Final pack checklist (required)
 - Risks, Open questions, Next steps included.
-- Rubric scored (see `RUBRIC.md`) and score is acceptable.
+- Rubric scored (see [RUBRIC.md](RUBRIC.md)) and score is acceptable.
 

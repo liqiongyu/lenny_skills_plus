@@ -14,10 +14,10 @@ Use language like:
 
 “Use `writing-prds`. Context: <product, user, problem, why now>. Constraints: <timeline, platform, policy>. Output: <PRD only | PR/FAQ + PRD | PRD + evals + prompt set>.”
 
-If details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and then proceed with explicit assumptions.
+If details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceed with explicit assumptions.
 
 ## Optional file output
-If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/prds/<feature>/`) using `references/TEMPLATES.md`.
+If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/prds/<feature>/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “We’re a B2B SaaS. Write a PR/FAQ + PRD for ‘Saved views’. Goal: increase weekly active admins. Constraints: ship in 6 weeks.”

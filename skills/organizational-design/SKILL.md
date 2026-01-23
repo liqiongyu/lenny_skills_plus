@@ -35,7 +35,7 @@ description: "Design or redesign an org structure and operating model by produci
 - Constraints/non-negotiables (headcount, timeline, critical launches, regulatory/compliance, leadership preferences)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If answers aren’t available, proceed with explicit assumptions and label unknowns.
 
 ## Outputs (deliverables)
@@ -49,7 +49,7 @@ Produce an **Organizational Design Pack** (Markdown in-chat, or files if request
 6) **Transition Plan** (sequencing, comms, staffing moves, risk mitigations, measurement)
 7) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (7 steps)
 
@@ -79,7 +79,7 @@ Templates: `references/TEMPLATES.md`
 
 ### 5) Score options and pick a recommendation (with a fallback)
 - **Inputs:** Options; stakeholder priorities; risk constraints.
-- **Actions:** Score with `references/RUBRIC.md`. Pick a recommended option + a fallback. Identify “Day 1 changes” vs “follow-on refactors” and the required operating-mechanism changes (decision rights, cadence, standards).
+- **Actions:** Score with [references/RUBRIC.md](references/RUBRIC.md). Pick a recommended option + a fallback. Identify “Day 1 changes” vs “follow-on refactors” and the required operating-mechanism changes (decision rights, cadence, standards).
 - **Outputs:** Recommendation + scorecard + key decisions to align on.
 - **Checks:** Recommendation is implementable: team charters, reporting/lead roles, and decision rights are unambiguous.
 
@@ -91,12 +91,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 7) Quality gate + finalize
 - **Inputs:** Draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Finalize the pack and include Risks/Open questions/Next steps.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Finalize the pack and include Risks/Open questions/Next steps.
 - **Outputs:** Final Organizational Design Pack + rubric score.
 - **Checks:** If rubric score is low, do one more intake round (max 5 questions) and revise.
 
 ## Quality gate (required)
-- Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md` before finalizing.
+- Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md) before finalizing.
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

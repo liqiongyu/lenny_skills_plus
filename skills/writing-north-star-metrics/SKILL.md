@@ -35,7 +35,7 @@ description: "Define or refresh a product North Star metric + driver tree and pr
 - Measurement constraints (what you can measure today; data latency; known gaps)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If still missing, proceed with clearly labeled assumptions and provide 2–3 options.
 
 ## Outputs (deliverables)
@@ -49,12 +49,12 @@ Produce a **North Star Metric Pack** in Markdown (in-chat; or as files if the us
 5) **Validation & rollout plan** (instrumentation checks, dashboard cadence, decision rules)
 6) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + constraints
-- **Inputs:** User context; use `references/INTAKE.md`.
+- **Inputs:** User context; use [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm product, customer, value moment, horizon, constraints, stakeholders.
 - **Outputs:** 5–10 bullet “Context snapshot”.
 - **Checks:** You can explain the customer value in one sentence.
@@ -62,7 +62,7 @@ Templates: `references/TEMPLATES.md`
 ### 2) Define the qualitative North Star (before numbers)
 - **Inputs:** Context snapshot.
 - **Actions:** Write a North Star statement and value model from the customer’s perspective.
-- **Outputs:** Draft **North Star Narrative** (template in `references/TEMPLATES.md`).
+- **Outputs:** Draft **North Star Narrative** (template in [references/TEMPLATES.md](references/TEMPLATES.md)).
 - **Checks:** Narrative can act as a decision tie-breaker (“if we do X, does it move the North Star?”).
 
 ### 3) Generate 3–5 candidate North Star metrics (customer POV)
@@ -73,7 +73,7 @@ Templates: `references/TEMPLATES.md`
 
 ### 4) Stress-test and pick the North Star metric
 - **Inputs:** Candidate metrics.
-- **Actions:** Evaluate with `references/CHECKLISTS.md` and `references/RUBRIC.md`. Explicitly test:
+- **Actions:** Evaluate with [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md). Explicitly test:
   - Leading vs lagging (avoid “retention as the only goal”; pair lagging outcomes with controllable inputs)
   - Controllability within a quarter (proxy/input metrics you can move)
   - Ecosystem impact (what breaks if you optimize this?)
@@ -100,12 +100,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 8) Quality gate + finalize pack
 - **Inputs:** All drafts.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add Risks/Open questions/Next steps.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add Risks/Open questions/Next steps.
 - **Outputs:** Final **North Star Metric Pack**.
 - **Checks:** Pack is shareable as-is; key decisions and caveats are explicit.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

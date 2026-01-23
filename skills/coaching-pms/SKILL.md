@@ -35,7 +35,7 @@ description: "Coach product managers and produce a PM Coaching Pack (context-spe
 - Any existing ladder/role expectations/values (if available)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md` (3–5 at a time).
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md) (3–5 at a time).
 - If role expectations or evidence are missing, proceed with explicit assumptions and label unknowns.
 - Do not request sensitive personal data; use behavior/evidence summaries.
 
@@ -57,13 +57,13 @@ Produce a **PM Coaching Pack** (Markdown in-chat; or files if requested) in this
    - Checkpoints, how to evaluate progress, how to adjust the plan
 7) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + boundaries + coaching goal
-- **Inputs:** user context; `references/INTAKE.md`.
+- **Inputs:** user context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm this is a coaching engagement (not HR/PIP). Define timeframe and outcomes. Choose whether to output the full pack or a subset.
 - **Outputs:** Context snapshot + assumptions/unknowns.
 - **Checks:** Goal is stated as observable outcomes/behaviors (not personality traits).
@@ -106,12 +106,12 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 8) Quality gate + finalize pack
 - **Inputs:** full draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add **Risks / Open questions / Next steps**.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add **Risks / Open questions / Next steps**.
 - **Outputs:** Final PM Coaching Pack.
 - **Checks:** The next coaching session can be run using the toolkit without additional invention.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

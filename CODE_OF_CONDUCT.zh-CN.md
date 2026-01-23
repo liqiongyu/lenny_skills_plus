@@ -1,6 +1,6 @@
 # 行为准则（Code of Conduct）
 
-> English version: `CODE_OF_CONDUCT.md`
+> English version: [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 
 本项目遵循 **Contributor Covenant Code of Conduct**。
 

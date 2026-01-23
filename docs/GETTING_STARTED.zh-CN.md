@@ -1,6 +1,6 @@
 # 快速开始（Getting started）
 
-> English version: `GETTING_STARTED.md`
+> English version: [GETTING_STARTED.md](GETTING_STARTED.md)
 
 本仓库在 `skills/` 下提供一组整理好的 **agent-executable skill packs**。
 
@@ -13,8 +13,8 @@
 - `~/.claude/skills/`（Claude Code 全局安装）
 
 详见：
-- `USING_WITH_CODEX.zh-CN.md`
-- `USING_WITH_CLAUDE.zh-CN.md`
+- [USING_WITH_CODEX.zh-CN.md](USING_WITH_CODEX.zh-CN.md)
+- [USING_WITH_CLAUDE.zh-CN.md](USING_WITH_CLAUDE.zh-CN.md)
 
 ## 我想共创 / 修改 skills
 
@@ -34,4 +34,4 @@ python3 scripts/mirror_skills.py --overwrite
 - Codex：`.codex/skills/<skill>/`
 - Claude Code：`.claude/skills/<skill>/`
 
-如果你更偏好全局安装（而不是项目级镜像），请查看 `USING_WITH_CODEX.zh-CN.md` 和 `USING_WITH_CLAUDE.zh-CN.md`。
+如果你更偏好全局安装（而不是项目级镜像），请查看 [USING_WITH_CODEX.zh-CN.md](USING_WITH_CODEX.zh-CN.md) 和 [USING_WITH_CLAUDE.zh-CN.md](USING_WITH_CLAUDE.zh-CN.md)。

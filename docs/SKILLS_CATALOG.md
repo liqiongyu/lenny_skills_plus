@@ -1,13 +1,13 @@
 # Skills catalog
 
-> 中文版: `SKILLS_CATALOG.zh-CN.md`
+> 中文版: [SKILLS_CATALOG.zh-CN.md](SKILLS_CATALOG.zh-CN.md)
 
 Converted skills: **86** (from Refound/Lenny)
 Meta-skill(s): **1** (e.g., `lenny-skillpack-creator`)
 
-_Generated: 2026-01-23 09:39:19Z by `python3 scripts/generate_skills_catalog.py`._
+_Generated: 2026-01-23 11:52:51Z by `python3 scripts/generate_skills_catalog.py`._
 
-Upstream source: `https://refoundai.com/lenny-skills/`
+Upstream source: <https://refoundai.com/lenny-skills/>
 
 ## Product Management (22)
 | Skill | Command | Version | Description | Upstream |

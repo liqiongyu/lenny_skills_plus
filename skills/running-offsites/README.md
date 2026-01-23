@@ -29,7 +29,7 @@ An **Offsite Pack** in this order:
 6) Post-Offsite Output Pack (decisions, action plan, comms, review)
 7) Risks / Open questions / Next steps
 
-Templates live in `references/TEMPLATES.md`.
+Templates live in [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 

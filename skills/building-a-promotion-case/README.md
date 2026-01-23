@@ -22,6 +22,6 @@ Example prompts:
 2) “Turn these 6 projects into a promotion packet with an impact narrative and sponsor plan. Assume our promotion committee is skeptical and time-constrained.”
 
 ## Files
-- `SKILL.md` — the execution contract
+- [SKILL.md](SKILL.md) — the execution contract
 - `references/` — intake, expanded workflow, templates, checklists, rubric, source summary
 

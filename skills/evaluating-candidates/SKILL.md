@@ -38,7 +38,7 @@ description: "Make an evidence-based hiring decision and produce a Candidate Eva
 - Constraints: timeline, confidentiality/PII rules, internal-only vs shareable output
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md` (3–5 at a time).
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md) (3–5 at a time).
 - If criteria or notes are missing, propose a **default criteria set** and clearly label assumptions.
 - Do not request secrets. If notes contain sensitive info, ask for **redacted excerpts** or summaries.
 
@@ -55,13 +55,13 @@ Produce a **Candidate Evaluation Decision Pack** in Markdown (in-chat; or as fil
 7) **Hiring decision memo** (recommendation + risks + mitigations)
 8) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (7 steps)
 
 ### 1) Intake + decision framing
-- **Inputs:** user context; `references/INTAKE.md`.
+- **Inputs:** user context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm role, level, must-haves, and the decision timeline. Identify which signals exist vs need to be created (work sample, trial, references). Record constraints (PII, internal-only, fairness).
 - **Outputs:** Context snapshot + assumptions/unknowns list.
 - **Checks:** The decision and decision date are explicit (who decides, by when, using which signals).
@@ -98,12 +98,12 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 7) Quality gate + calibration + finalize pack
 - **Inputs:** full draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add **Risks / Open questions / Next steps**. If uncertain, propose the smallest additional signal to resolve (targeted reference, scoped trial, specific follow-up interview).
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add **Risks / Open questions / Next steps**. If uncertain, propose the smallest additional signal to resolve (targeted reference, scoped trial, specific follow-up interview).
 - **Outputs:** Final Candidate Evaluation Decision Pack.
 - **Checks:** Evidence is sufficient for the decision; limitations and fairness risks are explicit.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

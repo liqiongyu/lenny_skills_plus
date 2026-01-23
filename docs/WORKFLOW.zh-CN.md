@@ -1,6 +1,6 @@
 # 转换流程（推荐）（Conversion workflow）
 
-> English version: `WORKFLOW.md`
+> English version: [WORKFLOW.md](WORKFLOW.md)
 
 这是把一个 Refound/Lenny skill 转成“可执行 skill pack”的可重复流程。
 

@@ -36,7 +36,7 @@ description: "Negotiate job offers and produce an Offer Negotiation Pack (succes
 - Role-success hypotheses: what resources/commitments you’ll need to succeed (team, budget, authority, scope, tech debt, OKRs)
 
 **Missing-info strategy**
-- Ask **3–5 questions at a time** from `references/INTAKE.md`.
+- Ask **3–5 questions at a time** from [references/INTAKE.md](references/INTAKE.md).
 - If comp numbers are missing, proceed using **relative moves** (percent, ranges) and non-comp levers.
 - If the user is uncomfortable sharing details, redact and continue; never request secrets or confidential employer information.
 
@@ -53,13 +53,13 @@ Produce an **Offer Negotiation Pack** (in chat as Markdown; or as files if reque
 7) **Optional: Alternative Structure Proposal** (e.g., 3-days/week contract/part-time)
 8) **Risks / Open questions / Next steps** (always)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + offer snapshot
-- **Inputs:** user context; `references/INTAKE.md`.
+- **Inputs:** user context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Capture the offer components, decision deadline, stakeholders (recruiter, hiring manager), and constraints (location, visa, family, start date). Identify what’s already agreed vs still open.
 - **Outputs:** **Offer Snapshot + Timeline**.
 - **Checks:** Offer state is explicit (verbal vs written); deadlines and next meetings are listed.
@@ -106,12 +106,12 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 8) Quality gate + finalize
 - **Inputs:** full pack draft.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Tighten weak asks, remove vague language, add **Risks / Open questions / Next steps**, and produce a final negotiation-ready pack.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Tighten weak asks, remove vague language, add **Risks / Open questions / Next steps**, and produce a final negotiation-ready pack.
 - **Outputs:** Final **Offer Negotiation Pack**.
 - **Checks:** Pack is executable end-to-end; risks and unknowns are explicit; next meeting and next message are ready to send.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

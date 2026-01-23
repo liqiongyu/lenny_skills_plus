@@ -6,12 +6,12 @@ Use this before finalizing any generated skill pack.
 - `SKILL.md` exists and has YAML frontmatter with `name` + `description`.
 - Frontmatter `name` matches the folder name (slug).
 - `references/` contains:
-  - `INTAKE.md`
-  - `WORKFLOW.md`
-  - `TEMPLATES.md`
-  - `CHECKLISTS.md`
-  - `RUBRIC.md`
-  - `SOURCE_SUMMARY.md`
+  - [INTAKE.md](INTAKE.md)
+  - [WORKFLOW.md](WORKFLOW.md)
+  - [TEMPLATES.md](TEMPLATES.md)
+  - [CHECKLISTS.md](CHECKLISTS.md)
+  - [RUBRIC.md](RUBRIC.md)
+  - [SOURCE_SUMMARY.md](SOURCE_SUMMARY.md)
 
 ## Execution contract checks
 - Scope includes **When to use** and **When NOT to use** with clear boundaries and adjacent-skill pointers.

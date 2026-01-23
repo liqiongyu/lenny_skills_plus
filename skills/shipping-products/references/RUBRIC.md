@@ -44,7 +44,7 @@ Score each dimension from **1–5**.
 - 1: No plan to learn or improve.
 
 ## Passing bar (recommended)
-- **No open “stop-ship” items** on `CHECKLISTS.md`.
+- **No open “stop-ship” items** on [CHECKLISTS.md](CHECKLISTS.md).
 - Average score **≥ 4.0** across dimensions 1–7.
 - If risk is high (permissions, money movement, availability), require: rollout+rollback = 5 and monitoring = 5.
 

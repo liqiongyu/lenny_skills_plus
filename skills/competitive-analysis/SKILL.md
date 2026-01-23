@@ -35,7 +35,7 @@ description: "Produce a Competitive Analysis Pack (competitive alternatives map,
 - Constraints: geography, ICP, price band, compliance/regulation (if relevant), time box
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If answers aren’t available, proceed with explicit assumptions and label unknowns. Provide 2–3 plausible alternative scopes (narrow vs broad).
 
 ## Outputs (deliverables)
@@ -52,12 +52,12 @@ Produce a **Competitive Analysis Pack** in Markdown (in-chat; or as files if req
 8) **Monitoring plan** (signals, cadence, owners, update triggers)
 9) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + decision framing
-- **Inputs:** User context; `references/INTAKE.md`.
+- **Inputs:** User context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm the decision, ICP, use case, geography, and time box. Define what “good” looks like (who will use this and for what).
 - **Outputs:** Context snapshot.
 - **Checks:** A stakeholder can answer: “What decision will this analysis change?”
@@ -100,12 +100,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 8) Monitoring + quality gate + finalize
 - **Inputs:** Draft pack.
-- **Actions:** Define monitoring signals, cadence, and update triggers. Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add Risks/Open questions/Next steps.
+- **Actions:** Define monitoring signals, cadence, and update triggers. Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add Risks/Open questions/Next steps.
 - **Outputs:** Final Competitive Analysis Pack.
 - **Checks:** Pack is shareable as-is; assumptions and confidence levels are explicit.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

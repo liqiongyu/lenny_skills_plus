@@ -38,7 +38,7 @@ description: "Plan and execute a career transition and produce a Career Transiti
 - Your current “assets” (skills, strengths, portfolio/work examples, network access)
 
 **Missing-info strategy**
-- Ask **3–5 questions at a time** from `references/INTAKE.md`.
+- Ask **3–5 questions at a time** from [references/INTAKE.md](references/INTAKE.md).
 - If the user is unsure of targets, propose 2–3 plausible archetypes and label assumptions for the user to correct.
 - If numbers are missing (runway/comp), proceed with ranges and decision thresholds.
 - Never request confidential employer information; use redacted details.
@@ -57,13 +57,13 @@ Produce a **Career Transition Pack** (Markdown in chat; or as files if requested
 8) **Experiment Plan (4–12 weeks)** (tests to run; sequencing; sabbatical/bridge option if relevant)
 9) **Risks / Open questions / Next steps** (always)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + current state snapshot
-- **Inputs:** user context; `references/INTAKE.md`.
+- **Inputs:** user context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Capture the current role, what’s driving the change, constraints, and decision timeline. Identify what must remain true (e.g., location, comp floor, hours, mission).
 - **Outputs:** **Current State + Constraints Snapshot** + assumptions/unknowns list.
 - **Checks:** Constraints are explicit; timeline has dates; unknowns are listed.
@@ -106,12 +106,12 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 8) Quality gate + finalize the 4–12 week experiment plan
 - **Inputs:** full draft pack.
-- **Actions:** Turn unknowns into a sequenced experiment plan (informational interviews, shadowing, mini-projects, internal transfer, sabbatical/bridge proposal). Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add **Risks / Open questions / Next steps**.
+- **Actions:** Turn unknowns into a sequenced experiment plan (informational interviews, shadowing, mini-projects, internal transfer, sabbatical/bridge proposal). Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add **Risks / Open questions / Next steps**.
 - **Outputs:** Final **Career Transition Pack**.
 - **Checks:** The next 2 weeks have scheduled actions; risks and unknowns are explicit; decision rule is clear.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

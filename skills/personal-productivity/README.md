@@ -22,6 +22,6 @@ Example prompts:
 2) “I’m drowning in follow-ups. Design a write-it-down task system and a 7-day rollout plan.”
 
 ## Files
-- `SKILL.md` — the execution contract
+- [SKILL.md](SKILL.md) — the execution contract
 - `references/` — intake, expanded workflow, templates, checklists, rubric, source summary, examples
 

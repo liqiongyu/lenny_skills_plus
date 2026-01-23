@@ -27,7 +27,7 @@ Preserved as: workflow step 4 (role scorecards with product depth bar) and check
 Preserved as: workflow step 3 (pilot AE/SDR attached to founder, learning-protected pilot) and checklist **A/C**.
 
 5) **Hire first sales reps when founder has a repeatable win rate over many at-bats (Pete Kazanjy)**  
-Preserved as: workflow step 1 readiness criteria (win rate + at-bat volume), plus templates in `TEMPLATES.md`.
+Preserved as: workflow step 1 readiness criteria (win rate + at-bat volume), plus templates in [TEMPLATES.md](TEMPLATES.md).
 
 ## Notes on additions (manufactured execution layers)
 The source is insight-heavy and does not provide a full, testable process. This skill pack adds:

@@ -18,10 +18,10 @@ Use language like:
 
 “Use `pricing-strategy`. Context: <product + ICP + use case>. Current pricing: <plans/prices/trial or ‘none’>. Objective: <what decision this should change>. Motion: <self-serve/sales-led/hybrid>. Constraints: <billing/contracts/brand>. Evidence: <metrics/notes/links>. Output: a Pricing Strategy Pack.”
 
-If key details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and then proceed with explicit assumptions.
+If key details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceed with explicit assumptions.
 
 ## Optional file output
-If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/pricing-strategy/`) using `references/TEMPLATES.md`.
+If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/pricing-strategy/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “We’re moving from self-serve to sales assist. Define self-serve vs sales-led thresholds and propose new packaging.”

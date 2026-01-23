@@ -53,7 +53,7 @@ During pre-briefs and meetings, capture signals:
 - What caused disengagement (“dead eyes”, topic switching, vague approval)?
 - Which words/frames did stakeholders repeat back (evidence it landed)?
 
-Use the pre-brief notes template in `TEMPLATES.md` to log signals and adjust messaging.
+Use the pre-brief notes template in [TEMPLATES.md](TEMPLATES.md) to log signals and adjust messaging.
 
 ## Suggested question prompts (copy/paste)
 

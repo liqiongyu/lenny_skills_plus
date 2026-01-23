@@ -11,7 +11,7 @@ This skill is designed to be compatible with both:
 - **OpenAI Codex** (Codex CLI / IDE skills)
 - **Claude Code** (Agent Skills)
 
-You are NOT writing a blog post. You are producing an installable folder with `SKILL.md` + `references/` (+ optional `scripts/`).
+You are NOT writing a blog post. You are producing an installable folder with [SKILL.md](SKILL.md) + `references/` (+ optional `scripts/`).
 
 **Language requirement:** The generated skill pack (SKILL.md and all referenced templates/checklists) must be written in **English**.
 
@@ -24,7 +24,7 @@ For a given source skill, output an installable skill directory:
 - `<skill-slug>/scripts/` (optional: lint, scaffolding, batch tools)
 - `<skill-slug>/README.md` (install + invoke + examples)
 
-Follow the spec in `references/SKILL_PACK_SPEC.md`.
+Follow the spec in [references/SKILL_PACK_SPEC.md](references/SKILL_PACK_SPEC.md).
 
 ## Inputs you need
 
@@ -49,14 +49,14 @@ Every generated SKILL.md must include:
 - **Quality gate** (checklist/rubric + “risks / open questions / next steps”)
 - **Examples** (2 positive + 1 boundary/negative)
 
-Use `references/TRANSFORMATION_RULES.md` as the canonical conversion playbook.
+Use [references/TRANSFORMATION_RULES.md](references/TRANSFORMATION_RULES.md) as the canonical conversion playbook.
 
 ## Progressive disclosure (keep SKILL.md short)
 
-Keep `SKILL.md` operational. Move long content into `references/` and cite the files.
+Keep [SKILL.md](SKILL.md) operational. Move long content into `references/` and cite the files.
 
 Heuristic:
-- `SKILL.md`: 1–2 pages
+- [SKILL.md](SKILL.md): 1–2 pages
 - `references/`: everything else (templates, deep notes, long checklists)
 
 ## Safety + reliability rules
@@ -65,7 +65,7 @@ Heuristic:
 - Never ask for credentials or secrets.
 - If the skill writes/modifies code or makes irreversible changes, require explicit confirmation and add rollback guidance.
 
-Use `references/SECURITY_GUIDE.md`.
+Use [references/SECURITY_GUIDE.md](references/SECURITY_GUIDE.md).
 
 ## Packaging
 
@@ -73,7 +73,7 @@ If the environment supports file operations, create the folder structure and wri
 Otherwise, output a complete file tree in-chat (one file at a time), clearly labeled.
 
 Optional helper scripts (in this skill folder):
-- `scripts/init_skillpack.py` to generate a skeleton
-- `scripts/lint_skillpack.py` to validate structure
-- `scripts/package_skillpack.py` to zip a skill pack
-- `scripts/fetch_refound_skills.py` to download Refound SKILL.md sources from a URL list/manifest
+- [scripts/init_skillpack.py](scripts/init_skillpack.py) to generate a skeleton
+- [scripts/lint_skillpack.py](scripts/lint_skillpack.py) to validate structure
+- [scripts/package_skillpack.py](scripts/package_skillpack.py) to zip a skill pack
+- [scripts/fetch_refound_skills.py](scripts/fetch_refound_skills.py) to download Refound SKILL.md sources from a URL list/manifest

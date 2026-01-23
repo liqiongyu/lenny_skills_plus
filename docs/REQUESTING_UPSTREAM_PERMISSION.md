@@ -1,11 +1,11 @@
 # Requesting explicit permission from RefoundAI (recommended)
 
-> 中文版: `REQUESTING_UPSTREAM_PERMISSION.zh-CN.md`
+> 中文版: [REQUESTING_UPSTREAM_PERMISSION.zh-CN.md](REQUESTING_UPSTREAM_PERMISSION.zh-CN.md)
 
 This repo is derived from RefoundAI’s “Lenny skills” database. While we strive to be attribution-safe and avoid verbatim copying, the safest path for a public/open community project is to **ask RefoundAI for explicit permission** (and be ready to comply with any conditions or takedown requests).
 
 See also:
-- `ATTRIBUTION_AND_IP.md` (policy + takedown path)
+- [ATTRIBUTION_AND_IP.md](ATTRIBUTION_AND_IP.md) (policy + takedown path)
 
 ## Suggested channels to reach RefoundAI
 

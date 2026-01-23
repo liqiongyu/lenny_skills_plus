@@ -40,7 +40,7 @@ description: "Build or refresh engineering culture and produce an Engineering Cu
 - Desired outcomes (what should be *more true* in 4–12 weeks?) + timeline constraints
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md` (3–5 at a time), then proceed with explicit assumptions.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md) (3–5 at a time), then proceed with explicit assumptions.
 - If metrics are missing, use best-effort ranges and label confidence; list instrumentation gaps.
 - Do not request secrets, credentials, or proprietary identifiers; use redacted summaries.
 
@@ -56,13 +56,13 @@ Produce an **Engineering Culture Operating System Pack** in Markdown (in-chat; o
 6) **Rollout + measurement plan** (30/60/90, rituals, metrics + guardrails, feedback loops)
 7) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (7 steps)
 
 ### 1) Intake + boundary setting
-- **Inputs:** User context; `references/INTAKE.md`.
+- **Inputs:** User context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm scope (team vs org), decision owner(s), timeline, and constraints. Identify any HR/legal or active-incident concerns and route appropriately. Confirm which deliverables to produce.
 - **Outputs:** Context snapshot + assumptions/unknowns list.
 - **Checks:** Scope boundaries are explicit; success definition is stated in observable terms.
@@ -99,12 +99,12 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 7) Rollout + measurement + quality gate
 - **Inputs:** Draft pack.
-- **Actions:** Create a 30/60/90 rollout plan with rituals/cadence and training. Define metrics and guardrails (e.g., DORA + quality + DevEx). Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Finalize **Risks / Open questions / Next steps**.
+- **Actions:** Create a 30/60/90 rollout plan with rituals/cadence and training. Define metrics and guardrails (e.g., DORA + quality + DevEx). Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Finalize **Risks / Open questions / Next steps**.
 - **Outputs:** Final Engineering Culture Operating System Pack.
 - **Checks:** The first 1–2 actions can start this week; measurement is feasible; risks/trade-offs are explicit.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples
@@ -114,4 +114,4 @@ Expanded guidance: `references/WORKFLOW.md`
 **Example 2 (Conway misalignment):** “We have 6 teams but architecture ownership is unclear and everything depends on platform. Analyze Conway’s Law issues and propose a new operating model + standardization (leveling, code ownership, on-call) plus a rollout plan.”
 
 **Boundary example:** “Write a generic essay about what engineering culture is.”  
-Response: explain this skill produces a concrete operating system pack; ask for context/symptoms/timeline or provide the intake checklist and an example template from `references/TEMPLATES.md`.
+Response: explain this skill produces a concrete operating system pack; ask for context/symptoms/timeline or provide the intake checklist and an example template from [references/TEMPLATES.md](references/TEMPLATES.md).

@@ -85,7 +85,7 @@ Output:
 - A concrete review agenda and grading method.
 
 ## Step 8 — Quality gate + finalize
-Run `CHECKLISTS.md` + `RUBRIC.md`, then finalize with:
+Run [CHECKLISTS.md](CHECKLISTS.md) + [RUBRIC.md](RUBRIC.md), then finalize with:
 - Risks (what could go wrong / what might we be wrong about)
 - Open questions (what would change the OKRs)
 - Next steps (owners + dates if possible)

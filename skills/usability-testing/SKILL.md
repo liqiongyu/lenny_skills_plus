@@ -35,7 +35,7 @@ description: "Plan, run, and synthesize usability tests and produce a Usability 
 - Constraints: session type, number of participants, incentives, recording policy, privacy constraints
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If still unknown, proceed with explicit assumptions and list **Open questions** that would change the plan.
 
 ## Outputs (deliverables)
@@ -50,13 +50,13 @@ Produce a **Usability Test Pack** in Markdown (in-chat; or as files if requested
 6) **Synthesis readout** (findings, prioritized issues, recommendations, quick wins)
 7) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`  
-Expanded heuristics: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded heuristics: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (8 steps)
 
 ### 1) Frame the decision and the “why now”
-- **Inputs:** User context; `references/INTAKE.md`.
+- **Inputs:** User context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Define the decision, primary unknowns, and the minimum you need to learn to make the call.
 - **Outputs:** Context snapshot + research questions/hypotheses.
 - **Checks:** You can answer: “What will we do differently after this test?”
@@ -99,12 +99,12 @@ Expanded heuristics: `references/WORKFLOW.md`
 
 ### 8) Share, decide, and run the quality gate
 - **Inputs:** Draft pack.
-- **Actions:** Produce a shareable readout, propose next steps (design iteration, follow-up test, experiment). Run `references/CHECKLISTS.md` and score `references/RUBRIC.md`.
+- **Actions:** Produce a shareable readout, propose next steps (design iteration, follow-up test, experiment). Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score [references/RUBRIC.md](references/RUBRIC.md).
 - **Outputs:** Final Usability Test Pack + Risks/Open questions/Next steps.
 - **Checks:** A stakeholder can make a “ship / fix / retest” decision asynchronously.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

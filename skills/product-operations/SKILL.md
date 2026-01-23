@@ -37,7 +37,7 @@ description: "Design and implement Product Operations systems that help product 
 - Constraints: compliance/privacy, tooling limits, resourcing, timelines
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If answers aren’t available, proceed with explicit assumptions and label unknowns.
 
 ## Outputs (deliverables)
@@ -53,13 +53,13 @@ Produce a **Product Ops Operating System Pack** in Markdown (in-chat; or as file
 7) **30/60/90 implementation plan** (pilot, rollout, measurement, iteration)
 8) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + problem framing (what’s breaking at scale?)
-- **Inputs:** User request; `references/INTAKE.md`.
+- **Inputs:** User request; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Clarify: org stage, top 3 friction points, stakeholders, existing cadences, and desired outcomes.
 - **Outputs:** Context snapshot + top problems to solve (ranked).
 - **Checks:** You can state a 1-sentence problem: “Product Ops exists to reduce <friction> and improve <outcome> for <teams>.”
@@ -107,7 +107,7 @@ Expanded guidance: `references/WORKFLOW.md`
 - **Checks:** At least 1 measurable improvement is targeted (cycle time, stakeholder satisfaction, fewer surprises, less PM overhead).
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

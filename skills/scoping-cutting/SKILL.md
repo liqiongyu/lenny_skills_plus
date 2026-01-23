@@ -38,7 +38,7 @@ description: "Right-size scope to ship within a fixed timebox (appetite). Produc
 - Candidate scope items (bullets are fine) + known unknowns
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If answers aren’t available, proceed with explicit assumptions and list **Open questions** that would change the cut decisions.
 
 ## Outputs (deliverables)
@@ -54,13 +54,13 @@ Produce a **Scoping & Cutting Pack** in Markdown (in-chat; or as files if the us
 7) **Delivery plan** (milestones within appetite + scope-change rules)
 8) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + decision framing
-- **Inputs:** User request; `references/INTAKE.md`.
+- **Inputs:** User request; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Clarify the decision, date/appetite, DRI, constraints, and what “shipping” means (where it lands, who uses it).
 - **Outputs:** Context snapshot.
 - **Checks:** You can state: “We are deciding to ship <slice> by <date> with <team> under <constraints>.”
@@ -103,12 +103,12 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 8) Quality gate + finalize
 - **Inputs:** Full draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Ensure **Risks / Open questions / Next steps** are present with owners.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Ensure **Risks / Open questions / Next steps** are present with owners.
 - **Outputs:** Final Scoping & Cutting Pack.
 - **Checks:** A stakeholder can approve the slice async and the team can execute without re-litigating scope.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

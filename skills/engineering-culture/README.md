@@ -16,10 +16,10 @@ Use language like:
 
 “Use `engineering-culture`. Context: <product + org stage + eng size>. Symptoms: <2–5 examples>. Current delivery: <release cadence + CI/CD + tests>. Architecture: <coupling/ownership hotspots>. Goal: <what should be true in 4–12 weeks>. Constraints: <timeline, compliance, capacity>. Output: an Engineering Culture Operating System Pack.”
 
-If key details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and then proceed with explicit assumptions.
+If key details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceed with explicit assumptions.
 
 ## Optional file output
-If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/engineering-culture/`) using `references/TEMPLATES.md`.
+If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/engineering-culture/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “Increase clock speed: we want daily deploys with fewer regressions—create a backlog and rollout plan.”

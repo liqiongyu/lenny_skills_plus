@@ -17,10 +17,10 @@ Use language like:
 
 “Use `working-backwards`. Context: <product + target user + problem>. Constraints: <launch window, platform, policy/legal, dependencies>. Output: a Working Backwards Pack (PR options + PR/FAQ + backcasting plan).”
 
-If details are missing, the skill asks up to 5 intake questions (see `references/INTAKE.md`) and then proceeds with explicit assumptions.
+If details are missing, the skill asks up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceeds with explicit assumptions.
 
 ## Optional file output
-If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/working-backwards/`) using `references/TEMPLATES.md`.
+If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/working-backwards/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “We want to launch ‘Team shared templates’ for our B2B design tool. Work backwards: draft 3 PR options, pick one, then write the PR/FAQ and a backcasting plan to beta in 6 weeks.”

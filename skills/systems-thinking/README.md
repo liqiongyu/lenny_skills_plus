@@ -16,10 +16,10 @@ Use language like:
 
 “Use `systems-thinking`. Context: <problem + decision>. Outcome: <desired outcome>. Horizon: <timeframe>. Constraints: <guardrails>. Output: a Systems Thinking Pack.”
 
-If details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and then proceed with explicit assumptions.
+If details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceed with explicit assumptions.
 
 ## Optional file output
-If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/systems-thinking/`) using the templates in `references/TEMPLATES.md`.
+If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/systems-thinking/`) using the templates in [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “We’re reorganizing ownership across teams. Map the incentives and feedback loops and propose interventions with guardrails.”

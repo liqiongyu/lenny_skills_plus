@@ -17,10 +17,10 @@ Use language like:
 
 “Use `brand-storytelling`. Company: <what you do>. Audience: <customers/investors/press>. Channels: <website/deck/social>. Desired perception: <3–5 adjectives>. Raw story material: <bullets>. Proof: <metrics/quotes>. Constraints: <tone/claims/taboo>. Output: a Brand Storytelling Pack.”
 
-If key details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and then proceed with explicit assumptions and placeholders (no invented facts).
+If key details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceed with explicit assumptions and placeholders (no invented facts).
 
 ## Optional file output
-If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/brand-storytelling/`) using `references/TEMPLATES.md`.
+If you want the deliverables as files, ask the agent to write them under a folder you specify (e.g., `docs/brand-storytelling/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “Turn our founder notes into a 2-minute origin story for a pitch and a one-paragraph website version.”

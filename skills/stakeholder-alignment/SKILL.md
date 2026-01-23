@@ -37,7 +37,7 @@ description: "Align stakeholders and secure buy-in by producing a Stakeholder Al
 - Current state: what’s already been discussed, and where alignment breaks down
 
 **Missing-info strategy**
-- Ask 3–5 questions from `references/INTAKE.md` at a time.
+- Ask 3–5 questions from [references/INTAKE.md](references/INTAKE.md) at a time.
 - If key info is unavailable, proceed with explicit assumptions and label unknowns.
 
 ## Outputs (deliverables)
@@ -50,13 +50,13 @@ Produce a **Stakeholder Alignment Pack** (Markdown in-chat; or files if requeste
 5) **Decision Summary + Comms Draft** (what we decided, why, what changes, owners, next steps)
 6) **Risks / Open questions / Next steps** (always)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (8 steps)
 
 ### 1) Define the alignment target (what does “aligned” mean?)
-- **Inputs:** user context; `references/INTAKE.md`.
+- **Inputs:** user context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Classify the goal (**inform/align/decide**) and name the decision/commitment (or the output of alignment). Set a date and what “done” looks like.
 - **Outputs:** Alignment Brief sections: Goal, Decision/Ask, Deadline, Scope boundaries.
 - **Checks:** You can finish the sentence: “After alignment, stakeholders will commit to _____ by _____.“
@@ -104,7 +104,7 @@ Expanded guidance: `references/WORKFLOW.md`
 - **Checks:** Follow-up comms contains: decision, rationale, tradeoffs, owners, dates, and what would trigger a revisit.
 
 ## Quality gate (required)
-- Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`.
+- Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

@@ -37,7 +37,7 @@ description: "Create an Amazon-style PR/FAQ (future press release + FAQ) plus a 
 - Success metrics (1–3) + guardrails (2–5)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If answers remain missing, proceed with clearly labeled assumptions and provide 2–3 options (PR variants, scope, rollout).
 
 ## Outputs (deliverables)
@@ -53,13 +53,13 @@ Produce a **Working Backwards Pack** in Markdown (in-chat; or as files if the us
 7) **Success metrics + guardrails** (+ instrumentation notes)
 8) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + decision framing
-- **Inputs:** user request; `references/INTAKE.md`.
+- **Inputs:** user request; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Clarify the decision (invest vs not, choose approach), audience, and target launch date/timebox. Capture constraints + stakeholders.
 - **Outputs:** Context snapshot.
 - **Checks:** You can state the decision and time horizon in one sentence.
@@ -102,12 +102,12 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 8) Quality gate + finalize pack
 - **Inputs:** full draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Ensure final section includes risks/open questions/next steps.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Ensure final section includes risks/open questions/next steps.
 - **Outputs:** Final Working Backwards Pack.
 - **Checks:** Pack is decision-ready and shareable async (no meeting required).
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

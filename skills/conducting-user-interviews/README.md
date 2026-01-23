@@ -18,5 +18,5 @@ Invoke with a concrete request and context. Examples:
 - “Write a JTBD switch interview guide to understand why customers churned from our product.”
 - “Synthesize these interview notes into themes, opportunities, and next steps.”
 
-Expected deliverable: a **User Interview Pack** as described in `SKILL.md`, using templates in `references/TEMPLATES.md`.
+Expected deliverable: a **User Interview Pack** as described in [SKILL.md](SKILL.md), using templates in [references/TEMPLATES.md](references/TEMPLATES.md).
 

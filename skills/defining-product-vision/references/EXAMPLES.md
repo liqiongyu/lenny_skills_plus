@@ -1,6 +1,6 @@
 # Examples (Prompts + Expected Outputs)
 
-Use these as smoke tests. A good response produces concrete artifacts using the templates in `TEMPLATES.md`.
+Use these as smoke tests. A good response produces concrete artifacts using the templates in [TEMPLATES.md](TEMPLATES.md).
 
 ## Example 1 — B2B SaaS (workflow platform)
 **Prompt:**  

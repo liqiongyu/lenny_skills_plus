@@ -34,7 +34,7 @@ description: "Build stronger product taste + intuition as a PM by running a Tast
 - Constraints (platform, geography, accessibility, compliance, brand voice, etc.)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If inputs remain missing, proceed with explicit assumptions and provide 2 scope options (narrow vs broad).
 
 ## Outputs (deliverables)
@@ -50,12 +50,12 @@ Produce a **Taste Calibration Pack** (in-chat Markdown; or as files if requested
 7) **Practice Plan** (2–4 weeks: exposure hours + weekly synthesis cadence)
 8) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + pick the taste domain (narrow the problem)
-- **Inputs:** User context; `references/INTAKE.md`.
+- **Inputs:** User context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Choose 1 taste domain and 1 “moment” (e.g., first-run onboarding). Define target user + job + constraints. Set time box.
 - **Outputs:** Taste Calibration Brief (draft).
 - **Checks:** A stakeholder can answer: “What specific experience are we calibrating taste for?”
@@ -98,12 +98,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 8) Create a practice loop + quality gate + finalize
 - **Inputs:** Draft pack.
-- **Actions:** Build a 2–4 week practice plan (exposure hours schedule + weekly synthesis). Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add Risks/Open questions/Next steps.
+- **Actions:** Build a 2–4 week practice plan (exposure hours schedule + weekly synthesis). Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add Risks/Open questions/Next steps.
 - **Outputs:** Final Taste Calibration Pack.
 - **Checks:** A reader can follow the practice plan without additional context; assumptions are explicit.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

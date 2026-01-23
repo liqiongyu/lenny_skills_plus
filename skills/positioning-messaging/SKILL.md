@@ -38,7 +38,7 @@ description: "Create a Positioning & Messaging Pack (positioning statement, mess
 - Constraints: tone/voice, compliance/claims, taboo words, time box
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
 - If answers aren’t available, proceed with explicit assumptions and label unknowns. Provide 2–3 alternate positioning directions if uncertainty is high.
 
 ## Outputs (deliverables)
@@ -53,12 +53,12 @@ Produce a **Positioning & Messaging Pack** in Markdown (in-chat; or as files if 
 6) **Validation plan** (how to test for understanding + recall; next iteration loop)
 7) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + success definition
-- **Inputs:** User context; `references/INTAKE.md`.
+- **Inputs:** User context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Clarify ICP, use case, primary surface(s), and what “better” means (pipeline response, conversion, comprehension, recall).
 - **Outputs:** Context snapshot.
 - **Checks:** A stakeholder can answer: “Who is this for, and what will this messaging change?”
@@ -101,12 +101,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 8) Quality gate + finalize
 - **Inputs:** Draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Add Risks/Open questions/Next steps.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add Risks/Open questions/Next steps.
 - **Outputs:** Final Positioning & Messaging Pack.
 - **Checks:** The pack is usable as-is by marketing + sales + founders; assumptions are explicit.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

@@ -39,7 +39,7 @@ Recommended additions:
 
 ## 5) Apply safety rules
 
-Use `SECURITY_GUIDE.md`:
+Use [SECURITY_GUIDE.md](SECURITY_GUIDE.md):
 - No secrets/credentials.
 - Least privilege by default.
 - Require explicit confirmation for irreversible actions.

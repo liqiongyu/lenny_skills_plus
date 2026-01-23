@@ -36,7 +36,7 @@ description: "Plan and run an early-stage fundraising process and produce a Fund
 - Fundraising intent: why raise, target amount (or range), and what milestone it buys
 
 **Missing-info strategy**
-- Ask **3–5 questions at a time** from `references/INTAKE.md`.
+- Ask **3–5 questions at a time** from [references/INTAKE.md](references/INTAKE.md).
 - If specifics are missing, proceed with labeled assumptions and ranges (never invent exact numbers).
 - Do not request sensitive credentials or confidential customer/employee data; use anonymized examples.
 
@@ -53,13 +53,13 @@ Produce a **Fundraising Pack** (Markdown in chat; or as files if requested) in t
 7) **Operating Cadence** (weekly dashboard, “100 no’s” resilience plan, next-14-days action plan)
 8) **Risks / Open questions / Next steps** (always)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + constraints snapshot
-- **Inputs:** user context; `references/INTAKE.md`.
+- **Inputs:** user context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Capture stage, runway, constraints, timing, and goal. Separate “must be true” vs “nice to have”. Identify what would make fundraising a mistake.
 - **Outputs:** Context snapshot + assumptions/unknowns list.
 - **Checks:** Timeline has dates; runway is stated (or explicitly unknown); constraints are explicit.
@@ -102,12 +102,12 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 8) Quality gate + finalize the pack
 - **Inputs:** full draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Tighten weak sections. Add **Risks / Open questions / Next steps** and a next-14-days action plan.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Tighten weak sections. Add **Risks / Open questions / Next steps** and a next-14-days action plan.
 - **Outputs:** Final **Fundraising Pack**.
 - **Checks:** Pack is decision-ready, narrative-coherent, and process-executable.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

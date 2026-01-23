@@ -15,10 +15,10 @@ Use language like:
 
 “Use `vibe-coding`. Context: <idea + target user>. Timebox: <30/60/90m>. Platform: <web/mobile/CLI>. Constraints: <privacy/data/tools>. Demo goal: <what a user can do>. Output: Vibe Coding Prototype Pack.”
 
-If details are missing, the skill will ask up to 5 intake questions (see `references/INTAKE.md`) and then proceed with explicit assumptions.
+If details are missing, the skill will ask up to 5 intake questions (see [references/INTAKE.md](references/INTAKE.md)) and then proceed with explicit assumptions.
 
 ## Optional file output
-If you want the pack as files, ask the agent to write the artifacts under a folder you specify (e.g., `docs/prototypes/<project>/`) using `references/TEMPLATES.md`.
+If you want the pack as files, ask the agent to write the artifacts under a folder you specify (e.g., `docs/prototypes/<project>/`) using [references/TEMPLATES.md](references/TEMPLATES.md).
 
 ## Example prompts
 - “Use `vibe-coding` to build a 60-minute prototype of an internal dashboard. Mock data is fine; include a demo script.”

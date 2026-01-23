@@ -38,7 +38,7 @@ description: "Evaluate trade-offs and produce a Trade-off Evaluation Pack (trade
 - What you already know (evidence) + biggest unknowns (assumptions that drive the choice)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md` (3–5 at a time).
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md) (3–5 at a time).
 - If inputs are unavailable, proceed with explicit assumptions and label unknowns that would change the recommendation.
 
 ## Outputs (deliverables)
@@ -52,13 +52,13 @@ Produce a **Trade-off Evaluation Pack** in Markdown (in-chat; or as files if req
 6) **Recommendation + stop/continue triggers** (decision, rationale, review date, kill/continue criteria)
 7) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (7 steps)
 
 ### 1) Frame the trade-off (make it decidable)
-- **Inputs:** User request; `references/INTAKE.md`.
+- **Inputs:** User request; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Write the decision in one sentence (“We are choosing X vs Y by DATE to achieve GOAL”). List constraints/non-negotiables. Confirm the decision owner and who must live with the outcome.
 - **Outputs:** Trade-off brief (decision, why now, constraints, stakeholders).
 - **Checks:** You can answer: “What exactly are we deciding, by when, and for what outcome?”
@@ -95,12 +95,12 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 7) Recommend, commit, and quality-gate
 - **Inputs:** All artifacts above.
-- **Actions:** Write the recommendation with rationale and explicit trade-offs (what you will stop doing). Add risks, open questions, and next steps with owners/dates. Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`.
+- **Actions:** Write the recommendation with rationale and explicit trade-offs (what you will stop doing). Add risks, open questions, and next steps with owners/dates. Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md).
 - **Outputs:** Final Trade-off Evaluation Pack.
 - **Checks:** A stakeholder can read this async and make (or support) the decision without re-litigating the debate.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

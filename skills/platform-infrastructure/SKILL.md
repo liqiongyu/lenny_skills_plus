@@ -38,7 +38,7 @@ description: "Produce a Platform & Infrastructure Improvement Pack (shared capab
 - Constraints: deadlines, staffing/capacity, risk tolerance, compliance/privacy requirements
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md` (3–5 at a time).
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md) (3–5 at a time).
 - If details remain missing, proceed with explicit assumptions and provide 2–3 options.
 - If asked to change production systems or run commands, require explicit confirmation and include rollback guidance.
 
@@ -55,12 +55,12 @@ Produce a **Platform & Infrastructure Improvement Pack** in Markdown (in-chat; o
 7) **Execution roadmap** (sequencing, milestones, owners, dependencies, comms)
 8) **Risks / Open questions / Next steps** (always included)
 
-Templates: `references/TEMPLATES.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake + define “what decision will this enable?”
-- **Inputs:** Context; `references/INTAKE.md`.
+- **Inputs:** Context; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Confirm scope boundaries, top pains, and time horizon. Write a 1–2 sentence decision statement (e.g., “We will standardize X and commit to SLO Y by date Z.”).
 - **Outputs:** Context snapshot (draft).
 - **Checks:** A stakeholder can answer: “What will we do differently after reading this?”
@@ -103,12 +103,12 @@ Templates: `references/TEMPLATES.md`
 
 ### 8) Quality gate + finalize
 - **Inputs:** Full draft pack.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Tighten unclear contracts, add missing measures, and always include **Risks / Open questions / Next steps**.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Tighten unclear contracts, add missing measures, and always include **Risks / Open questions / Next steps**.
 - **Outputs:** Final Platform & Infrastructure Improvement Pack.
 - **Checks:** A team can execute without extra meetings; unknowns are explicit and owned.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

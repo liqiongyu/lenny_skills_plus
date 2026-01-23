@@ -1,6 +1,6 @@
 # 为什么做这个项目
 
-> English version: `WHY_THIS_PROJECT.md`
+> English version: [WHY_THIS_PROJECT.md](WHY_THIS_PROJECT.md)
 
 RefoundAI 的 “Lenny skills” 有很多高质量的产品/领导力经验，但不少条目对 Agent 来说**太 high-level**：缺少明确输入、明确交付物、可执行步骤与质量门槛，导致 Agent 很容易输出“泛泛而谈”的建议。
 
@@ -12,7 +12,7 @@ RefoundAI 的 “Lenny skills” 有很多高质量的产品/领导力经验，�
 - 质量门槛（checklists + rubric）保证结果可 review
 - 兼容 Codex 与 Claude Code（common Agent Skills subset）
 
-关于上游来源与知识产权处理：见 `ATTRIBUTION_AND_IP.zh-CN.md`。
+关于上游来源与知识产权处理：见 [ATTRIBUTION_AND_IP.zh-CN.md](ATTRIBUTION_AND_IP.zh-CN.md)。
 
 ## 快速使用
 

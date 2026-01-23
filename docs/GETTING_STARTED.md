@@ -1,6 +1,6 @@
 # Getting started
 
-> 中文版: `GETTING_STARTED.zh-CN.md`
+> 中文版: [GETTING_STARTED.zh-CN.md](GETTING_STARTED.zh-CN.md)
 
 This repository contains a curated set of **agent-executable skill packs** under `skills/`.
 
@@ -13,8 +13,8 @@ Install from the latest GitHub Release by downloading `skills-all.zip` and unzip
 - `~/.claude/skills/` (Claude Code global install)
 
 See:
-- `USING_WITH_CODEX.md`
-- `USING_WITH_CLAUDE.md`
+- [USING_WITH_CODEX.md](USING_WITH_CODEX.md)
+- [USING_WITH_CLAUDE.md](USING_WITH_CLAUDE.md)
 
 ## I want to contribute / modify skills
 
@@ -34,4 +34,4 @@ That generates:
 - `.codex/skills/<skill>/` for Codex
 - `.claude/skills/<skill>/` for Claude Code
 
-If you prefer global installation instead of project-local mirrors, see `USING_WITH_CODEX.md` and `USING_WITH_CLAUDE.md`.
+If you prefer global installation instead of project-local mirrors, see [USING_WITH_CODEX.md](USING_WITH_CODEX.md) and [USING_WITH_CLAUDE.md](USING_WITH_CLAUDE.md).

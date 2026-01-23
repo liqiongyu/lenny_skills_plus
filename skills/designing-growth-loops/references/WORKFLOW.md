@@ -90,7 +90,7 @@ Translate loops into a practical plan:
 - 90 days: scale the winners + cut losers
 
 Quality gate reminders:
-- Run `CHECKLISTS.md`
-- Score with `RUBRIC.md`
+- Run [CHECKLISTS.md](CHECKLISTS.md)
+- Score with [RUBRIC.md](RUBRIC.md)
 - Always include **Risks / Open questions / Next steps**
 

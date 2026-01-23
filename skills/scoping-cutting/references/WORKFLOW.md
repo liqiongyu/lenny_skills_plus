@@ -68,7 +68,7 @@ Common failure mode:
 
 ## Step 8 — Quality gate + finalize
 Before sharing:
-- Run `CHECKLISTS.md` and score `RUBRIC.md`
+- Run [CHECKLISTS.md](CHECKLISTS.md) and score [RUBRIC.md](RUBRIC.md)
 - Ensure **Risks / Open questions / Next steps** exist and are decision-useful
 - Confirm the pack could be executed without another scope meeting
 

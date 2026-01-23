@@ -1,6 +1,6 @@
 # Conversion workflow (recommended)
 
-> 中文版: `WORKFLOW.zh-CN.md`
+> 中文版: [WORKFLOW.zh-CN.md](WORKFLOW.zh-CN.md)
 
 This is the repeatable process for converting one Refound/Lenny skill into an executable skill pack.
 

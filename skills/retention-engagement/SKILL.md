@@ -38,7 +38,7 @@ description: "Improve retention, churn, engagement, and activation by producing 
 - Constraints: timebox, engineering/design capacity, allowed channels (email/push/in-app), privacy/legal/brand limits
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md`, then proceed.
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md), then proceed.
 - If metrics are missing, proceed with explicit assumptions and label confidence.
 - Do not request secrets or PII; prefer aggregated metrics and redacted funnels.
 
@@ -57,15 +57,15 @@ Produce a **Retention & Engagement Improvement Pack** (Markdown in-chat; or as f
 9) Risks / Open questions / Next steps (always included)
 
 Templates and checklists:
-- `references/TEMPLATES.md`
-- `references/WORKFLOW.md`
-- `references/CHECKLISTS.md`
-- `references/RUBRIC.md`
+- [references/TEMPLATES.md](references/TEMPLATES.md)
+- [references/WORKFLOW.md](references/WORKFLOW.md)
+- [references/CHECKLISTS.md](references/CHECKLISTS.md)
+- [references/RUBRIC.md](references/RUBRIC.md)
 
 ## Workflow (7 steps)
 
 ### 1) Intake + goal framing
-- **Inputs:** User prompt; `references/INTAKE.md`.
+- **Inputs:** User prompt; [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Define the retention problem (segment, time horizon, metric) and the decision this work will drive (what will change). Confirm constraints (timebox, capacity, channels, privacy/brand).
 - **Outputs:** Context snapshot + metric definitions draft.
 - **Checks:** Goal is a sentence with a number and a date (e.g., “Improve paid D30 retention from 18%→24% by end of Q2”).
@@ -99,7 +99,7 @@ Templates and checklists:
   - **Habit/daily return:** design cues, routines, rewards; reduce friction to “come back tomorrow”
   - **Accruing value + mounting loss (ethical):** personalization, progress/history, saved work, identity/data repository
   - **Re-engagement:** lifecycle messaging, winback, content reminders, in-product nudges
-  Convert each hypothesis into a rule + check (see `references/SOURCE_SUMMARY.md`).
+  Convert each hypothesis into a rule + check (see [references/SOURCE_SUMMARY.md](references/SOURCE_SUMMARY.md)).
 - **Outputs:** Lever hypotheses map + candidate interventions.
 - **Checks:** Every hypothesis ties to (a) a failure mode, and (b) a measurable leading indicator.
 
@@ -110,13 +110,13 @@ Templates and checklists:
 - **Checks:** Top 3 experiments are runnable with current constraints and have unambiguous “win/lose/learn” criteria.
 
 ### 7) Build the 30/60/90 plan + quality gate
-- **Inputs:** Draft pack; `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- **Inputs:** Draft pack; [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - **Actions:** Sequence work into a 30/60/90 plan (instrumentation, experiments, analysis cadence). Run the checklist and score the rubric. Always include **Risks / Open questions / Next steps**.
 - **Outputs:** Final Retention & Engagement Improvement Pack.
 - **Checks:** Next 2 weeks of work are unblocked; measurement is in place to learn.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples

@@ -21,6 +21,6 @@ Example prompts:
 2) “We’re building a creator tool. Design creator commitments for the team and a weekly report template.”
 
 ## Files
-- `SKILL.md` — the execution contract
+- [SKILL.md](SKILL.md) — the execution contract
 - `references/` — intake, expanded workflow, templates, checklists, rubric, source summary
 

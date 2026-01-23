@@ -1,6 +1,6 @@
 # Project memory
 
-> 中文版: `PROJECT_MEMORY.zh-CN.md`
+> 中文版: [PROJECT_MEMORY.zh-CN.md](PROJECT_MEMORY.zh-CN.md)
 
 This repository is a **Skillpack Factory**: it converts RefoundAI “Lenny skills” into **agent-executable skill packs** using the **Agent Skills** common subset, compatible with **OpenAI Codex** and **Claude Code**.
 

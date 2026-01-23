@@ -39,7 +39,7 @@ description: "Plan and deliver persuasive, confident presentations and produce a
 - Constraints (deadline, level of polish, sensitive details to avoid)
 
 **Missing-info strategy**
-- Ask up to 5 questions from `references/INTAKE.md` (3–5 at a time).
+- Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md) (3–5 at a time).
 - If details are missing, proceed with explicit assumptions and label unknowns.
 
 ## Outputs (deliverables)
@@ -54,13 +54,13 @@ Produce a **Presentation Pack** in Markdown (in-chat; or as files if requested):
 6) **Rehearsal + delivery plan** (visualization, record/review, timing, logistics, Zoom/in-person cues)
 7) **Risks / Open questions / Next steps** (always)
 
-Templates: `references/TEMPLATES.md`  
-Expanded guidance: `references/WORKFLOW.md`
+Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
+Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Workflow (8 steps)
 
 ### 1) Intake: lock the objective, ask, and constraints
-- **Inputs:** user context + `references/INTAKE.md`.
+- **Inputs:** user context + [references/INTAKE.md](references/INTAKE.md).
 - **Actions:** Clarify audience, outcome, and the single most important ask. Confirm time limit and what is in/out of scope.
 - **Outputs:** Presentation brief (draft) + assumptions/unknowns list.
 - **Checks:** You can answer in one sentence: “After this talk, the audience will _____.”
@@ -103,12 +103,12 @@ Expanded guidance: `references/WORKFLOW.md`
 
 ### 8) Finalize and run the quality gate
 - **Inputs:** final draft pack + logistics.
-- **Actions:** Run `references/CHECKLISTS.md` and score with `references/RUBRIC.md`. Confirm logistics (room/Zoom, backups). Produce the final pack.
+- **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Confirm logistics (room/Zoom, backups). Produce the final pack.
 - **Outputs:** Final Presentation Pack + Risks/Open questions/Next steps.
 - **Checks:** A teammate can read the brief + slide outline and correctly predict the ask and flow.
 
 ## Quality gate (required)
-- Use `references/CHECKLISTS.md` and `references/RUBRIC.md`.
+- Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples
