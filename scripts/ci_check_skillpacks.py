@@ -4,9 +4,9 @@ ci_check_skillpacks.py
 
 CI helper:
 - Lints canonical skill packs under `skills/` using lint_skillpack.py
-- Verifies canonical skills are mirrored identically into:
-  - `.codex/skills/<slug>/`
-  - `.claude/skills/<slug>/`
+- Optionally verifies canonical skills are mirrored identically into:
+  - `.codex/skills/<slug>/` (Codex project-local auto-discovery)
+  - `.claude/skills/<slug>/` (Claude Code project-local auto-discovery)
 
 This script is intentionally strict so drift is caught early.
 """
@@ -20,7 +20,7 @@ import sys
 from pathlib import Path
 from typing import Iterable
 
-LINTER = Path(".codex/skills/lenny-skillpack-creator/scripts/lint_skillpack.py")
+LINTER = Path("skills/lenny-skillpack-creator/scripts/lint_skillpack.py")
 
 
 def is_skill_dir(path: Path) -> bool:

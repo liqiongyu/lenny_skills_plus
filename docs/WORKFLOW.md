@@ -27,14 +27,13 @@ This is the repeatable process for converting one Refound/Lenny skill into an ex
    - README.md (install + invoke + examples)
 
 5. Run the linter
-   - `python .codex/skills/lenny-skillpack-creator/scripts/lint_skillpack.py <skill-dir>`
+   - `python3 skills/lenny-skillpack-creator/scripts/lint_skillpack.py <skill-dir>`
 
 6. Smoke test
    - Run 1–2 realistic tasks and check that outputs match the “Output contract”.
 
-7. Sync (optional)
-   - Copy the same skill folder to `.codex/skills/` and `.claude/skills/` for easy discovery.
+7. Generate local mirrors (recommended)
+   - Run `python3 scripts/mirror_skills.py --overwrite` to populate `.codex/skills/` and `.claude/skills/` for tool auto-discovery.
 
 8. Commit
    - Commit after each skill or small batch; keep diffs reviewable.
-

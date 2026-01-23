@@ -10,7 +10,8 @@ You should still review every generated skill pack.
 Prereqs:
 - Codex CLI installed and authenticated
 - Sources already downloaded into `sources/refound/raw/<slug>/SKILL.md` (or HTML fallback: `page.html` / legacy `skill_page.html`)
-- This repo contains the meta-skill at `.codex/skills/lenny-skillpack-creator`
+- This repo contains the meta-skill at `skills/lenny-skillpack-creator` (canonical).
+  If `.codex/skills/` is missing, this script will copy the meta-skill into `.codex/skills/` for project-local Codex discovery.
 
 Usage:
   python scripts/batch_convert_with_codex_exec.py --limit 3
@@ -28,6 +29,7 @@ from __future__ import annotations
 import argparse
 import csv
 import subprocess
+import shutil
 from pathlib import Path
 from typing import Optional
 
@@ -49,6 +51,17 @@ def run_codex(prompt: str, full_auto: bool = True) -> int:
     proc = subprocess.run(cmd)
     return proc.returncode
 
+def ensure_codex_meta_skill() -> None:
+    src = Path("skills/lenny-skillpack-creator").resolve()
+    dst = Path(".codex/skills/lenny-skillpack-creator").resolve()
+    if dst.exists():
+        return
+    if not (src / "SKILL.md").exists():
+        raise SystemExit(f"Missing meta-skill source at {src} (expected SKILL.md).")
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copytree(src, dst)
+    print(f"[ok] Installed project-local Codex meta-skill: {dst}")
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--manifest", default="sources/refound/refound_lenny_skills_manifest.csv")
@@ -62,6 +75,8 @@ def main() -> int:
         help="Run codex exec without unattended flags (uses your Codex config defaults).",
     )
     args = ap.parse_args()
+
+    ensure_codex_meta_skill()
 
     manifest = Path(args.manifest)
     if not manifest.exists():
@@ -104,7 +119,7 @@ def main() -> int:
                 f"Target persona: inferred from category = {category}\n"
                 f"Output: write a complete executable skill pack to: {out_dir}\n"
                 f"All output must be English.\n"
-                f"After writing files, run: python3 .codex/skills/lenny-skillpack-creator/scripts/lint_skillpack.py {out_dir}\n"
+                f"After writing files, run: python3 skills/lenny-skillpack-creator/scripts/lint_skillpack.py {out_dir}\n"
                 f"If lint fails, fix the skill pack and re-run lint until it passes, then stop.\n"
             )
 

@@ -28,8 +28,8 @@ jobs:
 
       - name: Python syntax check
         run: |
-          python -m compileall scripts .codex/skills .claude/skills
+          python -m compileall scripts skills
 
       - name: Lint skill packs + validate mirrors
         run: |
-          python scripts/ci_check_skillpacks.py
+          python scripts/ci_check_skillpacks.py --skip-mirror-check
