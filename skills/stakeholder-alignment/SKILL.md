@@ -1,7 +1,6 @@
 ---
-name: stakeholder-alignment
-description: >
-  Align stakeholders and secure buy-in by producing a Stakeholder Alignment Pack (alignment brief, stakeholder map, exec decision principles, pre-brief plan, alignment meeting plan, decision summary + comms). Use for stakeholder alignment, buy-in, executive alignment, cross-functional alignment. Category: Communication.
+name: "stakeholder-alignment"
+description: "Align stakeholders and secure buy-in by producing a Stakeholder Alignment Pack (alignment brief, stakeholder map, exec decision principles, pre-brief plan, alignment meeting plan, decision summary + comms). Use for stakeholder alignment, buy-in, executive alignment, cross-functional alignment. Category: Communication."
 ---
 
 # Stakeholder Alignment

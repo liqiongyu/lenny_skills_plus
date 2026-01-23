@@ -1,7 +1,6 @@
 ---
-name: evaluating-trade-offs
-description: >
-  Evaluate trade-offs and produce a Trade-off Evaluation Pack (trade-off brief, options+criteria matrix, all-in cost/opportunity cost table, impact ranges, recommendation, stop/continue triggers). Use for tradeoff/trade-off, pros and cons, cost-benefit, opportunity cost, build vs buy, ship fast vs ship better, continue vs stop (sunk costs). Category: Leadership.
+name: "evaluating-trade-offs"
+description: "Evaluate trade-offs and produce a Trade-off Evaluation Pack (trade-off brief, options+criteria matrix, all-in cost/opportunity cost table, impact ranges, recommendation, stop/continue triggers). Use for tradeoff/trade-off, pros and cons, cost-benefit, opportunity cost, build vs buy, ship fast vs ship better, continue vs stop (sunk costs). Category: Leadership."
 ---
 
 # Evaluating Trade-offs

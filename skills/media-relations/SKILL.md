@@ -1,7 +1,6 @@
 ---
-name: media-relations
-description: >
-  Plan and execute earned media outreach and journalist relationships by producing a Media Relations Pack (newsworthiness brief, media list, exclusive/embargo plan, pitch templates, outreach tracker, interview prep, press materials checklist). Use for PR, media outreach, press pitch, embargo, exclusive, press release, and journalist pitching. Category: Marketing.
+name: "media-relations"
+description: "Plan and execute earned media outreach and journalist relationships by producing a Media Relations Pack (newsworthiness brief, media list, exclusive/embargo plan, pitch templates, outreach tracker, interview prep, press materials checklist). Use for PR, media outreach, press pitch, embargo, exclusive, press release, and journalist pitching. Category: Marketing."
 ---
 
 # Media Relations

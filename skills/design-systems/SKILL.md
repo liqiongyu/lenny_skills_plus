@@ -1,7 +1,6 @@
 ---
-name: design-systems
-description: >
-  Build or evolve a design system by producing a Design System Operating Pack: charter, token model (incl. depth/elevation), component inventory + roadmap, blockframe-to-component mapping, documentation plan, and governance/adoption plan. Use for design systems, component libraries, design tokens, UI kits, and pattern libraries.
+name: "design-systems"
+description: "Build or evolve a design system by producing a Design System Operating Pack: charter, token model (incl. depth/elevation), component inventory + roadmap, blockframe-to-component mapping, documentation plan, and governance/adoption plan. Use for design systems, component libraries, design tokens, UI kits, and pattern libraries."
 ---
 
 # Design Systems

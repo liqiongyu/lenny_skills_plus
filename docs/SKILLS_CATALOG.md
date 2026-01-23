@@ -5,7 +5,7 @@
 Converted skills: **86** (from Refound/Lenny)
 Meta-skill(s): **1** (e.g., `lenny-skillpack-creator`)
 
-_Generated: 2026-01-23 07:30:46Z by `python3 scripts/generate_skills_catalog.py`._
+_Generated: 2026-01-23 09:39:19Z by `python3 scripts/generate_skills_catalog.py`._
 
 Upstream source: `https://refoundai.com/lenny-skills/`
 

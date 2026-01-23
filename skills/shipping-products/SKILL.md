@@ -1,6 +1,6 @@
 ---
-name: shipping-products
-description: Plan and execute a product launch/release with speed and safety. Produces a Shipping & Launch Pack (release brief, rollout/rollback plan, product quality list, comms + enablement, monitoring plan, post-launch review). Use for ship, launch, release, deploy, go live.
+name: "shipping-products"
+description: "Plan and execute a product launch/release with speed and safety. Produces a Shipping & Launch Pack (release brief, rollout/rollback plan, product quality list, comms + enablement, monitoring plan, post-launch review). Use for ship, launch, release, deploy, go live."
 ---
 
 # Shipping Products

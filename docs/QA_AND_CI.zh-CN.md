@@ -25,8 +25,8 @@ python3 scripts/ci_check_skillpacks.py
 ## linter 会检查什么
 
 - 必需 frontmatter 字段：`name`、`description`
+  - Codex 兼容约束：`name` ≤ 100 字符，`description` ≤ 500 字符，且二者必须是单行
 - YAML frontmatter 必须可解析（有效 YAML mapping）
 - `name` 必须与文件夹 slug 一致
 - 必需文件：`SKILL.md`、`README.md`，以及 `references/` 的核心文件集：
   - `INTAKE.md`、`WORKFLOW.md`、`TEMPLATES.md`、`CHECKLISTS.md`、`RUBRIC.md`、`SOURCE_SUMMARY.md`、`EXAMPLES.md`
-

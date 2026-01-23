@@ -1,6 +1,6 @@
 ---
-name: conducting-user-interviews
-description: Plan, conduct, and synthesize high-signal user interviews and produce a User Interview Pack (recruiting plan, screener, discussion guide, notes template, synthesis report). Use for user interview, customer interview, discovery interview, JTBD switch interview, concept interview.
+name: "conducting-user-interviews"
+description: "Plan, conduct, and synthesize high-signal user interviews and produce a User Interview Pack (recruiting plan, screener, discussion guide, notes template, synthesis report). Use for user interview, customer interview, discovery interview, JTBD switch interview, concept interview."
 ---
 
 # Conducting User Interviews

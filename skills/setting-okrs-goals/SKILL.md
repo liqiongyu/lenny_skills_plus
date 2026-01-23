@@ -1,6 +1,6 @@
 ---
-name: setting-okrs-goals
-description: Set aligned, measurable OKRs/goals and produce an OKR & Goals Pack (objectives, key results, anti-gaming guardrails, systems/habits, review cadence, grading plan).
+name: "setting-okrs-goals"
+description: "Set aligned, measurable OKRs/goals and produce an OKR & Goals Pack (objectives, key results, anti-gaming guardrails, systems/habits, review cadence, grading plan)."
 ---
 
 # Setting OKRs & Goals

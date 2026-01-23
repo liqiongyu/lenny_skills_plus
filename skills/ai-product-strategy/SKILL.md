@@ -1,6 +1,6 @@
 ---
-name: ai-product-strategy
-description: Create an AI Product Strategy Pack (thesis, prioritized use cases, system plan, eval + learning plan, agentic safety plan, roadmap). Use for AI product strategy, LLM/agent strategy, AI roadmap, AI-first product direction.
+name: "ai-product-strategy"
+description: "Create an AI Product Strategy Pack (thesis, prioritized use cases, system plan, eval + learning plan, agentic safety plan, roadmap). Use for AI product strategy, LLM/agent strategy, AI roadmap, AI-first product direction."
 ---
 
 # AI Product Strategy

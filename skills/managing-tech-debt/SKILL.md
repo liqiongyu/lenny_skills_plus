@@ -1,6 +1,6 @@
 ---
-name: managing-tech-debt
-description: Manage technical debt by producing a Tech Debt Management Pack (debt register, scoring/prioritization, refactor vs rewrite decision memo, incremental paydown plan, migration/rollback plan, metrics, and stakeholder cadence). Use for tech debt, refactoring, legacy modernization, and migrations.
+name: "managing-tech-debt"
+description: "Manage technical debt by producing a Tech Debt Management Pack (debt register, scoring/prioritization, refactor vs rewrite decision memo, incremental paydown plan, migration/rollback plan, metrics, and stakeholder cadence). Use for tech debt, refactoring, legacy modernization, and migrations."
 ---
 
 # Managing Tech Debt

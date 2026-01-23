@@ -1,6 +1,6 @@
 ---
-name: product-operations
-description: Design and implement Product Operations systems that help product teams scale (cadences, standard artifacts, insights pipelines, release enablement). Produces a Product Ops Operating System Pack (charter, operating model, rituals, templates, implementation plan). Use for product ops, product org scaling, standardizing roadmaps/check-ins, release management enablement.
+name: "product-operations"
+description: "Design and implement Product Operations systems that help product teams scale (cadences, standard artifacts, insights pipelines, release enablement). Produces a Product Ops Operating System Pack (charter, operating model, rituals, templates, implementation plan). Use for product ops, product org scaling, standardizing roadmaps/check-ins, release management enablement."
 ---
 
 # Product Operations

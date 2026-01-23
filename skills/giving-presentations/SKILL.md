@@ -1,7 +1,6 @@
 ---
-name: giving-presentations
-description: >
-  Plan and deliver persuasive, confident presentations and produce a Presentation Pack (brief, narrative, slide outline, Q&A bank, pre-brief plan, rehearsal plan, delivery checklist). Use for presentation, deck, keynote, all-hands, exec review, demo talk track. Category: Communication.
+name: "giving-presentations"
+description: "Plan and deliver persuasive, confident presentations and produce a Presentation Pack (brief, narrative, slide outline, Q&A bank, pre-brief plan, rehearsal plan, delivery checklist). Use for presentation, deck, keynote, all-hands, exec review, demo talk track. Category: Communication."
 ---
 
 # Giving Presentations

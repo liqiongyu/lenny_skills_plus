@@ -1,6 +1,6 @@
 ---
-name: delegating-work
-description: Create a Delegation Pack (delegation brief, decision rights, context handoff, check-in cadence, review plan, debrief). Use for delegation, letting go, empowering reports, and avoiding micromanagement.
+name: "delegating-work"
+description: "Create a Delegation Pack (delegation brief, decision rights, context handoff, check-in cadence, review plan, debrief). Use for delegation, letting go, empowering reports, and avoiding micromanagement."
 ---
 
 # Delegating Work

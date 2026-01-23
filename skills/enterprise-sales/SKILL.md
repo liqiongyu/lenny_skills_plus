@@ -1,7 +1,6 @@
 ---
-name: enterprise-sales
-description: >
-  Create an Enterprise Deal Execution Pack (buying committee map + champion enablement, “no decision” prevention plan + mutual action plan, procurement/security packet, and POC-as-business-case plan + ROI model). Use for enterprise sales, procurement, security reviews, and enterprise pilots/POCs. Category: Sales & GTM.
+name: "enterprise-sales"
+description: "Create an Enterprise Deal Execution Pack (buying committee map + champion enablement, “no decision” prevention plan + mutual action plan, procurement/security packet, and POC-as-business-case plan + ROI model). Use for enterprise sales, procurement, security reviews, and enterprise pilots/POCs. Category: Sales & GTM."
 ---
 
 # Enterprise Sales

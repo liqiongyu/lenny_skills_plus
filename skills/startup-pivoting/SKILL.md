@@ -1,6 +1,6 @@
 ---
-name: startup-pivoting
-description: Decide whether/how to pivot a startup or product and produce a Pivot Decision & Execution Pack (diagnosis, exhaustion check, pivot options map, pivot thesis + metrics, validation plan, execution plan, decision memo). Use for “should we pivot?”, “stuck pre-PMF”, “growth stalled”, “change ICP”, “reposition”, “major strategy reset”.
+name: "startup-pivoting"
+description: "Decide whether/how to pivot a startup or product and produce a Pivot Decision & Execution Pack (diagnosis, exhaustion check, pivot options map, pivot thesis + metrics, validation plan, execution plan, decision memo). Use for “should we pivot?”, “stuck pre-PMF”, “growth stalled”, “change ICP”, “reposition”, “major strategy reset”."
 ---
 
 # Startup Pivoting

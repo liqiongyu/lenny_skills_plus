@@ -1,7 +1,6 @@
 ---
-name: running-offsites
-description: >
-  Plan and run a high-signal team offsite/retreat and produce an Offsite Pack (offsite brief, agenda + run-of-show, prework, facilitation guide, logistics checklist, post-offsite decisions + action plan + comms). Use for offsite planning, team retreat, strategy offsite, planning offsite, quarterly burst, onsite. Category: Communication.
+name: "running-offsites"
+description: "Plan and run a high-signal team offsite/retreat and produce an Offsite Pack (offsite brief, agenda + run-of-show, prework, facilitation guide, logistics checklist, post-offsite decisions + action plan + comms). Use for offsite planning, team retreat, strategy offsite, planning offsite, quarterly burst, onsite. Category: Communication."
 ---
 
 # Running Offsites

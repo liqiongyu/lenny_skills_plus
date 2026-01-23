@@ -1,7 +1,6 @@
 ---
-name: running-effective-1-1s
-description: >
-  Run effective 1:1s and skip-levels as a manager/leader and produce a 1:1 Operating System Pack (cadence plan, agendas, shared doc templates, coaching prompts, career conversation plan, and quality gates). Use for 1:1, one-on-one, 1-on-1, manager check-ins, coaching, career conversations, and skip levels. Category: Leadership.
+name: "running-effective-1-1s"
+description: "Run effective 1:1s and skip-levels as a manager/leader and produce a 1:1 Operating System Pack (cadence plan, agendas, shared doc templates, coaching prompts, career conversation plan, and quality gates). Use for 1:1, one-on-one, 1-on-1, manager check-ins, coaching, career conversations, and skip levels. Category: Leadership."
 ---
 
 # Running Effective 1:1s

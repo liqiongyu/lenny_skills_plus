@@ -1,7 +1,6 @@
 ---
-name: personal-productivity
-description: >
-  Build a Personal Productivity System Pack (weekly timebox plan, capture+to-do system, daily/weekly review rituals, and a 7-day rollout). Use for timeboxing, calendar blocking, and staying on top of high-volume leadership work. Category: Career.
+name: "personal-productivity"
+description: "Build a Personal Productivity System Pack (weekly timebox plan, capture+to-do system, daily/weekly review rituals, and a 7-day rollout). Use for timeboxing, calendar blocking, and staying on top of high-volume leadership work. Category: Career."
 ---
 
 # Personal Productivity

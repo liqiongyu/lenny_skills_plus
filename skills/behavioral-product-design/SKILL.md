@@ -1,6 +1,6 @@
 ---
-name: behavioral-product-design
-description: Apply behavioral science to product design and produce a Behavioral Product Design Pack (target behavior, behavioral diagnosis, intervention map, prioritized concepts, design specs, experiment + instrumentation plan, ethics/trust review). Use for retention, onboarding, habit loops, and behavior change problems.
+name: "behavioral-product-design"
+description: "Apply behavioral science to product design and produce a Behavioral Product Design Pack (target behavior, behavioral diagnosis, intervention map, prioritized concepts, design specs, experiment + instrumentation plan, ethics/trust review). Use for retention, onboarding, habit loops, and behavior change problems."
 ---
 
 # Behavioral Product Design

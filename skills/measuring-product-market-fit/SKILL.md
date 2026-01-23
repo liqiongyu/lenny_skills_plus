@@ -1,6 +1,6 @@
 ---
-name: measuring-product-market-fit
-description: Measure product-market fit (PMF) and produce a PMF Measurement Pack (Sean Ellis “very disappointed” survey, retention/usage evidence, reference-customer signals, and an action plan). Use for growth teams assessing PMF, PMF drift, and launch readiness.
+name: "measuring-product-market-fit"
+description: "Measure product-market fit (PMF) and produce a PMF Measurement Pack (Sean Ellis “very disappointed” survey, retention/usage evidence, reference-customer signals, and an action plan). Use for growth teams assessing PMF, PMF drift, and launch readiness."
 ---
 
 # Measuring Product-Market Fit

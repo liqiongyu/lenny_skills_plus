@@ -1,7 +1,6 @@
 ---
-name: organizational-design
-description: >
-  Design or redesign an org structure and operating model by producing an Organizational Design Pack (design brief, current-state map, operating-model decision, target org blueprint, transition plan). Use for org design, reorgs, team topology, functional vs divisional structures, and centralized vs decentralized decision-making. Category: Leadership.
+name: "organizational-design"
+description: "Design or redesign an org structure and operating model by producing an Organizational Design Pack (design brief, current-state map, operating-model decision, target org blueprint, transition plan). Use for org design, reorgs, team topology, functional vs divisional structures, and centralized vs decentralized decision-making. Category: Leadership."
 ---
 
 # Organizational Design

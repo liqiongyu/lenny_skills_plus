@@ -1,7 +1,6 @@
 ---
-name: partnership-bd
-description: >
-  Create a Partnership & BD Execution Pack (partner thesis, target list + scoring, outreach kit, scalable offer + negotiation guardrails, and launch plan). Use for partnerships, business development (BD), strategic partnerships, channel partners, platform/integration partnerships, and partner outreach. Category: Sales & GTM.
+name: "partnership-bd"
+description: "Create a Partnership & BD Execution Pack (partner thesis, target list + scoring, outreach kit, scalable offer + negotiation guardrails, and launch plan). Use for partnerships, business development (BD), strategic partnerships, channel partners, platform/integration partnerships, and partner outreach. Category: Sales & GTM."
 ---
 
 # Partnership & BD

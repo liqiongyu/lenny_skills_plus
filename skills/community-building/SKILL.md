@@ -1,7 +1,6 @@
 ---
-name: community-building
-description: >
-  Build a Community Building Pack (strategy, platform plan, programming calendar, ambassador program, governance, metrics, launch plan). Use for community building, community-led growth, developer community, user community, ambassador/champions programs, Discord/Slack/forum communities. Category: Marketing.
+name: "community-building"
+description: "Build a Community Building Pack (strategy, platform plan, programming calendar, ambassador program, governance, metrics, launch plan). Use for community building, community-led growth, developer community, user community, ambassador/champions programs, Discord/Slack/forum communities. Category: Marketing."
 ---
 
 # Community Building

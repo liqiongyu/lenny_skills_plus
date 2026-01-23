@@ -1,6 +1,6 @@
 ---
-name: building-with-llms
-description: Produce an LLM Build Pack (prompt+tool contract, data/eval plan, architecture+safety, launch checklist). Use for building with LLMs, GPT/Claude apps, prompt engineering, RAG, and tool-using agents.
+name: "building-with-llms"
+description: "Produce an LLM Build Pack (prompt+tool contract, data/eval plan, architecture+safety, launch checklist). Use for building with LLMs, GPT/Claude apps, prompt engineering, RAG, and tool-using agents."
 ---
 
 # Building with LLMs

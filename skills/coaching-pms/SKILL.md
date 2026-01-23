@@ -1,7 +1,6 @@
 ---
-name: coaching-pms
-description: >
-  Coach product managers and produce a PM Coaching Pack (context-specific definition of “good PM”, evidence-based assessment, growth bets + development plan, coaching cadence + session toolkit, follow-up tracker). Use for coaching PMs, developing PMs, leveling expectations, and creating growth plans. Category: Leadership.
+name: "coaching-pms"
+description: "Coach product managers and produce a PM Coaching Pack (context-specific definition of “good PM”, evidence-based assessment, growth bets + development plan, coaching cadence + session toolkit, follow-up tracker). Use for coaching PMs, developing PMs, leveling expectations, and creating growth plans. Category: Leadership."
 ---
 
 # Coaching Product Managers

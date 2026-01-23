@@ -1,7 +1,6 @@
 ---
-name: design-engineering
-description: >
-  Stand up a Design Engineering practice (hybrid design+engineering) by producing a Design Engineering Execution Pack: charter, prototype→production workflow, design-to-code contract, component delivery plan, and quality bar. Use for design engineering, UI engineering, design systems engineering, and prototype-to-production processes.
+name: "design-engineering"
+description: "Stand up a Design Engineering practice (hybrid design+engineering) by producing a Design Engineering Execution Pack: charter, prototype→production workflow, design-to-code contract, component delivery plan, and quality bar. Use for design engineering, UI engineering, design systems engineering, and prototype-to-production processes."
 ---
 
 # Design Engineering

@@ -1,6 +1,6 @@
 ---
-name: cross-functional-collaboration
-description: Lead cross-functional collaboration by producing a Cross-Functional Collaboration Pack (mission charter, stakeholder/incentives map, roles & expectations contract, operating cadence, decision log, conflict + credit norms). Use for cross-functional collaboration, working with engineering, working with design, reducing execution friction.
+name: "cross-functional-collaboration"
+description: "Lead cross-functional collaboration by producing a Cross-Functional Collaboration Pack (mission charter, stakeholder/incentives map, roles & expectations contract, operating cadence, decision log, conflict + credit norms). Use for cross-functional collaboration, working with engineering, working with design, reducing execution friction."
 ---
 
 # Cross-functional Collaboration

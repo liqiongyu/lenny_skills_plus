@@ -1,6 +1,6 @@
 ---
-name: positioning-messaging
-description: Create a Positioning & Messaging Pack (positioning statement, messaging hierarchy, value proposition, tagline/headlines, copy set, validation plan). Use for positioning, messaging, value prop, tagline, homepage hero, one-liner, elevator pitch, and press pattern-matching.
+name: "positioning-messaging"
+description: "Create a Positioning & Messaging Pack (positioning statement, messaging hierarchy, value proposition, tagline/headlines, copy set, validation plan). Use for positioning, messaging, value prop, tagline, homepage hero, one-liner, elevator pitch, and press pattern-matching."
 ---
 
 # Positioning & Messaging

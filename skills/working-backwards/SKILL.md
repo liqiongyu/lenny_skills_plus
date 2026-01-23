@@ -1,6 +1,6 @@
 ---
-name: working-backwards
-description: Create an Amazon-style PR/FAQ (future press release + FAQ) plus a backcasting launch plan to align on customer value, scope, and GTM readiness. Use for working backwards, PRFAQ / PR-FAQ, future press release, backcasting, launch plan.
+name: "working-backwards"
+description: "Create an Amazon-style PR/FAQ (future press release + FAQ) plus a backcasting launch plan to align on customer value, scope, and GTM readiness. Use for working backwards, PRFAQ / PR-FAQ, future press release, backcasting, launch plan."
 ---
 
 # Working Backwards (PR/FAQ + Backcasting)

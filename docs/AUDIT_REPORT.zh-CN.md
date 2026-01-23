@@ -2,7 +2,7 @@
 
 > English version: `AUDIT_REPORT.md`
 
-生成时间：2026-01-23 05:53:44Z
+生成时间：2026-01-23 09:39:05Z
 
 本报告汇总了对 `skills/` 下 skill packs 的自动化检查结果。
 
@@ -18,7 +18,7 @@
 ## Frontmatter 合规（跨工具）
 - ✅ 每个 `SKILL.md` 都包含带必需字段（`name`、`description`）的 YAML frontmatter。
 - ✅ `name` 与文件夹 slug 一致。
-- ℹ️ `description` 的 YAML 写法统计：{'single_line': 42, 'folded_or_multiline': 45}
+- ℹ️ `description` 的 YAML 写法统计：{'single_line': 87}
 
 ## 语言检查（Language check）
 - ✅ `skills/**/*.md` 中未检测到 CJK（中/日/韩）字符。

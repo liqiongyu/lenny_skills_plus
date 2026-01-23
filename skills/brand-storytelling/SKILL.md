@@ -1,7 +1,6 @@
 ---
-name: brand-storytelling
-description: >
-  Create a Brand Storytelling Pack (brand narrative, founder/origin story, five-second moment, channel scripts, building-in-public plan, Q&A bank). Use for brand story, founder story, origin story, narrative, pitch story, storytelling, and brand narrative. Category: Marketing.
+name: "brand-storytelling"
+description: "Create a Brand Storytelling Pack (brand narrative, founder/origin story, five-second moment, channel scripts, building-in-public plan, Q&A bank). Use for brand story, founder story, origin story, narrative, pitch story, storytelling, and brand narrative. Category: Marketing."
 ---
 
 # Brand Storytelling

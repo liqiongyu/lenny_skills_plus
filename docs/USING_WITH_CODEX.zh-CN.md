@@ -4,6 +4,15 @@
 
 Codex 支持 “Agent Skills”：每个 skill 是一个文件夹，包含带 YAML frontmatter（`name`, `description`）的 `SKILL.md`，以及可选的 supporting files。
 
+## Frontmatter 限制（重要）
+
+Codex 会在启动时校验 skill 的元数据。在 `SKILL.md` 的 YAML frontmatter 中：
+
+- `name` 必须是 **单行** 且 **≤ 100 个字符**
+- `description` 必须是 **单行** 且 **≤ 500 个字符**
+
+像 `description: >` 这种多行 YAML 写法可能导致校验错误，skill 会被跳过加载。
+
 ## 从 Release 安装（推荐；无需 clone）
 
 从最新 GitHub Release 下载 `skills-all.zip`，然后选择全局或项目级安装。
@@ -77,7 +86,6 @@ rsync -a skills/ ~/.codex/skills/
 
 为了最大化跨工具兼容性，建议 `name` 与 `description`：
 - 短、具体（避免长段落）
-- 使用普通 YAML 字符串（允许 `description: >` 等 block scalars，但请保持简洁）
+- 使用普通的单行 YAML 字符串（避免使用 `description: >` 等 block scalars）
 
-本仓库 linter 会确保 frontmatter 是有效 YAML，且 `name` / `description` 存在且非空。
-
+本仓库 linter 会确保 frontmatter 是有效 YAML，且 `name` / `description` 存在、为单行，并满足 Codex 的长度限制。

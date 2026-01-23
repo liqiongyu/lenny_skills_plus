@@ -2,7 +2,7 @@
 
 > 中文版: `AUDIT_REPORT.zh-CN.md`
 
-Generated: 2026-01-23 05:53:44Z
+Generated: 2026-01-23 09:39:05Z
 
 This report summarizes automated checks over the skill packs in `skills/`.
 
@@ -18,7 +18,7 @@ This report summarizes automated checks over the skill packs in `skills/`.
 ## Frontmatter compliance (cross-tool)
 - ✅ Every `SKILL.md` has YAML frontmatter with required fields (`name`, `description`).
 - ✅ `name` matches the folder slug.
-- ℹ️ Description YAML style: {'single_line': 42, 'folded_or_multiline': 45}
+- ℹ️ Description YAML style: {'single_line': 87}
 
 ## Language check
 - ✅ No CJK (Chinese/Japanese/Korean) characters detected across `skills/**/*.md`.

@@ -1,7 +1,6 @@
 ---
-name: scoping-cutting
-description: >
-  Right-size scope to ship within a fixed timebox (appetite). Produces a Scoping & Cutting Pack: appetite, minimum lovable slice, cut list, validation plan, and a scope-creep guardrail plan. Use for MVP/descoping/scope creep.
+name: "scoping-cutting"
+description: "Right-size scope to ship within a fixed timebox (appetite). Produces a Scoping & Cutting Pack: appetite, minimum lovable slice, cut list, validation plan, and a scope-creep guardrail plan. Use for MVP/descoping/scope creep."
 ---
 
 # Scoping & Cutting

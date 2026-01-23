@@ -1,6 +1,6 @@
 ---
-name: startup-ideation
-description: Generate and evaluate startup ideas using off-the-beaten-path insights + Why-Now shift analysis. Produces a Startup Ideation Pack (opportunity theses table, scorecard, top idea brief, validation plan). Use for startup ideation, idea selection, “what should we build?”, why now, tarpit avoidance, information diet planning.
+name: "startup-ideation"
+description: "Generate and evaluate startup ideas using off-the-beaten-path insights + Why-Now shift analysis. Produces a Startup Ideation Pack (opportunity theses table, scorecard, top idea brief, validation plan). Use for startup ideation, idea selection, “what should we build?”, why now, tarpit avoidance, information diet planning."
 ---
 
 # Startup Ideation

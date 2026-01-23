@@ -1,6 +1,6 @@
 ---
-name: planning-under-uncertainty
-description: Plan and lead execution when outcomes are uncertain and requirements are ambiguous. Produces an Uncertainty Planning Pack (uncertainty map, hypotheses + experiments, buffers + triggers, cadence + comms). Use for ambiguity, unknowns, hypothesis-driven planning, experimentation, contingency planning.
+name: "planning-under-uncertainty"
+description: "Plan and lead execution when outcomes are uncertain and requirements are ambiguous. Produces an Uncertainty Planning Pack (uncertainty map, hypotheses + experiments, buffers + triggers, cadence + comms). Use for ambiguity, unknowns, hypothesis-driven planning, experimentation, contingency planning."
 ---
 
 # Planning Under Uncertainty

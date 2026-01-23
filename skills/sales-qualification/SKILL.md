@@ -1,7 +1,6 @@
 ---
-name: sales-qualification
-description: >
-  Build a Sales Qualification Pack (ICP + disqualification rules, qualification scorecard, discovery/qualification script, CRM note template, and pipeline hygiene rules). Use to fix pipeline quality and stop wasting time on wrong leads. Category: Sales & GTM.
+name: "sales-qualification"
+description: "Build a Sales Qualification Pack (ICP + disqualification rules, qualification scorecard, discovery/qualification script, CRM note template, and pipeline hygiene rules). Use to fix pipeline quality and stop wasting time on wrong leads. Category: Sales & GTM."
 ---
 
 # Sales Qualification
