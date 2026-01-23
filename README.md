@@ -11,6 +11,10 @@ This repo keeps **canonical** skill packs under `skills/` (tracked in git) and p
 
 > Note: Some upstream pages mention “87 skills”, but the current Refound browse/manifest contains **86** skills.
 
+## Attribution & IP
+
+These skill packs are derived from RefoundAI’s “Lenny skills” database. Upstream credit and takedown policy: `docs/ATTRIBUTION_AND_IP.md`.
+
 ## Quickstart
 
 ### 1) Mirror skills for tool auto-discovery (recommended)
@@ -53,6 +57,10 @@ These mirror folders are ignored by git.
 ## Skill catalog
 
 See: `docs/SKILLS_CATALOG.md`
+
+## Why this exists
+
+High-level advice is hard for agents to execute reliably. This repo turns skills into execution contracts (inputs → deliverables → workflow → quality gate). See: `docs/WHY_THIS_PROJECT.md`.
 
 ## Quality + CI
 

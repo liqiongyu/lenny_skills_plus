@@ -7,5 +7,6 @@ Describe what changed and why.
 - [ ] No secrets committed
 - [ ] Skill pack content is English (if applicable)
 - [ ] New/updated skill packs pass `lint_skillpack.py`
-- [ ] Canonical skills mirrored into `.codex/skills/` and `.claude/skills/`
+- [ ] No upstream content pasted verbatim (keep `sources/refound/raw/` out of git)
+- [ ] (Optional) Mirrored into `.codex/skills/` and `.claude/skills/` for local tool testing
 - [ ] GitHub operations done via `gh` (policy)

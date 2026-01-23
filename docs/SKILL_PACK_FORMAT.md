@@ -11,7 +11,7 @@ Each skill lives at:
 Required files:
 
 - `SKILL.md`
-  - YAML frontmatter: `name`, `description` (single-line, tool-friendly)
+  - YAML frontmatter: `name`, `description` (YAML-safe and tool-friendly; prefer single-line quotes)
   - Short, operational instructions:
     - Scope (covers / when to use / when NOT to use)
     - Inputs (minimum required + missing-info strategy)

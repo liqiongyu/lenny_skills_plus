@@ -23,7 +23,7 @@ python3 scripts/ci_check_skillpacks.py
 ## What the linter enforces
 
 - Required frontmatter fields: `name`, `description`
-- Strict, cross-tool metadata constraints:
-  - single-line scalars for `name` and `description`
-  - typical size limits (name <= 100 chars, description <= 500 chars)
-- Required files: `SKILL.md`, `README.md`, and the `references/` core set
+- YAML frontmatter must parse (valid YAML mapping)
+- `name` must match the folder slug
+- Required files: `SKILL.md`, `README.md`, and the `references/` core set:
+  - `INTAKE.md`, `WORKFLOW.md`, `TEMPLATES.md`, `CHECKLISTS.md`, `RUBRIC.md`, `SOURCE_SUMMARY.md`, `EXAMPLES.md`

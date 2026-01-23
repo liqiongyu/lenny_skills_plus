@@ -1,0 +1,49 @@
+name: Attribution / IP concern
+description: Report an attribution issue or request removal/modification of a skill pack.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reaching out. We take attribution and IP concerns seriously and will respond promptly.
+
+        If this is a **security vulnerability**, please do not open a public issue (see `SECURITY.md`).
+  - type: input
+    id: skill
+    attributes:
+      label: Skill slug(s)
+      description: Which skill(s) are you concerned about? (e.g., `writing-prds`, `ai-evals`)
+      placeholder: writing-prds
+    validations:
+      required: true
+  - type: input
+    id: upstream
+    attributes:
+      label: Upstream URL(s)
+      description: Link to the upstream page(s) you believe this relates to.
+      placeholder: https://refoundai.com/lenny-skills/s/writing-prds
+    validations:
+      required: false
+  - type: textarea
+    id: concern
+    attributes:
+      label: What is the concern?
+      description: Please describe the issue and include any relevant context.
+      placeholder: e.g., incorrect attribution, request to remove, request to change wording, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: action
+    attributes:
+      label: Requested action
+      description: What would you like us to do?
+      placeholder: Remove / modify / add attribution / other
+    validations:
+      required: true
+  - type: checkboxes
+    id: authority
+    attributes:
+      label: Confirmation
+      options:
+        - label: I am the rights holder or authorized to act on behalf of the rights holder (or I am reporting a clear attribution issue).
+          required: false
+

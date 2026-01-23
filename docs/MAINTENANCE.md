@@ -32,3 +32,10 @@ If you re-run conversion via Codex, prefer:
 - One skill per Codex run (keeps context small and avoids drift)
 - Lint after each skill
 - Smoke-test 1–2 real prompts per category before scaling
+
+## Regenerating repo docs
+
+- Skills catalog:
+  - `python3 scripts/generate_skills_catalog.py`
+- Audit report:
+  - `python3 scripts/generate_audit_report.py`
