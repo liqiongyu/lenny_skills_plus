@@ -35,13 +35,16 @@ def find_pairs(repo_root: Path) -> list[DocPair]:
     scopes = [
         repo_root,  # root-level docs (*.md)
         repo_root / "docs",
-        repo_root / "sources" / "refound",
     ]
+
+    excluded_root_docs = {"AGENTS.md"}
 
     pairs: list[DocPair] = []
     for scope in scopes:
         for en in sorted(scope.glob("*.md")):
             if en.name.endswith(".zh-CN.md"):
+                continue
+            if scope == repo_root and en.name in excluded_root_docs:
                 continue
             zh = en.with_name(en.stem + ".zh-CN.md")
             pairs.append(DocPair(en=en, zh=zh))
@@ -107,4 +110,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

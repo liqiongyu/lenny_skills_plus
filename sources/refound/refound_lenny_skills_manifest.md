@@ -1,7 +1,5 @@
 # Refound — Lenny Skills SKILL.md URLs
 
-> 中文版: `refound_lenny_skills_manifest.zh-CN.md`
-
 Generated on 2026-01-22.
 
 ## Product Management

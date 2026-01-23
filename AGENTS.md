@@ -1,7 +1,5 @@
 # Lenny Skillpack Factory — Agent Instructions (Codex)
 
-> 中文版: `AGENTS.zh-CN.md`
-
 You are working in a repository whose sole purpose is to convert RefoundAI “Lenny skills” into **agent-executable skill packs**.
 
 Primary goals:
