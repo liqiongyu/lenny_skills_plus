@@ -15,5 +15,5 @@ Suggested release checklist:
    - use `gh release create ...` (see `PROJECT_MEMORY.md`).
 
 Packaging tip:
-- For distribution, you can zip the `skills/` directory or a selected subset.
-- Users can install by copying directories into `.codex/skills`, `.claude/skills`, `~/.codex/skills`, or `~/.claude/skills`.
+- GitHub Releases publish per-skill zip files, and also a single bundle: `skills-all.zip`.
+- Users can install by unzipping skill folders into `.codex/skills`, `.claude/skills`, `~/.codex/skills`, or `~/.claude/skills`.
