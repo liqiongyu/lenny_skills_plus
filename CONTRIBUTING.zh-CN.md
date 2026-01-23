@@ -14,6 +14,7 @@
 - 不要把批量下载的 Refound 原始内容提交进 git；本地副本应放在 `sources/refound/raw/`（已 gitignore）。
 - 尽量小而可 review 的改动（一次转换 1 个 skill 或少量 skills）。
 - skill pack 内容保持 **英文**。
+- 修改 skill 时请同步更新 `skills/<skill-slug>/skillpack.json`（按需 bump `version`，并把自己加入 `contributors`）。
 - 不要逐字粘贴上游内容；详见 `docs/ATTRIBUTION_AND_IP.zh-CN.md`。
 
 ## 转换一个 skill（推荐流程）

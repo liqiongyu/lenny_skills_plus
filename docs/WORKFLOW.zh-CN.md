@@ -19,6 +19,7 @@
    - 期望交付物
 
 4. 确保生成的 skill pack 包含：
+   - skillpack.json（每个 skill 的版本 + authors + 上游链接）
    - SKILL.md（短小、可执行）
    - references/INTAKE.md
    - references/WORKFLOW.md
@@ -39,4 +40,3 @@
 
 8. 提交
    - 每个 skill 或少量 skills 提交一次，保持 diff 可 review。
-

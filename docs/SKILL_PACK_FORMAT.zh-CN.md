@@ -12,6 +12,9 @@
 
 必需文件：
 
+- `skillpack.json`
+  - 类似 package 的元数据（每个 skill 的 `version`、`authors`/贡献者、origin + 上游链接）
+  - 本仓库工具链与发布打包会用到；Codex / Claude Code 会忽略该文件
 - `SKILL.md`
   - YAML frontmatter：`name`、`description`（YAML-safe 且工具友好；更偏好单行字符串或引号）
   - 简短、可执行的操作指令：
@@ -38,4 +41,3 @@
 - Artifact-driven outputs：必须产出具体交付物，而不是泛建议
 - Boundary clarity：明确“什么时候不该用”
 - Safe-by-default：默认无外网、风险操作先询问、避免敏感信息
-

@@ -19,6 +19,7 @@ This is the repeatable process for converting one Refound/Lenny skill into an ex
    - Desired deliverables
 
 4. Ensure the generated skill pack has:
+   - skillpack.json (per-skill version + authors + upstream link)
    - SKILL.md (short + operational)
    - references/INTAKE.md
    - references/WORKFLOW.md

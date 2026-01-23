@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import json
 from collections import OrderedDict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -45,6 +46,15 @@ def _read_frontmatter(skill_md: Path) -> dict:
 def _table_escape(s: str) -> str:
     return s.replace("|", "\\|").replace("\n", " ").strip()
 
+def _read_skillpack_json(path: Path) -> dict:
+    if not path.exists():
+        return {}
+    try:
+        data = json.loads(path.read_text(encoding="utf-8", errors="replace"))
+    except Exception:
+        return {}
+    return data if isinstance(data, dict) else {}
+
 def _render(
     *,
     lang: str,
@@ -64,8 +74,8 @@ def _render(
         meta_line = f"Meta-skill(s): **{meta_count}** (e.g., `lenny-skillpack-creator`)"
         generated_line = f"_Generated: {generated_at} by `python3 scripts/generate_skills_catalog.py`._"
         upstream_line = "Upstream source: `https://refoundai.com/lenny-skills/`"
-        table_header = "| Skill | Command | Description | Upstream |"
-        table_sep = "|---|---|---|---|"
+        table_header = "| Skill | Command | Version | Description | Upstream |"
+        table_sep = "|---|---|---|---|---|"
     else:
         title = "# 技能目录（Skills catalog）"
         counterpart = "> English version: `SKILLS_CATALOG.md`"
@@ -73,8 +83,8 @@ def _render(
         meta_line = f"Meta-skill：**{meta_count}**（例如 `lenny-skillpack-creator`）"
         generated_line = f"_生成时间：{generated_at}（由 `python3 scripts/generate_skills_catalog.py` 生成）。_"
         upstream_line = "上游来源：`https://refoundai.com/lenny-skills/`"
-        table_header = "| Skill | 命令 | 描述 | 上游 |"
-        table_sep = "|---|---|---|---|"
+        table_header = "| Skill | 命令 | 版本 | 描述 | 上游 |"
+        table_sep = "|---|---|---|---|---|"
 
     out_lines: list[str] = []
     out_lines.append(title)
@@ -101,6 +111,7 @@ def _render(
             display = r.get("skill_name", slug)
             skill_dir = skills_root / slug
             skill_md = skill_dir / "SKILL.md"
+            skillpack_json = skill_dir / "skillpack.json"
             if not skill_md.exists():
                 desc = "(missing skill pack in `skills/`)" if lang == "en" else "（`skills/` 中缺少该 skill pack）"
             else:
@@ -108,11 +119,15 @@ def _render(
                 desc_raw = fm.get("description", "")
                 desc = _table_escape(" ".join(str(desc_raw).split()))
 
+            meta = _read_skillpack_json(skillpack_json)
+            version = str(meta.get("version", "")).strip() if meta else ""
+            version_cell = version if version else ("(missing)" if lang == "en" else "（缺失）")
+
             upstream_url = r.get("skill_page_url", "").strip()
             upstream_cell = f"[refound]({upstream_url})" if upstream_url else ""
 
             out_lines.append(
-                f"| [{_table_escape(display)}](../skills/{slug}/) | `{slug}` | {_table_escape(desc)} | {upstream_cell} |"
+                f"| [{_table_escape(display)}](../skills/{slug}/) | `{slug}` | `{_table_escape(version_cell)}` | {_table_escape(desc)} | {upstream_cell} |"
             )
         out_lines.append("")
 

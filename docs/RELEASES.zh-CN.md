@@ -19,4 +19,5 @@
 
 打包提示：
 - GitHub Releases 会发布每个 skill 的单独 zip，同时也会发布一个合集：`skills-all.zip`。
+- Releases 也会包含 `SHA256SUMS.txt`，方便用户校验下载文件完整性。
 - 用户可将 skill 文件夹解压到 `.codex/skills`、`.claude/skills`、`~/.codex/skills` 或 `~/.claude/skills` 来安装使用。
