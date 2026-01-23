@@ -45,7 +45,45 @@ unzip -o skills-all.zip -d ~/.claude/skills
 - [docs/USING_WITH_CODEX.zh-CN.md](docs/USING_WITH_CODEX.zh-CN.md)
 - [docs/USING_WITH_CLAUDE.zh-CN.md](docs/USING_WITH_CLAUDE.zh-CN.md)
 
-### 方案 B：clone 本仓库（适合共创/维护者）
+### 方案 B：clone + 复制 `skills/`（不依赖 Release）
+
+如果你不想使用 Releases，可以 clone 本仓库，然后把 `skills/` 复制到全局或项目级 skills 目录。
+
+```bash
+git clone https://github.com/liqiongyu/lenny_skills_plus.git
+cd lenny_skills_plus
+```
+
+全局安装：
+
+```bash
+mkdir -p ~/.codex/skills ~/.claude/skills
+rsync -a skills/ ~/.codex/skills/
+rsync -a skills/ ~/.claude/skills/
+```
+
+或项目级安装（在你的项目根目录）：
+
+```bash
+mkdir -p .codex/skills .claude/skills
+rsync -a /path/to/lenny_skills_plus/skills/ .codex/skills/
+rsync -a /path/to/lenny_skills_plus/skills/ .claude/skills/
+```
+
+### 方案 C：用 Codex 的 `$skill-installer` 安装少量 skills（不需要 clone）
+
+如果你只需要少量 skills 并且使用 Codex，可以用 Codex 内置的 `$skill-installer` 从 GitHub 直接安装到 `~/.codex/skills`。
+
+示例：
+
+```text
+$skill-installer
+Install `writing-prds` from `liqiongyu/lenny_skills_plus` at `skills/writing-prds`.
+```
+
+安装后重启 Codex。
+
+### 方案 D：clone + mirror（适合共创/维护者）
 
 本仓库以 `skills/` 作为 **canonical**（git 追踪），并可生成工具自动发现用的本地镜像目录：
 
@@ -87,9 +125,29 @@ Turn these notes into a decision-ready PRD. Ask up to 5 questions first.
 Turn these notes into a decision-ready PRD. Ask up to 5 questions first.
 ```
 
-## Skill 目录
+## Skills 一览（At a glance）
 
-见：[docs/SKILLS_CATALOG.zh-CN.md](docs/SKILLS_CATALOG.zh-CN.md)
+| 类别 | 数量 | 推荐起点 |
+|---|---:|---|
+| Product Management（产品管理） | 22 | [problem-definition](skills/problem-definition/), [writing-prds](skills/writing-prds/), [shipping-products](skills/shipping-products/) |
+| Hiring & Teams（招聘与团队） | 6 | [writing-job-descriptions](skills/writing-job-descriptions/), [conducting-interviews](skills/conducting-interviews/), [onboarding-new-hires](skills/onboarding-new-hires/) |
+| Leadership（领导力） | 14 | [managing-up](skills/managing-up/), [delegating-work](skills/delegating-work/), [having-difficult-conversations](skills/having-difficult-conversations/) |
+| AI & Technology（AI 与技术） | 6 | [building-with-llms](skills/building-with-llms/), [ai-evals](skills/ai-evals/), [vibe-coding](skills/vibe-coding/) |
+| Communication（沟通） | 5 | [written-communication](skills/written-communication/), [giving-presentations](skills/giving-presentations/), [running-effective-meetings](skills/running-effective-meetings/) |
+| Growth（增长） | 6 | [retention-engagement](skills/retention-engagement/), [user-onboarding](skills/user-onboarding/), [marketplace-liquidity](skills/marketplace-liquidity/) |
+| Marketing（市场营销） | 6 | [positioning-messaging](skills/positioning-messaging/), [launch-marketing](skills/launch-marketing/), [content-marketing](skills/content-marketing/) |
+| Career（职业发展） | 7 | [negotiating-offers](skills/negotiating-offers/), [career-transitions](skills/career-transitions/), [building-a-promotion-case](skills/building-a-promotion-case/) |
+| Sales & GTM（销售与 GTM） | 7 | [founder-sales](skills/founder-sales/), [enterprise-sales](skills/enterprise-sales/), [sales-qualification](skills/sales-qualification/) |
+| Engineering（工程） | 5 | [engineering-culture](skills/engineering-culture/), [platform-infrastructure](skills/platform-infrastructure/), [managing-tech-debt](skills/managing-tech-debt/) |
+| Design（设计） | 2 | [design-systems](skills/design-systems/), [design-engineering](skills/design-engineering/) |
+
+完整列表见：[docs/SKILLS_CATALOG.zh-CN.md](docs/SKILLS_CATALOG.zh-CN.md)
+
+## Playbooks（推荐组合）
+
+如果你希望把 skills 当作一套系统来用（而不是临时用一个 prompt），建议从 playbook 开始：
+
+- [docs/PLAYBOOKS.zh-CN.md](docs/PLAYBOOKS.zh-CN.md)（包含 Product Manager Playbook）
 
 ## 为什么做这个项目
 

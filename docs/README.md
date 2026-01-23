@@ -6,6 +6,7 @@ This folder documents how to use, validate, and maintain the skill packs in this
 
 Start here:
 - **Getting started**: [GETTING_STARTED.md](GETTING_STARTED.md)
+- **Playbooks (recommended bundles)**: [PLAYBOOKS.md](PLAYBOOKS.md)
 - **Using with Codex**: [USING_WITH_CODEX.md](USING_WITH_CODEX.md)
 - **Using with Claude Code**: [USING_WITH_CLAUDE.md](USING_WITH_CLAUDE.md)
 - **Why this project exists**: [WHY_THIS_PROJECT.md](WHY_THIS_PROJECT.md)

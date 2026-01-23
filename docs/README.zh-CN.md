@@ -6,6 +6,7 @@
 
 从这里开始：
 - **快速开始**：[GETTING_STARTED.zh-CN.md](GETTING_STARTED.zh-CN.md)
+- **Playbooks（推荐组合）**：[PLAYBOOKS.zh-CN.md](PLAYBOOKS.zh-CN.md)
 - **在 Codex 中使用**：[USING_WITH_CODEX.zh-CN.md](USING_WITH_CODEX.zh-CN.md)
 - **在 Claude Code 中使用**：[USING_WITH_CLAUDE.zh-CN.md](USING_WITH_CLAUDE.zh-CN.md)
 - **为什么做这个项目**：[WHY_THIS_PROJECT.zh-CN.md](WHY_THIS_PROJECT.zh-CN.md)

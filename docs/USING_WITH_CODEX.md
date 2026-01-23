@@ -82,6 +82,21 @@ rsync -a skills/ ~/.codex/skills/
 
 Restart Codex after installing new skills.
 
+## Install a few skills via Codex `$skill-installer` (no cloning)
+
+Codex ships with a built-in `$skill-installer` that can install skills from GitHub into `~/.codex/skills`.
+
+This is best when you only need 1–5 skills (for the full library, prefer `skills-all.zip`).
+
+Example:
+
+```text
+$skill-installer
+Install `writing-prds` from `liqiongyu/lenny_skills_plus` at `skills/writing-prds`.
+```
+
+Restart Codex after installing new skills.
+
 ## Skill metadata constraints (important)
 
 For maximum compatibility across tools, keep `name` and `description`:

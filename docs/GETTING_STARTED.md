@@ -16,6 +16,13 @@ See:
 - [USING_WITH_CODEX.md](USING_WITH_CODEX.md)
 - [USING_WITH_CLAUDE.md](USING_WITH_CLAUDE.md)
 
+Other install paths:
+- Clone this repo and copy `skills/` into `~/.codex/skills` and/or `~/.claude/skills`.
+- If you only need a handful of skills and you use Codex, install individual skills from GitHub via `$skill-installer`.
+
+Recommended: start with a playbook (curated skill set + suggested order):
+- [PLAYBOOKS.md](PLAYBOOKS.md)
+
 ## I want to contribute / modify skills
 
 A “skill pack” is a directory that contains:
