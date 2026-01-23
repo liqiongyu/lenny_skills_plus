@@ -1,5 +1,7 @@
 # Attribution & IP policy (Refound/Lenny)
 
+> 中文版: `ATTRIBUTION_AND_IP.zh-CN.md`
+
 This project exists to make the “Lenny skills” content easier for modern AI agents to **execute** (concrete artifacts, checklists, templates, quality gates), while **respecting the upstream creators**.
 
 ## Upstream source / credit

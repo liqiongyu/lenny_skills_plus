@@ -1,5 +1,7 @@
 # External references
 
+> 中文版: `EXTERNAL_REFERENCES.zh-CN.md`
+
 These upstream docs are the source of truth for tool behavior.
 
 ## OpenAI Codex

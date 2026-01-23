@@ -1,5 +1,7 @@
 # Why this project exists
 
+> 中文版: `WHY_THIS_PROJECT.zh-CN.md`
+
 RefoundAI’s “Lenny skills” are full of high-quality product/leadership patterns, but many entries are **too high-level** for reliable agent execution.
 
 Modern agents (Codex, Claude Code, etc.) work best when the “skill” is an **execution contract**: clear inputs, explicit deliverables, a step-by-step workflow, and quality gates.
@@ -37,4 +39,3 @@ Before opening a PR:
 - Run: `python3 scripts/ci_check_skillpacks.py --skip-mirror-check`
 - Keep skill content in **English**
 - Prefer small diffs (1 skill or a small batch)
-

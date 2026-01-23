@@ -1,5 +1,7 @@
 # Lenny Skills Plus
 
+> 中文版: `README.zh-CN.md`
+
 A curated library of **86 high-density, agent-executable skill packs** converted from RefoundAI’s “Lenny skills” database, plus a meta-skill (`lenny-skillpack-creator`) for converting additional skills.
 
 These skill packs follow the **open Agent Skills** format (a folder with `SKILL.md` + supporting files) and are designed to work in both:

@@ -1,5 +1,7 @@
 # 为什么做这个项目
 
+> English version: `WHY_THIS_PROJECT.md`
+
 RefoundAI 的 “Lenny skills” 有很多高质量的产品/领导力经验，但不少条目对 Agent 来说**太 high-level**：缺少明确输入、明确交付物、可执行步骤与质量门槛，导致 Agent 很容易输出“泛泛而谈”的建议。
 
 而现代 Agent（Codex、Claude Code 等）最擅长的，其实是执行**契约式工作流**：
@@ -35,4 +37,3 @@ RefoundAI 的 “Lenny skills” 有很多高质量的产品/领导力经验，�
 - 运行：`python3 scripts/ci_check_skillpacks.py --skip-mirror-check`
 - skill 内容保持**英文**
 - 尽量小 PR（一次改 1 个或少量 skills）
-

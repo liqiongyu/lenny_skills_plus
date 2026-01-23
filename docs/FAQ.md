@@ -1,5 +1,7 @@
 # FAQ / troubleshooting
 
+> 中文版: `FAQ.zh-CN.md`
+
 ## Codex doesn’t see my skills
 
 - Confirm skills are mirrored into `.codex/skills/` (or installed in `~/.codex/skills/`).

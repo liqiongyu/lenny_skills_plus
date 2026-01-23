@@ -1,5 +1,7 @@
 # 署名与知识产权（Refound/Lenny）
 
+> English version: `ATTRIBUTION_AND_IP.md`
+
 这个项目的目标：在**尊重原创**与**明确署名来源**的前提下，把 RefoundAI 的 “Lenny skills” 从“高层方法论”转化为“Agent 可执行”的技能包（能产出具体工件、模板、清单、质量门槛）。
 
 ## 原始来源 / 致谢

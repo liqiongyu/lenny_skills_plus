@@ -1,5 +1,7 @@
 # Documentation
 
+> 中文版: `README.zh-CN.md`
+
 This folder documents how to use, validate, and maintain the skill packs in this repository.
 
 Start here:

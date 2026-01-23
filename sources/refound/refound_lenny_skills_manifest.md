@@ -292,4 +292,3 @@ Generated on 2026-01-22.
 - Running Design Reviews (running-design-reviews)
   - Page: https://refoundai.com/lenny-skills/s/running-design-reviews
   - SKILL.md: https://refoundai.com/skills/running-design-reviews/SKILL.md
-

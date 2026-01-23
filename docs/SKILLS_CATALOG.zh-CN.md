@@ -1,16 +1,16 @@
-# Skills catalog
+# 技能目录（Skills catalog）
 
-> 中文版: `SKILLS_CATALOG.zh-CN.md`
+> English version: `SKILLS_CATALOG.md`
 
-Converted skills: **86** (from Refound/Lenny)
-Meta-skill(s): **1** (e.g., `lenny-skillpack-creator`)
+已转换 skills：**86**（来自 Refound/Lenny）
+Meta-skill：**1**（例如 `lenny-skillpack-creator`）
 
-_Generated: 2026-01-23 05:53:40Z by `python3 scripts/generate_skills_catalog.py`._
+_生成时间：2026-01-23 05:53:40Z（由 `python3 scripts/generate_skills_catalog.py` 生成）。_
 
-Upstream source: `https://refoundai.com/lenny-skills/`
+上游来源：`https://refoundai.com/lenny-skills/`
 
 ## Product Management (22)
-| Skill | Command | Description | Upstream |
+| Skill | 命令 | 描述 | 上游 |
 |---|---|---|---|
 | [Writing North Star Metrics](../skills/writing-north-star-metrics/) | `writing-north-star-metrics` | Define or refresh a product North Star metric + driver tree and produce a shareable North Star Metric Pack (narrative, metric spec, inputs, guardrails, rollout). | [refound](https://refoundai.com/lenny-skills/s/writing-north-star-metrics) |
 | [Defining Product Vision](../skills/defining-product-vision/) | `defining-product-vision` | Define or refresh a product vision and produce a shareable Product Vision Pack (vision statement, narrative, pillars, strategic choices, rollout). Use for product vision, vision statement, product direction, long-term product strategy. | [refound](https://refoundai.com/lenny-skills/s/defining-product-vision) |
@@ -36,7 +36,7 @@ Upstream source: `https://refoundai.com/lenny-skills/`
 | [Startup Pivoting](../skills/startup-pivoting/) | `startup-pivoting` | Decide whether/how to pivot a startup or product and produce a Pivot Decision & Execution Pack (diagnosis, exhaustion check, pivot options map, pivot thesis + metrics, validation plan, execution plan, decision memo). Use for “should we pivot?”, “stuck pre-PMF”, “growth stalled”, “change ICP”, “reposition”, “major strategy reset”. | [refound](https://refoundai.com/lenny-skills/s/startup-pivoting) |
 
 ## Hiring & Teams (6)
-| Skill | Command | Description | Upstream |
+| Skill | 命令 | 描述 | 上游 |
 |---|---|---|---|
 | [Writing Job Descriptions](../skills/writing-job-descriptions/) | `writing-job-descriptions` | Write outcome-based, high-signal job descriptions and role scorecards that attract the right candidates and filter the wrong ones. Use for job description, job posting, job ad, role scorecard, hiring brief. Category: Hiring & Teams. | [refound](https://refoundai.com/lenny-skills/s/writing-job-descriptions) |
 | [Conducting Interviews](../skills/conducting-interviews/) | `conducting-interviews` | Run structured, behavioral hiring interviews and produce an Interview Execution Pack (plan, questions, scorecard, debrief). Use for interview process, interview questions, interview loop, screening, behavioral interview, structured interview. Category: Hiring & Teams. | [refound](https://refoundai.com/lenny-skills/s/conducting-interviews) |
@@ -46,7 +46,7 @@ Upstream source: `https://refoundai.com/lenny-skills/`
 | [Designing Team Rituals](../skills/team-rituals/) | `team-rituals` | Design a lightweight set of named, templated “Golden Rituals” (team operating cadence) and produce a Team Rituals Pack (ritual inventory, ritual specs + agendas, onboarding primer, rollout + iteration plan). Use for team rituals, operating cadence, meeting templates, team operating system, golden rituals. Category: Hiring & Teams. | [refound](https://refoundai.com/lenny-skills/s/team-rituals) |
 
 ## Leadership (14)
-| Skill | Command | Description | Upstream |
+| Skill | 命令 | 描述 | 上游 |
 |---|---|---|---|
 | [Running Effective 1:1s](../skills/running-effective-1-1s/) | `running-effective-1-1s` | Run effective 1:1s and skip-levels as a manager/leader and produce a 1:1 Operating System Pack (cadence plan, agendas, shared doc templates, coaching prompts, career conversation plan, and quality gates). Use for 1:1, one-on-one, 1-on-1, manager check-ins, coaching, career conversations, and skip levels. Category: Leadership. | [refound](https://refoundai.com/lenny-skills/s/running-effective-1-1s) |
 | [Having Difficult Conversations](../skills/having-difficult-conversations/) | `having-difficult-conversations` | Prepare and lead difficult conversations as a manager/leader and produce a Difficult Conversation Pack (conversation brief, talk track/script, objection+emotion handling plan, follow-up note, and quality gates). Use for difficult conversation, hard conversation, tough feedback, performance conversation, promotion denial, layoff conversation, termination conversation, firing. Category: Leadership. | [refound](https://refoundai.com/lenny-skills/s/having-difficult-conversations) |
@@ -64,7 +64,7 @@ Upstream source: `https://refoundai.com/lenny-skills/`
 | [Organizational Transformation](../skills/organizational-transformation/) | `organizational-transformation` | Lead an organizational transformation toward a modern product operating model (not “framework adoption”). Produces an Organizational Transformation Pack (diagnostic, target operating model, pilot plan, roadmap, comms, governance). Use for org transformation, product operating model change, moving from feature teams to empowered product teams, and change management. Category: Leadership. | [refound](https://refoundai.com/lenny-skills/s/organizational-transformation) |
 
 ## AI & Technology (6)
-| Skill | Command | Description | Upstream |
+| Skill | 命令 | 描述 | 上游 |
 |---|---|---|---|
 | [AI Product Strategy](../skills/ai-product-strategy/) | `ai-product-strategy` | Create an AI Product Strategy Pack (thesis, prioritized use cases, system plan, eval + learning plan, agentic safety plan, roadmap). Use for AI product strategy, LLM/agent strategy, AI roadmap, AI-first product direction. | [refound](https://refoundai.com/lenny-skills/s/ai-product-strategy) |
 | [Building with LLMs](../skills/building-with-llms/) | `building-with-llms` | Produce an LLM Build Pack (prompt+tool contract, data/eval plan, architecture+safety, launch checklist). Use for building with LLMs, GPT/Claude apps, prompt engineering, RAG, and tool-using agents. | [refound](https://refoundai.com/lenny-skills/s/building-with-llms) |
@@ -74,7 +74,7 @@ Upstream source: `https://refoundai.com/lenny-skills/`
 | [AI Evaluation (Evals)](../skills/ai-evals/) | `ai-evals` | Create an AI Evals Pack (eval PRD, test set, rubric, judge plan, results + iteration loop). Use for LLM evaluation, benchmarks, rubrics, error analysis/open coding, and ship/no-ship quality gates for AI features. | [refound](https://refoundai.com/lenny-skills/s/ai-evals) |
 
 ## Communication (5)
-| Skill | Command | Description | Upstream |
+| Skill | 命令 | 描述 | 上游 |
 |---|---|---|---|
 | [Giving Presentations](../skills/giving-presentations/) | `giving-presentations` | Plan and deliver persuasive, confident presentations and produce a Presentation Pack (brief, narrative, slide outline, Q&A bank, pre-brief plan, rehearsal plan, delivery checklist). Use for presentation, deck, keynote, all-hands, exec review, demo talk track. Category: Communication. | [refound](https://refoundai.com/lenny-skills/s/giving-presentations) |
 | [Written Communication](../skills/written-communication/) | `written-communication` | Draft and edit high-signal written artifacts and produce a Written Communication Pack (brief, outline, draft email/memo/doc, canonical doc option, quality gate). Use for writing, written communication, memo, email, doc, async update, rewrite for clarity. Category: Communication. | [refound](https://refoundai.com/lenny-skills/s/written-communication) |
@@ -83,7 +83,7 @@ Upstream source: `https://refoundai.com/lenny-skills/`
 | [Running Effective Meetings](../skills/running-effective-meetings/) | `running-effective-meetings` | Run effective meetings by producing a Meeting Pack (meeting brief, pre-read, agenda, facilitation script, notes + decision log, action-item follow-up). Use for meeting planning, meeting agendas, decision meetings, strategic discussions, operational syncs, and meeting hygiene. | [refound](https://refoundai.com/lenny-skills/s/running-effective-meetings) |
 
 ## Growth (6)
-| Skill | Command | Description | Upstream |
+| Skill | 命令 | 描述 | 上游 |
 |---|---|---|---|
 | [Measuring Product-Market Fit](../skills/measuring-product-market-fit/) | `measuring-product-market-fit` | Measure product-market fit (PMF) and produce a PMF Measurement Pack (Sean Ellis “very disappointed” survey, retention/usage evidence, reference-customer signals, and an action plan). Use for growth teams assessing PMF, PMF drift, and launch readiness. | [refound](https://refoundai.com/lenny-skills/s/measuring-product-market-fit) |
 | [Designing Growth Loops](../skills/designing-growth-loops/) | `designing-growth-loops` | Design growth loops (viral/referral/acquisition loops, flywheels) and produce a Growth Loop Design Pack (loop map, loop scorecard, channel fit + paid-loop feasibility, experiment backlog, measurement plan). Use for growth teams creating new growth loops or innovating beyond incremental optimization. | [refound](https://refoundai.com/lenny-skills/s/designing-growth-loops) |
@@ -93,7 +93,7 @@ Upstream source: `https://refoundai.com/lenny-skills/`
 | [User Onboarding](../skills/user-onboarding/) | `user-onboarding` | Design and improve product user onboarding (first-time user experience) to drive activation and early retention. Produces an Onboarding & Activation Pack (aha moment spec, first 30 seconds + first mile plan, onboarding journey map, experiment backlog, measurement plan). Use for Growth teams. | [refound](https://refoundai.com/lenny-skills/s/user-onboarding) |
 
 ## Marketing (6)
-| Skill | Command | Description | Upstream |
+| Skill | 命令 | 描述 | 上游 |
 |---|---|---|---|
 | [Positioning & Messaging](../skills/positioning-messaging/) | `positioning-messaging` | Create a Positioning & Messaging Pack (positioning statement, messaging hierarchy, value proposition, tagline/headlines, copy set, validation plan). Use for positioning, messaging, value prop, tagline, homepage hero, one-liner, elevator pitch, and press pattern-matching. | [refound](https://refoundai.com/lenny-skills/s/positioning-messaging) |
 | [Brand Storytelling](../skills/brand-storytelling/) | `brand-storytelling` | Create a Brand Storytelling Pack (brand narrative, founder/origin story, five-second moment, channel scripts, building-in-public plan, Q&A bank). Use for brand story, founder story, origin story, narrative, pitch story, storytelling, and brand narrative. Category: Marketing. | [refound](https://refoundai.com/lenny-skills/s/brand-storytelling) |
@@ -103,7 +103,7 @@ Upstream source: `https://refoundai.com/lenny-skills/`
 | [Media Relations](../skills/media-relations/) | `media-relations` | Plan and execute earned media outreach and journalist relationships by producing a Media Relations Pack (newsworthiness brief, media list, exclusive/embargo plan, pitch templates, outreach tracker, interview prep, press materials checklist). Use for PR, media outreach, press pitch, embargo, exclusive, press release, and journalist pitching. Category: Marketing. | [refound](https://refoundai.com/lenny-skills/s/media-relations) |
 
 ## Career (7)
-| Skill | Command | Description | Upstream |
+| Skill | 命令 | 描述 | 上游 |
 |---|---|---|---|
 | [Building a Promotion Case](../skills/building-a-promotion-case/) | `building-a-promotion-case` | Build a promotion case and produce a Promotion Case Pack (target role + timeline, ladder mapping, evidence log, impact narrative, manager alignment plan, sponsor/visibility map, submission-ready promo doc). Use for promotion packet, getting promoted, leveling up, career ladder, promotion committee. Category: Career. | [refound](https://refoundai.com/lenny-skills/s/building-a-promotion-case) |
 | [Negotiating Offers](../skills/negotiating-offers/) | `negotiating-offers` | Negotiate job offers and produce an Offer Negotiation Pack (success-conditions asks, tradeoff matrix, negotiation strategy, scripts, optional contract/part-time proposal). Use for salary negotiation, equity negotiation, offer negotiation, comp negotiation. Category: Career. | [refound](https://refoundai.com/lenny-skills/s/negotiating-offers) |
@@ -114,7 +114,7 @@ Upstream source: `https://refoundai.com/lenny-skills/`
 | [Fundraising Strategy](../skills/fundraising/) | `fundraising` | Plan and run an early-stage fundraising process and produce a Fundraising Pack (raise decision memo, round design brief, pitch narrative + deck outline, investor pipeline + tracker, outreach/follow-up scripts, diligence checklist). Use for fundraising, raising capital, venture capital, pitch deck, investor outreach, pre-seed, seed. Category: Career. | [refound](https://refoundai.com/lenny-skills/s/fundraising) |
 
 ## Sales & GTM (7)
-| Skill | Command | Description | Upstream |
+| Skill | 命令 | 描述 | 上游 |
 |---|---|---|---|
 | [Founder Sales](../skills/founder-sales/) | `founder-sales` | Create a Founder Sales Sprint Pack (ICP wedge + target list, outreach sequences, diagnostic discovery script, decision-enablement assets to beat “no decision”, and a white-glove activation plan). Use for founder-led sales, early sales, first customers, and first 10 customers. Category: Sales & GTM. | [refound](https://refoundai.com/lenny-skills/s/founder-sales) |
 | [Building Sales Team](../skills/building-sales-team/) | `building-sales-team` | Build an early sales team and operating cadence (readiness gate, hiring plan, role scorecards, interview loop, onboarding/ramp). Use for first AE/SDR hires, seed→Series A sales team build, and product-led sales pilot. Category: Sales & GTM. | [refound](https://refoundai.com/lenny-skills/s/building-sales-team) |
@@ -125,7 +125,7 @@ Upstream source: `https://refoundai.com/lenny-skills/`
 | [Sales Qualification](../skills/sales-qualification/) | `sales-qualification` | Build a Sales Qualification Pack (ICP + disqualification rules, qualification scorecard, discovery/qualification script, CRM note template, and pipeline hygiene rules). Use to fix pipeline quality and stop wasting time on wrong leads. Category: Sales & GTM. | [refound](https://refoundai.com/lenny-skills/s/sales-qualification) |
 
 ## Engineering (5)
-| Skill | Command | Description | Upstream |
+| Skill | 命令 | 描述 | 上游 |
 |---|---|---|---|
 | [Technical Roadmaps](../skills/technical-roadmaps/) | `technical-roadmaps` | Turn an engineering strategy into a written Technical Roadmap Pack (Rumelt-style strategy: Diagnosis/Guiding Policy/Coherent Actions, roadmap table, initiative briefs, and alignment cadence). Use for technical roadmap, tech roadmap, engineering roadmap, architecture roadmap. | [refound](https://refoundai.com/lenny-skills/s/technical-roadmaps) |
 | [Managing Tech Debt](../skills/managing-tech-debt/) | `managing-tech-debt` | Manage technical debt by producing a Tech Debt Management Pack (debt register, scoring/prioritization, refactor vs rewrite decision memo, incremental paydown plan, migration/rollback plan, metrics, and stakeholder cadence). Use for tech debt, refactoring, legacy modernization, and migrations. | [refound](https://refoundai.com/lenny-skills/s/managing-tech-debt) |
@@ -134,7 +134,7 @@ Upstream source: `https://refoundai.com/lenny-skills/`
 | [Design Engineering](../skills/design-engineering/) | `design-engineering` | Stand up a Design Engineering practice (hybrid design+engineering) by producing a Design Engineering Execution Pack: charter, prototype→production workflow, design-to-code contract, component delivery plan, and quality bar. Use for design engineering, UI engineering, design systems engineering, and prototype-to-production processes. | [refound](https://refoundai.com/lenny-skills/s/design-engineering) |
 
 ## Design (2)
-| Skill | Command | Description | Upstream |
+| Skill | 命令 | 描述 | 上游 |
 |---|---|---|---|
 | [Design Systems](../skills/design-systems/) | `design-systems` | Build or evolve a design system by producing a Design System Operating Pack: charter, token model (incl. depth/elevation), component inventory + roadmap, blockframe-to-component mapping, documentation plan, and governance/adoption plan. Use for design systems, component libraries, design tokens, UI kits, and pattern libraries. | [refound](https://refoundai.com/lenny-skills/s/design-systems) |
 | [Running Design Reviews](../skills/running-design-reviews/) | `running-design-reviews` | Run high-signal design reviews (design critique / design crit / design feedback) by producing a Design Review Pack: review brief + requested feedback, agenda + facilitation script, feedback log prioritized by Value→Ease→Delight, decision record, and follow-up plan. | [refound](https://refoundai.com/lenny-skills/s/running-design-reviews) |

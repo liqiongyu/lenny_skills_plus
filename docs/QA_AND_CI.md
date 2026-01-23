@@ -1,5 +1,7 @@
 # QA and CI
 
+> 中文版: `QA_AND_CI.zh-CN.md`
+
 ## 1) Lint a single skill pack
 
 ```bash
