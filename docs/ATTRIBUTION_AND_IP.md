@@ -6,6 +6,7 @@ This project exists to make the “Lenny skills” content easier for modern AI 
 
 - Primary upstream source: RefoundAI “Lenny skills” database: `https://refoundai.com/lenny-skills/`
 - This repository is **not affiliated with RefoundAI** or with Lenny / Lenny’s Podcast.
+- If you operate this as a public/community project, we recommend requesting explicit permission: `REQUESTING_UPSTREAM_PERMISSION.md`.
 
 ## What this repo contains (and avoids)
 
@@ -42,4 +43,3 @@ If you prefer formal channels, GitHub also provides a DMCA takedown process.
 - Keep skill packs **English** (tool compatibility).
 - Prefer small, reviewable PRs (1 skill or a small batch).
 - If you edit a skill, keep it artifact-driven and update `references/EXAMPLES.md` so others can test it.
-

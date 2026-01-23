@@ -2,6 +2,30 @@
 
 Codex supports “Agent Skills”: each skill is a folder containing `SKILL.md` with YAML frontmatter (`name`, `description`) plus optional supporting files.
 
+## Install from a release (recommended; no cloning)
+
+Download `skills-all.zip` from the latest GitHub Release, then install it either globally or per-repo.
+
+If your release doesn’t include `skills-all.zip` yet, you can still download individual per-skill zip files from the release.
+
+### Global install
+
+```bash
+mkdir -p ~/.codex/skills
+unzip -o skills-all.zip -d ~/.codex/skills
+```
+
+Restart Codex after installing new skills.
+
+### Project-local install
+
+From the root of *your* repo:
+
+```bash
+mkdir -p .codex/skills
+unzip -o skills-all.zip -d .codex/skills
+```
+
 ## Where Codex looks for skills
 
 Codex loads skills from several scopes, including:
@@ -9,9 +33,9 @@ Codex loads skills from several scopes, including:
 - Repo scope: `.codex/skills/` (various repo-relative locations)
 - User scope: `~/.codex/skills` (macOS/Linux default)
 
-This repo keeps canonical skill packs in `skills/`, and mirrors them into `.codex/skills/` for discovery.
+This repository keeps canonical skill packs in `skills/`, and can mirror them into `.codex/skills/` for discovery.
 
-## Project-local usage (recommended)
+## If you cloned this repo (contributors)
 
 1) Mirror canonical skills into `.codex/skills/`:
 
@@ -36,9 +60,9 @@ $writing-prds
 Turn these notes into a decision-ready PRD. Ask up to 5 questions first.
 ```
 
-## Global installation (optional)
+## Global installation from a clone (optional)
 
-If you want these skills available across all repos:
+If you cloned this repo and want these skills available across all repos:
 
 ```bash
 mkdir -p ~/.codex/skills
@@ -49,8 +73,8 @@ Restart Codex after installing new skills.
 
 ## Skill metadata constraints (important)
 
-For maximum compatibility, keep `name` and `description`:
-- single-line scalars (no YAML block scalars like `description: >`)
-- within typical size limits (name <= 100 chars, description <= 500 chars)
+For maximum compatibility across tools, keep `name` and `description`:
+- short and specific (avoid paragraphs)
+- plain YAML strings (block scalars like `description: >` are OK, but keep them concise)
 
-This repo’s linter enforces these constraints.
+This repo’s linter enforces that the frontmatter is valid YAML and that `name` / `description` are present and non-empty.
