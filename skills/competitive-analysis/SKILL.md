@@ -1,6 +1,6 @@
 ---
-name: competitive-analysis
-description: Produce a Competitive Analysis Pack (competitive alternatives map, competitor landscape, differentiation & positioning hypotheses, battlecards, monitoring plan). Use for competitor research, competitive landscape, win/loss analysis, and positioning vs alternatives.
+name: "competitive-analysis"
+description: "Produce a Competitive Analysis Pack (competitive alternatives map, competitor landscape, differentiation & positioning hypotheses, battlecards, monitoring plan). Use for competitor research, competitive landscape, win/loss analysis, and positioning vs alternatives."
 ---
 
 # Competitive Analysis

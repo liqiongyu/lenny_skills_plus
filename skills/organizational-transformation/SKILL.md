@@ -1,7 +1,6 @@
 ---
-name: organizational-transformation
-description: >
-  Lead an organizational transformation toward a modern product operating model (not “framework adoption”). Produces an Organizational Transformation Pack (diagnostic, target operating model, pilot plan, roadmap, comms, governance). Use for org transformation, product operating model change, moving from feature teams to empowered product teams, and change management. Category: Leadership.
+name: "organizational-transformation"
+description: "Lead an organizational transformation toward a modern product operating model (not “framework adoption”). Produces an Organizational Transformation Pack (diagnostic, target operating model, pilot plan, roadmap, comms, governance). Use for org transformation, product operating model change, moving from feature teams to empowered product teams, and change management. Category: Leadership."
 ---
 
 # Organizational Transformation

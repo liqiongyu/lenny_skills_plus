@@ -1,6 +1,6 @@
 ---
-name: problem-definition
-description: Define a product problem and produce a Problem Definition Pack (problem statement, JTBD, current alternatives, evidence & assumptions, success metrics, scope boundaries, prototype/learning plan). Use when clarifying the problem space.
+name: "problem-definition"
+description: "Define a product problem and produce a Problem Definition Pack (problem statement, JTBD, current alternatives, evidence & assumptions, success metrics, scope boundaries, prototype/learning plan). Use when clarifying the problem space."
 ---
 
 # Problem Definition

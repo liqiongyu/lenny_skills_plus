@@ -1,6 +1,6 @@
 ---
-name: running-effective-meetings
-description: Run effective meetings by producing a Meeting Pack (meeting brief, pre-read, agenda, facilitation script, notes + decision log, action-item follow-up). Use for meeting planning, meeting agendas, decision meetings, strategic discussions, operational syncs, and meeting hygiene.
+name: "running-effective-meetings"
+description: "Run effective meetings by producing a Meeting Pack (meeting brief, pre-read, agenda, facilitation script, notes + decision log, action-item follow-up). Use for meeting planning, meeting agendas, decision meetings, strategic discussions, operational syncs, and meeting hygiene."
 ---
 
 # Running Effective Meetings

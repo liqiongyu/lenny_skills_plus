@@ -4,6 +4,15 @@
 
 Codex supports “Agent Skills”: each skill is a folder containing `SKILL.md` with YAML frontmatter (`name`, `description`) plus optional supporting files.
 
+## Frontmatter constraints (important)
+
+Codex validates skill metadata at startup. In `SKILL.md` YAML frontmatter:
+
+- `name` must be **single-line** and **≤ 100 characters**
+- `description` must be **single-line** and **≤ 500 characters**
+
+Multi-line YAML styles like `description: >` can cause validation errors and the skill may be skipped.
+
 ## Install from a release (recommended; no cloning)
 
 Download `skills-all.zip` from the latest GitHub Release, then install it either globally or per-repo.
@@ -77,6 +86,6 @@ Restart Codex after installing new skills.
 
 For maximum compatibility across tools, keep `name` and `description`:
 - short and specific (avoid paragraphs)
-- plain YAML strings (block scalars like `description: >` are OK, but keep them concise)
+- plain single-line YAML strings (avoid block scalars like `description: >`)
 
-This repo’s linter enforces that the frontmatter is valid YAML and that `name` / `description` are present and non-empty.
+This repo’s linter enforces that the frontmatter is valid YAML and that `name` / `description` are present, single-line, and within Codex length limits.

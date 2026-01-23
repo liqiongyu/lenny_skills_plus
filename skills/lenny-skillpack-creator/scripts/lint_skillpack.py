@@ -23,6 +23,8 @@ except Exception:  # pragma: no cover
 
 FRONTMATTER_RE = re.compile(r"^---\s*$")
 REQ_FIELDS = ["name", "description"]
+CODEX_NAME_MAX = 100
+CODEX_DESCRIPTION_MAX = 500
 REQ_SKILLPACK_METADATA = ["schema_version", "skill_slug", "version", "authors", "origin"]
 SEMVER_RE = re.compile(r"^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-[0-9A-Za-z.-]+)?(?:\+[0-9A-Za-z.-]+)?$")
 ALLOWED_ORIGINS = {"refound", "original", "community"}
@@ -50,6 +52,19 @@ def read_frontmatter(text: str) -> tuple[dict, str | None]:
         return {}, "SKILL.md missing YAML frontmatter closing marker (---)."
 
     raw = "\n".join(lines[1:end]).strip()
+
+    # Codex expects `name` and `description` to be single-line scalars in the YAML frontmatter.
+    # Multi-line YAML (e.g., `description: >`) is a common validation failure mode.
+    # See: https://developers.openai.com/codex/skills/create-skill/
+    for k in REQ_FIELDS:
+        m = re.search(rf"^{re.escape(k)}:\s*(.*)$", raw, flags=re.M)
+        if not m:
+            return {}, f"SKILL.md frontmatter missing required field: {k}"
+        v_raw = (m.group(1) or "").strip()
+        if not v_raw:
+            return {}, f"SKILL.md frontmatter '{k}' must be a non-empty single-line value."
+        if re.match(r"^[>|][0-9]*[+-]?\s*(#.*)?$", v_raw):
+            return {}, f"SKILL.md frontmatter '{k}' must be a single-line value (no YAML block scalars)."
     if not raw:
         return {}, "SKILL.md YAML frontmatter is empty."
 
@@ -63,6 +78,20 @@ def read_frontmatter(text: str) -> tuple[dict, str | None]:
 
     if not isinstance(data, dict):
         return {}, f"SKILL.md frontmatter must be a mapping, got: {type(data).__name__}"
+
+    # Enforce Codex validation constraints (name <= 100 chars, description <= 500 chars)
+    name = data.get("name", "")
+    desc = data.get("description", "")
+    if isinstance(name, str):
+        if len(name.strip()) > CODEX_NAME_MAX:
+            return {}, f"SKILL.md frontmatter 'name' exceeds {CODEX_NAME_MAX} characters."
+        if "\n" in name or "\r" in name:
+            return {}, "SKILL.md frontmatter 'name' must be single-line (no newlines)."
+    if isinstance(desc, str):
+        if len(desc.strip()) > CODEX_DESCRIPTION_MAX:
+            return {}, f"SKILL.md frontmatter 'description' exceeds {CODEX_DESCRIPTION_MAX} characters."
+        if "\n" in desc or "\r" in desc:
+            return {}, "SKILL.md frontmatter 'description' must be single-line (no newlines)."
 
     return data, None
 
@@ -78,6 +107,20 @@ def read_skillpack_metadata(path: Path) -> tuple[dict, str | None]:
 
     if not isinstance(data, dict):
         return {}, f"skillpack.json must be a JSON object, got: {type(data).__name__}"
+
+    # Keep `name`/`description` constraints aligned with Codex if these fields are present.
+    name = data.get("name")
+    desc = data.get("description")
+    if isinstance(name, str):
+        if len(name.strip()) > CODEX_NAME_MAX:
+            return {}, f"skillpack.json field 'name' exceeds {CODEX_NAME_MAX} characters."
+        if "\n" in name or "\r" in name:
+            return {}, "skillpack.json field 'name' must be single-line (no newlines)."
+    if isinstance(desc, str):
+        if len(desc.strip()) > CODEX_DESCRIPTION_MAX:
+            return {}, f"skillpack.json field 'description' exceeds {CODEX_DESCRIPTION_MAX} characters."
+        if "\n" in desc or "\r" in desc:
+            return {}, "skillpack.json field 'description' must be single-line (no newlines)."
 
     return data, None
 

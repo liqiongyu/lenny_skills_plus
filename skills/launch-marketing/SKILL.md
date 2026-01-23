@@ -1,7 +1,6 @@
 ---
-name: launch-marketing
-description: >
-  Plan and execute launch marketing by producing a Launch Marketing Pack (launch brief, hook/sizzle, channel plan, PR outreach kit, internal readiness kit, execution checklist, measurement + experiment plan). Use for product launch, feature launch, go-to-market, GTM, announcement, and press outreach. Category: Marketing.
+name: "launch-marketing"
+description: "Plan and execute launch marketing by producing a Launch Marketing Pack (launch brief, hook/sizzle, channel plan, PR outreach kit, internal readiness kit, execution checklist, measurement + experiment plan). Use for product launch, feature launch, go-to-market, GTM, announcement, and press outreach. Category: Marketing."
 ---
 
 # Launch Marketing

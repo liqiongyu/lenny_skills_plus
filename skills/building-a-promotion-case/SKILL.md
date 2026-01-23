@@ -1,7 +1,6 @@
 ---
-name: building-a-promotion-case
-description: >
-  Build a promotion case and produce a Promotion Case Pack (target role + timeline, ladder mapping, evidence log, impact narrative, manager alignment plan, sponsor/visibility map, submission-ready promo doc). Use for promotion packet, getting promoted, leveling up, career ladder, promotion committee. Category: Career.
+name: "building-a-promotion-case"
+description: "Build a promotion case and produce a Promotion Case Pack (target role + timeline, ladder mapping, evidence log, impact narrative, manager alignment plan, sponsor/visibility map, submission-ready promo doc). Use for promotion packet, getting promoted, leveling up, career ladder, promotion committee. Category: Career."
 ---
 
 # Building a Promotion Case

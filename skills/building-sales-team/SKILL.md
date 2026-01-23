@@ -1,7 +1,6 @@
 ---
-name: building-sales-team
-description: >
-  Build an early sales team and operating cadence (readiness gate, hiring plan, role scorecards, interview loop, onboarding/ramp). Use for first AE/SDR hires, seed→Series A sales team build, and product-led sales pilot. Category: Sales & GTM.
+name: "building-sales-team"
+description: "Build an early sales team and operating cadence (readiness gate, hiring plan, role scorecards, interview loop, onboarding/ramp). Use for first AE/SDR hires, seed→Series A sales team build, and product-led sales pilot. Category: Sales & GTM."
 ---
 
 # Building Sales Team

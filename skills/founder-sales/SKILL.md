@@ -1,7 +1,6 @@
 ---
-name: founder-sales
-description: >
-  Create a Founder Sales Sprint Pack (ICP wedge + target list, outreach sequences, diagnostic discovery script, decision-enablement assets to beat “no decision”, and a white-glove activation plan). Use for founder-led sales, early sales, first customers, and first 10 customers. Category: Sales & GTM.
+name: "founder-sales"
+description: "Create a Founder Sales Sprint Pack (ICP wedge + target list, outreach sequences, diagnostic discovery script, decision-enablement assets to beat “no decision”, and a white-glove activation plan). Use for founder-led sales, early sales, first customers, and first 10 customers. Category: Sales & GTM."
 ---
 
 # Founder Sales

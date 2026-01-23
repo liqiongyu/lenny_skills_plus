@@ -1,7 +1,6 @@
 ---
-name: written-communication
-description: >
-  Draft and edit high-signal written artifacts and produce a Written Communication Pack (brief, outline, draft email/memo/doc, canonical doc option, quality gate). Use for writing, written communication, memo, email, doc, async update, rewrite for clarity. Category: Communication.
+name: "written-communication"
+description: "Draft and edit high-signal written artifacts and produce a Written Communication Pack (brief, outline, draft email/memo/doc, canonical doc option, quality gate). Use for writing, written communication, memo, email, doc, async update, rewrite for clarity. Category: Communication."
 ---
 
 # Written Communication

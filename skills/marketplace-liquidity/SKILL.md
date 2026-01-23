@@ -1,7 +1,6 @@
 ---
-name: marketplace-liquidity
-description: >
-  Diagnose and improve marketplace liquidity (match rate/fill rate, time-to-match, reliability) by segment. Produces a Marketplace Liquidity Management Pack: liquidity definition + metric tree, fragmentation map, segment scorecard, supply/demand bottleneck diagnosis, experiment backlog, measurement plan, and operating cadence. Use for Growth teams running two-sided marketplaces.
+name: "marketplace-liquidity"
+description: "Diagnose and improve marketplace liquidity (match rate/fill rate, time-to-match, reliability) by segment. Produces a Marketplace Liquidity Management Pack: liquidity definition + metric tree, fragmentation map, segment scorecard, supply/demand bottleneck diagnosis, experiment backlog, measurement plan, and operating cadence. Use for Growth teams running two-sided marketplaces."
 ---
 
 # Marketplace Liquidity Management

@@ -1,6 +1,6 @@
 ---
-name: vibe-coding
-description: Turn an idea into a functional, demo-ready prototype using AI-assisted “vibe coding” (timeboxed build loop, prompt pack, build plan, demo script, and safety checks). Use for rapid prototyping and proving concepts in AI & Technology.
+name: "vibe-coding"
+description: "Turn an idea into a functional, demo-ready prototype using AI-assisted “vibe coding” (timeboxed build loop, prompt pack, build plan, demo script, and safety checks). Use for rapid prototyping and proving concepts in AI & Technology."
 ---
 
 # Vibe Coding

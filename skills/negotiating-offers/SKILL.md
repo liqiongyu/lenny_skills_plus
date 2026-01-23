@@ -1,7 +1,6 @@
 ---
-name: negotiating-offers
-description: >
-  Negotiate job offers and produce an Offer Negotiation Pack (success-conditions asks, tradeoff matrix, negotiation strategy, scripts, optional contract/part-time proposal). Use for salary negotiation, equity negotiation, offer negotiation, comp negotiation. Category: Career.
+name: "negotiating-offers"
+description: "Negotiate job offers and produce an Offer Negotiation Pack (success-conditions asks, tradeoff matrix, negotiation strategy, scripts, optional contract/part-time proposal). Use for salary negotiation, equity negotiation, offer negotiation, comp negotiation. Category: Career."
 ---
 
 # Negotiating Offers

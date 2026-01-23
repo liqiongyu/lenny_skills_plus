@@ -1,6 +1,6 @@
 ---
-name: retention-engagement
-description: Improve retention, churn, engagement, and activation by producing a Retention & Engagement Improvement Pack (diagnosis, aha moment definition, lever hypotheses, experiment backlog, measurement plan, 30/60/90 plan). Use for Growth teams.
+name: "retention-engagement"
+description: "Improve retention, churn, engagement, and activation by producing a Retention & Engagement Improvement Pack (diagnosis, aha moment definition, lever hypotheses, experiment backlog, measurement plan, 30/60/90 plan). Use for Growth teams."
 ---
 
 # Retention & Engagement

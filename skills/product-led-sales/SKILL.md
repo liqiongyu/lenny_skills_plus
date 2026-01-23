@@ -1,7 +1,6 @@
 ---
-name: product-led-sales
-description: >
-  Create a Product-Led Sales Motion Pack (PQL/PQA definition, usage-signal spec + routing/SLA, sales outreach playbook, instrumentation plan, and pilot/scale plan). Use for product-led sales, sales-assist, PLG-to-sales handoffs, and converting self-serve usage into sales opportunities. Category: Sales & GTM.
+name: "product-led-sales"
+description: "Create a Product-Led Sales Motion Pack (PQL/PQA definition, usage-signal spec + routing/SLA, sales outreach playbook, instrumentation plan, and pilot/scale plan). Use for product-led sales, sales-assist, PLG-to-sales handoffs, and converting self-serve usage into sales opportunities. Category: Sales & GTM."
 ---
 
 # Product-Led Sales

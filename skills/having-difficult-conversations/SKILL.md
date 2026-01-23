@@ -1,7 +1,6 @@
 ---
-name: having-difficult-conversations
-description: >
-  Prepare and lead difficult conversations as a manager/leader and produce a Difficult Conversation Pack (conversation brief, talk track/script, objection+emotion handling plan, follow-up note, and quality gates). Use for difficult conversation, hard conversation, tough feedback, performance conversation, promotion denial, layoff conversation, termination conversation, firing. Category: Leadership.
+name: "having-difficult-conversations"
+description: "Prepare and lead difficult conversations as a manager/leader and produce a Difficult Conversation Pack (conversation brief, talk track/script, objection+emotion handling plan, follow-up note, and quality gates). Use for difficult conversation, hard conversation, tough feedback, performance conversation, promotion denial, layoff conversation, termination conversation, firing. Category: Leadership."
 ---
 
 # Having Difficult Conversations

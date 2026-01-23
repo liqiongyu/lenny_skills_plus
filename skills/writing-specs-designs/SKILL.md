@@ -1,6 +1,6 @@
 ---
-name: writing-specs-designs
-description: Create a build-ready spec + design doc pack (low-fi diagram, user flows/states, prototype brief, acceptance criteria) for a feature or UX change. Use for spec, design doc, feature spec, technical spec, interaction spec.
+name: "writing-specs-designs"
+description: "Create a build-ready spec + design doc pack (low-fi diagram, user flows/states, prototype brief, acceptance criteria) for a feature or UX change. Use for spec, design doc, feature spec, technical spec, interaction spec."
 ---
 
 # Writing Specs & Designs

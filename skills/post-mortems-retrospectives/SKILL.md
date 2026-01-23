@@ -1,7 +1,6 @@
 ---
-name: post-mortems-retrospectives
-description: >
-  Run blameless post-mortems & retrospectives and produce a Post-mortems & Retrospectives Pack (brief + agenda, facts/timeline, contributing factors + root causes, decisions + action tracker, kill criteria, learning dissemination plan). Use for postmortem, post-mortem, retrospective, retro, after action review, lessons learned. Category: Leadership.
+name: "post-mortems-retrospectives"
+description: "Run blameless post-mortems & retrospectives and produce a Post-mortems & Retrospectives Pack (brief + agenda, facts/timeline, contributing factors + root causes, decisions + action tracker, kill criteria, learning dissemination plan). Use for postmortem, post-mortem, retrospective, retro, after action review, lessons learned. Category: Leadership."
 ---
 
 # Post-mortems & Retrospectives

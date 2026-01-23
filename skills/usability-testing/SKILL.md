@@ -1,6 +1,6 @@
 ---
-name: usability-testing
-description: Plan, run, and synthesize usability tests and produce a Usability Test Pack (test plan, tasks/script, logistics, notes template, issue log, findings + recommendations). Use for usability test, user test, prototype test, user testing, usability study, Wizard of Oz, fake door.
+name: "usability-testing"
+description: "Plan, run, and synthesize usability tests and produce a Usability Test Pack (test plan, tasks/script, logistics, notes template, issue log, findings + recommendations). Use for usability test, user test, prototype test, user testing, usability study, Wizard of Oz, fake door."
 ---
 
 # Usability Testing

@@ -1,7 +1,6 @@
 ---
-name: writing-job-descriptions
-description: >
-  Write outcome-based, high-signal job descriptions and role scorecards that attract the right candidates and filter the wrong ones. Use for job description, job posting, job ad, role scorecard, hiring brief. Category: Hiring & Teams.
+name: "writing-job-descriptions"
+description: "Write outcome-based, high-signal job descriptions and role scorecards that attract the right candidates and filter the wrong ones. Use for job description, job posting, job ad, role scorecard, hiring brief. Category: Hiring & Teams."
 ---
 
 # Writing Job Descriptions (Outcome-Based)

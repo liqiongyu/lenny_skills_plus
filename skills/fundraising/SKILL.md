@@ -1,7 +1,6 @@
 ---
-name: fundraising
-description: >
-  Plan and run an early-stage fundraising process and produce a Fundraising Pack (raise decision memo, round design brief, pitch narrative + deck outline, investor pipeline + tracker, outreach/follow-up scripts, diligence checklist). Use for fundraising, raising capital, venture capital, pitch deck, investor outreach, pre-seed, seed. Category: Career.
+name: "fundraising"
+description: "Plan and run an early-stage fundraising process and produce a Fundraising Pack (raise decision memo, round design brief, pitch narrative + deck outline, investor pipeline + tracker, outreach/follow-up scripts, diligence checklist). Use for fundraising, raising capital, venture capital, pitch deck, investor outreach, pre-seed, seed. Category: Career."
 ---
 
 # Fundraising

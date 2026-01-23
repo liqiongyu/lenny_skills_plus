@@ -1,7 +1,6 @@
 ---
-name: managing-up
-description: >
-  Manage up effectively and produce a Managing Up Operating System Pack (manager profile, comms cadence, weekly updates, escalation/ask plan, expectation & boundary script, and exec-ready decision/tradeoff memo). Use for managing up, managing your boss, working with your manager, exec communication, stakeholder updates, and escalation. Category: Leadership.
+name: "managing-up"
+description: "Manage up effectively and produce a Managing Up Operating System Pack (manager profile, comms cadence, weekly updates, escalation/ask plan, expectation & boundary script, and exec-ready decision/tradeoff memo). Use for managing up, managing your boss, working with your manager, exec communication, stakeholder updates, and escalation. Category: Leadership."
 ---
 
 # Managing Up

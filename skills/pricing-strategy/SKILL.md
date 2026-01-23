@@ -1,7 +1,6 @@
 ---
-name: pricing-strategy
-description: >
-  Create a Pricing Strategy Pack (value metric + willingness-to-pay plan, packaging & price-point options, self-serve vs sales-led thresholds, experiments, rollout + review cadence). Use for pricing, monetization, freemium, free trial, reverse trial, and packaging decisions. Category: Growth.
+name: "pricing-strategy"
+description: "Create a Pricing Strategy Pack (value metric + willingness-to-pay plan, packaging & price-point options, self-serve vs sales-led thresholds, experiments, rollout + review cadence). Use for pricing, monetization, freemium, free trial, reverse trial, and packaging decisions. Category: Growth."
 ---
 
 # Pricing Strategy

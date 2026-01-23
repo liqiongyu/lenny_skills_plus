@@ -5,7 +5,7 @@
 已转换 skills：**86**（来自 Refound/Lenny）
 Meta-skill：**1**（例如 `lenny-skillpack-creator`）
 
-_生成时间：2026-01-23 07:30:46Z（由 `python3 scripts/generate_skills_catalog.py` 生成）。_
+_生成时间：2026-01-23 09:39:19Z（由 `python3 scripts/generate_skills_catalog.py` 生成）。_
 
 上游来源：`https://refoundai.com/lenny-skills/`
 

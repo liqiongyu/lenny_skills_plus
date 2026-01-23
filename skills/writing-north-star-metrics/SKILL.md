@@ -1,6 +1,6 @@
 ---
-name: writing-north-star-metrics
-description: Define or refresh a product North Star metric + driver tree and produce a shareable North Star Metric Pack (narrative, metric spec, inputs, guardrails, rollout).
+name: "writing-north-star-metrics"
+description: "Define or refresh a product North Star metric + driver tree and produce a shareable North Star Metric Pack (narrative, metric spec, inputs, guardrails, rollout)."
 ---
 
 # Writing North Star Metrics

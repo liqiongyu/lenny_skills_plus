@@ -1,7 +1,6 @@
 ---
-name: career-transitions
-description: >
-  Plan and execute a career transition and produce a Career Transition Pack (progress metric + push/pull map, target archetypes, option scorecard, opportunity pipeline + outreach scripts, skills plan, 4–12 week experiment plan). Use for career change, career pivot, career transition, switching roles. Category: Career.
+name: "career-transitions"
+description: "Plan and execute a career transition and produce a Career Transition Pack (progress metric + push/pull map, target archetypes, option scorecard, opportunity pipeline + outreach scripts, skills plan, 4–12 week experiment plan). Use for career change, career pivot, career transition, switching roles. Category: Career."
 ---
 
 # Career Transitions

@@ -25,6 +25,7 @@ python3 scripts/ci_check_skillpacks.py
 ## What the linter enforces
 
 - Required frontmatter fields: `name`, `description`
+  - Codex-compatible constraints: `name` ≤ 100 chars, `description` ≤ 500 chars, both single-line
 - YAML frontmatter must parse (valid YAML mapping)
 - `name` must match the folder slug
 - Required files: `SKILL.md`, `README.md`, and the `references/` core set:

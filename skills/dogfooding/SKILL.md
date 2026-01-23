@@ -1,6 +1,6 @@
 ---
-name: dogfooding
-description: Run an internal dogfooding program/sprint and produce a Dogfooding Pack (charter, scenario map, routines, dogfooding log + triage board spec, weekly report, ship/no-ship gate). Use for “dogfooding”, “eat our own dog food”, internal beta, and product teams using the product daily to find friction before shipping.
+name: "dogfooding"
+description: "Run an internal dogfooding program/sprint and produce a Dogfooding Pack (charter, scenario map, routines, dogfooding log + triage board spec, weekly report, ship/no-ship gate). Use for “dogfooding”, “eat our own dog food”, internal beta, and product teams using the product daily to find friction before shipping."
 ---
 
 # Dogfooding

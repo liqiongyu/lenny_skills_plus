@@ -1,6 +1,6 @@
 ---
-name: analyzing-user-feedback
-description: Analyze user/customer feedback and produce a User Feedback Analysis Pack (source inventory, normalized feedback table, taxonomy/codebook, themes + evidence, recommendations, and feedback loop). Use for voice of customer, feature request analysis, support ticket synthesis, churn reason synthesis, and survey open-ends.
+name: "analyzing-user-feedback"
+description: "Analyze user/customer feedback and produce a User Feedback Analysis Pack (source inventory, normalized feedback table, taxonomy/codebook, themes + evidence, recommendations, and feedback loop). Use for voice of customer, feature request analysis, support ticket synthesis, churn reason synthesis, and survey open-ends."
 ---
 
 # Analyzing User Feedback

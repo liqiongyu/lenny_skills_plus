@@ -1,6 +1,6 @@
 ---
-name: product-taste-intuition
-description: Build stronger product taste + intuition as a PM by running a Taste Calibration Sprint (benchmark set, product critique notes, intuition→hypothesis log, validation plan, practice loop). Use for “product taste”, “product sense”, “intuition”, “calibrate taste”.
+name: "product-taste-intuition"
+description: "Build stronger product taste + intuition as a PM by running a Taste Calibration Sprint (benchmark set, product critique notes, intuition→hypothesis log, validation plan, practice loop). Use for “product taste”, “product sense”, “intuition”, “calibrate taste”."
 ---
 
 # Product Taste & Intuition

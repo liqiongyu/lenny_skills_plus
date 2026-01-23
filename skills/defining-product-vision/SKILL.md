@@ -1,6 +1,6 @@
 ---
-name: defining-product-vision
-description: Define or refresh a product vision and produce a shareable Product Vision Pack (vision statement, narrative, pillars, strategic choices, rollout). Use for product vision, vision statement, product direction, long-term product strategy.
+name: "defining-product-vision"
+description: "Define or refresh a product vision and produce a shareable Product Vision Pack (vision statement, narrative, pillars, strategic choices, rollout). Use for product vision, vision statement, product direction, long-term product strategy."
 ---
 
 # Defining Product Vision

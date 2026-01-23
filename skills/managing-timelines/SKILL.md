@@ -1,6 +1,6 @@
 ---
-name: managing-timelines
-description: Turn a deadline, launch date, or delivery target into an executable Timeline Management Pack (deadline type + commitments, phase plan, milestone tracker, RAG cadence, scope/change control, stakeholder comms). Use for timeline/deadline/schedule/milestones.
+name: "managing-timelines"
+description: "Turn a deadline, launch date, or delivery target into an executable Timeline Management Pack (deadline type + commitments, phase plan, milestone tracker, RAG cadence, scope/change control, stakeholder comms). Use for timeline/deadline/schedule/milestones."
 ---
 
 # Managing Timelines

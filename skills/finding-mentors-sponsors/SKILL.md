@@ -1,7 +1,6 @@
 ---
-name: finding-mentors-sponsors
-description: >
-  Build a Mentor & Sponsor Plan Pack (mentor portfolio, sponsor strategy, target list, outreach scripts, meeting agenda, tracking + cadence). Use for finding a mentor, finding a sponsor, mentorship, sponsorship, career advisor, career coaching, networking outreach. Category: Career.
+name: "finding-mentors-sponsors"
+description: "Build a Mentor & Sponsor Plan Pack (mentor portfolio, sponsor strategy, target list, outreach scripts, meeting agenda, tracking + cadence). Use for finding a mentor, finding a sponsor, mentorship, sponsorship, career advisor, career coaching, networking outreach. Category: Career."
 ---
 
 # Finding Mentors & Sponsors

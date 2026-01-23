@@ -1,6 +1,6 @@
 ---
-name: designing-growth-loops
-description: Design growth loops (viral/referral/acquisition loops, flywheels) and produce a Growth Loop Design Pack (loop map, loop scorecard, channel fit + paid-loop feasibility, experiment backlog, measurement plan). Use for growth teams creating new growth loops or innovating beyond incremental optimization.
+name: "designing-growth-loops"
+description: "Design growth loops (viral/referral/acquisition loops, flywheels) and produce a Growth Loop Design Pack (loop map, loop scorecard, channel fit + paid-loop feasibility, experiment backlog, measurement plan). Use for growth teams creating new growth loops or innovating beyond incremental optimization."
 ---
 
 # Designing Growth Loops

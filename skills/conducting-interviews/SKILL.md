@@ -1,7 +1,6 @@
 ---
-name: conducting-interviews
-description: >
-  Run structured, behavioral hiring interviews and produce an Interview Execution Pack (plan, questions, scorecard, debrief). Use for interview process, interview questions, interview loop, screening, behavioral interview, structured interview. Category: Hiring & Teams.
+name: "conducting-interviews"
+description: "Run structured, behavioral hiring interviews and produce an Interview Execution Pack (plan, questions, scorecard, debrief). Use for interview process, interview questions, interview loop, screening, behavioral interview, structured interview. Category: Hiring & Teams."
 ---
 
 # Conducting Interviews (Structured, Behavioral)

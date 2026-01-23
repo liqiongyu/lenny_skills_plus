@@ -1,7 +1,6 @@
 ---
-name: managing-imposter-syndrome
-description: >
-  Manage imposter syndrome at work and produce an Imposter Syndrome Management Pack (trigger & pattern map, reframes, evidence bank, experiment plan, support scripts, maintenance routine). Use for self-doubt, feeling like a fraud, new role anxiety, stretch assignments. Category: Career.
+name: "managing-imposter-syndrome"
+description: "Manage imposter syndrome at work and produce an Imposter Syndrome Management Pack (trigger & pattern map, reframes, evidence bank, experiment plan, support scripts, maintenance routine). Use for self-doubt, feeling like a fraud, new role anxiety, stretch assignments. Category: Career."
 ---
 
 # Managing Imposter Syndrome
