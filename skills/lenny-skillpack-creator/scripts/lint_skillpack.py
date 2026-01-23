@@ -6,7 +6,7 @@ lint_skillpack.py
 Validate a skill pack directory against the expected structure.
 
 Usage:
-  python scripts/lint_skillpack.py <path/to/skill-folder>
+  python skills/lenny-skillpack-creator/scripts/lint_skillpack.py <path/to/skill-folder>
 """
 
 from __future__ import annotations
@@ -29,6 +29,7 @@ REQ_REF_FILES = [
     "CHECKLISTS.md",
     "RUBRIC.md",
     "SOURCE_SUMMARY.md",
+    "EXAMPLES.md",
 ]
 
 def read_frontmatter(text: str) -> tuple[dict, str | None]:
@@ -81,6 +82,11 @@ def main() -> int:
         for fn in REQ_REF_FILES:
             if not (ref_dir / fn).exists():
                 errors.append(f"Missing references/{fn}")
+
+    # README check
+    readme_path = skill_dir / "README.md"
+    if not readme_path.exists():
+        errors.append(f"Missing README.md at {readme_path}")
 
     # frontmatter checks
     if skill_md_path.exists():
