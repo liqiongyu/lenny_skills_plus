@@ -14,11 +14,11 @@ Example:
 
 from __future__ import annotations
 import argparse
+import json
 import os
 from pathlib import Path
 import re
 import sys
-from datetime import date
 
 SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 
@@ -48,41 +48,49 @@ def main() -> int:
     (skill_dir / "references").mkdir(parents=True, exist_ok=True)
     (skill_dir / "scripts").mkdir(parents=True, exist_ok=True)
 
+    # skillpack.json (package-like metadata for the repo; tools will ignore this file)
+    skillpack_json = {
+        "schema_version": 1,
+        "skill_slug": skill,
+        "version": "0.1.0",
+        "authors": ["CHANGE_ME"],
+        "contributors": [],
+        "origin": "original",
+    }
+    (skill_dir / "skillpack.json").write_text(
+        json.dumps(skillpack_json, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+    )
+
     # SKILL.md template
     skill_md = f"""---
 name: {skill}
 description: >
-  TODO: When to use this skill + trigger phrases + expected outputs (include EN + 中文触发词).
-license: Apache-2.0
-metadata:
-  version: "0.1.0"
-  generated: "{date.today().isoformat()}"
-allowed-tools: "Read,Write,Edit,Bash"
+  TODO: When to use this skill + trigger phrases + expected outputs.
 ---
 
 # TODO: Skill Title
 
-## 目标与输出（Outputs）
+## Outputs
 - TODO
 
-## 需要的输入（Inputs）
+## Inputs
 - TODO
 
-## 工作流（Workflow）
+## Workflow
 1) TODO
 2) TODO
 3) TODO
 
-## 决策点（Where humans decide）
+## Where humans decide
 - TODO
 
-## 质量自检（Quality checks）
+## Quality checks
 - Use references/RUBRIC.md and references/CHECKLISTS.md
 
-## 边界与风险（Boundaries & risks）
+## Boundaries & risks
 - TODO
 
-## 引用的参考文件（Reference files）
+## Reference files
 - references/INTAKE.md
 - references/WORKFLOW.md
 - references/TEMPLATES.md

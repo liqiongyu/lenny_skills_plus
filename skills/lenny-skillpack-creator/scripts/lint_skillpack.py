@@ -11,6 +11,7 @@ Usage:
 
 from __future__ import annotations
 import argparse
+import json
 from pathlib import Path
 import re
 import sys
@@ -22,6 +23,9 @@ except Exception:  # pragma: no cover
 
 FRONTMATTER_RE = re.compile(r"^---\s*$")
 REQ_FIELDS = ["name", "description"]
+REQ_SKILLPACK_METADATA = ["schema_version", "skill_slug", "version", "authors", "origin"]
+SEMVER_RE = re.compile(r"^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-[0-9A-Za-z.-]+)?(?:\+[0-9A-Za-z.-]+)?$")
+ALLOWED_ORIGINS = {"refound", "original", "community"}
 REQ_REF_FILES = [
     "INTAKE.md",
     "WORKFLOW.md",
@@ -62,6 +66,21 @@ def read_frontmatter(text: str) -> tuple[dict, str | None]:
 
     return data, None
 
+def read_skillpack_metadata(path: Path) -> tuple[dict, str | None]:
+    if not path.exists():
+        return {}, f"Missing skillpack.json at {path}"
+
+    try:
+        raw = path.read_text(encoding="utf-8", errors="replace")
+        data = json.loads(raw)
+    except Exception as e:
+        return {}, f"skillpack.json is invalid JSON: {type(e).__name__}: {e}"
+
+    if not isinstance(data, dict):
+        return {}, f"skillpack.json must be a JSON object, got: {type(data).__name__}"
+
+    return data, None
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("skill_dir", help="Path to the skill directory (contains SKILL.md).")
@@ -87,6 +106,66 @@ def main() -> int:
     readme_path = skill_dir / "README.md"
     if not readme_path.exists():
         errors.append(f"Missing README.md at {readme_path}")
+
+    # skillpack.json metadata check
+    metadata_path = skill_dir / "skillpack.json"
+    meta, meta_err = read_skillpack_metadata(metadata_path)
+    if meta_err:
+        errors.append(meta_err)
+    else:
+        for f in REQ_SKILLPACK_METADATA:
+            if f not in meta:
+                errors.append(f"skillpack.json missing required field: {f}")
+
+        schema_version = meta.get("schema_version")
+        if schema_version != 1:
+            errors.append("skillpack.json schema_version must be 1")
+
+        slug = meta.get("skill_slug")
+        if not isinstance(slug, str) or not slug.strip():
+            errors.append("skillpack.json skill_slug must be a non-empty string")
+        elif slug.strip() != skill_dir.name:
+            errors.append(f"skillpack.json skill_slug '{slug}' does not match folder name '{skill_dir.name}'")
+
+        version = meta.get("version")
+        if not isinstance(version, str) or not version.strip():
+            errors.append("skillpack.json version must be a non-empty string")
+        elif not SEMVER_RE.match(version.strip()):
+            errors.append(f"skillpack.json version is not valid SemVer: {version!r}")
+
+        origin = meta.get("origin")
+        if not isinstance(origin, str) or origin.strip() not in ALLOWED_ORIGINS:
+            errors.append(f"skillpack.json origin must be one of {sorted(ALLOWED_ORIGINS)}")
+
+        authors = meta.get("authors")
+        if not isinstance(authors, list) or not authors:
+            errors.append("skillpack.json authors must be a non-empty list")
+        else:
+            for a in authors:
+                if not isinstance(a, str) or not a.strip():
+                    errors.append("skillpack.json authors items must be non-empty strings")
+                    break
+
+        contributors = meta.get("contributors", [])
+        if contributors is not None and not isinstance(contributors, list):
+            errors.append("skillpack.json contributors must be a list (or omitted)")
+        elif isinstance(contributors, list):
+            for c in contributors:
+                if not isinstance(c, str) or not c.strip():
+                    errors.append("skillpack.json contributors items must be non-empty strings")
+                    break
+
+        if isinstance(origin, str) and origin.strip() == "refound":
+            upstream = meta.get("upstream")
+            if not isinstance(upstream, dict):
+                errors.append("skillpack.json upstream must be an object for origin=refound")
+            else:
+                page_url = upstream.get("page_url")
+                skill_md_url = upstream.get("skill_md_url")
+                if not isinstance(page_url, str) or not page_url.strip():
+                    errors.append("skillpack.json upstream.page_url must be a non-empty string for origin=refound")
+                if not isinstance(skill_md_url, str) or not skill_md_url.strip():
+                    errors.append("skillpack.json upstream.skill_md_url must be a non-empty string for origin=refound")
 
     # frontmatter checks
     if skill_md_path.exists():
