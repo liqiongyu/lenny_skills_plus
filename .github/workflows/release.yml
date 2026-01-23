@@ -41,6 +41,31 @@ jobs:
             echo "[info] no skill packs under skills/; nothing to package"
           fi
 
+      - name: Package all skills bundle
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+          python - <<'PY'
+          import pathlib
+          import zipfile
+          
+          skills_dir = pathlib.Path("skills")
+          out_path = pathlib.Path("dist/skills-all.zip")
+          
+          if not skills_dir.exists():
+              print("[info] no skills/ directory; skipping skills-all.zip")
+              raise SystemExit(0)
+          
+          with zipfile.ZipFile(out_path, "w", compression=zipfile.ZIP_DEFLATED) as zf:
+              for path in skills_dir.rglob("*"):
+                  if not path.is_file():
+                      continue
+                  # Zip root should be <skill-name>/..., not skills/<skill-name>/...
+                  zf.write(path, arcname=path.relative_to(skills_dir))
+          
+          print(f"[ok] wrote {out_path}")
+          PY
+
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
