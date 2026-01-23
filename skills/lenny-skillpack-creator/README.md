@@ -8,12 +8,22 @@ The resulting skill packs are written to the **Agent Skills** format so they can
 
 ### Option A: Project-local (recommended)
 
-Put this folder at one (or both) of these locations inside your repo:
+Canonical source lives at:
+
+- `skills/lenny-skillpack-creator/`
+
+To enable project-local auto-discovery, generate local mirrors:
+
+- `python3 scripts/mirror_skills.py --overwrite`
+
+That populates one (or both) of these locations inside your repo:
 
 - **Codex**: `.codex/skills/lenny-skillpack-creator/`
 - **Claude Code**: `.claude/skills/lenny-skillpack-creator/`
 
-The `SKILL.md` must be at:
+Note: `.codex/` and `.claude/` are generated local directories and are typically ignored by git.
+
+The `SKILL.md` ends up at:
 
 - `.codex/skills/lenny-skillpack-creator/SKILL.md`
 - `.claude/skills/lenny-skillpack-creator/SKILL.md`
@@ -59,4 +69,3 @@ This meta-skill includes helper scripts under `scripts/`:
 - `fetch_refound_skills.py` — download Refound SKILL.md sources (given URL list or manifest)
 - `extract_lenny_skill.py` — extract a Refound skill into a normalized source bundle
 - `batch_init_skillpacks.py` — create skeletons for many skills at once
-

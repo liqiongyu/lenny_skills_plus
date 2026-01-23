@@ -34,7 +34,7 @@ jobs:
           for d in skills/*; do
             if [ -f "$d/SKILL.md" ]; then
               found=1
-              python .codex/skills/lenny-skillpack-creator/scripts/package_skillpack.py "$d" dist
+              python skills/lenny-skillpack-creator/scripts/package_skillpack.py "$d" dist
             fi
           done
           if [ "$found" -eq 0 ]; then

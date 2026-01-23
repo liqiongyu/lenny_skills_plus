@@ -10,13 +10,12 @@ Primary goals:
 ## Repo conventions
 
 - Canonical generated skills live under:
-  - `skills/<skill-slug>/` (preferred, tool-agnostic)
-  - OR directly under `.codex/skills/<skill-slug>/` (Codex auto-discovery)
+  - `skills/<skill-slug>/` (preferred, tool-agnostic, tracked in git)
 
-- If you generate skills under `skills/`, also mirror them to:
-  - `.codex/skills/<skill-slug>/`
-  - `.claude/skills/<skill-slug>/`
-  so both tools can discover them without extra setup.
+- `.codex/` and `.claude/` are **generated local mirrors** for tool auto-discovery and are **not tracked in git**.
+  - Generate/update them via: `python3 scripts/mirror_skills.py --overwrite`
+  - Codex discovers project skills from `.codex/skills/<skill-slug>/`
+  - Claude Code discovers project skills from `.claude/skills/<skill-slug>/`
 
 - Source materials (downloaded from Refound) should be stored under:
   - `sources/refound/raw/<slug>/SKILL.md` if available
@@ -34,7 +33,7 @@ For each conversion task:
    - `<skill-slug>/references/` (intake/workflow/templates/checklists/rubric/source summary)
    - `<skill-slug>/scripts/` (optional)
 4) Run the linter:
-   - `python .codex/skills/lenny-skillpack-creator/scripts/lint_skillpack.py <path-to-skill-folder>`
+   - `python3 skills/lenny-skillpack-creator/scripts/lint_skillpack.py <path-to-skill-folder>`
 5) Do a quick smoke test:
    - Use 1–2 realistic user prompts and verify the outputs are concrete artifacts (not generic advice).
 

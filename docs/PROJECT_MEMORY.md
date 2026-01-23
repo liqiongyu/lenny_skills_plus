@@ -11,9 +11,9 @@ This repository is a **Skillpack Factory**: it converts RefoundAI “Lenny skill
 ## Canonical structure
 
 - Canonical generated skills: `skills/<skill-slug>/`
-- Mirror for auto-discovery:
-  - `.codex/skills/<skill-slug>/`
-  - `.claude/skills/<skill-slug>/`
+- Local mirrors for auto-discovery (generated, ignored by git):
+  - `.codex/skills/<skill-slug>/` (Codex)
+  - `.claude/skills/<skill-slug>/` (Claude Code)
 - Source materials (downloaded from Refound):
   - `sources/refound/raw/<slug>/SKILL.md` if available
   - otherwise `sources/refound/raw/<slug>/page.html` (HTML fallback)
@@ -21,13 +21,13 @@ This repository is a **Skillpack Factory**: it converts RefoundAI “Lenny skill
 ## Key workflows
 
 1) Fetch sources (bulk)
-   - `python .codex/skills/lenny-skillpack-creator/scripts/fetch_refound_skills.py --out sources/refound/raw`
+   - `python3 skills/lenny-skillpack-creator/scripts/fetch_refound_skills.py --out sources/refound/raw`
 2) Convert one skill (interactive)
    - Run Codex and invoke `$lenny-skillpack-creator`
 3) Validate structure
-   - `python .codex/skills/lenny-skillpack-creator/scripts/lint_skillpack.py skills/<skill-slug>`
-4) Mirror canonical skills
-   - `python scripts/mirror_skills.py --overwrite`
+   - `python3 skills/lenny-skillpack-creator/scripts/lint_skillpack.py skills/<skill-slug>`
+4) Generate local mirrors
+   - `python3 scripts/mirror_skills.py --overwrite`
 
 ## GitHub policy
 

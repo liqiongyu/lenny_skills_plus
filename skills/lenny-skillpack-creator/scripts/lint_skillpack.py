@@ -15,6 +15,11 @@ from pathlib import Path
 import re
 import sys
 
+try:
+    import yaml  # type: ignore
+except Exception:  # pragma: no cover
+    yaml = None  # type: ignore
+
 FRONTMATTER_RE = re.compile(r"^---\s*$")
 REQ_FIELDS = ["name", "description"]
 REQ_REF_FILES = [
@@ -26,10 +31,10 @@ REQ_REF_FILES = [
     "SOURCE_SUMMARY.md",
 ]
 
-def read_frontmatter(text: str) -> dict:
+def read_frontmatter(text: str) -> tuple[dict, str | None]:
     lines = text.splitlines()
     if not lines or not FRONTMATTER_RE.match(lines[0]):
-        return {}
+        return {}, "SKILL.md missing YAML frontmatter opening marker (---)."
     # find second --- line
     end = None
     for i in range(1, len(lines)):
@@ -37,18 +42,24 @@ def read_frontmatter(text: str) -> dict:
             end = i
             break
     if end is None:
-        return {}
+        return {}, "SKILL.md missing YAML frontmatter closing marker (---)."
+
     raw = "\n".join(lines[1:end]).strip()
-    data = {}
-    for line in raw.splitlines():
-        if ":" not in line:
-            continue
-        k, v = line.split(":", 1)
-        k = k.strip()
-        v = v.strip()
-        if k and k not in data:
-            data[k] = v
-    return data
+    if not raw:
+        return {}, "SKILL.md YAML frontmatter is empty."
+
+    if yaml is None:
+        return {}, "PyYAML is required to parse SKILL.md frontmatter (install 'PyYAML')."
+
+    try:
+        data = yaml.safe_load(raw) or {}
+    except Exception as e:
+        return {}, f"SKILL.md has invalid YAML frontmatter: {type(e).__name__}: {e}"
+
+    if not isinstance(data, dict):
+        return {}, f"SKILL.md frontmatter must be a mapping, got: {type(data).__name__}"
+
+    return data, None
 
 def main() -> int:
     parser = argparse.ArgumentParser()
@@ -74,15 +85,17 @@ def main() -> int:
     # frontmatter checks
     if skill_md_path.exists():
         txt = skill_md_path.read_text(encoding="utf-8", errors="replace")
-        fm = read_frontmatter(txt)
-        if not fm:
-            errors.append("SKILL.md missing or malformed YAML frontmatter (--- ... ---).")
+        fm, fm_err = read_frontmatter(txt)
+        if fm_err:
+            errors.append(fm_err)
         else:
             for f in REQ_FIELDS:
-                if f not in fm or not fm[f].strip():
-                    errors.append(f"Frontmatter missing required field: {f}")
+                v = fm.get(f, None)
+                if not isinstance(v, str) or not v.strip():
+                    errors.append(f"Frontmatter missing required string field: {f}")
+
             # name match folder
-            name = fm.get("name", "").strip()
+            name = (fm.get("name") or "").strip() if isinstance(fm.get("name"), str) else ""
             if name and name != skill_dir.name:
                 errors.append(f"Frontmatter name '{name}' does not match folder name '{skill_dir.name}'")
 
