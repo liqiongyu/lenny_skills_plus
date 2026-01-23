@@ -12,6 +12,9 @@ Each skill lives at:
 
 Required files:
 
+- `skillpack.json`
+  - Package-like metadata (per-skill `version`, `authors`/contributors, origin + upstream link)
+  - Used by this repo’s tooling and release packaging; ignored by Codex / Claude Code
 - `SKILL.md`
   - YAML frontmatter: `name`, `description` (YAML-safe and tool-friendly; prefer single-line quotes)
   - Short, operational instructions:
