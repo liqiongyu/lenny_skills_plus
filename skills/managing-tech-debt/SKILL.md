@@ -1,6 +1,6 @@
 ---
 name: "managing-tech-debt"
-description: "Manage technical debt by producing a Tech Debt Management Pack (debt register, scoring/prioritization, refactor vs rewrite decision memo, incremental paydown plan, migration/rollback plan, metrics, and stakeholder cadence). Use for tech debt, refactoring, legacy modernization, and migrations. Category: Engineering."
+description: "Produce a Tech Debt Management Pack (debt register, scoring, refactor vs rewrite memo, paydown plan, migration/rollback, metrics). Use for tech debt, refactoring, legacy modernization, and migrations. NOT for roadmap prioritization across product bets (use technical-roadmaps), NOT for infra/platform design (use platform-infrastructure), NOT for cutting scope on a current project (use scoping-cutting), NOT for engineering culture or process issues (use engineering-culture). Category: Engineering."
 ---
 
 # Managing Tech Debt
@@ -22,10 +22,13 @@ description: "Manage technical debt by producing a Tech Debt Management Pack (de
 - “Leadership won’t fund refactors—quantify impact and propose a measurable plan.”
 
 **When NOT to use**
-- You need to respond to an active incident (use incident response/runbooks)
-- You only need to fix a small localized bug or a single refactor (just do the work)
-- You need a full architecture redesign from scratch without existing constraints (separate architecture/design process)
-- You need roadmap prioritization across many product bets (use `prioritizing-roadmap`)
+- You need to respond to an active incident (use incident response/runbooks).
+- You only need to fix a small localized bug or a single refactor (just do the work).
+- You need a full architecture redesign from scratch without existing constraints (separate architecture/design process).
+- You need roadmap prioritization across many product bets (use `technical-roadmaps` or `prioritizing-roadmap`).
+- You are designing a new platform or infrastructure system, not modernizing an existing one (use `platform-infrastructure`).
+- You need to cut scope on an active project to hit a deadline (use `scoping-cutting`).
+- The real problem is engineering process, culture, or team dysfunction, not code (use `engineering-culture`).
 
 ## Inputs
 
@@ -106,6 +109,14 @@ Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 - **Outputs:** Final Tech Debt Management Pack.
 - **Checks:** Plan is incrementally executable, risks are explicit, and the first milestone can start immediately.
 
+## Anti-patterns (common failure modes)
+
+1. **"Big bang" rewrite** — Proposing a full rewrite without migration phases, dual-run cost estimates, or decommission criteria. Result: the rewrite takes 2x longer, the old system lives on, and you maintain both indefinitely.
+2. **Debt register without owners** — Cataloging debt items without assigning an owner or linking to user-visible symptoms. Result: the register becomes a graveyard document that nobody acts on.
+3. **Prioritizing by developer frustration** — Ranking debt by what annoys engineers most rather than by impact on users, reliability, or velocity. Result: high-visibility-but-low-impact items consume the budget while critical reliability debt festers.
+4. **Metrics theater** — Defining improvement metrics (deploy frequency, MTTR) without baselines or instrumentation. Result: you cannot prove the investment worked, eroding future funding for debt work.
+5. **Invisible paydown plan** — Doing debt work silently without stakeholder communication or milestone reviews. Result: leadership sees no progress, cancels the effort, and the team loses credibility for future proposals.
+
 ## Quality gate (required)
 - Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
@@ -116,6 +127,9 @@ Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 **Example 2 (rewrite decision):** “We want to rebuild our pricing engine. Compare refactor vs rebuild, include migration phases, dual-run costs, rollback plan, and a metrics-based justification.”
 
-**Boundary example:** “Tell me whether tech debt is bad and how to avoid it.”  
-Response: explain this skill produces an actionable pack; ask for system + pain + horizon; otherwise provide a minimal intake checklist and an example register schema.
+**Boundary example (redirect — generic question):** “Tell me whether tech debt is bad and how to avoid it.”
+Response: This skill produces an actionable management pack, not general advice. Ask for a specific system, pain point, and time horizon. Otherwise provide a minimal intake checklist and an example register schema.
+
+**Boundary example (redirect — neighbor skill):** “Our roadmap has too many competing priorities and we cannot decide what to build next quarter.”
+Response: This is a roadmap prioritization problem, not a tech debt management task. Redirect to `technical-roadmaps` or `prioritizing-roadmap` for a prioritization framework. If tech debt items are among the competing priorities, return here to produce the debt register and paydown plan.
 

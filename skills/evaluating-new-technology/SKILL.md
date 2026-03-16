@@ -1,6 +1,6 @@
 ---
 name: "evaluating-new-technology"
-description: "Create a Technology Evaluation Pack (problem framing, options matrix, build vs buy, pilot plan, risk review, decision memo). Use for evaluating new tech, emerging technology, AI tools, vendor selection, and tech stack decisions. Category: Engineering."
+description: "Create a Technology Evaluation Pack (problem framing, options matrix, build vs buy, pilot plan, risk review, decision memo). Use for evaluating new tech, AI tools, vendor selection, and tech stack decisions. NOT for design trade-offs within existing systems (use evaluating-trade-offs), NOT for AI product strategy (use ai-product-strategy), NOT for building LLM features (use building-with-llms), NOT for paying down tech debt (use managing-tech-debt). Category: Engineering."
 ---
 
 # Evaluating New Technology
@@ -25,6 +25,9 @@ description: "Create a Technology Evaluation Pack (problem framing, options matr
 - You need a full product strategy/roadmap (use `ai-product-strategy`).
 - You’re designing how to build an LLM system (use `building-with-llms`).
 - You need a formal security assessment / penetration testing (engage security; this skill produces a structured first pass).
+- You are weighing trade-offs within an existing design or architecture decision (use `evaluating-trade-offs`).
+- You need to manage or pay down existing technical debt rather than adopt something new (use `managing-tech-debt`).
+- You already chose the technology and need an implementation/migration plan (use `managing-tech-debt` or `platform-infrastructure`).
 
 ## Inputs
 
@@ -104,6 +107,14 @@ Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 - **Outputs:** Final **Technology Evaluation Pack**.
 - **Checks:** Decision is actionable (owner, date, next actions) and reversible where possible.
 
+## Anti-patterns (common failure modes)
+
+1. **"Shiny object" framing** — Starting from "we should use X" instead of "we need to solve Y." The evaluation becomes a justification exercise rather than a genuine comparison. Always start with the problem statement.
+2. **Feature-checklist scoring** — Evaluating options by counting features rather than mapping to workflows and ROI. Result: the tool with the most checkboxes wins even if it solves the wrong problem.
+3. **Skipping the status quo option** — Failing to include "do nothing / improve current approach" as a baseline. Result: you cannot prove the new tool is actually better than incremental improvement.
+4. **Vendor demo as evidence** — Treating a curated vendor demo as proof of production fitness. Result: the pilot discovers integration, performance, or data-quality issues that the demo hid.
+5. **No exit plan** — Adopting a tool without evaluating lock-in, data export, or migration cost. Result: switching cost grows silently until the team is trapped.
+
 ## Quality gate (required)
 - Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
@@ -116,6 +127,9 @@ Expected: evaluation pack that treats guardrail claims skeptically and proposes 
 **Example 2 (analytics stack):** “Use `evaluating-new-technology` to choose between PostHog and Amplitude for our PLG product. Current stack: Segment + data warehouse; goal is faster iteration on onboarding and activation.”  
 Expected: options matrix + pilot plan tied to workflows (experiments, funnels, lifecycle triggers) and migration effort.
 
-**Boundary example:** “What’s the best new AI tool we should adopt?”  
-Response: out of scope without a problem/workflow; ask intake questions and/or propose running `problem-definition` first.
+**Boundary example (redirect — no problem defined):** “What’s the best new AI tool we should adopt?”
+Response: Out of scope without a problem/workflow. Ask intake questions and/or propose running `problem-definition` first to identify the job-to-be-done before evaluating tools.
+
+**Boundary example (redirect — neighbor skill):** “We already picked Datadog; now help us plan the migration from our current monitoring stack.”
+Response: This is a migration/tech-debt execution task, not an evaluation. Redirect to `managing-tech-debt` for a migration plan with milestones, rollback, and decommission steps.
 
