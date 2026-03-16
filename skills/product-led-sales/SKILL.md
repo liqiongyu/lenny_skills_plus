@@ -1,6 +1,6 @@
 ---
 name: "product-led-sales"
-description: "Create a Product-Led Sales Motion Pack (PQL/PQA definition, usage-signal spec + routing/SLA, sales outreach playbook, instrumentation plan, and pilot/scale plan). Use for product-led sales, sales-assist, PLG-to-sales handoffs, and converting self-serve usage into sales opportunities. Category: Sales & GTM."
+description: "Create a Product-Led Sales Motion Pack (PQL/PQA definition, usage-signal spec + routing/SLA, outreach playbook, pilot/scale plan). For converting self-serve PLG usage into sales opportunities. NOT for founder-led first customers (use founder-sales), NOT for enterprise deal execution (use enterprise-sales), NOT for lead qualification without product signals (use sales-qualification), NOT for onboarding optimization (use user-onboarding). Category: Sales & GTM."
 ---
 
 # Product-Led Sales
@@ -22,8 +22,10 @@ description: "Create a Product-Led Sales Motion Pack (PQL/PQA definition, usage-
 - “Design a PLS pilot (routing + SLAs + measurement) before scaling.”
 
 **When NOT to use**
-- You don’t have meaningful activation or self-serve usage yet (fix onboarding/activation first)
-- You want a purely enterprise, relationship-led motion with minimal product usage signals (use `enterprise-sales`)
+- You don’t have meaningful activation or self-serve usage yet (fix onboarding/activation first) -> use `user-onboarding` or `retention-engagement`
+- You’re pre-product-market-fit and need your first 10 customers via founder-led outreach -> use `founder-sales`
+- You want a purely enterprise, relationship-led motion with buying committees and procurement -> use `enterprise-sales`
+- You need a lead qualification or scoring framework without product usage data -> use `sales-qualification`
 - You need ICP/positioning or pricing/packaging from scratch (do that first, then return)
 - You want spammy outreach, deception, or dark patterns (not supported)
 - You need legal/privacy/security advice or production data/CRM implementation (coordinate with qualified experts)
@@ -109,14 +111,32 @@ Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 - Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
+## Anti-patterns
+
+Avoid these common failure modes when producing a Product-Led Sales Motion Pack:
+
+1. **Treating every signup as a PQL** — Defining product-qualified leads so broadly that sales gets flooded with low-intent users. PQL/PQA definitions must have exclusion criteria and false-positive controls, not just inclusion signals.
+2. **”Creepy” outreach** — Referencing internal usage data in ways that feel like surveillance (“We noticed you logged in 47 times this week”). Outreach must be helpful and reference only approved, user-facing signals.
+3. **Breaking the self-serve path** — Forcing all users into a sales conversation. The low-touch conversion funnel must remain intact. PLS is a layer on top, not a replacement for self-serve.
+4. **Scoring without instrumentation** — Building an elaborate PQL scoring model on data you do not actually collect. The signal spec must be grounded in available events, with an instrumentation plan for gaps.
+5. **Shipping without a pilot** — Rolling out PLS signals and routing to the full user base without a bounded pilot. Start with one segment, measure, tune thresholds, and only then scale.
+
 ## Examples
 
-**Example 1 (trial → sales assist):**  
+**Example 1 (trial to sales assist):**
 “Use `product-led-sales`. We’re a B2B analytics tool with a 14-day trial. We get lots of signups but low trial-to-paid. We have usage events and can map users to companies via email domain. Sales: 2 SDRs + 2 AEs. Output: a Product-Led Sales Motion Pack with a PQL definition, routing rules, outreach emails, and a 4-week pilot plan.”
 
-**Example 2 (expansion via PQA):**  
+**Example 2 (expansion via PQA):**
 “Use `product-led-sales`. We’re seat-based SaaS. Teams start self-serve at $20/seat but we want to land-and-expand into 100+ seat contracts. We can detect invites, admin setup, and integration activation. Output: a Motion Pack that defines PQAs, scoring, and a sales workflow + outreach kit for expansion.”
 
-**Boundary example:**  
-“Write a generic cold outbound sequence for any product and send it to 50,000 people.”  
-Response: explain this skill is usage-signal-driven and must be targeted and compliant; request product + ICP + available signals and produce a small, testable sequence and pilot instead.
+**Boundary example (redirect to founder-sales):**
+“We just launched our product and have 20 signups but no paying customers yet. Help me sell to them.”
+Response: With only 20 signups and no paying customers, you are in founder-led sales mode, not product-led sales. Use `founder-sales` to build an ICP wedge, diagnostic discovery script, and outreach kit for your first customers. Return here once you have meaningful self-serve usage patterns to analyze.
+
+**Boundary example (redirect to enterprise-sales):**
+“We have a $150K deal in flight with a buying committee. The VP of Engineering is our champion but procurement is stalling.”
+Response: This is an active enterprise deal execution problem with a buying committee and procurement process. Use `enterprise-sales` for buying committee mapping, champion enablement, and procurement/security project management. Product-led sales is about designing the motion that creates pipeline, not closing individual enterprise deals.
+
+**Anti-pattern example:**
+“Write a generic cold outbound sequence for any product and send it to 50,000 people.”
+Response: This skill is usage-signal-driven and must be targeted and compliant. Request product + ICP + available signals and produce a small, testable sequence and pilot instead.
