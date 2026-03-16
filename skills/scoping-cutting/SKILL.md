@@ -1,6 +1,6 @@
 ---
 name: "scoping-cutting"
-description: "Right-size scope to ship within a fixed timebox (appetite). Produces a Scoping & Cutting Pack: appetite, minimum lovable slice, cut list, validation plan, and a scope-creep guardrail plan. Use for MVP/descoping/scope creep. Category: Execution."
+description: "Right-size scope to ship within a fixed timebox (appetite). Produces a Scoping & Cutting Pack: appetite, minimum lovable slice, cut list, validation plan, and a scope-creep guardrail plan. NOT for choosing which initiatives to pursue (prioritizing-roadmap), building milestone/deadline plans (managing-timelines), writing full PRDs (writing-prds), or planning launches (shipping-products). Use for MVP/descoping/scope creep. Category: Execution."
 ---
 
 # Scoping & Cutting
@@ -27,6 +27,8 @@ description: "Right-size scope to ship within a fixed timebox (appetite). Produc
 - You’re choosing between many competing initiatives (use `prioritizing-roadmap`)
 - You need a decision-ready PRD with requirements (use `writing-prds`) or a build-ready design/tech spec (use `writing-specs-designs`)
 - You’re setting long-term product strategy or vision (use `defining-product-vision`)
+- You already have a scoped slice and need a timeline/milestone plan with stakeholder cadence (use `managing-timelines`)
+- You’re planning the actual launch/release (rollout, rollback, monitoring) for an already-scoped feature (use `shipping-products`)
 
 ## Inputs
 
@@ -107,17 +109,28 @@ Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 - **Outputs:** Final Scoping & Cutting Pack.
 - **Checks:** A stakeholder can approve the slice async and the team can execute without re-litigating scope.
 
+## Anti-patterns (common failure modes)
+
+1. **Salami-slicing without a hypothesis.** Cutting scope purely by effort (drop the hardest things) instead of by learning value. The slice ships but validates nothing because no hypothesis was defined.
+2. **Phantom MVP.** Labeling a barely-functional stub “MVP” without an end-to-end user journey. Users can’t complete the core task, so no signal is generated.
+3. **Scope freeze theater.** Declaring scope frozen while allowing “small” additions through side channels. The cut list exists on paper but is never enforced; the team ships late anyway.
+4. **Deferral graveyard.** Cutting items to a “later” list with no revisit triggers. Deferred work is never re-evaluated and either rots or resurfaces as tech debt surprises.
+5. **Lovability confusion.** Adding polish and delight features (animations, empty-state illustrations) while the core flow is broken. “Lovable” means the slice is coherent and trustworthy, not decorated.
+
 ## Quality gate (required)
 - Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples
 
-**Example 1 (B2B SaaS):** “Cut scope for ‘bulk CSV import’ so we can ship a useful version in 4 weeks; include a Wizard-of-Oz validation plan.”  
+**Example 1 (B2B SaaS):** “Cut scope for ‘bulk CSV import’ so we can ship a useful version in 4 weeks; include a Wizard-of-Oz validation plan.”
 Expected: an appetite-based MLS, a cut/defer table, and a validation plan that tests value before building every edge case.
 
-**Example 2 (Consumer):** “Define a minimum lovable first version of ‘saved searches’ for mobile within a 2-week appetite.”  
+**Example 2 (Consumer):** “Define a minimum lovable first version of ‘saved searches’ for mobile within a 2-week appetite.”
 Expected: a coherent end-to-end slice, explicit non-goals, and a scope-change policy to prevent creep.
 
-**Boundary example:** “Decide what our Q2 roadmap should be across 12 initiatives.”  
+**Boundary example (timeline planning):** “We’ve already defined the MVP slice; now create a milestone plan with dates and a stakeholder update cadence.”
+Response: the slice is scoped; use `managing-timelines` to build the execution timeline and comms cadence.
+
+**Boundary example (roadmap prioritization):** “Decide what our Q2 roadmap should be across 12 initiatives.”
 Response: use `prioritizing-roadmap` first; then apply this skill to right-size the chosen initiative.

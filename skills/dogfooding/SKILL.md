@@ -1,6 +1,6 @@
 ---
 name: "dogfooding"
-description: "Run an internal dogfooding program/sprint and produce a Dogfooding Pack (charter, scenario map, routines, dogfooding log + triage board spec, weekly report, ship/no-ship gate). Use for “dogfooding”, “eat our own dog food”, internal beta, and product teams using the product daily to find friction before shipping. Category: Product Quality."
+description: "Run an internal dogfooding program and produce a Dogfooding Pack (charter, scenario map, routines, log + triage spec, weekly report, ship/no-ship gate). NOT for external usability testing (usability-testing), launch planning (shipping-products), design critiques (running-design-reviews), or product taste frameworks (product-taste-intuition). Use for dogfooding, internal beta, team using the product daily to find friction before shipping. Category: Product Quality."
 ---
 
 # Dogfooding
@@ -9,20 +9,24 @@ description: "Run an internal dogfooding program/sprint and produce a Dogfooding
 
 **Covers**
 - Designing and running a **dogfooding loop** where the product team uses the product like a real user would
-- Creating “**creator commitments**” when the product is for creators (e.g., publish a podcast, ship a workflow, run weekly reports)
+- Creating "**creator commitments**" when the product is for creators (e.g., publish a podcast, ship a workflow, run weekly reports)
 - Capturing issues as **reproducible artifacts** (not vibes): logs, severity, decisions, owners, and follow-through
 
 **When to use**
-- “Set up a dogfooding program / dogfooding sprint for our product team.”
-- “We’re shipping soon—make sure we’re using the product daily and fixing the biggest pain.”
-- “We built this for creators; our team needs to *be creators* to understand the workflow.”
-- “Create an internal beta plan and a weekly dogfooding report template.”
+- "Set up a dogfooding program / dogfooding sprint for our product team."
+- "We’re shipping soon—make sure we’re using the product daily and fixing the biggest pain."
+- "We built this for creators; our team needs to *be creators* to understand the workflow."
+- "Create an internal beta plan and a weekly dogfooding report template."
 
 **When NOT to use**
 - You need to validate **market demand** or solve **who is the customer / what is the problem** (do discovery first)
 - The product team cannot realistically represent the workflow (e.g., regulated roles, hardware constraints) without proxies
-- You’re looking for user research replacement (dogfooding complements—not replaces—external user feedback)
-- The only goal is “QA everything” (use a QA/test plan; dogfooding is for **experience + value + workflow realism**)
+- You’re looking for user research replacement (dogfooding complements -- not replaces -- external user feedback)
+- The only goal is "QA everything" (use a QA/test plan; dogfooding is for **experience + value + workflow realism**)
+- You need structured usability testing with real external users, task completion metrics, and think-aloud protocols (use `usability-testing`)
+- You’re planning the actual product launch/release rollout (use `shipping-products`)
+- You need a design critique session to evaluate visual/interaction quality (use `running-design-reviews`)
+- You want to build a framework for developing product taste and quality intuition (use `product-taste-intuition`)
 
 ## Inputs
 
@@ -30,7 +34,7 @@ description: "Run an internal dogfooding program/sprint and produce a Dogfooding
 - Product summary + target user persona (who it’s for; what job it does)
 - 1–3 core workflows to dogfood (end-to-end)
 - Time box + cadence (e.g., 1 week sprint; 20 min/day; weekly triage)
-- Participants (roles) + any “creator commitments” required
+- Participants (roles) + any "creator commitments" required
 - Environment constraints (prod vs staging; data/privacy constraints; access constraints)
 
 **Missing-info strategy**
@@ -43,7 +47,7 @@ Produce a **Dogfooding Pack** in Markdown (in-chat; or as files if requested):
 
 1) **Context snapshot** (product, persona, workflows, constraints, time box)
 2) **Dogfooding charter** (goals, participants, rules, cadence, definitions)
-3) **Scenario map + routines** (daily/weekly tasks + “creator commitments”)
+3) **Scenario map + routines** (daily/weekly tasks + "creator commitments")
 4) **Dogfooding log + triage board spec** (fields, severity scale, decision rules)
 5) **Weekly dogfooding report** (insights, decisions, shipped fixes, next experiments)
 6) **Risks / Open questions / Next steps** (always included)
@@ -54,37 +58,37 @@ Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ### 1) Frame the dogfooding goal (experience, not just bugs)
 - **Inputs:** Product summary; desired outcomes; [references/INTAKE.md](references/INTAKE.md).
-- **Actions:** Define what “success” means for this cycle (e.g., “team can complete workflow A in <10 min without workarounds”). Set constraints (environment, data, access).
+- **Actions:** Define what "success" means for this cycle (e.g., "team can complete workflow A in <10 min without workarounds"). Set constraints (environment, data, access).
 - **Outputs:** Context snapshot + explicit success criteria.
-- **Checks:** Success criteria are measurable and tied to a real workflow outcome (not “feel better”).
+- **Checks:** Success criteria are measurable and tied to a real workflow outcome (not "feel better").
 
-### 2) Define representative scenarios + “creator commitments”
+### 2) Define representative scenarios + "creator commitments"
 - **Inputs:** Target persona + workflows.
-- **Actions:** Create 3–8 scenarios that represent real user goals. If the product is for creators, define a publish cadence (e.g., “each PM publishes 1 artifact/week”).
+- **Actions:** Create 3–8 scenarios that represent real user goals. If the product is for creators, define a publish cadence (e.g., "each PM publishes 1 artifact/week").
 - **Outputs:** Scenario map + routine plan.
-- **Checks:** At least 1 scenario is “from scratch → shipped/published” end-to-end.
+- **Checks:** At least 1 scenario is "from scratch → shipped/published" end-to-end.
 
 ### 3) Set up the capture system (log, severity, triage)
-- **Inputs:** Existing tools (Jira/Linear/Notion/Sheets) or “none”.
+- **Inputs:** Existing tools (Jira/Linear/Notion/Sheets) or "none".
 - **Actions:** Define the dogfooding log schema, severity scale, and triage rules. Decide labels/tags to link issues to scenarios and workflow steps.
 - **Outputs:** Dogfooding log + triage board spec.
-- **Checks:** Any issue can be reproduced with a clear “steps to reproduce + expected vs actual + evidence”.
+- **Checks:** Any issue can be reproduced with a clear "steps to reproduce + expected vs actual + evidence".
 
 ### 4) Run daily dogfooding sessions (time-boxed)
 - **Inputs:** Scenario map + routines.
-- **Actions:** Each participant runs 1–2 scenarios/day, captures friction immediately, and attaches evidence (screens, logs, timestamps). Record “workarounds used”.
-- **Outputs:** Daily log entries + a rolling “top pains” list.
+- **Actions:** Each participant runs 1–2 scenarios/day, captures friction immediately, and attaches evidence (screens, logs, timestamps). Record "workarounds used".
+- **Outputs:** Daily log entries + a rolling "top pains" list.
 - **Checks:** Entries are concrete (repro steps) and prioritized by impact on completing the workflow.
 
 ### 5) Triage weekly: decide, assign, and protect focus
 - **Inputs:** Log + top pains.
-- **Actions:** Run triage: cluster duplicates, classify (bug/UX debt/gap/docs), assign owners, and decide “fix now / schedule / won’t fix (with reason)”. Update scenario map if it was unrealistic.
+- **Actions:** Run triage: cluster duplicates, classify (bug/UX debt/gap/docs), assign owners, and decide "fix now / schedule / won’t fix (with reason)". Update scenario map if it was unrealistic.
 - **Outputs:** Prioritized backlog + decision notes.
 - **Checks:** Top 3–5 issues map directly to blocked/slow scenarios and have an owner + next action.
 
 ### 6) Ship loop: verify fixes by dogfooding again (no-ship gate)
-- **Inputs:** “Fix now” items + release plan.
-- **Actions:** For each fix, re-run the scenario end-to-end. Apply a simple gate: “We can complete the scenario with no hidden workarounds in the chosen environment.”
+- **Inputs:** "Fix now" items + release plan.
+- **Actions:** For each fix, re-run the scenario end-to-end. Apply a simple gate: "We can complete the scenario with no hidden workarounds in the chosen environment."
 - **Outputs:** Verified fixes list + any regressions.
 - **Checks:** The gate is based on completing scenarios, not just closing tickets.
 
@@ -94,18 +98,32 @@ Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 - **Outputs:** Final Dogfooding Pack.
 - **Checks:** Report contains decisions (what changed) and shows evidence-backed learning (not just a bug list).
 
+## Anti-patterns (common failure modes)
+
+1. **Bug-list-only dogfooding.** Treating the dogfooding program as a QA bug bash instead of an experience evaluation. The team files cosmetic bugs but never evaluates whether the core workflow is coherent and valuable.
+2. **Tourist mode.** Participants click around casually instead of committing to real end-to-end scenarios. The feedback is shallow ("looks fine") because nobody completed a meaningful task.
+3. **Internal-user bias blindness.** Assuming internal team members represent real users without acknowledging their expert knowledge, muscle memory, and workaround tolerance. Findings don’t transfer to actual users.
+4. **Log without triage.** Capturing hundreds of issues in a spreadsheet but never running a triage session. Issues pile up, owners are never assigned, and the dogfooding program loses credibility.
+5. **One-and-done sprint.** Running a single dogfooding sprint before launch and never repeating. The program produces a snapshot but no continuous improvement loop.
+
 ## Quality gate (required)
 - Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples
 
-**Example 1 (Creator product):** “We’re building a podcast creation tool. Create a dogfooding program where the whole team publishes 1 short episode/week, and produce a weekly report template.”  
-Expected: scenarios from “idea → published episode”, creator commitments, log schema, triage cadence, and ship gate tied to publishing.
+**Example 1 (Creator product):** "We’re building a podcast creation tool. Create a dogfooding program where the whole team publishes 1 short episode/week, and produce a weekly report template."
+Expected: scenarios from "idea to published episode", creator commitments, log schema, triage cadence, and ship gate tied to publishing.
 
-**Example 2 (B2B workflow product):** “Set up a 2-week dogfooding sprint for our AI meeting notes tool focused on ‘record → summary → share → action items’.”  
+**Example 2 (B2B workflow product):** "Set up a 2-week dogfooding sprint for our AI meeting notes tool focused on ‘record to summary to share to action items’."
 Expected: scenario map, daily routine, severity scale, triage rules, weekly report, and a verified-fixes list.
 
-**Boundary example:** “Dogfood this idea we haven’t built yet.”  
+**Boundary example (usability testing):** "Run a usability study with 5 external users to measure task completion rates."
+Response: use `usability-testing` for structured external user research; dogfooding is for internal team experience evaluation.
+
+**Boundary example (launch planning):** "We finished dogfooding; now plan the rollout to real users."
+Response: use `shipping-products` to plan the launch; dogfooding validates internal readiness, not external release execution.
+
+**Boundary example (no artifact):** "Dogfood this idea we haven’t built yet."
 Response: dogfooding requires a usable artifact; propose discovery + prototype/usability testing first, then a dogfooding sprint once there’s something to run end-to-end.
 
