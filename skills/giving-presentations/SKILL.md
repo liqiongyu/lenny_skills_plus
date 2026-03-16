@@ -1,6 +1,6 @@
 ---
 name: "giving-presentations"
-description: "Plan and deliver persuasive, confident presentations and produce a Presentation Pack (brief, narrative, slide outline, Q&A bank, pre-brief plan, rehearsal plan, delivery checklist). Use for presentation, deck, keynote, all-hands, exec review, demo talk track. Category: Communication."
+description: "Plan and deliver persuasive presentations via a Presentation Pack (brief, narrative, slide outline, Q&A bank, pre-brief plan, rehearsal plan). Use for deck, keynote, all-hands, exec review, demo talk track. NOT for stakeholder alignment (use stakeholder-alignment), written memos/docs (use written-communication), offsite facilitation (use running-offsites), or meeting agendas (use running-effective-meetings). Category: Communication."
 ---
 
 # Giving Presentations
@@ -23,10 +23,12 @@ description: "Plan and deliver persuasive, confident presentations and produce a
 - “Build a rehearsal plan so I can deliver confidently.”
 
 **When NOT to use**
-- You only need **visual/brand design polish** (use a design system or a designer; this skill focuses on narrative + delivery)
-- You need a long-form decision doc (write a memo/PRD first; then convert it to a talk)
-- You need deep stakeholder alignment on strategy from scratch (do alignment work first; this skill assumes a direction/ask)
-- You’re presenting on regulated/high-risk topics (medical/legal/financial advice) without expert review
+- You only need **visual/brand design polish** (use a design system or a designer; this skill focuses on narrative + delivery).
+- You need a long-form written memo, email, or doc (use `written-communication`; then convert to a talk if needed).
+- You need deep stakeholder alignment on strategy from scratch (use `stakeholder-alignment` first; this skill assumes you already have a direction/ask).
+- You need to plan a meeting agenda and facilitation (use `running-effective-meetings`; this skill builds a talk, not a discussion).
+- You need to design a multi-day offsite or retreat (use `running-offsites`; presentations may be one session, not the whole event).
+- You’re presenting on regulated/high-risk topics (medical/legal/financial advice) without expert review.
 
 ## Inputs
 
@@ -119,5 +121,16 @@ Expected: brief, narrative contrast (current vs next), slide outline + talk trac
 **Example 2 (exec review with decision):** “I need a 12-minute exec review proposing a new onboarding flow. The ask is approval to run a 4-week experiment. Prep me for objections.”  
 Expected: clear ask, proof points, objection bank, pre-brief plan for key execs, and a rehearsal plan.
 
-**Boundary example:** “Make my slides prettier.”  
+**Boundary example (redirect):** “I need to get the VP of Eng and the CFO aligned on our infra investment before the board meeting.”
+Response: This is a stakeholder alignment problem, not a presentation problem. Redirect to `stakeholder-alignment` for the alignment brief, stakeholder map, and pre-brief loop. Once alignment is secured, return here to build the board presentation.
+
+**Boundary example (reframe):** “Make my slides prettier.”
 Response: clarify whether the problem is narrative/structure vs visual design; if it’s purely aesthetics, recommend design-system alignment or a designer and do not invent business content.
+
+## Anti-patterns (common failure modes)
+
+1. **”Death by slides”** -- Creating 40+ dense slides instead of a tight narrative with 1 takeaway per slide. Audiences tune out; the talk runs over time.
+2. **No clear ask** -- Presenting information without stating what the audience should do, decide, or approve. Leads to “interesting talk, but now what?”
+3. **Skipping rehearsal** -- Trusting that the slides will carry the talk. Result: rambling, reading slides verbatim, or freezing on tough questions.
+4. **Audience-blind content** -- Using the same deck for execs and ICs. Execs want the ask + tradeoffs up front; ICs want detail and context. Mismatched content loses the room.
+5. **Ignoring Q&A prep** -- Hoping tough questions won’t come up. Unprepared answers undermine credibility even when the core content is strong.

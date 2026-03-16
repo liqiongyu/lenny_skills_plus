@@ -1,6 +1,6 @@
 ---
 name: "running-effective-meetings"
-description: "Run effective meetings by producing a Meeting Pack (meeting brief, pre-read, agenda, facilitation script, notes + decision log, action-item follow-up). Use for meeting planning, meeting agendas, decision meetings, strategic discussions, operational syncs, and meeting hygiene. Category: Communication."
+description: "Run effective meetings via a Meeting Pack (brief, pre-read, agenda, facilitation script, notes + decision log, follow-up). Use for meeting planning, agendas, decision meetings, strategic discussions, operational syncs, meeting hygiene. NOT for 1:1s (use running-effective-1-1s), offsites (use running-offsites), decision frameworks (use running-decision-processes), or design reviews (use running-design-reviews). Category: Communication."
 ---
 
 # Running Effective Meetings
@@ -24,8 +24,11 @@ description: "Run effective meetings by producing a Meeting Pack (meeting brief,
 - The goal is purely status updates (use async updates instead).
 - There is no discussion to be had (you already have the decision and only need to broadcast it).
 - The “decision owner” is not attending and cannot delegate decision rights.
+- You need a recurring 1:1 with a direct report or manager (use `running-effective-1-1s`; different structure and relationship dynamics).
+- You need a multi-day offsite or retreat (use `running-offsites`; this skill covers single meetings, not multi-session programs).
+- You need a formal decision process with RACI, options scoring, and escalation (use `running-decision-processes`; this skill captures decisions within meetings but does not design the full decision framework).
+- You need a design review or architecture review with technical critique (use `running-design-reviews`; specialized facilitation and feedback norms apply).
 - The topic is a sensitive HR/legal/medical issue requiring specialist handling.
-- You actually need a multi-day workshop (e.g., a full design sprint) rather than a single meeting.
 
 ## Inputs
 
@@ -112,8 +115,19 @@ Expected: a structured meeting brief, recurring agenda template, status update p
 **Example 2 (Decision meeting):** “Create a decision meeting pack for choosing between two onboarding flows (A vs B) with PM/Design/Eng and a decision owner.”  
 Expected: pre-read with options + evidence, timed agenda, facilitation prompts for trade-offs, and a decision record + action items.
 
-**Boundary example:** “Schedule a meeting to ‘get alignment’ but there’s no decision, no owner, and no pre-read.”  
+**Boundary example (redirect):** “I need to plan a 2-day strategy offsite with breakout sessions, team dinners, and a follow-up plan.”
+Response: This is an offsite, not a single meeting. Redirect to `running-offsites` for the full offsite pack (brief, run-of-show, prework, logistics, post-offsite plan). If one session within the offsite needs a focused meeting pack, handle that session here.
+
+**Boundary example (reframe):** “Schedule a meeting to ‘get alignment’ but there’s no decision, no owner, and no pre-read.”
 Response: ask for the decision/outcome; recommend async discovery first; refuse to produce a meeting pack until objective/owner is defined.
+
+## Anti-patterns (common failure modes)
+
+1. **”Status meeting in disguise”** -- Labeling a meeting as a “discussion” but filling the agenda with round-robin updates. Live time should be for discussion and decisions; status belongs in async pre-reads.
+2. **No pre-read sent** -- Spending the first 20 minutes of a 30-minute meeting giving context. Participants arrive cold, discussion time is crushed, and decisions get deferred.
+3. **Too many topics** -- Cramming 5+ agenda items into a single meeting. Each topic gets shallow treatment and nothing gets decided. Limit to 1-3 topics per meeting.
+4. **Missing decision capture** -- Good discussion happens but no one writes down what was decided, by whom, or by when. The same discussion repeats next week.
+5. **No follow-up within 24h** -- Decisions and action items stay in the facilitator’s notes. Stakeholders who were not present never learn the outcomes. Alignment decays.
 
 ## Reference files
 - [references/INTAKE.md](references/INTAKE.md)

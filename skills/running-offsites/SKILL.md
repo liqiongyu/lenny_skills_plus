@@ -1,6 +1,6 @@
 ---
 name: "running-offsites"
-description: "Plan and run a high-signal team offsite/retreat and produce an Offsite Pack (offsite brief, agenda + run-of-show, prework, facilitation guide, logistics checklist, post-offsite decisions + action plan + comms). Use for offsite planning, team retreat, strategy offsite, planning offsite, quarterly burst, onsite. Category: Communication."
+description: "Plan and run a team offsite/retreat via an Offsite Pack (brief, agenda + run-of-show, prework, facilitation guide, logistics checklist, post-offsite decisions + action plan + comms). Use for offsite, retreat, strategy offsite, quarterly burst, onsite. NOT for single meetings (use running-effective-meetings), recurring rituals (use team-rituals), stakeholder buy-in (use stakeholder-alignment), or talks/decks (use giving-presentations). Category: Communication."
 ---
 
 # Running Offsites
@@ -24,6 +24,10 @@ description: "Plan and run a high-signal team offsite/retreat and produce an Off
 **When NOT to use**
 - You’re trying to fix deep interpersonal conflict with a workshop (“storytelling” won’t fix trust); do conflict repair first (or involve HR/leadership).
 - You don’t know what you’re trying to achieve (use problem definition or product vision first).
+- You need a single meeting agenda and facilitation plan, not a multi-session program (use `running-effective-meetings`).
+- You need to design recurring team ceremonies or rituals (use `team-rituals`; offsites are one-time or quarterly events, not ongoing cadences).
+- You need stakeholder buy-in for a specific proposal (use `stakeholder-alignment`; an offsite may include alignment sessions, but the alignment campaign is a separate skill).
+- You need to build a presentation or keynote for one session (use `giving-presentations`; this skill designs the full offsite program).
 - You need a large-scale event with complex vendor/contracting needs (use professional event planning support; this skill focuses on team-level offsites).
 - The request is HR/legal/compliance-sensitive (escalate to humans and follow company policy).
 
@@ -120,5 +124,16 @@ Expected: Offsite Pack with laptops-down whiteboard blocks + clear decision capt
 **Example 2 (quarterly bursts):** “Design a quarterly 2-day in-person burst cadence for a distributed team (PST/EST/UK). Include repeatable logistics, prework, and a default agenda that balances connection and deep work.”  
 Expected: Burst program plan + default burst agenda + ops checklist.
 
-**Boundary example:** “Run a storytelling workshop to fix our leadership team’s distrust.”  
+**Boundary example (redirect):** “Design a weekly team ritual where we share wins, review metrics, and do a mini-retro.”
+Response: This is a recurring team ceremony, not a one-time offsite. Redirect to `team-rituals` for cadence design and ritual templates. If the team also needs a one-time offsite to kick off the new rituals, handle that here.
+
+**Boundary example (reframe):** “Run a storytelling workshop to fix our leadership team’s distrust.”
 Response: explain that skills workshops won’t fix trust debt; recommend addressing conflict/relationships first, then revisit an offsite focused on working agreements and decision norms.
+
+## Anti-patterns (common failure modes)
+
+1. **”Good vibes only” offsite** -- Planning team bonding and dinners but no concrete decision sessions or output artifacts. The team returns energized but nothing changes in the work.
+2. **Back-to-back talks all day** -- Filling the agenda with presentations and leaving no time for interactive co-creation or whiteboarding. Participants become passive listeners instead of contributors.
+3. **No prework, cold start** -- Skipping prework so participants spend the first half of the offsite getting context. Deep work never happens because the room never gets past discovery.
+4. **”Monday amnesia”** -- Ending the offsite without a written post-offsite pack (decisions, owners, dates, comms). Within a week, participants disagree on what was decided and momentum dies.
+5. **Ignoring conflict or forcing vulnerability** -- Either avoiding the “elephants in the room” entirely or running forced trust exercises on a team with real relationship damage. Both approaches fail; name the elephants at a safe level and escalate genuine conflict to HR/leadership.

@@ -1,6 +1,6 @@
 ---
 name: "written-communication"
-description: "Draft and edit high-signal written artifacts and produce a Written Communication Pack (brief, outline, draft email/memo/doc, canonical doc option, quality gate). Use for writing, written communication, memo, email, doc, async update, rewrite for clarity. Category: Communication."
+description: "Draft and edit high-signal written artifacts and produce a Written Communication Pack (brief, outline, draft email/memo/doc, canonical doc option, quality gate). Use for writing, written communication, memo, email, doc, async update, rewrite for clarity. NOT for presentation decks/talk tracks (use giving-presentations), full product specs/PRDs (use writing-prds), stakeholder alignment campaigns (use stakeholder-alignment), or managing-up communications (use managing-up). Category: Communication."
 ---
 
 # Written Communication
@@ -22,6 +22,9 @@ description: "Draft and edit high-signal written artifacts and produce a Written
 **When NOT to use**
 - You need **marketing/brand copy** (landing pages, ads) more than internal/executive clarity.
 - You need a full product spec/PRD from scratch (use `writing-prds` or `writing-specs-designs`).
+- You need a presentation deck, slide outline, or talk track (use `giving-presentations`; this skill produces written documents, not spoken-word deliverables).
+- You need a stakeholder alignment campaign with pre-briefs and decision meetings (use `stakeholder-alignment`; a memo may be one artifact within that campaign).
+- You need to craft communications specifically to manage your relationship with your manager (use `managing-up`; different framing and tactics apply).
 - You’re writing **legal/HR/regulated** communications without expert review.
 - The real issue is alignment via facilitation (you may need a meeting/offsite plan, not a rewrite).
 
@@ -113,5 +116,16 @@ Expected: TL;DR + explicit ask/options + what changes + next steps with owners.
 **Example 2 (project memo + canonical doc):** “Turn these notes into a 1-page memo that aligns the team on the new onboarding approach, and create a canonical doc outline for ongoing updates.”  
 Expected: memo with recommendation + tradeoffs + next steps, plus a source-of-truth doc skeleton.
 
-**Boundary example:** “Write a legal/HR disciplinary notice.”  
+**Boundary example (redirect):** “Build me a 15-slide deck with speaker notes for the quarterly business review.”
+Response: This is a presentation, not a written document. Redirect to `giving-presentations` for the narrative outline, slide-by-slide plan, talk track, and Q&A bank. If you also need a written pre-read memo to accompany the deck, handle that here.
+
+**Boundary example (reframe):** “Write a legal/HR disciplinary notice.”
 Response: decline to fabricate legal/HR guidance; request expert review; offer to help with neutral structure, tone, and clarity if the user provides approved language.
+
+## Anti-patterns (common failure modes)
+
+1. **”Wall of context, no ask”** -- Writing a long document that explains what happened but never states what the reader should do. Every written artifact needs an explicit ask or next step.
+2. **Buried lede** -- Putting the key message or recommendation on page 3 instead of in the TL;DR. Busy readers never reach it.
+3. **Writing for yourself, not the audience** -- Using your own jargon, assumptions, and framing instead of translating into what the reader cares about and how they process information.
+4. **No “how” section** -- Explaining the “what” and “why” thoroughly but leaving out concrete next steps, owners, and dates. Readers are convinced but do not know what to do next.
+5. **Orphan documents** -- Creating a one-off doc that is never linked from a canonical source of truth. Within weeks, no one can find it and the information becomes stale or contradictory.
