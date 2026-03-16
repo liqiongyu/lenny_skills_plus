@@ -1,6 +1,6 @@
 ---
 name: "technical-roadmaps"
-description: "Turn an engineering strategy into a written Technical Roadmap Pack (Rumelt-style strategy: Diagnosis/Guiding Policy/Coherent Actions, roadmap table, initiative briefs, and alignment cadence). Use for technical roadmap, tech roadmap, engineering roadmap, architecture roadmap."
+description: "Turn an engineering strategy into a written Technical Roadmap Pack (Rumelt-style strategy: Diagnosis/Guiding Policy/Coherent Actions, roadmap table, initiative briefs, and alignment cadence). Use for technical roadmap, tech roadmap, engineering roadmap, architecture roadmap. Category: Engineering."
 ---
 
 # Technical Roadmaps

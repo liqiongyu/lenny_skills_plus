@@ -1,6 +1,6 @@
 ---
 name: "running-design-reviews"
-description: "Run high-signal design reviews (design critique / design crit / design feedback) by producing a Design Review Pack: review brief + requested feedback, agenda + facilitation script, feedback log prioritized by Value→Ease→Delight, decision record, and follow-up plan."
+description: "Run high-signal design reviews (design critique / design crit / design feedback) by producing a Design Review Pack: review brief + requested feedback, agenda + facilitation script, feedback log prioritized by Value→Ease→Delight, decision record, and follow-up plan. Use for design review, design critique, design crit, design feedback, and UX review. Category: Product Design."
 ---
 
 # Running Design Reviews

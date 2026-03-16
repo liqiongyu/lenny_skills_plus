@@ -1,6 +1,6 @@
 ---
 name: "evaluating-new-technology"
-description: "Create a Technology Evaluation Pack (problem framing, options matrix, build vs buy, pilot plan, risk review, decision memo). Use for evaluating new tech, emerging technology, AI tools, vendor selection, and tech stack decisions."
+description: "Create a Technology Evaluation Pack (problem framing, options matrix, build vs buy, pilot plan, risk review, decision memo). Use for evaluating new tech, emerging technology, AI tools, vendor selection, and tech stack decisions. Category: Engineering."
 ---
 
 # Evaluating New Technology

@@ -1,6 +1,6 @@
 ---
 name: "platform-infrastructure"
-description: "Produce a Platform & Infrastructure Improvement Pack (shared capabilities plan, reliability/performance/privacy targets, scaling triggers, analytics + discoverability decisions, execution roadmap). Use for platform engineering, infrastructure planning, scalability, reliability, and architecture foundations."
+description: "Produce a Platform & Infrastructure Improvement Pack (shared capabilities plan, reliability/performance/privacy targets, scaling triggers, analytics + discoverability decisions, execution roadmap). Use for platform engineering, infrastructure planning, scalability, reliability, and architecture foundations. Category: Engineering."
 ---
 
 # Platform & Infrastructure

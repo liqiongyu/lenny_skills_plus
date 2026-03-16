@@ -1,6 +1,6 @@
 ---
 name: "ai-evals"
-description: "Create an AI Evals Pack (eval PRD, test set, rubric, judge plan, results + iteration loop). Use for LLM evaluation, benchmarks, rubrics, error analysis/open coding, and ship/no-ship quality gates for AI features."
+description: "Create an AI Evals Pack (eval PRD, test set, rubric, judge plan, results + iteration loop). Use for LLM evaluation, benchmarks, rubrics, error analysis/open coding, and ship/no-ship quality gates for AI features. Category: AI & Technology."
 ---
 
 # AI Evals
