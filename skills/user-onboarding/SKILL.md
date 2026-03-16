@@ -1,6 +1,6 @@
 ---
 name: "user-onboarding"
-description: "Design and improve product user onboarding (first-time user experience) to drive activation and early retention. Produces an Onboarding & Activation Pack (aha moment spec, first 30 seconds + first mile plan, onboarding journey map, experiment backlog, measurement plan). Use for Growth teams. Category: Growth."
+description: "Design and improve product user onboarding (first-time UX) to drive activation and early retention. Produces an Onboarding & Activation Pack (aha moment spec, first 30s + first mile plan, journey map, experiment backlog). NOT for employee/HR onboarding (use onboarding-new-hires), NOT for post-activation retention (use retention-engagement), NOT for growth loop design (use designing-growth-loops), NOT for behavioral nudge theory (use behavioral-product-design). For Growth teams. Category: Growth."
 ---
 
 # User Onboarding
@@ -23,10 +23,12 @@ description: "Design and improve product user onboarding (first-time user experi
 - “Create an onboarding experiment backlog + measurement plan”
 
 **When NOT to use**
-- You’re onboarding employees, customers to a service process, or running training (not product onboarding).
+- You’re onboarding employees, customers to a service process, or running training -- not product onboarding (use `onboarding-new-hires` for employee onboarding).
 - You don’t have a stable value proposition / ICP (use `problem-definition` or `measuring-product-market-fit` first).
-- You need a full retention strategy beyond onboarding (use `retention-engagement`).
+- You need a full retention strategy beyond onboarding (use `retention-engagement`); this skill covers signup-to-activation, not post-activation lifecycle retention.
 - You need to validate a prototype with real users (use `usability-testing` after creating a plan here).
+- You need to design viral/referral loops or acquisition flywheels (use `designing-growth-loops`); this skill is about converting new users, not acquiring them.
+- You want to apply behavioral science frameworks (habit loops, nudge architecture) as the primary design lens (use `behavioral-product-design`); this skill uses behavioral insights but is structured around the onboarding journey, not around psychological theory.
 
 ## Inputs
 
@@ -112,6 +114,14 @@ Templates and checklists:
 - **Outputs:** Final Onboarding & Activation Pack.
 - **Checks:** Top 3 experiments are runnable within constraints and have “win/lose/learn” criteria.
 
+## Anti-patterns (common failure modes)
+
+1. **Carousel tour syndrome** — Replacing real interaction with passive slideshow walkthroughs ("Next, Next, Next, Done"); users skip without learning and arrive at an empty product with no context. Design onboarding inside real product actions, not layered on top.
+2. **Setup-wall abandonment** — Requiring multi-step configuration (integrations, permissions, profile fields) before showing any value; each mandatory step is a drop-off cliff. Defer non-essential setup and deliver a fast "first win" within 30 seconds.
+3. **Vanity activation metric** — Defining activation as "completed onboarding checklist" or "viewed dashboard" instead of a behavior correlated with retention; produces misleading activation rates that don't predict long-term usage.
+4. **One-flow-fits-all** — Using the same onboarding sequence for all user types (admin vs. end-user, power user vs. casual, different ICPs) when segments have different jobs-to-be-done and different paths to value.
+5. **Ignoring the second session** — Optimizing only the first session and neglecting the return visit; users who activate in session 1 still churn if session 2 lacks a hook, a reminder of progress, or a clear next action.
+
 ## Quality gate (required)
 - Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
@@ -124,7 +134,15 @@ Templates and checklists:
 **Example 2 (B2C app, time-to-value):**  
 “Our first session feels flat. Redesign onboarding so users experience value within 30 seconds, define the activation event, and propose 5 experiments with metrics + guardrails.”
 
-**Boundary example (not product onboarding):**  
-“Create an employee onboarding program for new hires.”  
-Response: this skill is for product onboarding; use an HR onboarding/training process instead.
+**Boundary example (not product onboarding):**
+“Create an employee onboarding program for new hires.”
+Response: this skill is for product user onboarding, not employee onboarding; use `onboarding-new-hires` for HR/employee programs.
+
+**Boundary example (post-activation retention):**
+“Our users activate fine but churn after week 3. Build a retention strategy with re-engagement campaigns.”
+Response: post-activation retention is beyond the scope of onboarding; use `retention-engagement` for full-lifecycle retention strategy. This skill covers signup through activation only.
+
+**Boundary example (growth loop design):**
+“Design a referral program so activated users invite their teammates.”
+Response: referral/viral loop design is an acquisition growth loop, not onboarding; use `designing-growth-loops`. This skill focuses on converting new users to activated users, not on acquiring new users through loops.
 

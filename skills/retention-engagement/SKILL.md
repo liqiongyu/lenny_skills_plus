@@ -1,6 +1,6 @@
 ---
 name: "retention-engagement"
-description: "Improve retention, churn, engagement, and activation by producing a Retention & Engagement Improvement Pack (diagnosis, aha moment definition, lever hypotheses, experiment backlog, measurement plan, 30/60/90 plan). Use for Growth teams. Category: Growth."
+description: "Improve retention, churn, engagement, and activation with a Retention & Engagement Improvement Pack (diagnosis, aha moment, lever hypotheses, experiment backlog, 30/60/90 plan). NOT for first-time onboarding UX (use user-onboarding), NOT for viral/referral loop design (use designing-growth-loops), NOT for PMF measurement (use measuring-product-market-fit), NOT for behavioral nudge frameworks (use behavioral-product-design). For Growth teams. Category: Growth."
 ---
 
 # Retention & Engagement
@@ -26,6 +26,9 @@ description: "Improve retention, churn, engagement, and activation by producing 
 - You’re primarily deciding pricing/packaging/paywalls (this skill can add retention context but won’t replace pricing work).
 - You need acquisition loop design (use `designing-growth-loops`).
 - You need to synthesize qualitative churn feedback before proposing experiments (use `analyzing-user-feedback` or interviews).
+- The problem is specifically first-time onboarding UX (signup flow, empty states, guided setup) rather than full-lifecycle retention (use `user-onboarding`).
+- You want to apply behavioral science frameworks (habit loops, nudge theory, loss aversion mechanics) as the primary lens rather than a retention metrics lens (use `behavioral-product-design`).
+- You need to determine whether you have product-market fit before optimizing retention (use `measuring-product-market-fit`).
 
 ## Inputs
 
@@ -115,6 +118,14 @@ Templates and checklists:
 - **Outputs:** Final Retention & Engagement Improvement Pack.
 - **Checks:** Next 2 weeks of work are unblocked; measurement is in place to learn.
 
+## Anti-patterns (common failure modes)
+
+1. **Vanity-metric retention** — Reporting DAU/MAU ratios without segmenting by cohort or user type; masks churn behind new-user influx and leads to false confidence.
+2. **Notification spam as "re-engagement"** — Defaulting to push/email frequency increases instead of addressing the underlying value gap; temporarily lifts open rates but accelerates unsubscribes and erodes trust.
+3. **Activation theater** — Defining the "aha moment" based on internal opinion ("they saw the dashboard") rather than correlating specific behaviors with downstream retention; produces interventions that move a proxy but not real retention.
+4. **One-size-fits-all diagnosis** — Running the same retention playbook for all segments instead of diagnosing distinct failure modes (activation failure vs. engagement decay vs. monetization churn) per segment; wastes experiment capacity on wrong levers.
+5. **Dark-pattern switching costs** — Engineering "mounting loss" that traps users (hidden data lock-in, punitive cancellation flows) rather than building genuinely accruing value; creates regulatory risk and brand damage.
+
 ## Quality gate (required)
 - Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
@@ -127,7 +138,15 @@ Templates and checklists:
 **Example 2 (B2B SaaS, activation + habit):**  
 “New users activate but don’t return weekly. Define our aha moment, identify the biggest engagement decay point, and propose 5 experiments (in-product + email) with success metrics and guardrails.”
 
-**Boundary example (upstream problem):**  
-“Write a brand new value prop and pick an ICP for our product.”  
+**Boundary example (upstream problem):**
+“Write a brand new value prop and pick an ICP for our product.”
 Response: that’s upstream strategy/problem definition; use `problem-definition` (and optionally PMF measurement) before retention optimization.
+
+**Boundary example (onboarding-specific):**
+“Redesign our signup flow and first-time empty states to reduce drop-off before activation.”
+Response: this is first-time onboarding UX, not full-lifecycle retention; use `user-onboarding` for signup-to-activation flow design. Come back to `retention-engagement` once users are activated and you need to improve post-activation retention.
+
+**Boundary example (growth loop design):**
+“Design a referral loop so our existing users bring in new users.”
+Response: referral/viral loop design is acquisition, not retention; use `designing-growth-loops`. This skill focuses on keeping existing users engaged and retained, not on building loops that acquire new users.
 

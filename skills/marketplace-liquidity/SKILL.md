@@ -1,6 +1,6 @@
 ---
 name: "marketplace-liquidity"
-description: "Diagnose and improve marketplace liquidity (match rate/fill rate, time-to-match, reliability) by segment. Produces a Marketplace Liquidity Management Pack: liquidity definition + metric tree, fragmentation map, segment scorecard, supply/demand bottleneck diagnosis, experiment backlog, measurement plan, and operating cadence. Use for Growth teams running two-sided marketplaces. Category: Growth."
+description: "Diagnose and improve marketplace liquidity (match rate, time-to-match, reliability) by segment. Produces a Liquidity Management Pack: metric tree, fragmentation map, scorecard, bottleneck diagnosis, experiment backlog, and operating cadence. NOT for retention playbooks (retention-engagement), growth loops (designing-growth-loops), pricing-only (pricing-strategy), or PMF measurement (measuring-product-market-fit). Category: Growth."
 ---
 
 # Marketplace Liquidity Management
@@ -24,8 +24,11 @@ description: "Diagnose and improve marketplace liquidity (match rate/fill rate, 
 **When NOT to use**
 - You don’t operate a two-sided marketplace (no matching between supply and demand).
 - The primary problem is **value proposition / ICP** (use `problem-definition` or `measuring-product-market-fit`).
-- You only need **pricing changes** (use a pricing strategy skill) without a liquidity diagnosis.
+- You only need **pricing changes** (use `pricing-strategy`) without a liquidity diagnosis.
 - You need a general growth plan unrelated to matching reliability (use `designing-growth-loops` / `retention-engagement`).
+- You want to measure whether you have product-market fit (use `measuring-product-market-fit`); liquidity assumes the core value proposition is already validated.
+- You need to design or optimize a referral/viral/content growth loop (use `designing-growth-loops`); this skill focuses on match reliability, not acquisition loops.
+- You need a retention or engagement playbook for a non-marketplace product (use `retention-engagement`).
 
 ## Inputs
 
@@ -110,6 +113,14 @@ Templates and expanded guidance:
 - **Outputs:** Final Marketplace Liquidity Management Pack.
 - **Checks:** The next 2 weeks of work are unblocked (data pulls, 1–3 experiments, cadence).
 
+## Anti-patterns
+
+1. **Global-average blindness** — Reporting a single marketplace-wide match rate instead of segmenting by local market (geo x category x time). A 70% global fill rate can hide a 30% rate in your fastest-growing city. Always segment before diagnosing.
+2. **Supply-side-only tunnel vision** — Assuming liquidity problems are always supply shortages. Many marketplaces have adequate supply but poor matching/discovery mechanics or quality/trust breakdowns that suppress conversion.
+3. **Incentive addiction without diagnosis** — Throwing subsidies or promotions at both sides without first identifying whether the bottleneck is supply, demand, mechanics, or quality. This burns budget and masks the real constraint.
+4. **Ignoring the flip-flop dynamic** — Treating the supply/demand balance as static. Marketplaces oscillate: today's supply shortage becomes tomorrow's demand shortage once you over-correct. The operating cadence must track which side is currently the constraint.
+5. **Fragmentation denial** — Treating heterogeneous local markets as one uniform market. A marketplace with 50 categories where 5 drive 90% of volume needs a long-tail strategy, not a blanket growth plan.
+
 ## Quality gate (required)
 - Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
@@ -122,6 +133,10 @@ Templates and expanded guidance:
 **Example 2 (B2B marketplace, category imbalance):**  
 “Use `marketplace-liquidity`. We match startups with freelance designers. Liquidity is strong in ‘logo design’ but weak in ‘product design’ and ‘brand refresh.’ Goal: cut median time-to-first-qualified-match from 5 days to 2 days for product design in 60 days. Provide a liquidity metric tree, fragmentation map, and operating cadence.”
 
-**Boundary example (not a liquidity problem):**  
-“Write Google Ads copy to get more buyers.”  
+**Boundary example (not a liquidity problem — acquisition copy):**
+“Write Google Ads copy to get more buyers.”
 Response: this is primarily acquisition/copy. If marketplace reliability is already strong, use `copywriting` / channel-specific growth work. If reliability is unknown, start with an intake to confirm a liquidity bottleneck first.
+
+**Boundary example (redirect to measuring-product-market-fit):**
+“We launched a pet-sitting marketplace 3 months ago. Do we even have product-market fit?”
+Response: This is a PMF measurement question, not a liquidity diagnosis. Use `measuring-product-market-fit` to run a Sean Ellis survey and retention analysis first. Once PMF is confirmed for at least one segment, return here to optimize match reliability.
