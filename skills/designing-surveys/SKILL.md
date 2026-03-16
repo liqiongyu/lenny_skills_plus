@@ -1,6 +1,6 @@
 ---
 name: "designing-surveys"
-description: "Design and launch a product survey and produce a Survey Pack (brief, questionnaire/instrument, analysis plan, launch checklist, reporting outline). Use for customer surveys, onboarding surveys, NPS/CSAT/PMF, cancellation/churn, and feedback surveys."
+description: "Design and launch a product survey and produce a Survey Pack (brief, questionnaire/instrument, analysis plan, launch checklist, reporting outline). Use for customer surveys, onboarding surveys, NPS/CSAT/PMF, cancellation/churn, and feedback surveys. Category: Product Discovery."
 ---
 
 # Designing Surveys

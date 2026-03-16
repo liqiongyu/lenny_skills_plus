@@ -1,6 +1,6 @@
 ---
 name: "prioritizing-roadmap"
-description: "Prioritize a product roadmap/backlog and produce a Roadmap Prioritization Pack (season framing, scoring model, ranked opportunities, roadmap, decision narrative, rollout plan)."
+description: "Prioritize a product roadmap/backlog and produce a Roadmap Prioritization Pack (season framing, scoring model, ranked opportunities, roadmap, decision narrative, rollout plan). Use for roadmap prioritization, backlog ranking, what to build next, quarterly planning, and cross-team prioritization. Category: Strategy."
 ---
 
 # Prioritizing Roadmap

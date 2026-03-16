@@ -1,6 +1,6 @@
 ---
 name: "writing-north-star-metrics"
-description: "Define or refresh a product North Star metric + driver tree and produce a shareable North Star Metric Pack (narrative, metric spec, inputs, guardrails, rollout)."
+description: "Define or refresh a product North Star metric + driver tree and produce a shareable North Star Metric Pack (narrative, metric spec, inputs, guardrails, rollout). Use for North Star metric, success metric, KPI definition, driver tree, and metric alignment. Category: Strategy."
 ---
 
 # Writing North Star Metrics

@@ -1,6 +1,6 @@
 ---
 name: "writing-prds"
-description: "Write a clear, decision-ready PRD (and optionally a PR/FAQ, AI eval spec, and prompt set) for cross-functional alignment."
+description: "Write a clear, decision-ready PRD (and optionally a PR/FAQ, AI eval spec, and prompt set) for cross-functional alignment. Use for PRD, product requirements document, product spec, requirements doc, and feature requirements. Category: Product Management."
 ---
 
 # Writing PRDs
