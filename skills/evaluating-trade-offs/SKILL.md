@@ -1,6 +1,6 @@
 ---
 name: "evaluating-trade-offs"
-description: "Evaluate trade-offs and produce a Trade-off Evaluation Pack (trade-off brief, options+criteria matrix, all-in cost/opportunity cost table, impact ranges, recommendation, stop/continue triggers). Use for tradeoff/trade-off, pros and cons, cost-benefit, opportunity cost, build vs buy, ship fast vs ship better, continue vs stop (sunk costs). Category: Leadership."
+description: "Evaluate trade-offs and produce a Trade-off Evaluation Pack (trade-off brief, options+criteria matrix, all-in cost/opportunity cost table, impact ranges, recommendation, stop/continue triggers). Use for tradeoff/trade-off, pros and cons, cost-benefit, opportunity cost, ship fast vs ship better, and continue vs stop (sunk costs). NOT for technology/vendor build-vs-buy (use evaluating-new-technology). Category: Leadership."
 ---
 
 # Evaluating Trade-offs
@@ -25,6 +25,7 @@ description: "Evaluate trade-offs and produce a Trade-off Evaluation Pack (trade
 - You need to clarify what problem you’re solving (use `problem-definition`).
 - You need a full cross-functional decision process (use `running-decision-processes`).
 - You’re prioritizing across many initiatives (use `prioritizing-roadmap`).
+- You’re evaluating a specific technology, vendor, or build-vs-buy for a tool/platform (use `evaluating-new-technology`).
 - You’re cutting scope to hit a date/timebox (use `scoping-cutting`).
 - The decision is personal/legal/HR/financial advice (escalate to qualified humans).
 
