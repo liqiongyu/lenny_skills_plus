@@ -1,6 +1,6 @@
 ---
 name: "systems-thinking"
-description: "Apply systems thinking to leadership decisions and produce a Systems Thinking Pack (system boundary, actors & incentives map, feedback loops, second-order effects ledger, leverage points, intervention plan). Use for complex ecosystems, trade-offs, org/process redesign, and preventing unintended consequences. Category: Leadership."
+description: "Apply systems thinking to leadership decisions and produce a Systems Thinking Pack (system boundary, actors & incentives map, feedback loops, second-order effects ledger, leverage points, intervention plan). Use for complex ecosystems, second-order effects, feedback loops, org/process redesign, and preventing unintended consequences. NOT for single-decision trade-off analysis (use evaluating-trade-offs) or decision process facilitation (use running-decision-processes). Category: Leadership."
 ---
 
 # Systems Thinking
