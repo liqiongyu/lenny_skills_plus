@@ -1,6 +1,6 @@
 ---
 name: "conducting-user-interviews"
-description: "Plan, conduct, and synthesize high-signal user interviews and produce a User Interview Pack (recruiting plan, screener, discussion guide, notes template, synthesis report). Use for user interview, customer interview, discovery interview, JTBD switch interview, concept interview. Category: Product Discovery."
+description: "Plan, conduct, and synthesize user/customer interviews and produce a User Interview Pack. NOT for hiring interviews (conducting-interviews), NOT for surveys (designing-surveys), NOT for existing feedback analysis (analyzing-user-feedback), NOT for usability testing (usability-testing). Use for discovery, JTBD switch, churn, concept interviews. Category: Product Discovery."
 ---
 
 # Conducting User Interviews
@@ -22,8 +22,10 @@ description: "Plan, conduct, and synthesize high-signal user interviews and prod
 - “I’m a PM and need to run customer conversations next week.”
 
 **When NOT to use**
-- You primarily need **quantitative** evidence (survey/experiment/analytics) or statistical confidence
-- You’re doing **usability testing** with task-based evaluation as the main output (different protocol)
+- You primarily need **quantitative** evidence or statistical confidence (use `designing-surveys` for surveys or an experiment/analytics workflow)
+- You’re doing **usability testing** with task-based evaluation as the main output (use `usability-testing` — different protocol, different deliverables)
+- You’re running **hiring/candidate interviews** (use `conducting-interviews` — different goals, rubrics, and legal considerations)
+- You already have feedback data and need to **synthesize existing evidence** (use `analyzing-user-feedback`); this skill is for collecting *new* first-person stories
 - You’re working with **high-risk populations or sensitive topics** (medical, legal, minors) without appropriate approvals/training
 - You have no decision to support (you’ll produce anecdotes without impact)
 
@@ -108,14 +110,28 @@ Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 - Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
+## Anti-patterns (common failure modes)
+
+1. **Feature-wish-list interviews** — Asking “What features do you want?” produces unreliable wishlists. Instead, elicit specific past stories (“Last time you tried to…”) and infer needs from behavior.
+2. **Leading questions / confirmation bias** — Framing questions that nudge toward a desired answer (“Don’t you think X is a problem?”). Every question should be neutral and open-ended.
+3. **Convenience sampling** — Interviewing whoever is available (internal colleagues, power users who volunteer) instead of recruiting participants who match the behavioral/recency criteria the study requires.
+4. **Synthesis-free interviews** — Running all sessions but never synthesizing across them. Insights decay rapidly; debrief immediately and cluster themes before moving on.
+5. **Secondhand dilution** — Only the interviewer attends, then summarizes findings in a slide deck. PM + design should observe live or listen to recordings to preserve signal fidelity.
+
 ## Examples
 
-**Example 1 (Discovery):** “I’m redesigning onboarding for a B2B product. Create a recruiting plan + discussion guide for 8 discovery interviews with new trial users.”  
+**Example 1 (Discovery):** “I’m redesigning onboarding for a B2B product. Create a recruiting plan + discussion guide for 8 discovery interviews with new trial users.”
 Expected: participant criteria, outreach + screener, discovery guide, notes template, synthesis plan, and a ready-to-run pack.
 
-**Example 2 (Switch/JTBD):** “We lose deals to spreadsheets. Run switch interviews to learn what triggers teams to move off spreadsheets and what they try instead.”  
+**Example 2 (Switch/JTBD):** “We lose deals to spreadsheets. Run switch interviews to learn what triggers teams to move off spreadsheets and what they try instead.”
 Expected: switch interview guide (timeline + forces), recruiting criteria emphasizing recency, and a synthesis structure that outputs ‘push/pull/anxieties/habits’.
 
-**Boundary example:** “Ask users what features they want and build whatever they say.”  
+**Boundary example (redirect to usability-testing):** “We have a prototype and need to watch users complete tasks to find friction points.”
+Response: redirect to `usability-testing`; this skill focuses on open-ended story elicitation, not task-based evaluation with success criteria.
+
+**Boundary example (redirect to conducting-interviews):** “Help me create an interview guide for hiring a senior PM.”
+Response: redirect to `conducting-interviews`; this skill covers user/customer research interviews, not hiring/candidate evaluation.
+
+**Boundary example (anti-pattern):** “Ask users what features they want and build whatever they say.”
 Response: redirect to story-based interviewing; clarify decision context; avoid feature-request interviews without behavioral grounding.
 

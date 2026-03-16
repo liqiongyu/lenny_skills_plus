@@ -1,6 +1,6 @@
 ---
 name: "usability-testing"
-description: "Plan, run, and synthesize usability tests and produce a Usability Test Pack (test plan, tasks/script, logistics, notes template, issue log, findings + recommendations). Use for usability test, user test, prototype test, user testing, usability study, Wizard of Oz, fake door. Category: Product Discovery."
+description: "Plan, run, and synthesize usability tests and produce a Usability Test Pack (test plan, tasks, script, issue log, findings, recommendations). NOT for discovery interviews (conducting-user-interviews), NOT for design critique (running-design-reviews), NOT for writing specs (writing-specs-designs), NOT for behavioral design (behavioral-product-design). Use for usability test, prototype test, Wizard of Oz, fake door. Category: Product Discovery."
 ---
 
 # Usability Testing
@@ -21,7 +21,10 @@ description: "Plan, run, and synthesize usability tests and produce a Usability 
 
 **When NOT to use**
 - You need statistically reliable estimates or causal impact (use analytics/experimentation)
-- You need open-ended discovery (“what problems do users have?”) → use `conducting-user-interviews`
+- You need open-ended discovery (“what problems do users have?”) without a specific flow to evaluate (use `conducting-user-interviews`)
+- You need a **design critique or heuristic review** without live user sessions (use `running-design-reviews`)
+- You need to **write specs or design docs** for a feature, not test an existing flow (use `writing-specs-designs`)
+- You need to apply **behavioral/persuasion design patterns** to a flow (use `behavioral-product-design`); this skill evaluates usability, not designs behavioral nudges
 - You’re working with high-risk populations or sensitive topics (medical, legal, minors) without appropriate approvals/training
 - You don’t have a concrete scenario/flow to evaluate (clarify the decision first)
 
@@ -107,14 +110,28 @@ Expanded heuristics: [references/WORKFLOW.md](references/WORKFLOW.md)
 - Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
+## Anti-patterns (common failure modes)
+
+1. **Task-label leakage** — Writing tasks like “Click the Settings gear icon” instead of “Change your notification preferences.” Tasks should reflect user intent, not reveal UI labels or locations.
+2. **Happy-path-only testing** — Only testing the golden path and missing error states, edge cases, and recovery flows. Include at least one task that tests what happens when things go wrong.
+3. **Moderator bias / leading** — Helping participants when they struggle (“Try clicking there”) instead of letting them work through confusion. The struggle IS the data; document it, don’t fix it.
+4. **Over-indexing on opinions** — Asking “Did you like it?” after each task instead of observing behavior. Post-task ratings are supplementary; observed friction, errors, and workarounds are the primary signal.
+5. **Severity-blind issue list** — Listing all issues as equal without severity/frequency classification. A cosmetic label issue and a flow-blocking error require different urgency; classify every finding.
+
 ## Examples
 
-**Example 1 (Prototype test):** “Create a usability test plan + moderator guide to evaluate our new onboarding flow (web) with 6 first-time users next week.”  
+**Example 1 (Prototype test):** “Create a usability test plan + moderator guide to evaluate our new onboarding flow (web) with 6 first-time users next week.”
 Expected: full Usability Test Pack with neutral tasks, recruiting criteria, session logistics, and a synthesis structure.
 
-**Example 2 (Wizard of Oz):** “We want to test an ‘AI auto-triage’ feature before building it. Design a Wizard of Oz usability test plan and script for 5 sessions.”  
+**Example 2 (Wizard of Oz):** “We want to test an ‘AI auto-triage’ feature before building it. Design a Wizard of Oz usability test plan and script for 5 sessions.”
 Expected: stimulus plan defining what’s simulated, tasks focused on value, and an issue log + readout.
 
-**Boundary example:** “Run a usability test to prove the redesign will increase retention by 10%.”  
+**Boundary example (redirect to conducting-user-interviews):** “We don’t have a prototype yet, but we want to understand what problems users face during onboarding.”
+Response: redirect to `conducting-user-interviews` for open-ended discovery; return here once you have a concrete flow or prototype to evaluate.
+
+**Boundary example (redirect to running-design-reviews):** “Review our new checkout designs for usability issues without running user sessions.”
+Response: redirect to `running-design-reviews` for expert heuristic evaluation; this skill requires live user sessions with task-based observation.
+
+**Boundary example (causality):** “Run a usability test to prove the redesign will increase retention by 10%.”
 Response: explain limits of small-n usability; recommend pairing with instrumentation/experimentation for causality and use usability to diagnose friction.
 
