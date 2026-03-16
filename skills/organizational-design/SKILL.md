@@ -1,6 +1,6 @@
 ---
 name: "organizational-design"
-description: "Design or redesign an org structure and operating model by producing an Organizational Design Pack (design brief, current-state map, operating-model decision, target org blueprint, transition plan). Use for org design, reorgs, team topology, functional vs divisional structures, and centralized vs decentralized decision-making. Category: Leadership."
+description: "Design/redesign org structure and operating model: Org Design Pack (brief, current-state map, operating-model decision, target blueprint, transition plan). Use for reorgs, team topology, functional vs divisional, centralized vs decentralized. NOT for transformation programs (use organizational-transformation), engineering culture (use engineering-culture), team culture (use building-team-culture), or cross-team coordination (use cross-functional-collaboration). Category: Leadership."
 ---
 
 # Organizational Design
@@ -8,22 +8,26 @@ description: "Design or redesign an org structure and operating model by produci
 ## Scope
 
 **Covers**
-- Designing or redesigning an organization’s **structure + operating model** to improve speed, accountability, and customer outcomes
+- Designing or redesigning an organization's **structure + operating model** to improve speed, accountability, and customer outcomes
 - Choosing between **centralized vs decentralized** models (Apple ↔ Amazon spectrum) and **functional vs divisional/value-stream** orientations
 - Reducing coordination tax by **minimizing dependencies** and clarifying **decision rights**
 - Setting management roles/layers so leaders **know the work** and can drive craft, not just process
 
 **When to use**
-- “Propose a reorg / org design for my product + engineering organization.”
-- “We’re slow due to dependencies—redesign teams so we can run in parallel.”
-- “Our UX is fragmented—should we centralize decisions or strengthen functional leadership?”
-- “We grew fast and added layers—help us simplify and get back to startup speed.”
+- "Propose a reorg / org design for my product + engineering organization."
+- "We're slow due to dependencies—redesign teams so we can run in parallel."
+- "Our UX is fragmented—should we centralize decisions or strengthen functional leadership?"
+- "We grew fast and added layers—help us simplify and get back to startup speed."
 
 **When NOT to use**
 - You need product strategy/vision first (use `defining-product-vision` or `working-backwards`).
 - This is mainly a people-performance issue (use coaching/feedback workflows, not a reorg).
 - You need compensation bands, leveling, hiring plans, or legal/HR guidance (involve HR/legal).
 - You need a single high-stakes decision process (use `running-decision-processes`).
+- You need a **full organizational transformation program** with change management, pilots, and culture change (use `organizational-transformation`; this skill produces the structural blueprint that transformation executes).
+- You need to **improve engineering practices, norms, or technical culture** (use `engineering-culture`).
+- You need to **build team culture** (values, rituals, norms) within existing teams (use `building-team-culture`).
+- You need **cross-team coordination processes** without changing the org chart (use `cross-functional-collaboration`).
 
 ## Inputs
 
@@ -36,7 +40,7 @@ description: "Design or redesign an org structure and operating model by produci
 
 **Missing-info strategy**
 - Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
-- If answers aren’t available, proceed with explicit assumptions and label unknowns.
+- If answers aren't available, proceed with explicit assumptions and label unknowns.
 
 ## Outputs (deliverables)
 
@@ -53,16 +57,16 @@ Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Workflow (7 steps)
 
-### 1) Define what you’re optimizing for (and the constraints)
+### 1) Define what you're optimizing for (and the constraints)
 - **Inputs:** Goals; symptoms; constraints; timeline.
-- **Actions:** Translate “we need a reorg” into a design problem: what outcomes must improve and by when. Pick 3–5 design principles (e.g., “minimize dependencies”, “one UX owner for critical journeys”, “reduce layers”).
+- **Actions:** Translate "we need a reorg" into a design problem: what outcomes must improve and by when. Pick 3–5 design principles (e.g., "minimize dependencies", "one UX owner for critical journeys", "reduce layers").
 - **Outputs:** Org Design Brief (draft) + success metrics.
 - **Checks:** Stakeholders can agree on the top tradeoffs (e.g., speed vs UX coherence) and what would count as success.
 
 ### 2) Map the current org-as-a-system (work, dependencies, decisions)
 - **Inputs:** Current teams; roadmap/work streams; known friction examples.
-- **Actions:** Document team charters, dependencies, and decision rights. Identify dependency hotspots, duplicated ownership, and surprise approvers. Capture management layers and where managers don’t know the work.
-- **Outputs:** Current-State Map + “top 5 friction loops” list.
+- **Actions:** Document team charters, dependencies, and decision rights. Identify dependency hotspots, duplicated ownership, and surprise approvers. Capture management layers and where managers don't know the work.
+- **Outputs:** Current-State Map + "top 5 friction loops" list.
 - **Checks:** The map explains most observed delays/rework with concrete dependency/decision bottlenecks.
 
 ### 3) Choose an operating model posture (centralize vs decentralize; functional vs divisional)
@@ -73,13 +77,13 @@ Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ### 4) Generate 2–3 viable org options (not one)
 - **Inputs:** Current-state map; operating model posture; constraints.
-- **Actions:** Draft 2–3 options (A/B/(C hybrid)), each with team list, charters, leadership roles, interfaces, and expected dependency changes. Make management layers explicit; avoid “people managers” without domain/craft context.
+- **Actions:** Draft 2–3 options (A/B/(C hybrid)), each with team list, charters, leadership roles, interfaces, and expected dependency changes. Make management layers explicit; avoid "people managers" without domain/craft context.
 - **Outputs:** Options table + option narratives.
 - **Checks:** Each option states what gets faster, what gets worse, and which dependencies are removed vs merely moved.
 
 ### 5) Score options and pick a recommendation (with a fallback)
 - **Inputs:** Options; stakeholder priorities; risk constraints.
-- **Actions:** Score with [references/RUBRIC.md](references/RUBRIC.md). Pick a recommended option + a fallback. Identify “Day 1 changes” vs “follow-on refactors” and the required operating-mechanism changes (decision rights, cadence, standards).
+- **Actions:** Score with [references/RUBRIC.md](references/RUBRIC.md). Pick a recommended option + a fallback. Identify "Day 1 changes" vs "follow-on refactors" and the required operating-mechanism changes (decision rights, cadence, standards).
 - **Outputs:** Recommendation + scorecard + key decisions to align on.
 - **Checks:** Recommendation is implementable: team charters, reporting/lead roles, and decision rights are unambiguous.
 
@@ -87,7 +91,7 @@ Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 - **Inputs:** Recommendation; people constraints; launch calendar.
 - **Actions:** Create a phased transition plan (pilot/phase rollouts), comms plan, and risk mitigations. Define success metrics + check-in points (Day 30/60/90). Add rollback triggers for high-risk changes.
 - **Outputs:** Transition Plan + comms outline.
-- **Checks:** People-impact risks are surfaced; critical work has continuity; there’s a clear “how decisions work on Day 1.”
+- **Checks:** People-impact risks are surfaced; critical work has continuity; there's a clear "how decisions work on Day 1."
 
 ### 7) Quality gate + finalize
 - **Inputs:** Draft pack.
@@ -101,11 +105,22 @@ Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Examples
 
-**Example 1:** “I’m a VP Product at a ~200-person company. Teams are slow due to cross-team dependencies; propose an org redesign to increase parallelism.”  
+**Example 1:** "I'm a VP Product at a ~200-person company. Teams are slow due to cross-team dependencies; propose an org redesign to increase parallelism."  
 Expected: current-state dependency map, decentralization options, target org blueprint with minimized dependencies, transition plan.
 
-**Example 2:** “Founder/CEO: we added layers and lost speed. Help us move toward a more functional model and ensure managers know the work.”  
+**Example 2:** "Founder/CEO: we added layers and lost speed. Help us move toward a more functional model and ensure managers know the work."  
 Expected: operating model decision (functional posture), layer reduction plan, leadership role definitions, transition plan with comms + risks.
 
-**Boundary example:** “Create a reorg to justify cutting headcount.”  
+**Boundary example:** "Create a reorg to justify cutting headcount."
 Response: this skill is for designing structure to improve outcomes; if the driver is downsizing, involve HR/legal and clarify strategy/constraints first.
+
+**Boundary example (neighbor redirect):** "We need to transform our company from feature teams to empowered product teams with a 6-month rollout plan."
+Response: this is a full organizational transformation, not just a structural redesign. Use `organizational-transformation` for the change management program, pilot plans, and culture change roadmap. This skill can produce the target org blueprint that feeds into the transformation plan.
+
+## Anti-patterns
+
+1. **Reorg as solution to everything** — Reshuffling boxes on an org chart to solve problems caused by unclear strategy, missing product vision, or poor execution habits. Always diagnose root causes before proposing structural changes.
+2. **Dependency shuffle** — Removing cross-team dependencies in one area only to create new ones elsewhere. Every option must explicitly state which dependencies are removed vs merely moved.
+3. **Layer creep without craft** — Adding management layers where managers become process coordinators without domain knowledge. Every leadership role must be justified by the craft knowledge needed to drive quality.
+4. **Big-bang reorg** — Restructuring the entire org simultaneously without pilots, phased rollouts, or rollback triggers. Transition plans must be sequenced with continuity protections for in-flight work.
+5. **Structure without operating model** — Changing team topology without updating decision rights, planning cadence, and cross-team interfaces. The org blueprint must include operating mechanisms, not just reporting lines.
