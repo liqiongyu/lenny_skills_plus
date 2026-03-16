@@ -1,6 +1,6 @@
 ---
 name: "technical-roadmaps"
-description: "Turn an engineering strategy into a written Technical Roadmap Pack (Rumelt-style strategy: Diagnosis/Guiding Policy/Coherent Actions, roadmap table, initiative briefs, and alignment cadence). Use for technical roadmap, tech roadmap, engineering roadmap, architecture roadmap. Category: Engineering."
+description: "Turn engineering strategy into a Technical Roadmap Pack (Rumelt-style Diagnosis/Guiding Policy/Coherent Actions, roadmap table, initiative briefs, alignment cadence). NOT for product-bet prioritization (prioritizing-roadmap), NOT for delivery tracking (managing-timelines), NOT for platform ecosystem design (platform-infrastructure), NOT for eng culture work (engineering-culture). Use for technical roadmap, engineering roadmap, architecture roadmap. Category: Engineering."
 ---
 
 # Technical Roadmaps
@@ -8,22 +8,24 @@ description: "Turn an engineering strategy into a written Technical Roadmap Pack
 ## Scope
 
 **Covers**
-- Turning “technical work” (architecture, platform, reliability, tech debt) into a **written strategy + roadmap** that stakeholders can critique and improve.
-- Applying Richard Rumelt’s strategy frame (**Diagnosis → Guiding policy → Coherent actions**) to engineering planning.
+- Turning "technical work" (architecture, platform, reliability, tech debt) into a **written strategy + roadmap** that stakeholders can critique and improve.
+- Applying Richard Rumelt's strategy frame (**Diagnosis → Guiding policy → Coherent actions**) to engineering planning.
 - Producing a roadmap that is **executable** (owners, milestones, dependencies, risks, metrics), not a vague wishlist.
 - Aligning a technical roadmap with product/business constraints (quarters, launches, compliance/security, capacity).
 
 **When to use**
-- “Create a technical/engineering/architecture roadmap for the next 2–4 quarters.”
-- “We need a written technical strategy and a roadmap we can review with leadership.”
-- “We have many tech-debt/platform initiatives; turn them into a prioritized plan with dependencies and milestones.”
-- “Our tech roadmap keeps being misunderstood—write it down so we can debug alignment.”
+- "Create a technical/engineering/architecture roadmap for the next 2–4 quarters."
+- "We need a written technical strategy and a roadmap we can review with leadership."
+- "We have many tech-debt/platform initiatives; turn them into a prioritized plan with dependencies and milestones."
+- "Our tech roadmap keeps being misunderstood—write it down so we can debug alignment."
 
 **When NOT to use**
 - The problem/outcome is unclear (use `problem-definition` first).
 - You need to choose *which* product bets matter most (use `prioritizing-roadmap` or `ai-product-strategy`).
 - You only need delivery dates, milestone tracking, and RAG governance (use `managing-timelines`).
-- You need a deep platform strategy / ecosystem design (use `platform-strategy`).
+- You need a deep platform strategy / ecosystem design (use `platform-infrastructure`).
+- You want to improve engineering team processes, hiring, or culture norms (use `engineering-culture`).
+- You need a product roadmap oriented around user-facing features and business outcomes rather than technical infrastructure (use `prioritizing-roadmap`).
 
 ## Inputs
 
@@ -36,7 +38,7 @@ description: "Turn an engineering strategy into a written Technical Roadmap Pack
 
 **Missing-info strategy**
 - Ask up to 5 questions from [references/INTAKE.md](references/INTAKE.md).
-- If answers aren’t available, proceed with explicit assumptions and list them under **Open questions**.
+- If answers aren't available, proceed with explicit assumptions and list them under **Open questions**.
 
 ## Outputs (deliverables)
 
@@ -55,31 +57,31 @@ Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ### 1) Intake + audience alignment
 - **Inputs:** User request; [references/INTAKE.md](references/INTAKE.md).
-- **Actions:** Confirm the audience, horizon, and roadmap “shape” (quarters vs Now/Next/Later). Identify the decision the roadmap must enable (funding, sequencing, headcount, trade-offs).
+- **Actions:** Confirm the audience, horizon, and roadmap "shape" (quarters vs Now/Next/Later). Identify the decision the roadmap must enable (funding, sequencing, headcount, trade-offs).
 - **Outputs:** Intake summary + explicit assumptions + open questions list (if any).
-- **Checks:** You can state: “This roadmap is for <audience> to decide <decision> over <horizon> using <format>.”
+- **Checks:** You can state: "This roadmap is for <audience> to decide <decision> over <horizon> using <format>."
 
 ### 2) Write the strategy (Rumelt: Diagnosis → Guiding policy → Coherent actions)
 - **Inputs:** Current-state signals; constraints; product/business context.
 - **Actions:** Draft a written strategy using the Rumelt structure. Keep it concrete: name the constraints and trade-offs.
 - **Outputs:** Technical Strategy section using [references/TEMPLATES.md](references/TEMPLATES.md).
-- **Checks:** A reader can answer: “What’s the problem?”, “What’s our approach?”, “What actions are we taking (and not taking)?”
+- **Checks:** A reader can answer: "What's the problem?", "What's our approach?", "What actions are we taking (and not taking)?"
 
-### 3) Build the initiative inventory (candidate “coherent actions”)
+### 3) Build the initiative inventory (candidate "coherent actions")
 - **Inputs:** Candidate initiative list; strategy; incidents/metrics; architecture notes.
 - **Actions:** Normalize initiatives into a table (theme, outcome, why now, dependencies, effort, risk). Merge duplicates; split overly broad items.
 - **Outputs:** Initiative inventory (draft roadmap backlog).
-- **Checks:** Each item has an outcome + a “why now” tied back to the Diagnosis/Guiding policy.
+- **Checks:** Each item has an outcome + a "why now" tied back to the Diagnosis/Guiding policy.
 
 ### 4) Prioritize + sequence (make trade-offs explicit)
 - **Inputs:** Inventory; constraints; dependencies; capacity assumptions.
-- **Actions:** Prioritize based on: (a) alignment to strategy, (b) risk reduction, (c) enabling product work, (d) cost/effort, (e) dependency criticality. Sequence via dependencies and “first unlocks.”
+- **Actions:** Prioritize based on: (a) alignment to strategy, (b) risk reduction, (c) enabling product work, (d) cost/effort, (e) dependency criticality. Sequence via dependencies and "first unlocks."
 - **Outputs:** Ranked list + sequencing rationale + explicit non-goals/cut list.
 - **Checks:** You can justify the top 3 items in 1–2 sentences each, including what you deprioritized.
 
 ### 5) Convert into a roadmap (quarters or Now/Next/Later) with execution detail
 - **Inputs:** Ranked list; sequencing; calendar constraints.
-- **Actions:** Create the roadmap table with owners, milestones, dependencies, confidence, and success metrics. Add “decision gates” where uncertainty is high.
+- **Actions:** Create the roadmap table with owners, milestones, dependencies, confidence, and success metrics. Add "decision gates" where uncertainty is high.
 - **Outputs:** Roadmap table + milestone highlights.
 - **Checks:** A team could start execution without guessing owners/dependencies; high-uncertainty items have a gate (spike/RFC/prototype).
 
@@ -93,7 +95,15 @@ Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 - **Inputs:** Full draft pack.
 - **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Ensure **Risks / Open questions / Next steps** are present with owners and dates where possible.
 - **Outputs:** Final Technical Roadmap Pack.
-- **Checks:** The pack is “debuggable”: written, coherent, measurable, and reviewable.
+- **Checks:** The pack is "debuggable": written, coherent, measurable, and reviewable.
+
+## Anti-patterns (common failure modes)
+
+1. **Roadmap-as-wishlist:** Listing every tech-debt item without a strategy or trade-offs. A roadmap without a diagnosis and guiding policy is just a backlog dump. Always tie items back to the Rumelt strategy.
+2. **Missing "why now" for initiatives:** Including items that have been on the list for years without explaining what changed. Every initiative must answer "why this quarter, not next?"
+3. **Audience mismatch:** Writing a deeply technical roadmap for an exec audience, or a high-level themes doc for the team that needs execution detail. Confirm audience before drafting.
+4. **Dependency blindness:** Sequencing initiatives independently without mapping cross-team dependencies, then discovering blocked work mid-quarter. Always surface the top 5 cross-team dependencies.
+5. **No decision gates for uncertainty:** Placing high-uncertainty bets (new framework, major migration) on the roadmap without spike/RFC/prototype gates, committing the team to a path before validating feasibility.
 
 ## Quality gate (required)
 - Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
@@ -101,11 +111,14 @@ Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Examples
 
-**Example 1 (platform scaling):** “We’re seeing reliability issues and slow delivery. Create a 2-quarter technical roadmap and strategy we can review with leadership.”  
+**Example 1 (platform scaling):** "We're seeing reliability issues and slow delivery. Create a 2-quarter technical roadmap and strategy we can review with leadership."
 Expected: a Rumelt-structured strategy plus a sequenced roadmap with owners, dependencies, milestones, and metrics.
 
-**Example 2 (architecture modernization):** “We need an architecture roadmap to migrate off a legacy monolith while still shipping product features.”  
+**Example 2 (architecture modernization):** "We need an architecture roadmap to migrate off a legacy monolith while still shipping product features."
 Expected: explicit trade-offs, dependency-aware sequencing, decision gates, and a governance cadence to keep alignment.
 
-**Boundary example:** “Write a detailed project plan with dates for every task for the next 6 months.”  
+**Boundary example 1:** "Write a detailed project plan with dates for every task for the next 6 months."
 Response: use `managing-timelines` for delivery planning; this skill is for strategy → roadmap (themes/initiatives/milestones), not task-level scheduling.
+
+**Boundary example 2:** "Help us decide which product features to prioritize for the next quarter."
+Response: use `prioritizing-roadmap` for product-bet prioritization; this skill covers *technical* strategy and infrastructure roadmaps, not product feature selection.

@@ -1,6 +1,6 @@
 ---
 name: "prioritizing-roadmap"
-description: "Prioritize a product roadmap/backlog and produce a Roadmap Prioritization Pack (season framing, scoring model, ranked opportunities, roadmap, decision narrative, rollout plan). Use for roadmap prioritization, backlog ranking, what to build next, quarterly planning, and cross-team prioritization. Category: Strategy."
+description: "Prioritize a product roadmap/backlog and produce a Roadmap Prioritization Pack (scoring model, ranked opportunities, roadmap, decision narrative). NOT for setting OKRs (use setting-okrs-goals), cutting scope mid-project (use scoping-cutting), engineering roadmaps (use technical-roadmaps), or timeline tracking (use managing-timelines). Use for roadmap prioritization, backlog ranking, what to build next, quarterly planning. Category: Strategy."
 ---
 
 # Prioritizing Roadmap
@@ -20,10 +20,13 @@ description: "Prioritize a product roadmap/backlog and produce a Roadmap Priorit
 - “We need to prioritize across multiple teams/pods.”
 
 **When NOT to use**
-- You don’t have any agreed goal / North Star / strategic intent (do product vision / goals first)
-- You need sprint planning or story-level estimation
-- You’re only choosing a single experiment within an already-fixed roadmap
-- You need a full customer discovery plan from scratch
+- You don’t have any agreed goal / North Star / strategic intent (do product vision / goals first; use `setting-okrs-goals`).
+- You need sprint planning or story-level estimation (use your agile/scrum process).
+- You’re only choosing a single experiment within an already-fixed roadmap.
+- You need a full customer discovery plan from scratch (use `problem-definition`).
+- You need to cut scope within an already-committed project (use `scoping-cutting`).
+- You need an engineering/technical roadmap for infrastructure or platform work (use `technical-roadmaps`).
+- You need to track milestones, deadlines, and delivery status on an existing plan (use `managing-timelines`).
 
 ## Inputs
 
@@ -115,6 +118,17 @@ Expected: season framing, scored opportunity inventory, a Now/Next/Later roadmap
 **Example 2 (Marketplace):** “Prioritize 6 months of roadmap across supply, demand, and trust & safety.”  
 Expected: a common-currency model that makes cross-team tradeoffs comparable and a rolling plan refreshed on a fixed cadence.
 
-**Boundary example:** “Give me a 2-year roadmap, we don’t have goals or constraints.”  
+**Boundary example 1:** “Give me a 2-year roadmap, we don’t have goals or constraints.”
 Response: ask for goals/constraints; if unavailable, produce options + assumptions and recommend doing product vision + North Star first.
+
+**Boundary example 2:** “We already have the roadmap locked -- help me cut scope on the authentication project to hit the deadline.”
+Response: redirect to `scoping-cutting`. This skill is for deciding what goes on the roadmap, not for trimming scope within a committed project.
+
+## Anti-patterns (common failure modes)
+
+1. **HiPPO-driven ranking** -- Using a scoring model but overriding it with the highest-paid person’s opinion without documenting the override rationale. If a score is overridden, the decision narrative must state why and what assumption changed.
+2. **Score-as-truth** -- Treating ICE scores as precise measurements instead of rough relative signals. Two items scored 7.2 vs 7.0 are not meaningfully different. The model produces tiers, not a total order.
+3. **Missing the status quo option** -- Ranking only new features without including “do nothing / invest in quality / pay down debt” as a scored alternative. The opportunity cost of not improving the existing product must be visible.
+4. **Roadmap-as-promise** -- Presenting a prioritized roadmap as a commitment with dates rather than a rolling plan with update cadence. A good roadmap is a living document with explicit refresh triggers.
+5. **Invisible non-goals** -- Producing a “yes” list without a corresponding “parking lot” and explicit “we chose not to do X because Y.” Stakeholders whose items were deprioritized need to see the rationale, not just the absence of their request.
 

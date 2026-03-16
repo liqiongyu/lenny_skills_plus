@@ -1,6 +1,6 @@
 ---
 name: "startup-ideation"
-description: "Generate and evaluate startup ideas using off-the-beaten-path insights + Why-Now shift analysis. Produces a Startup Ideation Pack (opportunity theses table, scorecard, top idea brief, validation plan). Use for startup ideation, idea selection, “what should we build?”, why now, tarpit avoidance, information diet planning. Category: Strategy."
+description: "Generate and evaluate startup ideas using off-the-beaten-path insights + Why-Now shift analysis. Produces a Startup Ideation Pack (theses table, scorecard, top idea brief, validation plan). NOT for pivoting an existing product (startup-pivoting), NOT for validating PMF (measuring-product-market-fit), NOT for defining a known problem (problem-definition), NOT for writing a PRD from a chosen idea (working-backwards). Use for startup ideation, idea selection, tarpit avoidance. Category: Strategy."
 ---
 
 # Startup Ideation
@@ -8,30 +8,33 @@ description: "Generate and evaluate startup ideas using off-the-beaten-path insi
 ## Scope
 
 **Covers**
-- Turning vague “startup ideas” into structured **opportunity theses**
+- Turning vague "startup ideas" into structured **opportunity theses**
 - Expanding your **information diet** to find off-the-beaten-path opportunities
 - Running a **Why Now** analysis based on technology + behavior + distribution shifts
 - Identifying **tarpits** (ideas that look good but are structurally hard) and pruning early
 - Scoring ideas and producing a **top-idea 1‑pager** + **2‑week validation plan**
 
 **When to use**
-- “Help me come up with startup ideas in/around <domain>.”
-- “We have 5 ideas — help us pick one and explain why.”
-- “What’s a good *Why Now* for this idea?”
-- “Pressure to do AI — where are real new opportunities?”
-- “How do we avoid idea tarpits and pick something differentiated?”
+- "Help me come up with startup ideas in/around <domain>."
+- "We have 5 ideas — help us pick one and explain why."
+- "What’s a good *Why Now* for this idea?"
+- "Pressure to do AI — where are real new opportunities?"
+- "How do we avoid idea tarpits and pick something differentiated?"
 
 **When NOT to use**
-- You already chose an idea and need a delivery-ready PRD (use `writing-prds`)
+- You already chose an idea and need a delivery-ready PRD (use `writing-prds` or `working-backwards`)
 - You need to define the problem space for a specific user pain (use `problem-definition`)
 - You need to execute research (recruit, interview, synthesize) rather than frame it (use `conducting-user-interviews`)
 - You need market sizing / pricing / fundraising pitch materials (adjacent work, not covered here)
+- You already have a product but it is stuck or growth stalled and you are considering a direction change (use `startup-pivoting`)
+- You have a launched product and need to measure whether you have product-market fit (use `measuring-product-market-fit`)
+- You want to evaluate trade-offs between a small set of known options, not generate new ideas (use `evaluating-trade-offs`)
 
 ## Inputs
 
 **Minimum required**
 - Founder/team context + constraints (time, budget, skills, regulatory constraints)
-- The decision to make + timeline (e.g., “pick 1 idea to validate in the next 2 weeks”)
+- The decision to make + timeline (e.g., "pick 1 idea to validate in the next 2 weeks")
 - Target customer type (B2B/B2C; any preferred industries or segments)
 - Any starting ideas (even rough) + what prompted them
 
@@ -60,9 +63,9 @@ Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ### 1) Intake + decision framing
 - **Inputs:** User context; [references/INTAKE.md](references/INTAKE.md).
-- **Actions:** Clarify decision, time horizon, and constraints. Define success as “pick 1 idea to validate next” (or similar).
+- **Actions:** Clarify decision, time horizon, and constraints. Define success as "pick 1 idea to validate next" (or similar).
 - **Outputs:** Context snapshot.
-- **Checks:** You can restate the decision in one sentence (“We are deciding whether to… by <date>”).
+- **Checks:** You can restate the decision in one sentence ("We are deciding whether to… by <date>").
 
 ### 2) Inventory unfair advantage + off-the-beaten-path signals
 - **Inputs:** Founder/team background; past work; lived experience; access.
@@ -70,9 +73,9 @@ Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 - **Outputs:** Unfair advantage + signals list.
 - **Checks:** Each signal is specific (who/where/when) and could plausibly lead to a differentiated idea.
 
-### 3) Run a shift scan (“Why now?” raw material)
+### 3) Run a shift scan ("Why now?" raw material)
 - **Inputs:** Domain + constraints; current trends the user cares about.
-- **Actions:** Generate 10–20 “shifts” across: technology capability, buyer behavior, regulation, distribution, and cost curves. For each, write: “This enables X that was hard before.”
+- **Actions:** Generate 10–20 "shifts" across: technology capability, buyer behavior, regulation, distribution, and cost curves. For each, write: "This enables X that was hard before."
 - **Outputs:** Shift scan + Why Now candidates.
 - **Checks:** At least 5 shifts are concrete and falsifiable (not vague hype).
 
@@ -84,7 +87,7 @@ Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ### 5) Tarpit & differentiation check (prune)
 - **Inputs:** Opportunity theses table.
-- **Actions:** Flag tarpits and thinly differentiated ideas. Apply “off-the-beaten-path” pressure: if an idea is widely discussed, require a strong wedge or discard.
+- **Actions:** Flag tarpits and thinly differentiated ideas. Apply "off-the-beaten-path" pressure: if an idea is widely discussed, require a strong wedge or discard.
 - **Outputs:** Pruned list + notes on tarpits/differentiation.
 - **Checks:** The remaining shortlist has at least one concrete advantage (distribution, insight, data, speed, regulatory, workflow depth).
 
@@ -104,7 +107,15 @@ Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 - **Inputs:** Full draft pack.
 - **Actions:** Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add **Risks / Open questions / Next steps**.
 - **Outputs:** Final Startup Ideation Pack.
-- **Checks:** A stakeholder can review async and decide “validate / park / discard” without a meeting.
+- **Checks:** A stakeholder can review async and decide "validate / park / discard" without a meeting.
+
+## Anti-patterns (common failure modes)
+
+1. **Idea brainstorm without structure:** Generating a long list of ideas with no Why-Now analysis, no tarpit check, and no scoring. Volume without evaluation is noise, not ideation.
+2. **Tarpit blindness:** Falling in love with ideas that sound exciting but have well-known structural traps (marketplace cold-start, consumer social network effects, hardware-dependent plays). Always run the tarpit check before shortlisting.
+3. **Missing founder-market fit:** Evaluating ideas purely on market attractiveness without considering the team’s unfair advantages, domain expertise, or distribution access. An objectively good idea is bad if this team cannot win it.
+4. **Vague Why-Now claims:** Citing broad trends ("AI is hot", "remote work is growing") without connecting them to a specific enabling shift that makes this idea possible or necessary now vs. two years ago.
+5. **Skipping validation design:** Producing a polished top-idea brief but no concrete 2-week validation plan, leaving the founder with a thesis but no next action to test it.
 
 ## Quality gate (required)
 - Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
@@ -112,12 +123,15 @@ Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Examples
 
-**Example 1 (B2B):** “We’re ex‑operators in logistics. Generate and score startup ideas; pick 1 to validate in 2 weeks.”  
-Expected: opportunity theses rooted in real workflows + a shortlist + a top idea 1‑pager with a concrete validation plan.
+**Example 1 (B2B):** "We’re ex-operators in logistics. Generate and score startup ideas; pick 1 to validate in 2 weeks."
+Expected: opportunity theses rooted in real workflows + a shortlist + a top idea 1-pager with a concrete validation plan.
 
-**Example 2 (AI shift):** “We think new LLM capabilities enable something new in customer support; help us find a differentiated idea and Why Now.”  
-Expected: shift scan → structured theses → tarpit check → top idea brief with a tight wedge and clear risks.
+**Example 2 (AI shift):** "We think new LLM capabilities enable something new in customer support; help us find a differentiated idea and Why Now."
+Expected: shift scan -> structured theses -> tarpit check -> top idea brief with a tight wedge and clear risks.
 
-**Boundary example:** “Give me 100 startup ideas with no context.”  
+**Boundary example 1:** "Give me 100 startup ideas with no context."
 Response: ask intake questions first; if the user won’t provide any, produce a small set of generic theses with explicit assumptions and advise on how to ground them in real signals.
+
+**Boundary example 2:** "Our SaaS product has stalled at 50 customers and we are thinking about changing direction. Help us figure out what to do."
+Response: this is a pivot decision, not greenfield ideation. Use `startup-pivoting` to diagnose what is stuck, run an exhaustion check, and evaluate pivot options before generating new ideas.
 
