@@ -37,7 +37,7 @@ def find_pairs(repo_root: Path) -> list[DocPair]:
         repo_root / "docs",
     ]
 
-    excluded_root_docs = {"AGENTS.md"}
+    excluded_root_docs = {"AGENTS.md", "CLAUDE.md"}
 
     pairs: list[DocPair] = []
     for scope in scopes:
