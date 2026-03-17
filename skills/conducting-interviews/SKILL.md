@@ -1,6 +1,6 @@
 ---
 name: "conducting-interviews"
-description: "Run structured, behavioral hiring interviews and produce an Interview Execution Pack (plan, questions, scorecard, debrief). Use for interview process, interview questions, interview loop, screening, behavioral interview, structured interview. Category: Hiring & Teams."
+description: "Run structured, behavioral HIRING interviews and produce an Interview Execution Pack (plan, questions, scorecard, debrief). NOT for user/customer interviews (use conducting-user-interviews), NOT for scoring candidates post-interview (use evaluating-candidates), NOT for writing the job description (use writing-job-descriptions). Use for interview process, interview questions, interview loop, screening, behavioral interview, structured interview. Category: Hiring & Teams."
 ---
 
 # Conducting Interviews (Structured, Behavioral)
@@ -21,6 +21,9 @@ description: "Run structured, behavioral hiring interviews and produce an Interv
 
 **When NOT to use**
 - You need to define the role outcomes or write the job description (use `writing-job-descriptions` first)
+- You need to make a final hiring decision, design work samples, or run reference checks (use `evaluating-candidates`)
+- You need to conduct user/customer research interviews (use `conducting-user-interviews` — completely different skill)
+- You need to onboard the person after hiring (use `onboarding-new-hires`)
 - You need legal/HR compliance guidance or to adjudicate complex employment risk (this skill is not legal advice)
 - You need compensation/offer strategy or negotiation coaching
 
@@ -107,5 +110,19 @@ Expected: timeboxed script, behavioral questions, clear anchors, and a scorecard
 **Example 2 (Loop):** “Design a structured interview loop for a Staff Engineer, including a hiring manager interview and a cross-functional panel. Map questions to our values and include a debrief template.”  
 Expected: stage goals, consistent criteria across interviewers, and artifacts that make debriefs evidence-based.
 
-**Boundary example:** “Just tell me if this candidate is good; I don’t have criteria or notes.”  
+**Boundary example (redirect):** “Help me decide which of these 3 candidates to hire based on their interview notes and references.”
+Response: redirect to `evaluating-candidates` — this skill designs and runs interviews, it does not synthesize cross-candidate hiring decisions.
+
+**Boundary example (wrong domain):** “I need to interview 10 users about their onboarding experience with our product.”
+Response: redirect to `conducting-user-interviews` — this skill is for hiring interviews, not user/customer research.
+
+**Boundary example (missing criteria):** “Just tell me if this candidate is good; I don’t have criteria or notes.”
 Response: require criteria + evidence; propose default criteria and ask the user to paste notes or run a structured interview first.
+
+## Anti-patterns (common failure modes)
+
+1. **”Wing it” interviewing** — Skipping structured criteria and question maps, then relying on gut feel. This produces inconsistent signals and legal risk. Always lock criteria before writing questions.
+2. **Brainteaser / hypothetical-only questions** — Asking “How many golf balls fit in a school bus?” or purely hypothetical scenarios instead of behavioral evidence. These predict interview prep, not job performance.
+3. **Halo/horns from first 5 minutes** — Letting initial rapport (or lack thereof) color all subsequent scoring. Mitigate by scoring each criterion independently with evidence before writing an overall summary.
+4. **Identical questions for every role** — Reusing the same generic question bank regardless of role, level, or competency. Every question should map to a specific criterion for this specific role.
+5. **Skipping the “substance over polish” check** — Rewarding confident, articulate delivery while penalizing candidates who need a moment to organize their thoughts. Always include specificity probes and structural support for less polished communicators.

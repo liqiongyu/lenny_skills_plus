@@ -1,6 +1,6 @@
 ---
 name: "building-team-culture"
-description: "Build or refresh a team culture and produce a Team Culture Operating System Pack (culture snapshot, culture code, norms, rituals, rollout + measurement plan). Use for team culture, culture code, team values, team norms, psychological safety, and coaching culture. Category: Hiring & Teams."
+description: "Build or refresh a team culture code, norms, and reinforcement plan. NOT for designing team meeting cadence or rituals (use team-rituals), NOT for engineering-specific practices (use engineering-culture), NOT for org-wide restructuring (use organizational-design). Produces a Team Culture Operating System Pack. Use for team culture, culture code, team values, team norms, psychological safety, and coaching culture. Category: Hiring & Teams."
 ---
 
 # Building Team Culture
@@ -22,6 +22,10 @@ description: "Build or refresh a team culture and produce a Team Culture Operati
 - “I’m a new leader—help me listen first and then evolve the culture.”
 
 **When NOT to use**
+- You need to design team meeting cadence, rituals, or operating systems (use `team-rituals` — this skill defines culture principles and norms, not the specific meeting structure)
+- You need engineering-specific practices like code review norms, on-call culture, or incident response culture (use `engineering-culture`)
+- You need a full org restructure, reporting lines, or span-of-control redesign (use `organizational-design`)
+- You need to improve your 1:1 practice or manager-report relationship (use `running-effective-1-1s`)
 - You need an HR/legal investigation, harassment response, or policy/compliance guidance (involve HR/legal)
 - You need to design a full org restructure, comp bands, or performance management system
 - You need to run user/customer research (use `conducting-user-interviews`) or design a full survey instrument (use `designing-surveys`)
@@ -113,5 +117,19 @@ Expected: full pack with clear norms and rituals; no generic values.
 **Example 2 (scaling + coaching culture):** “We’re growing from 8 → 25. I want to preserve high ownership while adding more coordination. Draft a culture code and a coaching model, plus rituals that keep ambition and creativity high.”  
 Expected: principles + behaviors, coaching model, rituals/cadence map.
 
-**Boundary example:** “We have a harassment complaint and need to ‘fix our culture’ immediately.”  
+**Boundary example (HR/legal):** “We have a harassment complaint and need to ‘fix our culture’ immediately.”
 Response: direct to HR/legal for investigation and safety; offer to help later with culture articulation, norms, and reinforcement once appropriate.
+
+**Boundary example (redirect to rituals):** “Our meetings are chaotic and we need a better weekly cadence and templates.”
+Response: redirect to `team-rituals` — this skill defines culture principles and norms, not the specific meeting structure and operating cadence.
+
+**Boundary example (redirect to engineering):** “We need to improve our code review culture and incident response norms for the engineering team.”
+Response: redirect to `engineering-culture` — this skill covers general team culture, not engineering-specific practices.
+
+## Anti-patterns (common failure modes)
+
+1. **Values as wall art** — Writing aspirational values (“innovation”, “integrity”, “excellence”) without defining observable behaviors, decision rules, or anti-patterns. If a principle cannot be used to make a hard trade-off, it is not actionable.
+2. **Top-down culture decree** — A leader writes the culture code alone and announces it. Culture articulation should start with listening (what’s already true, what’s not) and involve the team in refinement.
+3. **Culture fit as exclusion** — Using “culture fit” to filter out people who are different rather than people who disagree on values. Replace “fit” language with observable behavioral standards that welcome diverse styles.
+4. **All principles, no enforcement** — Defining norms but having no reinforcement mechanism (coaching, feedback, hiring signals, promotion criteria). Culture without consequences is suggestion.
+5. **Ignoring sacred cows** — Avoiding the hard conversations about entrenched behaviors that contradict stated values. The culture snapshot must explicitly name sacred cows and decide whether to challenge or accept them.

@@ -1,6 +1,6 @@
 ---
 name: "evaluating-candidates"
-description: "Make an evidence-based hiring decision and produce a Candidate Evaluation Decision Pack (criteria + scorecard, signal log, work sample/trial plan + rubric, reference check script + summary, decision memo). Use for candidate evaluation, hiring decisions, reference checks, work samples/take-homes, and hiring bar calibration. Category: Hiring & Teams."
+description: "Make an evidence-based hiring decision using scorecards, work samples, and reference checks. NOT for designing interview questions or running interviews (use conducting-interviews), NOT for writing the job description (use writing-job-descriptions), NOT for negotiating offers (use negotiating-offers). Produces a Candidate Evaluation Decision Pack. Use for candidate evaluation, hiring decisions, reference checks, work samples/take-homes, and hiring bar calibration. Category: Hiring & Teams."
 ---
 
 # Evaluating Candidates
@@ -24,8 +24,10 @@ description: "Make an evidence-based hiring decision and produce a Candidate Eva
 **When NOT to use**
 - You need to define the role outcomes or write the job description (use `writing-job-descriptions`)
 - You need to design/run structured interviews and question maps (use `conducting-interviews`)
+- You need to negotiate an offer or close a candidate (use `negotiating-offers`)
+- You need to build a sales team hiring pipeline or GTM hiring strategy (use `building-sales-team`)
 - You need legal/HR compliance guidance or to adjudicate high-risk employment issues (this skill is not legal advice)
-- You need compensation/offer negotiation strategy
+- You need compensation/offer negotiation strategy (use `negotiating-offers`)
 
 ## Inputs
 
@@ -114,5 +116,19 @@ Expected: scorecard with anchors + evidence, signal log, decision memo with expl
 **Example 2 (work sample + references):** “We’re hiring a Founding Engineer. Design a 2-day paid trial task and rubric, plus a reference check script. Then show how we should combine those signals into a hire/no-hire decision.”  
 Expected: trial brief + rubric, reference kit, and a synthesis framework.
 
-**Boundary example:** “Tell me if this person is good. I only have their resume.”  
+**Boundary example (insufficient signal):** “Tell me if this person is good. I only have their resume.”
 Response: require criteria + at least one high-signal input (structured interview notes, work sample plan/results, or references); propose a minimal evaluation plan and list assumptions/unknowns.
+
+**Boundary example (redirect to interviews):** “Design a structured interview loop with behavioral questions for this PM role.”
+Response: redirect to `conducting-interviews` — this skill evaluates candidates after signals are collected, it does not design interview questions or scripts.
+
+**Boundary example (redirect to offers):** “We've decided to hire this candidate. Help me structure the offer and negotiate.”
+Response: redirect to `negotiating-offers` — this skill produces the hire/no-hire recommendation, not the offer strategy.
+
+## Anti-patterns (common failure modes)
+
+1. **”Gut feel” disguised as process** — Having a scorecard but filling it in retrospectively to justify a decision already made. Evidence must be captured before the overall recommendation is written.
+2. **Recency bias in signal weighting** — Over-weighting the most recent signal (e.g., a strong reference) while discounting earlier mixed interview signals. Use explicit weights defined before evaluation.
+3. **Work sample as unpaid labor** — Designing a take-home that takes 8+ hours, uses real company data without compensation, or has unclear IP ownership. Keep tasks under 3 hours or pay for longer trials.
+4. **Reference theater** — Accepting only candidate-provided references and treating generic praise (“great to work with”) as signal. Prioritize back-channel references and probe for specific examples + growth areas.
+5. **Consensus-seeking over evidence** — Running debriefs where the loudest voice wins or where the group converges on a comfortable middle. Require independent scoring before group discussion.
