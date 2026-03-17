@@ -1,0 +1,15 @@
+{
+  "slug": "giving-presentations",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `giving-presentations`. Create a 7-minute all-hands presentation: what we shipped this quarter, what's next, and what help we need from other teams. Audience is the whole company. I have bullets and a few metrics. Output: Presentation Pack.",
+    "baseline": "Create a 7-minute all-hands presentation: what we shipped this quarter, what's next, and what help we need from other teams. Audience is the whole company. I have bullets and a few metrics. Output: Presentation Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

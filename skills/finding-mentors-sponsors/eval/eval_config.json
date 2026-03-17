@@ -1,0 +1,15 @@
+{
+  "slug": "finding-mentors-sponsors",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `finding-mentors-sponsors`. I'm a mid-level PM (3 years) at a 500-person enterprise SaaS company. I want to grow into a leadership role but lack visibility outside my team. I need a mentor for strategic thinking and stakeholder management, and a sponsor who can advocate for me on high-visibility projects. I have about 2 hours/week, I'm comfortable with outreach but moved to this company 8 months ago so my internal network is thin. My manager is supportive but not well-connected to the exec team. Build a Mentor & Sponsor Plan Pack with a target list of 15 candidates (internal directors + external product leaders), warm-path map, 3 outreach message templates, a first-meeting agenda, and a relationship tracking system. Output: Mentor & Sponsor Plan Pack.",
+    "baseline": "I'm a mid-level PM (3 years) at a 500-person enterprise SaaS company. I want to grow into a leadership role but lack visibility outside my team. I need a mentor for strategic thinking and stakeholder management, and a sponsor who can advocate for me on high-visibility projects. I have about 2 hours/week, I'm comfortable with outreach but moved to this company 8 months ago so my internal network is thin. My manager is supportive but not well-connected to the exec team. Build a Mentor & Sponsor Plan Pack with a target list of 15 candidates (internal directors + external product leaders), warm-path map, 3 outreach message templates, a first-meeting agenda, and a relationship tracking system. Output: Mentor & Sponsor Plan Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "cross-functional-collaboration",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `cross-functional-collaboration`. You’re a Product Lead running a 10-week onboarding revamp with Product/Eng/Design/Data/Marketing.",
+    "baseline": "You’re a Product Lead running a 10-week onboarding revamp with Product/Eng/Design/Data/Marketing."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

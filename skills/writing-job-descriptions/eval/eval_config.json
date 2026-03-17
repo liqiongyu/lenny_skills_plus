@@ -1,0 +1,15 @@
+{
+  "slug": "writing-job-descriptions",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `writing-job-descriptions`. Write a job description for a founding Product Designer at a seed-stage B2B AI startup (6 people, $3M raised) building an AI-powered contract review tool for legal teams. The designer will be the first design hire, working directly with the CEO (former lawyer) and 3 engineers. They need to ship end-to-end (research through pixel-perfect UI) in high ambiguity with no design system yet. Include 12-month success outcomes, a clear design-major spike (information-dense UI + legal workflow), an honest 'what's hard here' section (no design peers, fast pace, ambiguous requirements), and filters that self-select wrong-fit candidates out. Create both a role scorecard and a public job posting. Output: Job Description Pack.",
+    "baseline": "Write a job description for a founding Product Designer at a seed-stage B2B AI startup (6 people, $3M raised) building an AI-powered contract review tool for legal teams. The designer will be the first design hire, working directly with the CEO (former lawyer) and 3 engineers. They need to ship end-to-end (research through pixel-perfect UI) in high ambiguity with no design system yet. Include 12-month success outcomes, a clear design-major spike (information-dense UI + legal workflow), an honest 'what's hard here' section (no design peers, fast pace, ambiguous requirements), and filters that self-select wrong-fit candidates out. Create both a role scorecard and a public job posting. Output: Job Description Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

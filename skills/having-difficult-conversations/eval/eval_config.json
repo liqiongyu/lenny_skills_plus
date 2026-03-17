@@ -1,0 +1,15 @@
+{
+  "slug": "having-difficult-conversations",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `having-difficult-conversations`. I'm an Engineering Manager with a senior engineer who has missed 3 consecutive sprint commitments, shows up late to standups, and has started pushing back on code review feedback from peers. The team morale is suffering and two other engineers have mentioned it to me privately. I need to have a direct performance conversation this week. The engineer was a top performer 6 months ago and I suspect burnout or personal issues. Prepare a Difficult Conversation Pack with an evidence-based conversation brief, a talk track/script (direct but empathetic), a plan for handling defensiveness or emotional reactions, and a follow-up note template with a 4-week improvement plan and check-in schedule. Output: Difficult Conversation Pack.",
+    "baseline": "I'm an Engineering Manager with a senior engineer who has missed 3 consecutive sprint commitments, shows up late to standups, and has started pushing back on code review feedback from peers. The team morale is suffering and two other engineers have mentioned it to me privately. I need to have a direct performance conversation this week. The engineer was a top performer 6 months ago and I suspect burnout or personal issues. Prepare a Difficult Conversation Pack with an evidence-based conversation brief, a talk track/script (direct but empathetic), a plan for handling defensiveness or emotional reactions, and a follow-up note template with a 4-week improvement plan and check-in schedule. Output: Difficult Conversation Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

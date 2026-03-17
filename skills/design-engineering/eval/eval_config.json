@@ -1,0 +1,15 @@
+{
+  "slug": "design-engineering",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `design-engineering`. Context: B2B SaaS web app. 2 designers, 8 engineers. We ship slowly because UI polish and edge states get missed. Goal: reduce rework and increase consistency. Constraints: accessibility is required; need initial impact in 4 weeks. Output: a Design Engineering Execution Pack with an embedded model.",
+    "baseline": "Context: B2B SaaS web app. 2 designers, 8 engineers. We ship slowly because UI polish and edge states get missed. Goal: reduce rework and increase consistency. Constraints: accessibility is required; need initial impact in 4 weeks. Output: a Design Engineering Execution Pack with an embedded model."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

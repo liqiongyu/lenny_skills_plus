@@ -1,0 +1,15 @@
+{
+  "slug": "personal-productivity",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "I'm a product lead with 25–30 hours/week of meetings and I advise a startup. Build me a personal productivity system that protects deep work and stops tasks from slipping.",
+    "baseline": "I'm a product lead with 25–30 hours/week of meetings and I advise a startup. Build me a personal productivity system that protects deep work and stops tasks from slipping."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

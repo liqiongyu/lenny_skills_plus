@@ -1,0 +1,15 @@
+{
+  "slug": "launch-marketing",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `launch-marketing`. We're launching a developer tool (private beta to waitlist). Goal: 1,000 waitlist signups in 14 days. Audience: platform engineers at mid-size SaaS companies. Constraints: no customer logos, only product screenshots + demo. Channels: PR, LinkedIn, founder network, community. Output: Launch Marketing Pack.",
+    "baseline": "We're launching a developer tool (private beta to waitlist). Goal: 1,000 waitlist signups in 14 days. Audience: platform engineers at mid-size SaaS companies. Constraints: no customer logos, only product screenshots + demo. Channels: PR, LinkedIn, founder network, community. Output: Launch Marketing Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

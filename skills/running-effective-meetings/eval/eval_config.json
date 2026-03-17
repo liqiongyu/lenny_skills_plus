@@ -1,0 +1,15 @@
+{
+  "slug": "running-effective-meetings",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `running-effective-meetings`. Design a 60-minute weekly product review meeting for a 12-person cross-functional team (PM, Eng leads, Design, Data, Marketing) at a Series B SaaS company. The current meeting devolves into status updates and runs over every week. The real need is to review metrics, make 1-2 decisions on experiment results, and surface blockers. Create a Meeting Pack with a meeting brief (purpose, attendees, decision owner), a pre-read template (metrics dashboard + decision memos), a timeboxed agenda, a facilitation script with transition cues, a notes + decision log template, and a follow-up email template with action items. Output: Meeting Pack.",
+    "baseline": "Design a 60-minute weekly product review meeting for a 12-person cross-functional team (PM, Eng leads, Design, Data, Marketing) at a Series B SaaS company. The current meeting devolves into status updates and runs over every week. The real need is to review metrics, make 1-2 decisions on experiment results, and surface blockers. Create a Meeting Pack with a meeting brief (purpose, attendees, decision owner), a pre-read template (metrics dashboard + decision memos), a timeboxed agenda, a facilitation script with transition cues, a notes + decision log template, and a follow-up email template with action items. Output: Meeting Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

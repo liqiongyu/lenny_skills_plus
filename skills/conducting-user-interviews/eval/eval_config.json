@@ -1,0 +1,15 @@
+{
+  "slug": "conducting-user-interviews",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "I'm a PM for a B2B SaaS product. Our activation rate dropped after we changed onboarding. I need to run 8 interviews with new trial users this week. Create a recruiting plan, screener, and a 45-minute discovery interview guide. Recording is allowed.",
+    "baseline": "I'm a PM for a B2B SaaS product. Our activation rate dropped after we changed onboarding. I need to run 8 interviews with new trial users this week. Create a recruiting plan, screener, and a 45-minute discovery interview guide. Recording is allowed."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

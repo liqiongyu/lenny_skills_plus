@@ -1,0 +1,15 @@
+{
+  "slug": "designing-growth-loops",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "We're an AI onboarding assistant for HR teams at the early growth stage with some PMF in the mid-market segment. Our goal is to increase WAU by 30% in the next 90 days, focused on the mid-market segment. We have limited engineering resources (2 developers) and all tactics must be brand-safe. We believe our best growth lever is our HRIS integrations (we're listed on several HRIS marketplaces). Please design a growth loop, map the full loop mechanics, identify the key bottlenecks, and propose the first 2-3 experiments we should run.",
+    "baseline": "We're an AI onboarding assistant for HR teams at the early growth stage with some PMF in the mid-market segment. Our goal is to increase WAU by 30% in the next 90 days, focused on the mid-market segment. We have limited engineering resources (2 developers) and all tactics must be brand-safe. We believe our best growth lever is our HRIS integrations (we're listed on several HRIS marketplaces). Please design a growth loop, map the full loop mechanics, identify the key bottlenecks, and propose the first 2-3 experiments we should run."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "marketplace-liquidity",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `marketplace-liquidity`. We run an on-demand dog walking marketplace in NYC, SF, and LA. Core action: request → booked within 10 minutes. Goal: improve booking fill rate from 55% to 75% in SF evenings within 6 weeks. Baseline: p50 time-to-book is 18 minutes, cancellation rate is 9%. Constraints: $25k/month in incentives, limited eng capacity. Output a Marketplace Liquidity Management Pack.",
+    "baseline": "We run an on-demand dog walking marketplace in NYC, SF, and LA. Core action: request → booked within 10 minutes. Goal: improve booking fill rate from 55% to 75% in SF evenings within 6 weeks. Baseline: p50 time-to-book is 18 minutes, cancellation rate is 9%. Constraints: $25k/month in incentives, limited eng capacity. Output a Marketplace Liquidity Management Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

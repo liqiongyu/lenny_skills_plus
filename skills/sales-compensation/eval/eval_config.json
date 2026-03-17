@@ -1,0 +1,15 @@
+{
+  "slug": "sales-compensation",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `sales-compensation`. We're a seed-stage B2B SaaS company selling an API monitoring tool. ACV is $15k, average sales cycle is 40 days, and we're hiring our first 2 AEs. ARR target: $600k this year (currently $50k). We have founder-led sales playbooks but no formal comp plan. Concern: we've seen early churns in the first 90 days from rushed deals. Create a Sales Comp Plan Pack with OTE/pay mix recommendations, quota-setting methodology with a 3-month ramp, commission mechanics (including an accelerator for >100% attainment), a retention-alignment addendum (clawback or holdback for 90-day churn), admin rules for edge cases (multi-year deals, expansion), and a rep-facing FAQ document. Output: Sales Comp Plan Pack.",
+    "baseline": "We're a seed-stage B2B SaaS company selling an API monitoring tool. ACV is $15k, average sales cycle is 40 days, and we're hiring our first 2 AEs. ARR target: $600k this year (currently $50k). We have founder-led sales playbooks but no formal comp plan. Concern: we've seen early churns in the first 90 days from rushed deals. Create a Sales Comp Plan Pack with OTE/pay mix recommendations, quota-setting methodology with a 3-month ramp, commission mechanics (including an accelerator for >100% attainment), a retention-alignment addendum (clawback or holdback for 90-day churn), admin rules for edge cases (multi-year deals, expansion), and a rep-facing FAQ document. Output: Sales Comp Plan Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

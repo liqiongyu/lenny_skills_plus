@@ -1,0 +1,15 @@
+{
+  "slug": "scoping-cutting",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "We’re building bulk CSV import for admins. We have 4 weeks. Cut scope so we can ship something useful; include a Wizard-of-Oz validation plan for risky parts.",
+    "baseline": "We’re building bulk CSV import for admins. We have 4 weeks. Cut scope so we can ship something useful; include a Wizard-of-Oz validation plan for risky parts."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

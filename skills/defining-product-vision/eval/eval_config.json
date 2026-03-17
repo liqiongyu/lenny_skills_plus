@@ -1,0 +1,15 @@
+{
+  "slug": "defining-product-vision",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `defining-product-vision`. We’re a workflow automation platform for IT and Security teams. Problem: complex approvals and fragmented tooling slow down releases and increase risk. Horizon: 5–7 years. Constraints: compliance-first; do not degrade reliability or auditability. Output: a Product Vision Pack.",
+    "baseline": "We’re a workflow automation platform for IT and Security teams. Problem: complex approvals and fragmented tooling slow down releases and increase risk. Horizon: 5–7 years. Constraints: compliance-first; do not degrade reliability or auditability. Output: a Product Vision Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

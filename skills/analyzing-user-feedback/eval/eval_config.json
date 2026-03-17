@@ -1,0 +1,15 @@
+{
+  "slug": "analyzing-user-feedback",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `analyzing-user-feedback`. Context: B2B SaaS. Area: onboarding + activation. Decision: what to fix in the next 2 sprints. Sources: last 90 days of support tickets (redacted excerpts) + churn survey comments. Segments: SMB vs Mid-market. Output: a User Feedback Analysis Pack.",
+    "baseline": "Context: B2B SaaS. Area: onboarding + activation. Decision: what to fix in the next 2 sprints. Sources: last 90 days of support tickets (redacted excerpts) + churn survey comments. Segments: SMB vs Mid-market. Output: a User Feedback Analysis Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

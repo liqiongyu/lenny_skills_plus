@@ -1,0 +1,15 @@
+{
+  "slug": "shipping-products",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "We’re shipping Role-Based Access Control (RBAC) for admins in 3 weeks. Create a Shipping & Launch Pack: staged rollout, go/no-go criteria (PQL), support enablement, and internal/external comms.",
+    "baseline": "We’re shipping Role-Based Access Control (RBAC) for admins in 3 weeks. Create a Shipping & Launch Pack: staged rollout, go/no-go criteria (PQL), support enablement, and internal/external comms."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

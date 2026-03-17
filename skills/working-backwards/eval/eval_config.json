@@ -1,0 +1,15 @@
+{
+  "slug": "working-backwards",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "We're a B2B analytics platform used by enterprise admins and department leads. The problem: admins can't tailor dashboards by role, so teams see irrelevant data and adoption stalls after initial rollout. Enterprise expansion requires governance and least-privilege views. We're targeting a beta in 8 weeks. Please run the full Working Backwards process: generate 2-3 divergent PR/FAQ options (e.g., role-based default dashboards vs. dashboard packs by department vs. permissioned saved views), select and write the full PR/FAQ for the strongest option, and produce a backcasting plan that includes security review, permissions model, analytics instrumentation, documentation, and support enablement.",
+    "baseline": "We're a B2B analytics platform used by enterprise admins and department leads. The problem: admins can't tailor dashboards by role, so teams see irrelevant data and adoption stalls after initial rollout. Enterprise expansion requires governance and least-privilege views. We're targeting a beta in 8 weeks. Please run the full Working Backwards process: generate 2-3 divergent PR/FAQ options (e.g., role-based default dashboards vs. dashboard packs by department vs. permissioned saved views), select and write the full PR/FAQ for the strongest option, and produce a backcasting plan that includes security review, permissions model, analytics instrumentation, documentation, and support enablement."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

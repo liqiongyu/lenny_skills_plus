@@ -1,0 +1,15 @@
+{
+  "slug": "writing-prds",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `writing-prds`. Product: analytics dashboard. Users: admins. Feature: saved views. Output: PR/FAQ + PRD.",
+    "baseline": "Product: analytics dashboard. Users: admins. Feature: saved views. Output: PR/FAQ + PRD."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "technical-roadmaps",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "We’re adding 3× traffic in 6 months and reliability is shaky. Create a technical roadmap (2 quarters) for Platform Eng. Audience is VP Eng + Product leadership. Use quarterly format.",
+    "baseline": "We’re adding 3× traffic in 6 months and reliability is shaky. Create a technical roadmap (2 quarters) for Platform Eng. Audience is VP Eng + Product leadership. Use quarterly format."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

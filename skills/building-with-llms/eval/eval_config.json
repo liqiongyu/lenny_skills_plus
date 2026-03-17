@@ -1,0 +1,15 @@
+{
+  "slug": "building-with-llms",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "We're building a customer support copilot for our B2B SaaS help desk product. The copilot should draft reply suggestions for support agents using our internal KB articles (about 500 articles in Zendesk). Agents will review and approve before sending. Key requirements: every response must include a citation to the source KB article, the system must never fabricate policy, and it must abstain when no KB article covers the question. We're worried about prompt injection and PII exfiltration. Success metrics: reduce median first-reply time from 8 minutes to under 3 minutes while keeping CSAT above 4.5. Budget: $0.15/ticket max LLM cost. Please produce the full feature brief, prompt and tool contract, data and eval plan, and launch plan.",
+    "baseline": "We're building a customer support copilot for our B2B SaaS help desk product. The copilot should draft reply suggestions for support agents using our internal KB articles (about 500 articles in Zendesk). Agents will review and approve before sending. Key requirements: every response must include a citation to the source KB article, the system must never fabricate policy, and it must abstain when no KB article covers the question. We're worried about prompt injection and PII exfiltration. Success metrics: reduce median first-reply time from 8 minutes to under 3 minutes while keeping CSAT above 4.5. Budget: $0.15/ticket max LLM cost. Please produce the full feature brief, prompt and tool contract, data and eval plan, and launch plan."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

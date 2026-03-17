@@ -1,0 +1,21 @@
+{
+  "slug": "ai-product-strategy",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `ai-product-strategy`. Product: AI coding assistant. Users: mid-market engineering teams. Constraints: beta in 8 weeks, must not leak proprietary code, cost cap, latency target. Output: AI Product Strategy Pack.",
+    "baseline": "Product: AI coding assistant. Users: mid-market engineering teams. Constraints: beta in 8 weeks, must not leak proprietary code, cost cap, latency target. Output: AI Product Strategy Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md",
+    "size_bytes": 48000,
+    "sections": 9,
+    "note": "Produced via Claude Code subagent with full skill pack context (SKILL.md + 7 references)"
+  },
+  "without_skill": {
+    "file": "without_skill.md",
+    "size_bytes": 26000,
+    "sections": 16,
+    "note": "Produced via Claude Code subagent with no skill context (vanilla LLM response)"
+  }
+}

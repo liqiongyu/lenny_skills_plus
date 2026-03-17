@@ -1,0 +1,15 @@
+{
+  "slug": "platform-strategy",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `platform-strategy`. Internal ML platform used by 40 engineers. Biggest pain is shipping models reliably and quickly. PII present; SOC2. Two platform engineers.",
+    "baseline": "Internal ML platform used by 40 engineers. Biggest pain is shipping models reliably and quickly. PII present; SOC2. Two platform engineers."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

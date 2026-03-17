@@ -1,0 +1,15 @@
+{
+  "slug": "organizational-design",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `organizational-design`. Context: B2B SaaS analytics platform, ~180 people; Product/Eng/Design/Data in-scope. Current structure: 5 feature teams, 1 platform team, 1 data team, and a new AI/ML team of 4. Symptoms: platform team is a bottleneck (every feature team depends on them for API changes), the AI/ML team has no PM and takes requests from everyone, data team ownership is unclear (analytics vs data engineering vs ML pipelines). Goals: increase shipping parallelism and reduce cross-team blocking without adding headcount for 2 quarters. A major customer launch is in 8 weeks. Create an Organizational Design Pack with a current-state dependency map, 2-3 restructuring options (including platform productization and value-stream alignment), a recommendation with Day 1 changes, and a transition plan that protects the upcoming launch. Output: Organizational Design Pack.",
+    "baseline": "Context: B2B SaaS analytics platform, ~180 people; Product/Eng/Design/Data in-scope. Current structure: 5 feature teams, 1 platform team, 1 data team, and a new AI/ML team of 4. Symptoms: platform team is a bottleneck (every feature team depends on them for API changes), the AI/ML team has no PM and takes requests from everyone, data team ownership is unclear (analytics vs data engineering vs ML pipelines). Goals: increase shipping parallelism and reduce cross-team blocking without adding headcount for 2 quarters. A major customer launch is in 8 weeks. Create an Organizational Design Pack with a current-state dependency map, 2-3 restructuring options (including platform productization and value-stream alignment), a recommendation with Day 1 changes, and a transition plan that protects the upcoming launch. Output: Organizational Design Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

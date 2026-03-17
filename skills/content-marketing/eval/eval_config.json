@@ -1,0 +1,15 @@
+{
+  "slug": "content-marketing",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `content-marketing`. Product: payroll automation for multi-state restaurants. ICP: finance ops managers at 20–200 locations. Goal: increase qualified demo requests from organic search by 20% in 10 weeks. Constraints: 1 marketer, 1 SME (tax), compliance review needed. Output: a Content Marketing Plan Pack with a demand-validated topic map, 6-week calendar, and 3 briefs.",
+    "baseline": "Product: payroll automation for multi-state restaurants. ICP: finance ops managers at 20–200 locations. Goal: increase qualified demo requests from organic search by 20% in 10 weeks. Constraints: 1 marketer, 1 SME (tax), compliance review needed. Output: a Content Marketing Plan Pack with a demand-validated topic map, 6-week calendar, and 3 briefs."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

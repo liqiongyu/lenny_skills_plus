@@ -1,0 +1,15 @@
+{
+  "slug": "writing-north-star-metrics",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `writing-north-star-metrics`. B2B SaaS (team collaboration tool): - Product: Team collaboration SaaS",
+    "baseline": "B2B SaaS (team collaboration tool): - Product: Team collaboration SaaS"
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

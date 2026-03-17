@@ -1,0 +1,15 @@
+{
+  "slug": "user-onboarding",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "We're a B2B team analytics tool where new admins must connect at least one integration (Slack, Jira, or GitHub) before they see any value. Our current 7-day activation rate is 12% and we need to get it to 18% by end of quarter, without reducing signup completion rate. Most users drop off during the integration setup step. We have about 5,000 new signups per month. Please produce the full onboarding redesign pack: first-30-seconds experience, first-mile milestone map, experiment backlog with prioritization, and measurement plan.",
+    "baseline": "We're a B2B team analytics tool where new admins must connect at least one integration (Slack, Jira, or GitHub) before they see any value. Our current 7-day activation rate is 12% and we need to get it to 18% by end of quarter, without reducing signup completion rate. Most users drop off during the integration setup step. We have about 5,000 new signups per month. Please produce the full onboarding redesign pack: first-30-seconds experience, first-mile milestone map, experiment backlog with prioritization, and measurement plan."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

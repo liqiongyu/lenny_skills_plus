@@ -1,0 +1,15 @@
+{
+  "slug": "planning-under-uncertainty",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `planning-under-uncertainty`. We believe our self-serve onboarding is hurting conversion (trial-to-paid is 4% vs industry benchmark of 8-12%), but we don't know if the problem is activation UX, value demonstration, pricing page friction, or ICP mismatch. We have 1 PM, 2 engineers, and 1 designer for 6 weeks. Create an Uncertainty Planning Pack with an uncertainty map ranking the 4 hypotheses by impact and testability, an experiment portfolio (mix of qual interviews + quantitative A/B tests), a Plan v0 that commits to learning milestones (not delivery dates), pivot triggers for each hypothesis, and a weekly cadence for reviewing results and deciding next experiments. Output: Uncertainty Planning Pack.",
+    "baseline": "We believe our self-serve onboarding is hurting conversion (trial-to-paid is 4% vs industry benchmark of 8-12%), but we don't know if the problem is activation UX, value demonstration, pricing page friction, or ICP mismatch. We have 1 PM, 2 engineers, and 1 designer for 6 weeks. Create an Uncertainty Planning Pack with an uncertainty map ranking the 4 hypotheses by impact and testability, an experiment portfolio (mix of qual interviews + quantitative A/B tests), a Plan v0 that commits to learning milestones (not delivery dates), pivot triggers for each hypothesis, and a weekly cadence for reviewing results and deciding next experiments. Output: Uncertainty Planning Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

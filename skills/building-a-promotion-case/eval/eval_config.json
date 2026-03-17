@@ -1,0 +1,15 @@
+{
+  "slug": "building-a-promotion-case",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `building-a-promotion-case`. I'm a Senior PM at a Series C B2B SaaS company (150 people) and want to get promoted to Staff PM in the June cycle. I led the new enterprise onboarding flow (reduced TTV from 14 days to 3), drove a pricing migration affecting 2,000 accounts, and own the API platform roadmap. My company uses a 6-level IC ladder. My manager is supportive but says I need 'more visible cross-functional leadership.' Build a Promotion Case Pack with an evidence log, ladder-mapped narrative, manager alignment plan, and sponsor/visibility map. Output: Promotion Case Pack.",
+    "baseline": "I'm a Senior PM at a Series C B2B SaaS company (150 people) and want to get promoted to Staff PM in the June cycle. I led the new enterprise onboarding flow (reduced TTV from 14 days to 3), drove a pricing migration affecting 2,000 accounts, and own the API platform roadmap. My company uses a 6-level IC ladder. My manager is supportive but says I need 'more visible cross-functional leadership.' Build a Promotion Case Pack with an evidence log, ladder-mapped narrative, manager alignment plan, and sponsor/visibility map. Output: Promotion Case Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

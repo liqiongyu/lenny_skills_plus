@@ -1,0 +1,15 @@
+{
+  "slug": "team-rituals",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `team-rituals`. Remote cross-functional team (reduce chaos, increase decision velocity): - Team: 12 people (PM, Design, Eng, Data)",
+    "baseline": "Remote cross-functional team (reduce chaos, increase decision velocity): - Team: 12 people (PM, Design, Eng, Data)"
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

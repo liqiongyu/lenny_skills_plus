@@ -1,0 +1,15 @@
+{
+  "slug": "partnership-bd",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "We're a B2B SaaS product that helps companies automate employee onboarding workflows. We want to grow pipeline through integration partnerships with HRIS and ATS vendors, but we only have 1.5 engineers to allocate to integrations. Our ICP is mid-market companies (200-2000 employees). We currently have 3 integrations live but believe expanding to 10-15 could 2x our pipeline in 6 months. Please build the full partnership execution pack: prioritized partner shortlist with decision-maker hypotheses and warm-path plans, tiered offer structure that protects our limited engineering capacity, partner pitch framework, and an outreach sequence we can start running in the next 2 weeks.",
+    "baseline": "We're a B2B SaaS product that helps companies automate employee onboarding workflows. We want to grow pipeline through integration partnerships with HRIS and ATS vendors, but we only have 1.5 engineers to allocate to integrations. Our ICP is mid-market companies (200-2000 employees). We currently have 3 integrations live but believe expanding to 10-15 could 2x our pipeline in 6 months. Please build the full partnership execution pack: prioritized partner shortlist with decision-maker hypotheses and warm-path plans, tiered offer structure that protects our limited engineering capacity, partner pitch framework, and an outreach sequence we can start running in the next 2 weeks."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

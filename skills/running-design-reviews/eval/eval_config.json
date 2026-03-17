@@ -1,0 +1,15 @@
+{
+  "slug": "running-design-reviews",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `running-design-reviews`. We have a new web onboarding flow (Figma link). Decision: choose between Flow A and Flow B to ship next sprint. Target user: first-time admin setting up a team. Constraints: must be accessible (WCAG AA), limited eng bandwidth. Run a 45-minute live review and output a Design Review Pack.",
+    "baseline": "We have a new web onboarding flow (Figma link). Decision: choose between Flow A and Flow B to ship next sprint. Target user: first-time admin setting up a team. Constraints: must be accessible (WCAG AA), limited eng bandwidth. Run a 45-minute live review and output a Design Review Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

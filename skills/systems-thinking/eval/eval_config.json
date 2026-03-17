@@ -1,0 +1,15 @@
+{
+  "slug": "systems-thinking",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `systems-thinking`. Our engineering on-call load has been rising for 6 months straight (now averaging 15 pages/week per team, up from 5). Teams are burned out and starting to cut corners on code reviews to ship faster, which we suspect is creating more incidents. Meanwhile, management is pushing for higher feature velocity because competitors are shipping faster. Map the system dynamics: identify actors and incentives, feedback loops (especially the firefighting-creates-more-fires loop), second-order effects of proposed interventions (hiring more engineers vs reducing scope vs investing in reliability), and propose 2-3 leverage points with an intervention plan and guardrails. Output: Systems Thinking Pack.",
+    "baseline": "Our engineering on-call load has been rising for 6 months straight (now averaging 15 pages/week per team, up from 5). Teams are burned out and starting to cut corners on code reviews to ship faster, which we suspect is creating more incidents. Meanwhile, management is pushing for higher feature velocity because competitors are shipping faster. Map the system dynamics: identify actors and incentives, feedback loops (especially the firefighting-creates-more-fires loop), second-order effects of proposed interventions (hiring more engineers vs reducing scope vs investing in reliability), and propose 2-3 leverage points with an intervention plan and guardrails. Output: Systems Thinking Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

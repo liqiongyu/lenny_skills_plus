@@ -1,0 +1,15 @@
+{
+  "slug": "dogfooding",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `dogfooding`. We're building an AI-powered meeting notes tool for remote teams. The core workflow is: join meeting -> auto-record -> generate summary -> extract action items -> share to Slack/Notion. Set up a 2-week dogfooding sprint where our 8-person product team uses the tool for every internal meeting (standup, 1:1s, planning). Each PM must share at least 3 meeting summaries/week externally with stakeholders. Environment: production app, real meetings, Slack integration. Create a Dogfooding Pack with scenario map, daily routines, creator commitments, a log + triage board spec in Linear, a weekly report template, and a ship/no-ship gate. Output: Dogfooding Pack.",
+    "baseline": "We're building an AI-powered meeting notes tool for remote teams. The core workflow is: join meeting -> auto-record -> generate summary -> extract action items -> share to Slack/Notion. Set up a 2-week dogfooding sprint where our 8-person product team uses the tool for every internal meeting (standup, 1:1s, planning). Each PM must share at least 3 meeting summaries/week externally with stakeholders. Environment: production app, real meetings, Slack integration. Create a Dogfooding Pack with scenario map, daily routines, creator commitments, a log + triage board spec in Linear, a weekly report template, and a ship/no-ship gate. Output: Dogfooding Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

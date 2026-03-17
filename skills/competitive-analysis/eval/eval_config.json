@@ -1,0 +1,15 @@
+{
+  "slug": "competitive-analysis",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `competitive-analysis`. Product: SOC2 automation for startups. ICP: CTOs at 50–500 employee SaaS. Decision: reduce losses to Vanta. Known alternatives: Vanta, Drata, in-house spreadsheets, consultants. Output: Competitive Analysis Pack + battlecard for Vanta.",
+    "baseline": "Product: SOC2 automation for startups. ICP: CTOs at 50–500 employee SaaS. Decision: reduce losses to Vanta. Known alternatives: Vanta, Drata, in-house spreadsheets, consultants. Output: Competitive Analysis Pack + battlecard for Vanta."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

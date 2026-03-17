@@ -1,0 +1,15 @@
+{
+  "slug": "retention-engagement",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `retention-engagement`. Product: meditation and mindfulness app (B2C subscription). Segment: paid subscribers ($9.99/month). Baseline: D30 paid retention is 22%, with a clear engagement cliff after week 2 (daily sessions drop from 4.2 to 1.1). We have push and in-app channels only (no email). Constraint: 4-week sprint, 1 PM + 2 engineers, no major app redesign allowed. Create a Retention & Engagement Improvement Pack with a diagnosis naming the primary failure mode, an aha-moment definition tied to observable behavior, 6-8 experiment cards (e.g., streak mechanics, personalized session recommendations, 'resume your plan' entry point), a measurement plan with specific events and dashboard specs, and a 30/60/90 execution plan. Output: Retention & Engagement Improvement Pack.",
+    "baseline": "Product: meditation and mindfulness app (B2C subscription). Segment: paid subscribers ($9.99/month). Baseline: D30 paid retention is 22%, with a clear engagement cliff after week 2 (daily sessions drop from 4.2 to 1.1). We have push and in-app channels only (no email). Constraint: 4-week sprint, 1 PM + 2 engineers, no major app redesign allowed. Create a Retention & Engagement Improvement Pack with a diagnosis naming the primary failure mode, an aha-moment definition tied to observable behavior, 6-8 experiment cards (e.g., streak mechanics, personalized session recommendations, 'resume your plan' entry point), a measurement plan with specific events and dashboard specs, and a 30/60/90 execution plan. Output: Retention & Engagement Improvement Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

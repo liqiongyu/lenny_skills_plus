@@ -1,0 +1,15 @@
+{
+  "slug": "media-relations",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `media-relations`. We're launching a developer-focused AI code review tool on March 15. Our ICP is engineering leaders at mid-market SaaS companies (200-2000 employees). Goal: 8-10 quality mentions in developer/tech publications (e.g., The New Stack, InfoQ, DevOps.com) within 2 weeks of launch. We can offer 1 exclusive to a top-tier outlet and have 3 customer case studies ready. No revenue numbers can be shared publicly. Budget: $0 (no PR agency). Create a Media Relations Pack with a tiered media list of 20 outlets/reporters, an exclusive/embargo plan, 3 pitch email templates (exclusive offer, general pitch, follow-up), an outreach tracker, and interview prep with talking points and Q&A. Output: Media Relations Pack.",
+    "baseline": "We're launching a developer-focused AI code review tool on March 15. Our ICP is engineering leaders at mid-market SaaS companies (200-2000 employees). Goal: 8-10 quality mentions in developer/tech publications (e.g., The New Stack, InfoQ, DevOps.com) within 2 weeks of launch. We can offer 1 exclusive to a top-tier outlet and have 3 customer case studies ready. No revenue numbers can be shared publicly. Budget: $0 (no PR agency). Create a Media Relations Pack with a tiered media list of 20 outlets/reporters, an exclusive/embargo plan, 3 pitch email templates (exclusive offer, general pitch, follow-up), an outreach tracker, and interview prep with talking points and Q&A. Output: Media Relations Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

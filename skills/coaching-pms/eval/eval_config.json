@@ -1,0 +1,15 @@
+{
+  "slug": "coaching-pms",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `coaching-pms`. Growth team, weekly releases. PM ships reliably but struggles to frame the right problems and make crisp tradeoffs.",
+    "baseline": "Growth team, weekly releases. PM ships reliably but struggles to frame the right problems and make crisp tradeoffs."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

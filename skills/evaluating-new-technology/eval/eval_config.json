@@ -1,0 +1,15 @@
+{
+  "slug": "evaluating-new-technology",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `evaluating-new-technology`. Candidate: an AI ‘guardrails’ vendor that claims to block prompt injection. Problem: we’re launching a customer-facing support agent and need safer tool use. Current stack: Zendesk + internal KB. Constraints: SOC2 required, PII present, SSO required, budget $50k/yr, decision in 3 weeks. Output: Technology Evaluation Pack.",
+    "baseline": "Candidate: an AI ‘guardrails’ vendor that claims to block prompt injection. Problem: we’re launching a customer-facing support agent and need safer tool use. Current stack: Zendesk + internal KB. Constraints: SOC2 required, PII present, SSO required, budget $50k/yr, decision in 3 weeks. Output: Technology Evaluation Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}
