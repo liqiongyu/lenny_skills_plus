@@ -115,7 +115,17 @@ Use rollout tiers and make risk work explicit.
 | 2: Beta |  |  |  |  |  |  |  |
 | 3: GA |  |  |  |  |  |  |  |
 
-## 7) Risks / Open questions / Next steps (always include)
+## 7) Kill criteria (when to pivot or stop)
+Define the conditions under which you'd stop investing, pivot, or scale back. This prevents sunk-cost traps.
+
+| Condition | Metric | Threshold | Timebox | Action if triggered |
+|---|---|---|---|---|
+| Quality doesn't converge | Eval pass rate | <X% after Y weeks | 6 weeks post-beta | Pivot approach or kill feature |
+| Users don't adopt | DAU / activation rate | <X% of target after Y weeks | 8 weeks post-launch | Revisit use-case selection |
+| Cost unsustainable | Cost per task/user | >$X at scale projection | Before GA | Optimize or descope |
+| Safety incidents | Critical safety events | >0 unmitigated | Any time | Halt rollout, review autonomy policy |
+
+## 8) Risks / Open questions / Next steps (always include)
 ### Risks
 | Risk | Likelihood (L/M/H) | Impact (L/M/H) | Mitigation | Owner |
 |---|---:|---:|---|---|
