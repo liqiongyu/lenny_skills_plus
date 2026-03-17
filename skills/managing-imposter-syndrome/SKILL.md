@@ -1,6 +1,6 @@
 ---
 name: "managing-imposter-syndrome"
-description: "Manage imposter syndrome at work and produce an Imposter Syndrome Management Pack (trigger & pattern map, reframes, evidence bank, experiment plan, support scripts, maintenance routine). Use for self-doubt, feeling like a fraud, new role anxiety, stretch assignments. Category: Career."
+description: "Manage imposter syndrome at work: trigger & pattern map, reframes, evidence bank, experiment plan, support scripts, maintenance routine. NOT for promotion cases (building-a-promotion-case), energy/burnout redesign (energy-management), PM coaching (coaching-pms), or mentor networking (finding-mentors-sponsors). Use for self-doubt, feeling like a fraud, new role anxiety. Category: Career."
 ---
 
 # Managing Imposter Syndrome
@@ -22,10 +22,14 @@ description: "Manage imposter syndrome at work and produce an Imposter Syndrome 
 - “I want a structured plan to manage imposter syndrome, not generic reassurance.”
 
 **When NOT to use**
-- You are in (or at risk of) self-harm, suicidal ideation, or a mental health crisis (seek urgent professional help; this skill is not a substitute for care).
-- Your core issue is primarily clinical anxiety/depression, trauma, or substance use (get professional support; this can complement but not replace it).
-- You need legal/HR guidance for harassment, discrimination, retaliation, or workplace investigation processes.
-- You have an objective skill gap that requires training/certification (use this skill only as a support layer alongside a skills plan).
+- Your real need is a promotion case with evidence and manager alignment — use `building-a-promotion-case` (this pack manages the self-doubt, not the promo mechanics)
+- You are exhausted and need to redesign your week for energy — use `energy-management` (imposter syndrome and burnout overlap, but the interventions differ)
+- You want to coach a report through imposter feelings — use `coaching-pms` for the coaching framework; this pack is for the person experiencing it
+- You want to find mentors/sponsors to support your growth — use `finding-mentors-sponsors` (this pack includes support scripts but not the full relationship-building workflow)
+- You are in (or at risk of) self-harm, suicidal ideation, or a mental health crisis (seek urgent professional help; this skill is not a substitute for care)
+- Your core issue is primarily clinical anxiety/depression, trauma, or substance use (get professional support; this can complement but not replace it)
+- You need legal/HR guidance for harassment, discrimination, retaliation, or workplace investigation processes
+- You have an objective skill gap that requires training/certification (use this skill only as a support layer alongside a skills plan)
 
 ## Inputs
 
@@ -114,5 +118,12 @@ Expected: pack with episode logs, reframes, evidence bank, experiments, manager 
 **Example 2 (visibility avoidance):** “I avoid speaking in leadership meetings because I assume my questions are dumb. Use `managing-imposter-syndrome` to map my trigger pattern and design a 2-week experiment plan.”  
 Expected: trigger map + reframes + scheduled micro-exposures + reflection routine.
 
-**Boundary example:** “I’m having panic attacks daily and can’t function, and I’m thinking about hurting myself.”  
+**Boundary example:** “I’m having panic attacks daily and can’t function, and I’m thinking about hurting myself.”
 Response: out of scope; advise urgent professional support and local emergency/crisis resources; offer to help later with a gentle plan once safe.
+
+## Anti-patterns
+
+1. **Generic affirmations** — Offering “You’re great! Believe in yourself!” instead of specific, evidence-backed reframes tied to the user’s actual work. Every reframe must reference a concrete outcome, skill, or feedback signal the user can verify.
+2. **Ignoring real competence gaps** — Treating all self-doubt as distortion. Some imposter feelings are accurate signals of a skill gap. The confidence-vs-competence diagnostic must be honest: if there is a real gap, name it and pair the reframe with a learning plan.
+3. **Exposure without support** — Designing an experiment plan (“speak up in meetings!”) without building the support infrastructure (manager script, peer check-in, safe-to-fail framing). Exposure without support can reinforce the fear instead of reducing it.
+4. **One-and-done intervention** — Treating imposter syndrome as a problem to “solve” rather than a recurring pattern to manage. The maintenance and relapse plan is not optional — imposter feelings return during transitions, and the user needs a protocol for when they do.

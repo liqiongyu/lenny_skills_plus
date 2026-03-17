@@ -1,6 +1,6 @@
 ---
 name: "personal-productivity"
-description: "Build a Personal Productivity System Pack (weekly timebox plan, capture+to-do system, daily/weekly review rituals, and a 7-day rollout). Use for timeboxing, calendar blocking, and staying on top of high-volume leadership work. Category: Career."
+description: "Build a Personal Productivity System Pack (weekly timebox plan, capture+to-do system, daily/weekly review rituals, 7-day rollout). NOT for energy/burnout redesign (energy-management), project timelines (managing-timelines), team process design (team-rituals), or delegation frameworks (delegating-work). Use for timeboxing, calendar blocking, task capture. Category: Career."
 ---
 
 # Personal Productivity
@@ -20,10 +20,12 @@ description: "Build a Personal Productivity System Pack (weekly timebox plan, ca
 - “Create a personal productivity system I can follow next week.”
 
 **When NOT to use**
-- You need medical/mental-health advice (including ADHD treatment), or you are in crisis. Seek professional help.
-- You want a team-wide process (meeting policy, org operating system). Use a team/ops skill instead.
-- You need a project plan, milestones, or delivery management. Use `managing-timelines`.
-- You primarily need to reduce burnout/energy drain (not just time). Use `energy-management`.
+- You primarily need to reduce burnout or redesign your week around energy (not just time) — use `energy-management` (this pack optimizes *time*; that pack optimizes *energy*)
+- You need a project plan, milestones, or delivery management for a specific initiative — use `managing-timelines`
+- You want to design team-wide meeting policies, rituals, or operating systems — use `team-rituals`
+- You need a delegation framework for distributing work to reports — use `delegating-work`
+- You need medical/mental-health advice (including ADHD treatment), or you are in crisis. Seek professional help
+- You want a team-wide process (meeting policy, org operating system). Use a team/ops skill instead
 
 ## Inputs
 
@@ -111,5 +113,13 @@ Expected: weekly timebox plan with meeting windows + focus blocks, capture/to-do
 **Example 2 (dropped tasks):** “I keep forgetting small but important follow-ups. Build me a write-it-down system and a daily shutdown routine.”  
 Expected: capture system with inbox → processing → lists, a 10–15 minute daily shutdown checklist, and success metrics.
 
-**Boundary example (medical):** “Diagnose my ADHD and tell me what productivity meds to take.”  
+**Boundary example (medical):** “Diagnose my ADHD and tell me what productivity meds to take.”
 Response: out of scope for medical advice; recommend professional help. Offer a neutral capture/timeboxing system and ask for work constraints only.
+
+## Anti-patterns
+
+1. **Over-engineered system** — Building a 15-list, 4-tool, color-coded productivity apparatus that takes longer to maintain than the work it manages. The capture system should have one inbox and daily processing under 15 minutes.
+2. **Calendar fiction** — Designing a beautiful default week that ignores real constraints (meeting culture, timezone overlap, manager expectations). Every focus block must survive contact with the actual calendar — if it can't, redesign the week, don't just wish for fewer meetings.
+3. **Ritual bloat** — Adding a morning routine, mid-day check, afternoon review, shutdown ritual, and weekly review that together consume 90+ minutes/day. Rituals should be the minimum viable habit: start with a 5-minute shutdown and a 30-minute weekly review.
+4. **No kill list** — Adding new habits and systems without stopping anything. Every productivity system needs a “stop doing” list to make room for the new routines.
+5. **Skipping the rollout** — Implementing everything at once instead of staging changes over 7 days. Behavior change works when it's incremental: day 1-2 setup, day 3-4 first ritual, day 5-7 iterate.

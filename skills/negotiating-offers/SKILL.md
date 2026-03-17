@@ -1,6 +1,6 @@
 ---
 name: "negotiating-offers"
-description: "Negotiate job offers and produce an Offer Negotiation Pack (success-conditions asks, tradeoff matrix, negotiation strategy, scripts, optional contract/part-time proposal). Use for salary negotiation, equity negotiation, offer negotiation, comp negotiation. Category: Career."
+description: "Negotiate job offers: success-conditions asks, tradeoff matrix, A/B/C strategy, scripts, optional contract proposal. NOT for career pivots (career-transitions), sales comp plans (sales-compensation), internal promotion cases (building-a-promotion-case), or manager-relationship tactics (managing-up). Use for salary, equity, offer, comp negotiation. Category: Career."
 ---
 
 # Negotiating Offers
@@ -20,10 +20,14 @@ description: "Negotiate job offers and produce an Offer Negotiation Pack (succes
 - “I’m optimizing for learning/flexibility, not just comp—help me structure the ask.”
 
 **When NOT to use**
-- You need legal/financial/tax advice (this skill is not a substitute for a lawyer/CPA).
-- You’re negotiating a vendor/enterprise contract, severance agreement, or union/CBA terms.
-- You don’t have any concrete offer or decision context yet (first gather basics; then use this).
-- You’re in an urgent HR escalation (PIP/investigation/termination risk) where process/legal counsel matters most.
+- You are exploring a career pivot and don’t yet have an offer — use `career-transitions` to clarify direction first
+- You need to design a sales compensation plan or quota structure — use `sales-compensation`
+- You want to build an internal promotion case (not negotiate an external offer) — use `building-a-promotion-case`
+- You need general manager-relationship tactics (not offer-stage negotiation) — use `managing-up`
+- You need legal/financial/tax advice (this skill is not a substitute for a lawyer/CPA)
+- You’re negotiating a vendor/enterprise contract, severance agreement, or union/CBA terms
+- You don’t have any concrete offer or decision context yet (first gather basics; then use this)
+- You’re in an urgent HR escalation (PIP/investigation/termination risk) where process/legal counsel matters most
 
 ## Inputs
 
@@ -122,5 +126,13 @@ Expected: Offer Negotiation Pack with success-conditions asks and a clear A/B/C 
 **Example 2 (optimize for experiences):** “I have two offers. One pays more, the other has better mentorship and autonomy. Help me compare trade-offs and negotiate for mentorship/training budget without losing the offer.”  
 Expected: Tradeoff matrix + experience-focused asks + scripts.
 
-**Boundary example:** “Negotiate a SaaS vendor contract renewal with legal terms and procurement.”  
+**Boundary example:** “Negotiate a SaaS vendor contract renewal with legal terms and procurement.”
 Response: out of scope; use a procurement/legal negotiation workflow instead.
+
+## Anti-patterns
+
+1. **”Ask for everything” lists** — Sending a 12-item wish list with no prioritization. Effective negotiation requires a focused A/B/C package where trade-offs are explicit and the employer sees a clear path to yes.
+2. **Ignoring success conditions** — Negotiating only cash and equity while accepting an under-resourced role. If you cannot succeed in the role, the comp is irrelevant. Negotiate resources (headcount, budget, authority) before or alongside compensation.
+3. **Bluffing with a fake BATNA** — Claiming competing offers that don't exist. This destroys trust and often backfires. State your leverage honestly, even if it means saying “I have strong interest from others but want to make this work.”
+4. **Comp-only framing for experience-seekers** — If you're optimizing for learning, mentorship, or autonomy, a pure comp negotiation misses the point. Use the features-vs-experiences tradeoff matrix to negotiate what actually matters.
+5. **Deadline panic** — Accepting an offer under artificial time pressure without asking for an extension. Most employers will grant 2-5 extra business days when asked respectfully.

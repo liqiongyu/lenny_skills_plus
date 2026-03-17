@@ -1,6 +1,6 @@
 ---
 name: "building-a-promotion-case"
-description: "Build a promotion case and produce a Promotion Case Pack (target role + timeline, ladder mapping, evidence log, impact narrative, manager alignment plan, sponsor/visibility map, submission-ready promo doc). Use for promotion packet, getting promoted, leveling up, career ladder, promotion committee. Category: Career."
+description: "Build a promotion case: target role + timeline, ladder mapping, evidence log, impact narrative, manager alignment plan, sponsor/visibility map, submission-ready promo doc. NOT for career pivots (career-transitions), mentor networking (finding-mentors-sponsors), coaching frameworks (coaching-pms), or managing-up without a promo goal. Use for promotion packet, leveling up, career ladder. Category: Career."
 ---
 
 # Building a Promotion Case
@@ -23,7 +23,10 @@ description: "Build a promotion case and produce a Promotion Case Pack (target r
 - “I want to level up, but I’m not sure what evidence counts.”
 
 **When NOT to use**
-- You need compensation negotiation tactics for a new offer (this pack is about *internal promotion readiness*, not external offers)
+- You need compensation negotiation tactics for a new offer — use `negotiating-offers` (this pack is about *internal promotion readiness*, not external offers)
+- You are exploring a career pivot or role change — use `career-transitions` (this pack assumes you want to advance in your current ladder, not switch ladders)
+- You want to build a mentor/sponsor network from scratch — use `finding-mentors-sponsors` (this pack includes a sponsor *map* for an active promo push, but not the full relationship-building workflow)
+- You need general manager-relationship tactics without a promotion goal — use `managing-up`
 - You are in an HR/performance escalation (PIP, investigation, termination risk) — involve HR/manager process first
 - You don’t want to involve your manager at all (promotion decisions are manager- and org-mediated; this pack assumes partnership)
 - You only need a resume/LinkedIn rewrite (use a resume-focused workflow instead)
@@ -121,5 +124,13 @@ Expected: Promotion Case Pack with a ladder-mapped narrative and concrete manage
 **Example 2 (limited metrics):** “I’m a PM on an internal platform team. My impact is hard to measure. Help me build a promotion case using proxy metrics, stakeholder evidence, and artifacts.”  
 Expected: Evidence log with proxies (cycle time, reliability, adoption, internal NPS) and explicit proof pointers.
 
-**Boundary example:** “My manager refuses to discuss promotions and HR is involved in a performance process.”  
+**Boundary example:** “My manager refuses to discuss promotions and HR is involved in a performance process.”
 Response: recommend following HR/manager process first; offer to help later with evidence capture, role expectations, and a future readiness plan.
+
+## Anti-patterns
+
+1. **”Vibes-only” evidence** — Listing activities (“I attended meetings”) instead of impact with metrics. Every claim in the promo doc needs at least one measurable outcome or stakeholder-verified artifact.
+2. **Skipping manager alignment** — Writing a polished promo doc without pre-wiring your manager. If your manager is surprised by the packet, the case is already weakened.
+3. **Ladder-blind narrative** — Telling a great story that doesn't map to the actual leveling rubric. Promo committees score against defined competencies, not general impressions of “doing great work.”
+4. **Sponsor confusion** — Treating mentors (who give advice) as sponsors (who spend political capital). This pack needs people who will advocate in the room, not just coach you privately.
+5. **Premature submission** — Pushing a promo case before you have enough evidence cycles. If more than 2 competency areas show gaps, build a 3-month plan first rather than forcing a weak case.

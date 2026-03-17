@@ -1,6 +1,6 @@
 ---
 name: "career-transitions"
-description: "Plan and execute a career transition and produce a Career Transition Pack (progress metric + push/pull map, target archetypes, option scorecard, opportunity pipeline + outreach scripts, skills plan, 4–12 week experiment plan). Use for career change, career pivot, career transition, switching roles. Category: Career."
+description: "Plan and execute a career transition: progress metric, push/pull map, target archetypes, option scorecard, pipeline + outreach, skills plan, experiment plan. NOT for internal promotion cases (building-a-promotion-case), offer negotiation (negotiating-offers), mentor networking (finding-mentors-sponsors), or startup ideation (startup-ideation). Use for career change, pivot, switching roles. Category: Career."
 ---
 
 # Career Transitions
@@ -22,10 +22,14 @@ description: "Plan and execute a career transition and produce a Career Transiti
 - “I want a structured plan for a career transition, including networking/outreach scripts.”
 
 **When NOT to use**
-- You need clinical mental health support for burnout/anxiety/depression (seek professional support; this skill can complement, not replace it).
-- You need legal advice (employment law, immigration/visa, contracts) or financial/tax planning.
-- You only want a resume/LinkedIn rewrite with no decision/process work (use a resume-specific workflow instead).
-- You are in an urgent workplace investigation/HR escalation where legal/process guidance is required.
+- You already have a target role at your current company and want to build a promotion case — use `building-a-promotion-case`
+- You have a concrete job offer and need negotiation tactics — use `negotiating-offers`
+- You want to build a mentor/sponsor network (not plan a transition) — use `finding-mentors-sponsors`
+- You want to validate a startup idea, not plan a career move — use `startup-ideation`
+- You need clinical mental health support for burnout/anxiety/depression (seek professional support; this skill can complement, not replace it)
+- You need legal advice (employment law, immigration/visa, contracts) or financial/tax planning
+- You only want a resume/LinkedIn rewrite with no decision/process work (use a resume-specific workflow instead)
+- You are in an urgent workplace investigation/HR escalation where legal/process guidance is required
 
 ## Inputs
 
@@ -122,5 +126,12 @@ Expected: archetypes + scorecard + outreach/scripts + experiment plan.
 **Example 2 (stay vs go):** “I’m feeling stuck at my current company. I’m not sure whether to ask for a 3-month sabbatical, transfer internally, or leave. Use `career-transitions` to help me decide and draft a sabbatical/bridge proposal.”  
 Expected: push/pull + progress metric + decision rule + sabbatical proposal + next steps.
 
-**Boundary example:** “Tell me whether I should quit tomorrow and move countries on a visa without any plan.”  
+**Boundary example:** “Tell me whether I should quit tomorrow and move countries on a visa without any plan.”
 Response: out of scope for legal/immigration advice; recommend professional support and a safer decision process; offer to help build a plan once constraints are clarified.
+
+## Anti-patterns
+
+1. **”Grass is greener” planning** — Generating target archetypes based only on what you dislike about your current role without validating what the new path actually requires. Every archetype needs both “fit signals” and “reality-check” evidence from real conversations.
+2. **Analysis paralysis scorecard** — Building a 20-criterion weighted scorecard that delays action. Keep criteria to 5-7 and pair the scorecard with a time-bound decision rule (“decide by date X with evidence Y”).
+3. **Network-free pipeline** — Creating an outreach plan with zero warm paths. If fewer than 30% of targets have a plausible warm intro, invest first in community engagement and 2nd-degree mapping before outreach.
+4. **Skipping the experiment** — Committing to a full transition (quitting, enrolling, relocating) without running a low-cost test. The experiment plan exists to de-risk the leap, not to delay it indefinitely.
