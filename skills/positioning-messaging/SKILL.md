@@ -1,6 +1,6 @@
 ---
 name: "positioning-messaging"
-description: "Create a Positioning & Messaging Pack (positioning statement, messaging hierarchy, value proposition, tagline/headlines, copy set, validation plan). Use for positioning, messaging, value prop, tagline, homepage hero, one-liner, elevator pitch, and press pattern-matching. Category: Marketing."
+description: "Create a Positioning & Messaging Pack (positioning statement, messaging hierarchy, value prop, tagline/headlines, copy set, validation plan). Use for positioning, messaging, value prop, tagline, homepage hero, elevator pitch. NOT for competitive landscape analysis (use competitive-analysis), brand narrative/storytelling (use brand-storytelling), pricing/packaging (use pricing-strategy), or launch campaigns (use launch-marketing). Category: Marketing."
 ---
 
 # Positioning & Messaging
@@ -26,6 +26,10 @@ description: "Create a Positioning & Messaging Pack (positioning statement, mess
 - You need a full brand identity system (visual identity guidelines, logo, UI kit)
 - You need only copyediting/tone-polish of existing copy with no positioning change
 - You don’t have (or refuse to assume) an ICP/use case and “alternative” to position against
+- You need a deep competitive landscape analysis before positioning (use `competitive-analysis`)
+- You want to craft a brand narrative, origin story, or thought leadership content (use `brand-storytelling`)
+- You need to set or change your pricing and packaging structure (use `pricing-strategy`)
+- You’re planning a launch campaign with channels, timeline, and assets (use `launch-marketing`)
 
 ## Inputs
 
@@ -117,6 +121,17 @@ Expected: positioning brief (against ‘manual QA + spreadsheets’), messaging 
 **Example 2 (Marketplace):** “We’re moving upmarket. Reposition for IT managers and draft an elevator pitch + sales talk track.”  
 Expected: revised category frame and “against” alternative, updated messaging hierarchy for the new buyer, pitch + talk track, and a short enablement section.
 
-**Boundary example:** “Write me a logo and brand identity.”  
+**Boundary example:** “Write me a logo and brand identity.”
 Response: decline visual identity work; offer to produce positioning/messaging and a brief for a brand designer.
+
+**Boundary example 2:** “Analyze our top 5 competitors and tell me how we stack up.”
+Response: a full competitive landscape analysis is better served by `competitive-analysis`. This skill uses your competitive context as an input to positioning, but does not produce a standalone competitive analysis.
+
+## Anti-patterns (common failure modes)
+
+1. **Positioning by committee**: Trying to be everything to everyone by including every stakeholder's wish in the messaging. Strong positioning requires explicit trade-offs and non-goals--you must choose who you are NOT for.
+2. **Feature-first messaging**: Leading with technical features (“AI-powered analytics engine”) instead of the customer outcome or transformation (“see what's driving churn in 30 seconds, not 30 days”).
+3. **Undifferentiated superlatives**: Using words like “best”, “leading”, “innovative”, or “cutting-edge” that every competitor also uses. Differentiation must be specific and provable.
+4. **No “against” alternative**: Positioning in a vacuum without naming what the buyer is comparing you to (status quo, competitor, manual workaround). Without an explicit alternative, the positioning has no anchor.
+5. **Messaging without validation**: Shipping messaging based on internal brainstorming alone, without testing for comprehension and recall with real prospects. The validation plan is not optional.
 

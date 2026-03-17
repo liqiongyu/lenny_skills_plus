@@ -1,6 +1,6 @@
 ---
 name: "partnership-bd"
-description: "Create a Partnership & BD Execution Pack (partner thesis, target list + scoring, outreach kit, scalable offer + negotiation guardrails, and launch plan). Use for partnerships, business development (BD), strategic partnerships, channel partners, platform/integration partnerships, and partner outreach. Category: Sales & GTM."
+description: "Create a Partnership & BD Execution Pack (partner thesis, target list + scoring, outreach kit, scalable offer + negotiation guardrails, launch plan). Use for partnerships, BD, channel/platform/integration partners, partner outreach. NOT for direct enterprise sales (use enterprise-sales), founder-led sales (use founder-sales), community building (use community-building), or pricing strategy (use pricing-strategy). Category: Sales & GTM."
 ---
 
 # Partnership & BD
@@ -28,6 +28,10 @@ description: "Create a Partnership & BD Execution Pack (partner thesis, target l
 - You want high-volume spam outreach or anything deceptive/manipulative
 - You need legal advice or contract language (use this skill for non-legal term framing only; involve counsel)
 - You’re doing M&A, fundraising, or procurement/vendor selection (different motion)
+- You’re selling directly to enterprises as the primary motion (use `enterprise-sales`)
+- You’re a founder doing early direct sales to validate product-market fit (use `founder-sales`)
+- You want to build a community or developer ecosystem, not a partner channel (use `community-building`)
+- You need to set pricing/packaging strategy for your product (use `pricing-strategy`)
 
 ## Inputs
 
@@ -114,6 +118,17 @@ Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 **Example 2 (regulated, network-dependent BD):**  
 “Use `partnership-bd`. We’re selling into healthcare and need payer/provider partnerships. We have one warm connector but intros are expensive. Output: a prioritized partner list, crisp use-case one-pager, intro asks, and a deal process with walk-away conditions.”
 
-**Boundary example:**  
-“Write a generic cold email that works for anyone and send 10,000 messages.”  
+**Boundary example:**
+“Write a generic cold email that works for anyone and send 10,000 messages.”
 Response: refuse spam; ask for a defined partner archetype and a small, ethical outreach experiment plan. If the goal is broad demand gen, use a marketing/content skill instead.
+
+**Boundary example 2:** “Help me close an enterprise deal with a large customer.”
+Response: direct enterprise sales is a different motion from partnerships. Use `enterprise-sales` for deal strategy, discovery, and closing with enterprise buyers. This skill is for building mutual-value partner relationships.
+
+## Anti-patterns (common failure modes)
+
+1. **Bespoke deal syndrome**: Crafting a custom offer for every partner prospect instead of defining scalable tiers. This creates operational debt and makes it impossible to repeat or delegate partner conversations.
+2. **Spray-and-pray outreach**: Sending identical messages to 50 potential partners without scoring, prioritizing, or personalizing. Low-quality outreach damages your reputation in concentrated ecosystems.
+3. **No walk-away conditions**: Entering negotiations without defined guardrails, walk-away points, or exclusivity boundaries. Desperation leads to bad terms.
+4. **Partnership as press release**: Signing a partnership, issuing a press release, and doing nothing else. Without an operating cadence, enablement plan, and metrics, the partnership produces zero value.
+5. **Ignoring asymmetric leverage**: Treating a large platform partner the same as a peer-sized integration partner. Strategic patience, case-study angles, and alpha/beta offers are critical when the other side has more leverage.

@@ -1,6 +1,6 @@
 ---
 name: "evaluating-trade-offs"
-description: "Evaluate trade-offs and produce a Trade-off Evaluation Pack (trade-off brief, options+criteria matrix, all-in cost/opportunity cost table, impact ranges, recommendation, stop/continue triggers). Use for tradeoff/trade-off, pros and cons, cost-benefit, opportunity cost, ship fast vs ship better, and continue vs stop (sunk costs). NOT for technology/vendor build-vs-buy (use evaluating-new-technology). Category: Leadership."
+description: "Produce a Trade-off Evaluation Pack (brief, options matrix, all-in cost table, impact ranges, recommendation, stop/continue triggers). Use for trade-off, pros/cons, cost-benefit, opportunity cost, sunk costs. NOT for technology build-vs-buy (use evaluating-new-technology), full decision process (use running-decision-processes), systems modeling (use systems-thinking), or scope cutting (use scoping-cutting). Category: Leadership."
 ---
 
 # Evaluating Trade-offs
@@ -23,10 +23,11 @@ description: "Evaluate trade-offs and produce a Trade-off Evaluation Pack (trade
 
 **When NOT to use**
 - You need to clarify what problem you’re solving (use `problem-definition`).
-- You need a full cross-functional decision process (use `running-decision-processes`).
+- You need a full cross-functional decision process with stakeholder alignment and governance (use `running-decision-processes`).
 - You’re prioritizing across many initiatives (use `prioritizing-roadmap`).
 - You’re evaluating a specific technology, vendor, or build-vs-buy for a tool/platform (use `evaluating-new-technology`).
 - You’re cutting scope to hit a date/timebox (use `scoping-cutting`).
+- You need to model feedback loops, second-order effects, or system dynamics (use `systems-thinking`).
 - The decision is personal/legal/HR/financial advice (escalate to qualified humans).
 
 ## Inputs
@@ -112,5 +113,16 @@ Expected: all-in cost vs alternatives, order-of-magnitude impact ranges, and a c
 **Example 2 (speed vs quality):** “We can ship v1 next week with rough edges or delay 3 weeks to ship ‘noteworthy’. Evaluate the trade-off and propose a worse-first mitigation plan if we ship now.”  
 Expected: explicit criteria/guardrails (trust/support load), dip plan, and stop/continue triggers if metrics degrade.
 
-**Boundary example:** “Help me decide if I should leave my job.”  
+**Boundary example:** “Help me decide if I should leave my job.”
 Response: this skill is for organizational/product leadership trade-offs; suggest a personal decision framework or coach instead.
+
+**Boundary example 2:** “Model the second-order effects of switching from monolith to microservices on team velocity and hiring.”
+Response: second-order systems effects are better served by `systems-thinking`; this skill evaluates discrete options with cost/impact ranges and a recommendation, not dynamic system models.
+
+## Anti-patterns (common failure modes)
+
+1. **False precision trap**: Presenting cost/impact estimates with decimal-point accuracy (“$127,450 savings”) when the real confidence is order-of-magnitude. Use ranges and explicit confidence levels.
+2. **Sunk cost anchoring**: Framing the “do nothing” option as “waste our prior investment” instead of asking “if we started fresh today, would we choose this?” The stop/continue test must ignore sunk costs.
+3. **Missing opportunity cost**: Evaluating options on their own merits without explicitly stating what will NOT get done if each option is chosen. Every “yes” is a “no” to something else.
+4. **Criteria inflation**: Listing 12+ criteria where “everything is important,” which makes the matrix unreadable and hides the real trade-off. Limit to 4-8 criteria with explicit weights or guardrails.
+5. **Recommendation without triggers**: Making a recommendation but not defining when to revisit or kill it. A good recommendation includes a review date and stop/continue criteria.

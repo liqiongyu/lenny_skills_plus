@@ -1,6 +1,6 @@
 ---
 name: "having-difficult-conversations"
-description: "Prepare and lead difficult conversations as a manager/leader and produce a Difficult Conversation Pack (conversation brief, talk track/script, objection+emotion handling plan, follow-up note, and quality gates). Use for difficult conversation, hard conversation, tough feedback, performance conversation, promotion denial, layoff conversation, termination conversation, firing. Category: Leadership."
+description: "Produce a Difficult Conversation Pack (conversation brief, talk track/script, objection+emotion handling plan, follow-up note). Use for difficult conversation, tough feedback, performance conversation, promotion denial, layoff/termination. NOT for ongoing coaching/1:1 systems (use running-effective-1-1s), PM skill development (use coaching-pms), upward expectation-setting (use managing-up), or incident/failure retrospectives (use post-mortems-retrospectives). Category: Leadership."
 ---
 
 # Having Difficult Conversations
@@ -26,6 +26,10 @@ description: "Prepare and lead difficult conversations as a manager/leader and p
 - You’re handling harassment, discrimination, threats, or an investigation (stop and follow HR/legal policy)
 - You need legal advice, severance guidance, or policy interpretation (involve HR/legal)
 - The situation is a mental health or safety crisis (seek professional help and follow company policy)
+- You want an ongoing coaching and 1:1 system for your reports (use `running-effective-1-1s`)
+- You want to develop PM skills through coaching, not deliver specific feedback (use `coaching-pms`)
+- You need to set expectations or push back *upward* with your manager (use `managing-up`)
+- You want to run a blameless retrospective after an incident or failure (use `post-mortems-retrospectives`)
 
 ## Inputs
 
@@ -116,5 +120,16 @@ Expected: evidence-based brief, direct script with care, reaction handling, and 
 **Example 2 (promotion denial):** “I’m denying a promotion this cycle. I want to be clear and still leave hope + a path.”  
 Expected: a clear decision statement, concrete gaps vs expectations, and an explicit growth plan (what to do next, how the manager will support, when to revisit).
 
-**Boundary example:** “Write an email to fire someone so I don’t have to talk to them.”  
+**Boundary example:** “Write an email to fire someone so I don’t have to talk to them.”
 Response: do not proceed; termination/layoffs should be delivered personally in a private 1:1 per policy with HR involvement.
+
+**Boundary example 2:** “Help me set up a regular coaching cadence with my team.”
+Response: this skill is for preparing specific difficult conversations, not designing ongoing coaching systems. Use `running-effective-1-1s` for 1:1 cadence and coaching toolkits, or `coaching-pms` for PM skill development.
+
+## Anti-patterns (common failure modes)
+
+1. **Kitchen-sinking**: Piling every past frustration into one conversation instead of focusing on 2-3 specific, recent, observable examples. The recipient feels ambushed and shuts down.
+2. **The empathy sandwich gone wrong**: Opening with excessive praise, burying the real message in the middle, and closing with more praise. The recipient walks away confused about what actually needs to change.
+3. **Label-based feedback**: Using character judgments (“you’re not strategic”, “you’re unreliable”) instead of describing specific observable behaviors and their impact. Labels trigger defensiveness and are unfalsifiable.
+4. **Deferred decision delivery**: Spending 10 minutes “setting context” before revealing that a decision has already been made (e.g., promotion denied, role change). The recipient feels manipulated. Lead with the decision.
+5. **Missing follow-up loop**: Delivering the conversation well but failing to send a written follow-up with next steps, check-in dates, and documented expectations. Without a paper trail, accountability evaporates.

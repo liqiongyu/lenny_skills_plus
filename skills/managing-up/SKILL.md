@@ -1,6 +1,6 @@
 ---
 name: "managing-up"
-description: "Manage up effectively and produce a Managing Up Operating System Pack (manager profile, comms cadence, weekly updates, escalation/ask plan, expectation & boundary script, and exec-ready decision/tradeoff memo). Use for managing up, managing your boss, working with your manager, exec communication, and escalation. NOT for broad stakeholder buy-in (use stakeholder-alignment) or cross-team collaboration setup (use cross-functional-collaboration). Category: Leadership."
+description: "Produce a Managing Up Operating System Pack (manager profile, comms cadence, weekly updates, escalation/ask plan, boundary script, exec-ready memo). Use for managing up, managing your boss, exec communication, escalation. NOT for broad stakeholder buy-in (use stakeholder-alignment), cross-team collaboration (use cross-functional-collaboration), 1:1 system design (use running-effective-1-1s), or delegating to reports (use delegating-work). Category: Leadership."
 ---
 
 # Managing Up
@@ -25,6 +25,10 @@ description: "Manage up effectively and produce a Managing Up Operating System P
 - You need HR/legal guidance (harassment, discrimination, retaliation, threats, investigations) — follow your company process and involve HR/legal.
 - You’re negotiating compensation/title or a formal performance process — use your company process; this skill can help with communication artifacts but not with policy/legal strategy.
 - You have a personal safety or mental-health crisis — seek professional help and follow company policy.
+- You want to set up a cross-functional collaboration system across multiple teams (use `cross-functional-collaboration`).
+- You want to design your 1:1 cadence, coaching toolkit, or career conversation system (use `running-effective-1-1s`).
+- You need to delegate work effectively to your own reports (use `delegating-work`).
+- You need broad buy-in from multiple stakeholders beyond your direct manager (use `stakeholder-alignment`).
 
 ## Inputs
 
@@ -119,5 +123,16 @@ Expected: manager profile + cadence + weekly update template + pilot plan + risk
 **Example 2 (exec misalignment):** “Our exec team keeps changing priorities and feels out of touch. Create an exec-ready weekly update and a trade-off memo template so I can escalate issues early and frame decisions.”  
 Expected: weekly update + decision/trade-off memo + escalation triggers + comms map.
 
-**Boundary example:** “My manager is retaliating against me and I need to document it.”  
+**Boundary example:** “My manager is retaliating against me and I need to document it.”
 Response: recommend HR/legal/company process; offer to create a factual incident timeline template and a neutral summary, but do not provide legal advice.
+
+**Boundary example 2:** “Help me design a 1:1 cadence and coaching question bank for my direct reports.”
+Response: this is about managing *down*, not up; use `running-effective-1-1s` for 1:1 system design and coaching toolkits.
+
+## Anti-patterns (common failure modes)
+
+1. **Update-without-ask**: Sending weekly updates that describe activity but never include a specific ask, decision needed, or trade-off to resolve. The manager stays informed but never removes blockers.
+2. **Profile-as-personality-test**: Building a “manager profile” based on personality labels (“she's a micromanager”) rather than observable decision patterns, incentives, and communication preferences.
+3. **Escalation-as-complaint**: Framing every escalation as “this is broken” rather than “here is the specific action I need from you by DATE.” Leaders disengage when asks are vague.
+4. **Boundary-setting-as-ultimatum**: Pushing back on unreasonable requests by saying “I can't do that” instead of proposing an alternative that protects outcomes. Boundaries must be framed around quality and speed, not personal preference.
+5. **Influence-without-pre-wiring**: Trying to gain a “seat at the table” by presenting bold opinions in meetings without first pre-briefing the key decision-maker. Surprises erode trust.
