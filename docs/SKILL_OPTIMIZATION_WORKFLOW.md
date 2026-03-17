@@ -1,5 +1,7 @@
 # Skill Optimization Workflow
 
+> 中文版: [SKILL_OPTIMIZATION_WORKFLOW.zh-CN.md](SKILL_OPTIMIZATION_WORKFLOW.zh-CN.md)
+
 Standard workflow for optimizing an existing skill pack using the `/skill-creator` eval loop.
 
 ## Prerequisites
