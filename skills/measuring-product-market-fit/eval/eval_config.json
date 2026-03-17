@@ -1,0 +1,15 @@
+{
+  "slug": "measuring-product-market-fit",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `measuring-product-market-fit`. Product: SOC2 compliance automation for startups. Stage: early PMF. Segments: founders doing it themselves vs compliance leads at 200–500 employee companies. Data: 6-month cohorts, onboarding funnel, and in-app survey. Decision: whether to double down on founders vs move upmarket. Output: a PMF Measurement Pack.",
+    "baseline": "Product: SOC2 compliance automation for startups. Stage: early PMF. Segments: founders doing it themselves vs compliance leads at 200–500 employee companies. Data: 6-month cohorts, onboarding funnel, and in-app survey. Decision: whether to double down on founders vs move upmarket. Output: a PMF Measurement Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

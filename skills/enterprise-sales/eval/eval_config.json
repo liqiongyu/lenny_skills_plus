@@ -1,0 +1,15 @@
+{
+  "slug": "enterprise-sales",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `enterprise-sales`. Product: <...>. Account: <...>. Deal: ACV ~$80k, timeline 6 weeks. Stakeholders: champion in Ops, economic buyer in Finance, security review owned by IT. Blocker: procurement vendor onboarding + security questionnaire. Output: an Enterprise Deal Execution Pack with a MAP, procurement/security tracker, and champion one-pagers.",
+    "baseline": "Product: <...>. Account: <...>. Deal: ACV ~$80k, timeline 6 weeks. Stakeholders: champion in Ops, economic buyer in Finance, security review owned by IT. Blocker: procurement vendor onboarding + security questionnaire. Output: an Enterprise Deal Execution Pack with a MAP, procurement/security tracker, and champion one-pagers."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

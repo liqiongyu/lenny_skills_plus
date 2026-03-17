@@ -1,0 +1,15 @@
+{
+  "slug": "career-transitions",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `career-transitions`. I'm a PM with 6 years of experience at a mid-stage fintech company. I'm considering moving into developer relations or product marketing at a developer tools company. I have 8 hours/week for this transition, must stay remote, and my comp floor is $180k. I have a strong writing portfolio (blog + internal docs) and have spoken at 2 conferences. Create a Career Transition Pack with target archetypes for DevRel vs PMM, an option scorecard, outreach scripts for informational interviews, and a 6-week experiment plan to test both paths. Output: Career Transition Pack.",
+    "baseline": "I'm a PM with 6 years of experience at a mid-stage fintech company. I'm considering moving into developer relations or product marketing at a developer tools company. I have 8 hours/week for this transition, must stay remote, and my comp floor is $180k. I have a strong writing portfolio (blog + internal docs) and have spoken at 2 conferences. Create a Career Transition Pack with target archetypes for DevRel vs PMM, an option scorecard, outreach scripts for informational interviews, and a 6-week experiment plan to test both paths. Output: Career Transition Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "community-building",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `community-building`. Product: open-source observability SDK for TypeScript. ICP: senior full-stack engineers at 10-200 person SaaS startups. Goal: accelerate activation and word-of-mouth adoption. We're considering Discord as our home base, with GitHub Discussions as a secondary channel. Resources: 1 community lead (10 hrs/week), 2 engineer SMEs (2 hrs/week each), $500/month budget. We have 400 GitHub stars and an email list of 1,200 developers. Create a Community Building Pack with a platform plan, member journey map, 6-week programming calendar, ambassador program v1, and governance/moderation rules. Output: Community Building Pack.",
+    "baseline": "Product: open-source observability SDK for TypeScript. ICP: senior full-stack engineers at 10-200 person SaaS startups. Goal: accelerate activation and word-of-mouth adoption. We're considering Discord as our home base, with GitHub Discussions as a secondary channel. Resources: 1 community lead (10 hrs/week), 2 engineer SMEs (2 hrs/week each), $500/month budget. We have 400 GitHub stars and an email list of 1,200 developers. Create a Community Building Pack with a platform plan, member journey map, 6-week programming calendar, ambassador program v1, and governance/moderation rules. Output: Community Building Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

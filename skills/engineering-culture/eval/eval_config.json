@@ -1,0 +1,15 @@
+{
+  "slug": "engineering-culture",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `engineering-culture`. Context: B2B analytics SaaS, 40 engineers across 5 teams, Rails monolith plus 3 Go microservices, deploying twice a week via manual release trains, averaging 2 P1 incidents/month. Symptoms: PRs sit in review for 3+ days, no one owns on-call (it rotates randomly), platform team is a bottleneck for every feature team, and PMs complain engineering 'goes dark' mid-sprint. Goal: increase deploy frequency to daily and reduce P1s by 50% within one quarter. Create an Engineering Culture Operating System Pack with a capability snapshot, culture code, Conway's Law analysis of the platform bottleneck, a clock-speed improvement backlog, and a cross-functional workflow contract for PM/Design/Eng. Output: Engineering Culture Operating System Pack.",
+    "baseline": "Context: B2B analytics SaaS, 40 engineers across 5 teams, Rails monolith plus 3 Go microservices, deploying twice a week via manual release trains, averaging 2 P1 incidents/month. Symptoms: PRs sit in review for 3+ days, no one owns on-call (it rotates randomly), platform team is a bottleneck for every feature team, and PMs complain engineering 'goes dark' mid-sprint. Goal: increase deploy frequency to daily and reduce P1s by 50% within one quarter. Create an Engineering Culture Operating System Pack with a capability snapshot, culture code, Conway's Law analysis of the platform bottleneck, a clock-speed improvement backlog, and a cross-functional workflow contract for PM/Design/Eng. Output: Engineering Culture Operating System Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

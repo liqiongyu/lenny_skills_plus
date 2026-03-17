@@ -1,0 +1,15 @@
+{
+  "slug": "platform-infrastructure",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `platform-infrastructure`. We're a B2B analytics SaaS (Series B, 50 engineers) where every feature team keeps rebuilding export functionality, filtering logic, and permission checks. Our Postgres database is approaching limits (500GB, query latency increasing) and we expect 5x traffic growth in 6 months from an enterprise push. Create a Platform & Infrastructure Improvement Pack with a shared capabilities plan (export, filtering, permissions as platform services), a Postgres scaling analysis with a doomsday clock and migration options (read replicas, sharding, or move to a new DB), reliability SLOs (p99 latency, uptime targets), and an execution roadmap prioritized by blast radius. Output: Platform & Infrastructure Improvement Pack.",
+    "baseline": "We're a B2B analytics SaaS (Series B, 50 engineers) where every feature team keeps rebuilding export functionality, filtering logic, and permission checks. Our Postgres database is approaching limits (500GB, query latency increasing) and we expect 5x traffic growth in 6 months from an enterprise push. Create a Platform & Infrastructure Improvement Pack with a shared capabilities plan (export, filtering, permissions as platform services), a Postgres scaling analysis with a doomsday clock and migration options (read replicas, sharding, or move to a new DB), reliability SLOs (p99 latency, uptime targets), and an execution roadmap prioritized by blast radius. Output: Platform & Infrastructure Improvement Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

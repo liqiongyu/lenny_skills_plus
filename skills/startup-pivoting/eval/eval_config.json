@@ -1,0 +1,15 @@
+{
+  "slug": "startup-pivoting",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `startup-pivoting`. We built an AI support copilot for e-commerce SMBs. We have 12 trial sign-ups, 3 converted to paid ($200/month each), but D30 retention is 40% and sales cycles average 6 weeks (too long for our price point). We have 5 months of runway ($180k remaining) and a team of 3 (2 engineers + 1 founder doing sales). We're seeing stronger pull from mid-market companies asking for our AI to handle returns/refunds specifically rather than general support. Should we pivot, and if so how? Create a Pivot Decision & Execution Pack with an exhaustion check (could we fix retention/sales cycle without pivoting?), a 4P pivot options grid (including narrowing to returns-only and moving upmarket), a recommended thesis with metrics and kill criteria, and a 4-week validation sprint plan. Output: Pivot Decision & Execution Pack.",
+    "baseline": "We built an AI support copilot for e-commerce SMBs. We have 12 trial sign-ups, 3 converted to paid ($200/month each), but D30 retention is 40% and sales cycles average 6 weeks (too long for our price point). We have 5 months of runway ($180k remaining) and a team of 3 (2 engineers + 1 founder doing sales). We're seeing stronger pull from mid-market companies asking for our AI to handle returns/refunds specifically rather than general support. Should we pivot, and if so how? Create a Pivot Decision & Execution Pack with an exhaustion check (could we fix retention/sales cycle without pivoting?), a 4P pivot options grid (including narrowing to returns-only and moving upmarket), a recommended thesis with metrics and kill criteria, and a 4-week validation sprint plan. Output: Pivot Decision & Execution Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

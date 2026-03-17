@@ -1,0 +1,15 @@
+{
+  "slug": "sales-qualification",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `sales-qualification`. We sell B2B SaaS to operations teams at 50–500 employee companies. Inbound is high volume, but AEs say meetings are low quality. ACV $12k, cycle ~45 days. We have SDRs qualifying and handing off to AEs. Output: Sales Qualification Pack.",
+    "baseline": "We sell B2B SaaS to operations teams at 50–500 employee companies. Inbound is high volume, but AEs say meetings are low quality. ACV $12k, cycle ~45 days. We have SDRs qualifying and handing off to AEs. Output: Sales Qualification Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

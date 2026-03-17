@@ -1,0 +1,15 @@
+{
+  "slug": "usability-testing",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Create a usability test plan + moderator guide for our checkout redesign. We’re a B2C web app. Run 6 remote moderated sessions with existing users this week.",
+    "baseline": "Create a usability test plan + moderator guide for our checkout redesign. We’re a B2C web app. Run 6 remote moderated sessions with existing users this week."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

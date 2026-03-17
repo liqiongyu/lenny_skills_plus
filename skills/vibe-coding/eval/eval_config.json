@@ -1,0 +1,15 @@
+{
+  "slug": "vibe-coding",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `vibe-coding`. 60-minute prototype: “AI meeting notes → action items”: - Demo promise: “In 60 minutes, we will demo pasting meeting notes and getting a prioritized action-item list for a PM.”",
+    "baseline": "60-minute prototype: “AI meeting notes → action items”: - Demo promise: “In 60 minutes, we will demo pasting meeting notes and getting a prioritized action-item list for a PM.”"
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

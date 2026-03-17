@@ -1,0 +1,15 @@
+{
+  "slug": "organizational-transformation",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `organizational-transformation`. I'm VP of Product at a 300-person enterprise SaaS company. Our teams currently operate as feature factories: PMs write tickets from exec requests, engineers build to spec, and outcomes are not measured. We want to move toward empowered product teams over the next 12 months. Previous attempts at 'agile transformation' failed due to middle-management resistance and no exec sponsorship beyond the CPO. Create a Transformation Pack with a diagnostic of our current operating model, a target model blueprint (empowered teams with product trios), a 90-day pilot plan for 2 volunteer teams, a 6-12 month roadmap, stakeholder comms for skeptical VPs of Engineering and Sales, and governance metrics to track progress. Output: Organizational Transformation Pack.",
+    "baseline": "I'm VP of Product at a 300-person enterprise SaaS company. Our teams currently operate as feature factories: PMs write tickets from exec requests, engineers build to spec, and outcomes are not measured. We want to move toward empowered product teams over the next 12 months. Previous attempts at 'agile transformation' failed due to middle-management resistance and no exec sponsorship beyond the CPO. Create a Transformation Pack with a diagnostic of our current operating model, a target model blueprint (empowered teams with product trios), a 90-day pilot plan for 2 volunteer teams, a 6-12 month roadmap, stakeholder comms for skeptical VPs of Engineering and Sales, and governance metrics to track progress. Output: Organizational Transformation Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

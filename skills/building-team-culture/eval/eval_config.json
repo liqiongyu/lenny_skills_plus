@@ -1,0 +1,15 @@
+{
+  "slug": "building-team-culture",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `building-team-culture`. I'm a new Head of Product joining a fully remote product team of 12 (3 PMs, 4 designers, 5 researchers) across US and EU time zones at a Series B developer tools company. Culture feels low-trust: decisions get relitigated in Slack after meetings, people avoid giving candid feedback in retros, and two senior ICs are checked out. I want to build psychological safety and faster decision-making within 8 weeks. Create a culture snapshot, a culture code with 5 principles and explicit behaviors, decision-making and meeting norms, a 30/60/90 rollout plan, and a measurement plan with pulse questions. Output: Team Culture Operating System Pack.",
+    "baseline": "I'm a new Head of Product joining a fully remote product team of 12 (3 PMs, 4 designers, 5 researchers) across US and EU time zones at a Series B developer tools company. Culture feels low-trust: decisions get relitigated in Slack after meetings, people avoid giving candid feedback in retros, and two senior ICs are checked out. I want to build psychological safety and faster decision-making within 8 weeks. Create a culture snapshot, a culture code with 5 principles and explicit behaviors, decision-making and meeting norms, a 30/60/90 rollout plan, and a measurement plan with pulse questions. Output: Team Culture Operating System Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

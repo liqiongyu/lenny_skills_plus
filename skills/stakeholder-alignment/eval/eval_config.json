@@ -1,0 +1,15 @@
+{
+  "slug": "stakeholder-alignment",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `stakeholder-alignment`. We need exec alignment to pause our new analytics dashboard feature (6 weeks into a 12-week build) to address a critical reliability issue: our core data pipeline has had 3 outages in the past month, causing customer escalations from 2 enterprise accounts worth $400k ARR combined. The CTO is concerned about engineering morale from context-switching, the CRO is worried about the Q3 pipeline impact of delaying the dashboard (it was promised to 5 prospects), and the CEO wants a recommendation by Friday. Create a Stakeholder Alignment Pack with an alignment brief, a stakeholder map capturing each exec's principles and evidence preferences, a pre-brief sequence plan (who to talk to first), a 30-minute decision meeting plan, and a follow-up comms draft. Output: Stakeholder Alignment Pack.",
+    "baseline": "We need exec alignment to pause our new analytics dashboard feature (6 weeks into a 12-week build) to address a critical reliability issue: our core data pipeline has had 3 outages in the past month, causing customer escalations from 2 enterprise accounts worth $400k ARR combined. The CTO is concerned about engineering morale from context-switching, the CRO is worried about the Q3 pipeline impact of delaying the dashboard (it was promised to 5 prospects), and the CEO wants a recommendation by Friday. Create a Stakeholder Alignment Pack with an alignment brief, a stakeholder map capturing each exec's principles and evidence preferences, a pre-brief sequence plan (who to talk to first), a 30-minute decision meeting plan, and a follow-up comms draft. Output: Stakeholder Alignment Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

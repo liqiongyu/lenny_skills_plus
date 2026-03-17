@@ -1,0 +1,15 @@
+{
+  "slug": "fundraising",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `fundraising`. We're 2 technical co-founders building a B2B developer productivity tool that auto-generates API documentation from code. We have 8 design partners (3 actively using daily), 2 paid pilots at $500/month each, and $150k in savings as runway (about 5 months left). We want to raise $1.5-2.0M pre-seed to hire 2 engineers and 1 designer and reach 20 paying customers in 9 months. Our network includes 5 angel investors and 2 warm VC intros. Produce a full Fundraising Pack including a raise decision memo, round design, pitch narrative + deck outline with a strong first slide, an investor target list of 30 firms, outreach scripts, and a diligence prep checklist. Output: Fundraising Pack.",
+    "baseline": "We're 2 technical co-founders building a B2B developer productivity tool that auto-generates API documentation from code. We have 8 design partners (3 actively using daily), 2 paid pilots at $500/month each, and $150k in savings as runway (about 5 months left). We want to raise $1.5-2.0M pre-seed to hire 2 engineers and 1 designer and reach 20 paying customers in 9 months. Our network includes 5 angel investors and 2 warm VC intros. Produce a full Fundraising Pack including a raise decision memo, round design, pitch narrative + deck outline with a strong first slide, an investor target list of 30 firms, outreach scripts, and a diligence prep checklist. Output: Fundraising Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

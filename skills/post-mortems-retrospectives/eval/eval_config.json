@@ -1,0 +1,15 @@
+{
+  "slug": "post-mortems-retrospectives",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `post-mortems-retrospectives`. Yesterday we had a 90-minute outage in our payments processing API that affected ~2,000 transactions. The root cause was a database migration that passed staging but failed in production due to a data volume difference (staging has 1% of prod data). The on-call engineer escalated after 30 minutes, but the incident commander role was unclear and the rollback playbook was outdated. Run a blameless postmortem and produce the full Pack: evidence-backed timeline, 5-whys contributing factors analysis, a systems-level root cause summary (not individual blame), an action tracker with owners and due dates, and a shareout plan for engineering + leadership. Output: Post-mortem Pack.",
+    "baseline": "Yesterday we had a 90-minute outage in our payments processing API that affected ~2,000 transactions. The root cause was a database migration that passed staging but failed in production due to a data volume difference (staging has 1% of prod data). The on-call engineer escalated after 30 minutes, but the incident commander role was unclear and the rollback playbook was outdated. Run a blameless postmortem and produce the full Pack: evidence-backed timeline, 5-whys contributing factors analysis, a systems-level root cause summary (not individual blame), an action tracker with owners and due dates, and a shareout plan for engineering + leadership. Output: Post-mortem Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

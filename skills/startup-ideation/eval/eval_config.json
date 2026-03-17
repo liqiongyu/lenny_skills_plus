@@ -1,0 +1,15 @@
+{
+  "slug": "startup-ideation",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `startup-ideation`. We're 2 founders: ex‑ops managers in logistics + a PM from warehouse software. Constraints: 3 months runway, can do sales calls, prefer B2B SaaS. Decision: pick 1 idea to validate in 14 days. Output: Startup Ideation Pack.",
+    "baseline": "We're 2 founders: ex‑ops managers in logistics + a PM from warehouse software. Constraints: 3 months runway, can do sales calls, prefer B2B SaaS. Decision: pick 1 idea to validate in 14 days. Output: Startup Ideation Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "design-systems",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `design-systems`. Context: B2B SaaS web app. Current state: inconsistent UI, lots of one-off CSS, no shared tokens, and slow design→dev handoff. Goal: improve consistency and speed; first impact in 6 weeks. Constraints: accessibility required; small team (2 designers, 6 engineers). Output: a Design System Operating Pack.",
+    "baseline": "Context: B2B SaaS web app. Current state: inconsistent UI, lots of one-off CSS, no shared tokens, and slow design→dev handoff. Goal: improve consistency and speed; first impact in 6 weeks. Constraints: accessibility required; small team (2 designers, 6 engineers). Output: a Design System Operating Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

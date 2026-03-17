@@ -1,0 +1,15 @@
+{
+  "slug": "written-communication",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `written-communication`. Artifact: email. Audience: exec stakeholders. Context: launch is slipping 2 weeks due to dependency delays. Ask: approve scope cut (drop Feature B) by Friday. Tone: direct, calm.",
+    "baseline": "Artifact: email. Audience: exec stakeholders. Context: launch is slipping 2 weeks due to dependency delays. Ask: approve scope cut (drop Feature B) by Friday. Tone: direct, calm."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

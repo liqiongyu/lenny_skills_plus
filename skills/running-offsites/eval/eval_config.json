@@ -1,0 +1,15 @@
+{
+  "slug": "running-offsites",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Plan a 1-day strategy offsite for a 10-person product team (remote-first). We need to decide Q2 priorities and reset working agreements. Budget is moderate; location is NYC. Output the full Offsite Pack.",
+    "baseline": "Plan a 1-day strategy offsite for a 10-person product team (remote-first). We need to decide Q2 priorities and reset working agreements. Budget is moderate; location is NYC. Output the full Offsite Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

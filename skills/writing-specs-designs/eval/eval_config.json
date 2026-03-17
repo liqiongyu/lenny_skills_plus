@@ -1,0 +1,15 @@
+{
+  "slug": "writing-specs-designs",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `writing-specs-designs`. We’re a consumer iOS app. Add an ‘invite friends’ flow. Goal: increase successful invites. Constraint: ship in 4 weeks. Please optimize taps to first value.",
+    "baseline": "We’re a consumer iOS app. Add an ‘invite friends’ flow. Goal: increase successful invites. Constraint: ship in 4 weeks. Please optimize taps to first value."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

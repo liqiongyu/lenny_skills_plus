@@ -1,0 +1,15 @@
+{
+  "slug": "designing-surveys",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `designing-surveys`. We’re a B2B analytics tool. Decision: route new signups to the right onboarding path and prevent sales from contacting non-buyers. Survey type: onboarding profiling. Channel: in-product during first session. Constraints: keep under 2 minutes. Output: Survey Pack.",
+    "baseline": "We’re a B2B analytics tool. Decision: route new signups to the right onboarding path and prevent sales from contacting non-buyers. Survey type: onboarding profiling. Channel: in-product during first session. Constraints: keep under 2 minutes. Output: Survey Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

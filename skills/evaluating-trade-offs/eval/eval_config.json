@@ -1,0 +1,15 @@
+{
+  "slug": "evaluating-trade-offs",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `evaluating-trade-offs`. We're a 30-person B2B SaaS company deciding whether to invest our only growth engineer for the next 2 quarters in SEO content infrastructure or paid acquisition tooling. SEO has compounding returns but slow payoff (6+ months); paid gives immediate pipeline but requires ongoing spend ($8k/month). We need to hit $200k ARR by Q4. Current ARR is $80k. Build a Trade-off Evaluation Pack with all-in cost (including eng time + opportunity cost), order-of-magnitude impact ranges for both options, a worse-first mitigation plan, and stop/continue triggers with a 6-week review date. Output: Trade-off Evaluation Pack.",
+    "baseline": "We're a 30-person B2B SaaS company deciding whether to invest our only growth engineer for the next 2 quarters in SEO content infrastructure or paid acquisition tooling. SEO has compounding returns but slow payoff (6+ months); paid gives immediate pipeline but requires ongoing spend ($8k/month). We need to hit $200k ARR by Q4. Current ARR is $80k. Build a Trade-off Evaluation Pack with all-in cost (including eng time + opportunity cost), order-of-magnitude impact ranges for both options, a worse-first mitigation plan, and stop/continue triggers with a 6-week review date. Output: Trade-off Evaluation Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "managing-up",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `managing-up`. I just started as a Senior PM reporting to a VP of Product who manages 8 PMs and is known for changing priorities frequently. We're 3 weeks into a quarterly roadmap and she's already suggested pivoting to a different initiative twice. I need a system to manage up effectively: understand her decision-making style, keep her informed without overwhelming her, and push back on priority changes constructively. Create a Managing Up Operating System Pack with a manager profile template (filled in with what I know), a weekly async update format optimized for a context-switching exec, a trade-off memo template for escalating priority conflicts, and a 4-week pilot cadence for establishing the relationship. Output: Managing Up Operating System Pack.",
+    "baseline": "I just started as a Senior PM reporting to a VP of Product who manages 8 PMs and is known for changing priorities frequently. We're 3 weeks into a quarterly roadmap and she's already suggested pivoting to a different initiative twice. I need a system to manage up effectively: understand her decision-making style, keep her informed without overwhelming her, and push back on priority changes constructively. Create a Managing Up Operating System Pack with a manager profile template (filled in with what I know), a weekly async update format optimized for a context-switching exec, a trade-off memo template for escalating priority conflicts, and a 4-week pilot cadence for establishing the relationship. Output: Managing Up Operating System Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

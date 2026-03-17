@@ -1,0 +1,15 @@
+{
+  "slug": "evaluating-candidates",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `evaluating-candidates`. We're hiring a Founding Engineer (full-stack, React + Python) for our seed-stage AI writing assistant startup (4 people, $2M raised). We have interview notes from 3 rounds (technical deep-dive, product thinking, founder-fit) and a 4-hour paid trial project (build a feature prototype). Design a scorecard with 6 criteria weighted for our stage (bias toward raw ability + speed over pedigree), create a reference check script for 2 back-channel references, and write a hiring decision memo that synthesizes all signals into a hire/no-hire recommendation with risks and 30/60/90 onboarding mitigations. Output: Candidate Evaluation Decision Pack.",
+    "baseline": "We're hiring a Founding Engineer (full-stack, React + Python) for our seed-stage AI writing assistant startup (4 people, $2M raised). We have interview notes from 3 rounds (technical deep-dive, product thinking, founder-fit) and a 4-hour paid trial project (build a feature prototype). Design a scorecard with 6 criteria weighted for our stage (bias toward raw ability + speed over pedigree), create a reference check script for 2 back-channel references, and write a hiring decision memo that synthesizes all signals into a hire/no-hire recommendation with risks and 30/60/90 onboarding mitigations. Output: Candidate Evaluation Decision Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

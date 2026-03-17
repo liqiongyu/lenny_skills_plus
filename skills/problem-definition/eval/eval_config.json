@@ -1,0 +1,15 @@
+{
+  "slug": "problem-definition",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `problem-definition`. Product: B2B analytics tool. Segment: ops managers at 50-500 employee companies. Signal: activation drops after connecting data sources. Decision: decide whether to invest in fixing activation this quarter. Output: Problem Definition Pack.",
+    "baseline": "Product: B2B analytics tool. Segment: ops managers at 50-500 employee companies. Signal: activation drops after connecting data sources. Decision: decide whether to invest in fixing activation this quarter. Output: Problem Definition Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

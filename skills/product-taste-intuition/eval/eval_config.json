@@ -1,0 +1,15 @@
+{
+  "slug": "product-taste-intuition",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `product-taste-intuition`. Domain: fintech onboarding. Target user: first-time user connecting their bank account and seeing their net worth dashboard for the first time. The user job is to feel confident their data is safe and see value within 2 minutes of connecting. Benchmarks: propose 4-5 (at least 2 outside fintech, e.g., best-in-class trust/identity flows). Time box: 90 minutes. Constraints: mobile-first, must meet accessibility AA, high-trust design required. Create a Taste Calibration Pack with benchmark study notes (3+ concrete moments per benchmark), 5-7 taste rules specific to fintech onboarding trust, falsifiable hypotheses about our current flow, and a validation plan (5-user task test + instrumentation). Output: Taste Calibration Pack.",
+    "baseline": "Domain: fintech onboarding. Target user: first-time user connecting their bank account and seeing their net worth dashboard for the first time. The user job is to feel confident their data is safe and see value within 2 minutes of connecting. Benchmarks: propose 4-5 (at least 2 outside fintech, e.g., best-in-class trust/identity flows). Time box: 90 minutes. Constraints: mobile-first, must meet accessibility AA, high-trust design required. Create a Taste Calibration Pack with benchmark study notes (3+ concrete moments per benchmark), 5-7 taste rules specific to fintech onboarding trust, falsifiable hypotheses about our current flow, and a validation plan (5-user task test + instrumentation). Output: Taste Calibration Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

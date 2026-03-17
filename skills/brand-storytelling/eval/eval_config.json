@@ -1,0 +1,15 @@
+{
+  "slug": "brand-storytelling",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `brand-storytelling`. Company: we’re building a SOC2 automation tool. Audience: seed investors. Channels: pitch + podcast. Desired perception: credible, technical, direct, relentless. Raw material: I spent 18 months leading audits; the turning point was watching a team miss a launch because evidence was scattered. Proof: 3 design partners, 40% less audit prep time. Output: Brand Storytelling Pack.",
+    "baseline": "Company: we’re building a SOC2 automation tool. Audience: seed investors. Channels: pitch + podcast. Desired perception: credible, technical, direct, relentless. Raw material: I spent 18 months leading audits; the turning point was watching a team miss a launch because evidence was scattered. Proof: 3 design partners, 40% less audit prep time. Output: Brand Storytelling Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

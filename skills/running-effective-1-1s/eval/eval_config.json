@@ -1,0 +1,15 @@
+{
+  "slug": "running-effective-1-1s",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `running-effective-1-1s`. I'm a new product lead managing 5 direct reports (3 PMs, 1 designer, 1 data analyst) across PST and EST time zones. Two reports are senior and low-maintenance, one is a new hire (week 3), one is struggling with prioritization, and one just got passed over for promotion. My calendar is already at 85% utilization. Design a 1:1 Operating System Pack with a tiered cadence plan (not everyone needs weekly), a shared 1:1 doc template, a coaching question bank organized by situation type, a career conversation plan for the passed-over report, and a 4-week pilot schedule. Output: 1:1 Operating System Pack.",
+    "baseline": "I'm a new product lead managing 5 direct reports (3 PMs, 1 designer, 1 data analyst) across PST and EST time zones. Two reports are senior and low-maintenance, one is a new hire (week 3), one is struggling with prioritization, and one just got passed over for promotion. My calendar is already at 85% utilization. Design a 1:1 Operating System Pack with a tiered cadence plan (not everyone needs weekly), a shared 1:1 doc template, a coaching question bank organized by situation type, a career conversation plan for the passed-over report, and a 4-week pilot schedule. Output: 1:1 Operating System Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

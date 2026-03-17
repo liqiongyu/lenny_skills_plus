@@ -1,0 +1,15 @@
+{
+  "slug": "managing-timelines",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `managing-timelines`. We're launching a new enterprise SSO integration at our B2B SaaS company at the AWS re:Invent conference on December 3. The project involves 2 backend engineers, 1 frontend engineer, 1 designer, and requires security review and SOC 2 documentation updates. We're 10 weeks out and haven't started the security review yet. Create a Timeline Management Pack with a milestone plan working backward from Dec 3, a RAG status cadence (weekly), scope control rules (what gets cut if we slip), stakeholder comms templates for Sales/Marketing/Execs, and escalation triggers for when to negotiate the date vs cut scope. Output: Timeline Management Pack.",
+    "baseline": "We're launching a new enterprise SSO integration at our B2B SaaS company at the AWS re:Invent conference on December 3. The project involves 2 backend engineers, 1 frontend engineer, 1 designer, and requires security review and SOC 2 documentation updates. We're 10 weeks out and haven't started the security review yet. Create a Timeline Management Pack with a milestone plan working backward from Dec 3, a RAG status cadence (weekly), scope control rules (what gets cut if we slip), stakeholder comms templates for Sales/Marketing/Execs, and escalation triggers for when to negotiate the date vs cut scope. Output: Timeline Management Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

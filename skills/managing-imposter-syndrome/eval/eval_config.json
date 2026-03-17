@@ -1,0 +1,15 @@
+{
+  "slug": "managing-imposter-syndrome",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `managing-imposter-syndrome`. I was recently promoted to Director of Product at a 200-person fintech startup and now lead a team of 4 PMs. I'm the youngest director by 8 years and the only one without an MBA. I avoid speaking in exec leadership meetings because I assume my ideas are naive, and I'm compensating by overworking (60+ hour weeks reviewing every PRD my team writes). Create a Managing Imposter Syndrome Pack with a trigger and pattern map, cognitive reframes for my top 3 triggers, an evidence bank template pre-populated with prompts for my context, a 4-week exposure ladder (starting with low-risk experiments like asking one question per exec meeting), and a script for talking to my VP about imposter feelings. Output: Managing Imposter Syndrome Pack.",
+    "baseline": "I was recently promoted to Director of Product at a 200-person fintech startup and now lead a team of 4 PMs. I'm the youngest director by 8 years and the only one without an MBA. I avoid speaking in exec leadership meetings because I assume my ideas are naive, and I'm compensating by overworking (60+ hour weeks reviewing every PRD my team writes). Create a Managing Imposter Syndrome Pack with a trigger and pattern map, cognitive reframes for my top 3 triggers, an evidence bank template pre-populated with prompts for my context, a 4-week exposure ladder (starting with low-risk experiments like asking one question per exec meeting), and a script for talking to my VP about imposter feelings. Output: Managing Imposter Syndrome Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

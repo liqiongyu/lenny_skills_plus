@@ -1,0 +1,15 @@
+{
+  "slug": "onboarding-new-hires",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `onboarding-new-hires`. We're onboarding a new Senior PM starting April 7 at our Series C B2B collaboration SaaS company (250 people, fully remote across US/EU). She'll own the enterprise integrations product line and report to the VP of Product. The team has had 2 PM turnovers in the past year and morale is fragile. Create a full Onboarding Pack: preboarding checklist (equipment, access, welcome), a first-week schedule with key meetings and stakeholder intros, a listening tour guide (who to talk to, what to ask), a working agreement template for her and her manager, and a 30/60/90-day + 1-year success plan with concrete milestones. Output: New Hire Onboarding Pack.",
+    "baseline": "We're onboarding a new Senior PM starting April 7 at our Series C B2B collaboration SaaS company (250 people, fully remote across US/EU). She'll own the enterprise integrations product line and report to the VP of Product. The team has had 2 PM turnovers in the past year and morale is fragile. Create a full Onboarding Pack: preboarding checklist (equipment, access, welcome), a first-week schedule with key meetings and stakeholder intros, a listening tour guide (who to talk to, what to ask), a working agreement template for her and her manager, and a 30/60/90-day + 1-year success plan with concrete milestones. Output: New Hire Onboarding Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

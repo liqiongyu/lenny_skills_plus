@@ -1,0 +1,15 @@
+{
+  "slug": "negotiating-offers",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `negotiating-offers`. I received a PM offer from a Series B developer tools startup (60 people): $165k base, 0.08% equity (4-year vest, 1-year cliff), $5k signing bonus, standard benefits. My current comp is $175k base + RSUs worth ~$40k/year at a public company. The startup role has better scope (own the entire developer experience product line) but seems under-resourced (no designer allocated, 3 engineers). I want to negotiate for a higher base ($180k+), better equity (0.12%+), a dedicated designer within 6 months, and a $10k learning budget. Draft an Offer Negotiation Pack with a success-conditions analysis, A/B/C package strategy, a recruiter email, and a hiring-manager conversation agenda. Output: Offer Negotiation Pack.",
+    "baseline": "I received a PM offer from a Series B developer tools startup (60 people): $165k base, 0.08% equity (4-year vest, 1-year cliff), $5k signing bonus, standard benefits. My current comp is $175k base + RSUs worth ~$40k/year at a public company. The startup role has better scope (own the entire developer experience product line) but seems under-resourced (no designer allocated, 3 engineers). I want to negotiate for a higher base ($180k+), better equity (0.12%+), a dedicated designer within 6 months, and a $10k learning budget. Draft an Offer Negotiation Pack with a success-conditions analysis, A/B/C package strategy, a recruiter email, and a hiring-manager conversation agenda. Output: Offer Negotiation Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "building-sales-team",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `building-sales-team`. We’re seed-stage B2B SaaS. Founder has done 70 first meetings, closed 16, lost 40 (rest pending). Win rate ~23% (first meeting → closed-won). ACV $12k, cycle 30–45 days. We have 2,000 signups/month but upgrades are inconsistent. Budget: hire 2 AEs. Output: Sales Team Build Pack.",
+    "baseline": "We’re seed-stage B2B SaaS. Founder has done 70 first meetings, closed 16, lost 40 (rest pending). Win rate ~23% (first meeting → closed-won). ACV $12k, cycle 30–45 days. We have 2,000 signups/month but upgrades are inconsistent. Budget: hire 2 AEs. Output: Sales Team Build Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

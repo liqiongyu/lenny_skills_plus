@@ -1,0 +1,352 @@
+{
+  "ai-evals": {
+    "prompt": "Use `ai-evals`. SUT: Drafts customer-support replies using retrieved KB articles. Decision: Ship/no-ship for a new prompt + retrieval policy. Constraints: No PII leakage; must cite KB; must refuse unsafe requests.",
+    "method": "scenario_fields"
+  },
+  "ai-product-strategy": {
+    "prompt": "Use `ai-product-strategy`. Product: AI coding assistant. Users: mid-market engineering teams. Constraints: beta in 8 weeks, must not leak proprietary code, cost cap, latency target. Output: AI Product Strategy Pack.",
+    "method": "explicit_prompt"
+  },
+  "analyzing-user-feedback": {
+    "prompt": "Use `analyzing-user-feedback`. Context: B2B SaaS. Area: onboarding + activation. Decision: what to fix in the next 2 sprints. Sources: last 90 days of support tickets (redacted excerpts) + churn survey comments. Segments: SMB vs Mid-market. Output: a User Feedback Analysis Pack.",
+    "method": "manual_fix"
+  },
+  "behavioral-product-design": {
+    "prompt": "Use `behavioral-product-design`. Users abandon checkout at shipping. Support tickets mention “not sure when it arrives” and “returns are unclear”.",
+    "method": "scenario_fields"
+  },
+  "brand-storytelling": {
+    "prompt": "Use `brand-storytelling`. Company: we’re building a SOC2 automation tool. Audience: seed investors. Channels: pitch + podcast. Desired perception: credible, technical, direct, relentless. Raw material: I spent 18 months leading audits; the turning point was watching a team miss a launch because evidence was scattered. Proof: 3 design partners, 40% less audit prep time. Output: Brand Storytelling Pack.",
+    "method": "explicit_prompt"
+  },
+  "building-a-promotion-case": {
+    "prompt": "Use `building-a-promotion-case`. I'm a Senior PM at a Series C B2B SaaS company (150 people) and want to get promoted to Staff PM in the June cycle. I led the new enterprise onboarding flow (reduced TTV from 14 days to 3), drove a pricing migration affecting 2,000 accounts, and own the API platform roadmap. My company uses a 6-level IC ladder. My manager is supportive but says I need 'more visible cross-functional leadership.' Build a Promotion Case Pack with an evidence log, ladder-mapped narrative, manager alignment plan, and sponsor/visibility map. Output: Promotion Case Pack.",
+    "method": "manual"
+  },
+  "building-sales-team": {
+    "prompt": "Use `building-sales-team`. We’re seed-stage B2B SaaS. Founder has done 70 first meetings, closed 16, lost 40 (rest pending). Win rate ~23% (first meeting → closed-won). ACV $12k, cycle 30–45 days. We have 2,000 signups/month but upgrades are inconsistent. Budget: hire 2 AEs. Output: Sales Team Build Pack.",
+    "method": "explicit_prompt"
+  },
+  "building-team-culture": {
+    "prompt": "Use `building-team-culture`. I'm a new Head of Product joining a fully remote product team of 12 (3 PMs, 4 designers, 5 researchers) across US and EU time zones at a Series B developer tools company. Culture feels low-trust: decisions get relitigated in Slack after meetings, people avoid giving candid feedback in retros, and two senior ICs are checked out. I want to build psychological safety and faster decision-making within 8 weeks. Create a culture snapshot, a culture code with 5 principles and explicit behaviors, decision-making and meeting norms, a 30/60/90 rollout plan, and a measurement plan with pulse questions. Output: Team Culture Operating System Pack.",
+    "method": "manual"
+  },
+  "building-with-llms": {
+    "prompt": "We're building a customer support copilot for our B2B SaaS help desk product. The copilot should draft reply suggestions for support agents using our internal KB articles (about 500 articles in Zendesk). Agents will review and approve before sending. Key requirements: every response must include a citation to the source KB article, the system must never fabricate policy, and it must abstain when no KB article covers the question. We're worried about prompt injection and PII exfiltration. Success metrics: reduce median first-reply time from 8 minutes to under 3 minutes while keeping CSAT above 4.5. Budget: $0.15/ticket max LLM cost. Please produce the full feature brief, prompt and tool contract, data and eval plan, and launch plan.",
+    "method": "manual_fix"
+  },
+  "career-transitions": {
+    "prompt": "Use `career-transitions`. I'm a PM with 6 years of experience at a mid-stage fintech company. I'm considering moving into developer relations or product marketing at a developer tools company. I have 8 hours/week for this transition, must stay remote, and my comp floor is $180k. I have a strong writing portfolio (blog + internal docs) and have spoken at 2 conferences. Create a Career Transition Pack with target archetypes for DevRel vs PMM, an option scorecard, outreach scripts for informational interviews, and a 6-week experiment plan to test both paths. Output: Career Transition Pack.",
+    "method": "manual"
+  },
+  "coaching-pms": {
+    "prompt": "Use `coaching-pms`. Growth team, weekly releases. PM ships reliably but struggles to frame the right problems and make crisp tradeoffs.",
+    "method": "scenario_fields"
+  },
+  "community-building": {
+    "prompt": "Use `community-building`. Product: open-source observability SDK for TypeScript. ICP: senior full-stack engineers at 10-200 person SaaS startups. Goal: accelerate activation and word-of-mouth adoption. We're considering Discord as our home base, with GitHub Discussions as a secondary channel. Resources: 1 community lead (10 hrs/week), 2 engineer SMEs (2 hrs/week each), $500/month budget. We have 400 GitHub stars and an email list of 1,200 developers. Create a Community Building Pack with a platform plan, member journey map, 6-week programming calendar, ambassador program v1, and governance/moderation rules. Output: Community Building Pack.",
+    "method": "manual"
+  },
+  "competitive-analysis": {
+    "prompt": "Use `competitive-analysis`. Product: SOC2 automation for startups. ICP: CTOs at 50–500 employee SaaS. Decision: reduce losses to Vanta. Known alternatives: Vanta, Drata, in-house spreadsheets, consultants. Output: Competitive Analysis Pack + battlecard for Vanta.",
+    "method": "explicit_prompt"
+  },
+  "conducting-interviews": {
+    "prompt": "Use `conducting-interviews`. Create a 45-minute hiring manager interview for a Senior Product Manager at a Series B healthcare SaaS company (80 people). The role owns the provider-facing scheduling product. I want to evaluate product sense, execution rigor, healthcare domain curiosity, and cross-functional collaboration with engineering and clinical ops. The candidate previously worked at a consumer health app and has no B2B experience. Include a question map with behavioral probes, a scorecard with rating anchors, and a debrief summary template. Output: Interview Execution Pack.",
+    "method": "manual"
+  },
+  "conducting-user-interviews": {
+    "prompt": "I'm a PM for a B2B SaaS product. Our activation rate dropped after we changed onboarding. I need to run 8 interviews with new trial users this week. Create a recruiting plan, screener, and a 45-minute discovery interview guide. Recording is allowed.",
+    "method": "manual_fix"
+  },
+  "content-marketing": {
+    "prompt": "Use `content-marketing`. Product: payroll automation for multi-state restaurants. ICP: finance ops managers at 20–200 locations. Goal: increase qualified demo requests from organic search by 20% in 10 weeks. Constraints: 1 marketer, 1 SME (tax), compliance review needed. Output: a Content Marketing Plan Pack with a demand-validated topic map, 6-week calendar, and 3 briefs.",
+    "method": "explicit_prompt"
+  },
+  "cross-functional-collaboration": {
+    "prompt": "Use `cross-functional-collaboration`. You’re a Product Lead running a 10-week onboarding revamp with Product/Eng/Design/Data/Marketing.",
+    "method": "scenario_fields"
+  },
+  "defining-product-vision": {
+    "prompt": "Use `defining-product-vision`. We’re a workflow automation platform for IT and Security teams. Problem: complex approvals and fragmented tooling slow down releases and increase risk. Horizon: 5–7 years. Constraints: compliance-first; do not degrade reliability or auditability. Output: a Product Vision Pack.",
+    "method": "explicit_prompt"
+  },
+  "delegating-work": {
+    "prompt": "Use `delegating-work`. Delegate “Improve onboarding activation” to a PM in 6 weeks.",
+    "method": "scenario_fields"
+  },
+  "design-engineering": {
+    "prompt": "Use `design-engineering`. Context: B2B SaaS web app. 2 designers, 8 engineers. We ship slowly because UI polish and edge states get missed. Goal: reduce rework and increase consistency. Constraints: accessibility is required; need initial impact in 4 weeks. Output: a Design Engineering Execution Pack with an embedded model.",
+    "method": "manual_fix"
+  },
+  "design-systems": {
+    "prompt": "Use `design-systems`. Context: B2B SaaS web app. Current state: inconsistent UI, lots of one-off CSS, no shared tokens, and slow design→dev handoff. Goal: improve consistency and speed; first impact in 6 weeks. Constraints: accessibility required; small team (2 designers, 6 engineers). Output: a Design System Operating Pack.",
+    "method": "manual_fix"
+  },
+  "designing-growth-loops": {
+    "prompt": "We're an AI onboarding assistant for HR teams at the early growth stage with some PMF in the mid-market segment. Our goal is to increase WAU by 30% in the next 90 days, focused on the mid-market segment. We have limited engineering resources (2 developers) and all tactics must be brand-safe. We believe our best growth lever is our HRIS integrations (we're listed on several HRIS marketplaces). Please design a growth loop, map the full loop mechanics, identify the key bottlenecks, and propose the first 2-3 experiments we should run.",
+    "method": "manual_fix"
+  },
+  "designing-surveys": {
+    "prompt": "Use `designing-surveys`. We’re a B2B analytics tool. Decision: route new signups to the right onboarding path and prevent sales from contacting non-buyers. Survey type: onboarding profiling. Channel: in-product during first session. Constraints: keep under 2 minutes. Output: Survey Pack.",
+    "method": "explicit_prompt"
+  },
+  "dogfooding": {
+    "prompt": "Use `dogfooding`. We're building an AI-powered meeting notes tool for remote teams. The core workflow is: join meeting -> auto-record -> generate summary -> extract action items -> share to Slack/Notion. Set up a 2-week dogfooding sprint where our 8-person product team uses the tool for every internal meeting (standup, 1:1s, planning). Each PM must share at least 3 meeting summaries/week externally with stakeholders. Environment: production app, real meetings, Slack integration. Create a Dogfooding Pack with scenario map, daily routines, creator commitments, a log + triage board spec in Linear, a weekly report template, and a ship/no-ship gate. Output: Dogfooding Pack.",
+    "method": "manual"
+  },
+  "energy-management": {
+    "prompt": "Use `energy-management`. A product leader is in back-to-back meetings and feels constant decision fatigue.",
+    "method": "scenario_fields"
+  },
+  "engineering-culture": {
+    "prompt": "Use `engineering-culture`. Context: B2B analytics SaaS, 40 engineers across 5 teams, Rails monolith plus 3 Go microservices, deploying twice a week via manual release trains, averaging 2 P1 incidents/month. Symptoms: PRs sit in review for 3+ days, no one owns on-call (it rotates randomly), platform team is a bottleneck for every feature team, and PMs complain engineering 'goes dark' mid-sprint. Goal: increase deploy frequency to daily and reduce P1s by 50% within one quarter. Create an Engineering Culture Operating System Pack with a capability snapshot, culture code, Conway's Law analysis of the platform bottleneck, a clock-speed improvement backlog, and a cross-functional workflow contract for PM/Design/Eng. Output: Engineering Culture Operating System Pack.",
+    "method": "manual"
+  },
+  "enterprise-sales": {
+    "prompt": "Use `enterprise-sales`. Product: <...>. Account: <...>. Deal: ACV ~$80k, timeline 6 weeks. Stakeholders: champion in Ops, economic buyer in Finance, security review owned by IT. Blocker: procurement vendor onboarding + security questionnaire. Output: an Enterprise Deal Execution Pack with a MAP, procurement/security tracker, and champion one-pagers.",
+    "method": "explicit_prompt"
+  },
+  "evaluating-candidates": {
+    "prompt": "Use `evaluating-candidates`. We're hiring a Founding Engineer (full-stack, React + Python) for our seed-stage AI writing assistant startup (4 people, $2M raised). We have interview notes from 3 rounds (technical deep-dive, product thinking, founder-fit) and a 4-hour paid trial project (build a feature prototype). Design a scorecard with 6 criteria weighted for our stage (bias toward raw ability + speed over pedigree), create a reference check script for 2 back-channel references, and write a hiring decision memo that synthesizes all signals into a hire/no-hire recommendation with risks and 30/60/90 onboarding mitigations. Output: Candidate Evaluation Decision Pack.",
+    "method": "manual"
+  },
+  "evaluating-new-technology": {
+    "prompt": "Use `evaluating-new-technology`. Candidate: an AI ‘guardrails’ vendor that claims to block prompt injection. Problem: we’re launching a customer-facing support agent and need safer tool use. Current stack: Zendesk + internal KB. Constraints: SOC2 required, PII present, SSO required, budget $50k/yr, decision in 3 weeks. Output: Technology Evaluation Pack.",
+    "method": "explicit_prompt"
+  },
+  "evaluating-trade-offs": {
+    "prompt": "Use `evaluating-trade-offs`. We're a 30-person B2B SaaS company deciding whether to invest our only growth engineer for the next 2 quarters in SEO content infrastructure or paid acquisition tooling. SEO has compounding returns but slow payoff (6+ months); paid gives immediate pipeline but requires ongoing spend ($8k/month). We need to hit $200k ARR by Q4. Current ARR is $80k. Build a Trade-off Evaluation Pack with all-in cost (including eng time + opportunity cost), order-of-magnitude impact ranges for both options, a worse-first mitigation plan, and stop/continue triggers with a 6-week review date. Output: Trade-off Evaluation Pack.",
+    "method": "manual"
+  },
+  "finding-mentors-sponsors": {
+    "prompt": "Use `finding-mentors-sponsors`. I'm a mid-level PM (3 years) at a 500-person enterprise SaaS company. I want to grow into a leadership role but lack visibility outside my team. I need a mentor for strategic thinking and stakeholder management, and a sponsor who can advocate for me on high-visibility projects. I have about 2 hours/week, I'm comfortable with outreach but moved to this company 8 months ago so my internal network is thin. My manager is supportive but not well-connected to the exec team. Build a Mentor & Sponsor Plan Pack with a target list of 15 candidates (internal directors + external product leaders), warm-path map, 3 outreach message templates, a first-meeting agenda, and a relationship tracking system. Output: Mentor & Sponsor Plan Pack.",
+    "method": "manual"
+  },
+  "founder-sales": {
+    "prompt": "Use `founder-sales`. Prospects agree there’s pain but keep stalling, asking for “more time” or “send info.”",
+    "method": "scenario_fields"
+  },
+  "fundraising": {
+    "prompt": "Use `fundraising`. We're 2 technical co-founders building a B2B developer productivity tool that auto-generates API documentation from code. We have 8 design partners (3 actively using daily), 2 paid pilots at $500/month each, and $150k in savings as runway (about 5 months left). We want to raise $1.5-2.0M pre-seed to hire 2 engineers and 1 designer and reach 20 paying customers in 9 months. Our network includes 5 angel investors and 2 warm VC intros. Produce a full Fundraising Pack including a raise decision memo, round design, pitch narrative + deck outline with a strong first slide, an investor target list of 30 firms, outreach scripts, and a diligence prep checklist. Output: Fundraising Pack.",
+    "method": "manual"
+  },
+  "giving-presentations": {
+    "prompt": "Use `giving-presentations`. Create a 7-minute all-hands presentation: what we shipped this quarter, what's next, and what help we need from other teams. Audience is the whole company. I have bullets and a few metrics. Output: Presentation Pack.",
+    "method": "manual_fix"
+  },
+  "having-difficult-conversations": {
+    "prompt": "Use `having-difficult-conversations`. I'm an Engineering Manager with a senior engineer who has missed 3 consecutive sprint commitments, shows up late to standups, and has started pushing back on code review feedback from peers. The team morale is suffering and two other engineers have mentioned it to me privately. I need to have a direct performance conversation this week. The engineer was a top performer 6 months ago and I suspect burnout or personal issues. Prepare a Difficult Conversation Pack with an evidence-based conversation brief, a talk track/script (direct but empathetic), a plan for handling defensiveness or emotional reactions, and a follow-up note template with a 4-week improvement plan and check-in schedule. Output: Difficult Conversation Pack.",
+    "method": "manual"
+  },
+  "launch-marketing": {
+    "prompt": "Use `launch-marketing`. We're launching a developer tool (private beta to waitlist). Goal: 1,000 waitlist signups in 14 days. Audience: platform engineers at mid-size SaaS companies. Constraints: no customer logos, only product screenshots + demo. Channels: PR, LinkedIn, founder network, community. Output: Launch Marketing Pack.",
+    "method": "manual_fix"
+  },
+  "lenny-skillpack-creator": {
+    "prompt": "Use `$lenny-skillpack-creator`. Source: `sources/refound/raw/giving-feedback/SKILL.md`. Persona: Engineering Manager. The upstream source covers feedback frameworks (SBI, radical candor, feedforward) and tips for giving constructive criticism. Convert this into an executable skill pack at `skills/giving-feedback/` with clear scope and NOT-for boundaries, input/output contracts, a 7-step workflow that produces a Feedback Delivery Pack (situation analysis, feedback script, delivery plan, follow-up template), templates, checklists, rubric, and examples. All content must be in English. Output: complete skill pack written to `skills/giving-feedback/`.",
+    "method": "manual",
+    "skip": true,
+    "skip_reason": "meta-skill, not user-facing"
+  },
+  "managing-imposter-syndrome": {
+    "prompt": "Use `managing-imposter-syndrome`. I was recently promoted to Director of Product at a 200-person fintech startup and now lead a team of 4 PMs. I'm the youngest director by 8 years and the only one without an MBA. I avoid speaking in exec leadership meetings because I assume my ideas are naive, and I'm compensating by overworking (60+ hour weeks reviewing every PRD my team writes). Create a Managing Imposter Syndrome Pack with a trigger and pattern map, cognitive reframes for my top 3 triggers, an evidence bank template pre-populated with prompts for my context, a 4-week exposure ladder (starting with low-risk experiments like asking one question per exec meeting), and a script for talking to my VP about imposter feelings. Output: Managing Imposter Syndrome Pack.",
+    "method": "manual"
+  },
+  "managing-tech-debt": {
+    "prompt": "Use `managing-tech-debt`. System: `checkout-service` (Node + Postgres). Pain: weekly incidents from timeouts + slow releases. Horizon: 8 weeks. Constraint: 2 engineers available, on-call load high. Output: Tech Debt Management Pack with a prioritized register and 3 milestones.",
+    "method": "explicit_prompt"
+  },
+  "managing-timelines": {
+    "prompt": "Use `managing-timelines`. We're launching a new enterprise SSO integration at our B2B SaaS company at the AWS re:Invent conference on December 3. The project involves 2 backend engineers, 1 frontend engineer, 1 designer, and requires security review and SOC 2 documentation updates. We're 10 weeks out and haven't started the security review yet. Create a Timeline Management Pack with a milestone plan working backward from Dec 3, a RAG status cadence (weekly), scope control rules (what gets cut if we slip), stakeholder comms templates for Sales/Marketing/Execs, and escalation triggers for when to negotiate the date vs cut scope. Output: Timeline Management Pack.",
+    "method": "manual"
+  },
+  "managing-up": {
+    "prompt": "Use `managing-up`. I just started as a Senior PM reporting to a VP of Product who manages 8 PMs and is known for changing priorities frequently. We're 3 weeks into a quarterly roadmap and she's already suggested pivoting to a different initiative twice. I need a system to manage up effectively: understand her decision-making style, keep her informed without overwhelming her, and push back on priority changes constructively. Create a Managing Up Operating System Pack with a manager profile template (filled in with what I know), a weekly async update format optimized for a context-switching exec, a trade-off memo template for escalating priority conflicts, and a 4-week pilot cadence for establishing the relationship. Output: Managing Up Operating System Pack.",
+    "method": "manual"
+  },
+  "marketplace-liquidity": {
+    "prompt": "Use `marketplace-liquidity`. We run an on-demand dog walking marketplace in NYC, SF, and LA. Core action: request → booked within 10 minutes. Goal: improve booking fill rate from 55% to 75% in SF evenings within 6 weeks. Baseline: p50 time-to-book is 18 minutes, cancellation rate is 9%. Constraints: $25k/month in incentives, limited eng capacity. Output a Marketplace Liquidity Management Pack.",
+    "method": "explicit_prompt"
+  },
+  "measuring-product-market-fit": {
+    "prompt": "Use `measuring-product-market-fit`. Product: SOC2 compliance automation for startups. Stage: early PMF. Segments: founders doing it themselves vs compliance leads at 200–500 employee companies. Data: 6-month cohorts, onboarding funnel, and in-app survey. Decision: whether to double down on founders vs move upmarket. Output: a PMF Measurement Pack.",
+    "method": "manual_fix"
+  },
+  "media-relations": {
+    "prompt": "Use `media-relations`. We're launching a developer-focused AI code review tool on March 15. Our ICP is engineering leaders at mid-market SaaS companies (200-2000 employees). Goal: 8-10 quality mentions in developer/tech publications (e.g., The New Stack, InfoQ, DevOps.com) within 2 weeks of launch. We can offer 1 exclusive to a top-tier outlet and have 3 customer case studies ready. No revenue numbers can be shared publicly. Budget: $0 (no PR agency). Create a Media Relations Pack with a tiered media list of 20 outlets/reporters, an exclusive/embargo plan, 3 pitch email templates (exclusive offer, general pitch, follow-up), an outreach tracker, and interview prep with talking points and Q&A. Output: Media Relations Pack.",
+    "method": "manual"
+  },
+  "negotiating-offers": {
+    "prompt": "Use `negotiating-offers`. I received a PM offer from a Series B developer tools startup (60 people): $165k base, 0.08% equity (4-year vest, 1-year cliff), $5k signing bonus, standard benefits. My current comp is $175k base + RSUs worth ~$40k/year at a public company. The startup role has better scope (own the entire developer experience product line) but seems under-resourced (no designer allocated, 3 engineers). I want to negotiate for a higher base ($180k+), better equity (0.12%+), a dedicated designer within 6 months, and a $10k learning budget. Draft an Offer Negotiation Pack with a success-conditions analysis, A/B/C package strategy, a recruiter email, and a hiring-manager conversation agenda. Output: Offer Negotiation Pack.",
+    "method": "manual"
+  },
+  "onboarding-new-hires": {
+    "prompt": "Use `onboarding-new-hires`. We're onboarding a new Senior PM starting April 7 at our Series C B2B collaboration SaaS company (250 people, fully remote across US/EU). She'll own the enterprise integrations product line and report to the VP of Product. The team has had 2 PM turnovers in the past year and morale is fragile. Create a full Onboarding Pack: preboarding checklist (equipment, access, welcome), a first-week schedule with key meetings and stakeholder intros, a listening tour guide (who to talk to, what to ask), a working agreement template for her and her manager, and a 30/60/90-day + 1-year success plan with concrete milestones. Output: New Hire Onboarding Pack.",
+    "method": "manual"
+  },
+  "organizational-design": {
+    "prompt": "Use `organizational-design`. Context: B2B SaaS analytics platform, ~180 people; Product/Eng/Design/Data in-scope. Current structure: 5 feature teams, 1 platform team, 1 data team, and a new AI/ML team of 4. Symptoms: platform team is a bottleneck (every feature team depends on them for API changes), the AI/ML team has no PM and takes requests from everyone, data team ownership is unclear (analytics vs data engineering vs ML pipelines). Goals: increase shipping parallelism and reduce cross-team blocking without adding headcount for 2 quarters. A major customer launch is in 8 weeks. Create an Organizational Design Pack with a current-state dependency map, 2-3 restructuring options (including platform productization and value-stream alignment), a recommendation with Day 1 changes, and a transition plan that protects the upcoming launch. Output: Organizational Design Pack.",
+    "method": "manual"
+  },
+  "organizational-transformation": {
+    "prompt": "Use `organizational-transformation`. I'm VP of Product at a 300-person enterprise SaaS company. Our teams currently operate as feature factories: PMs write tickets from exec requests, engineers build to spec, and outcomes are not measured. We want to move toward empowered product teams over the next 12 months. Previous attempts at 'agile transformation' failed due to middle-management resistance and no exec sponsorship beyond the CPO. Create a Transformation Pack with a diagnostic of our current operating model, a target model blueprint (empowered teams with product trios), a 90-day pilot plan for 2 volunteer teams, a 6-12 month roadmap, stakeholder comms for skeptical VPs of Engineering and Sales, and governance metrics to track progress. Output: Organizational Transformation Pack.",
+    "method": "manual"
+  },
+  "partnership-bd": {
+    "prompt": "We're a B2B SaaS product that helps companies automate employee onboarding workflows. We want to grow pipeline through integration partnerships with HRIS and ATS vendors, but we only have 1.5 engineers to allocate to integrations. Our ICP is mid-market companies (200-2000 employees). We currently have 3 integrations live but believe expanding to 10-15 could 2x our pipeline in 6 months. Please build the full partnership execution pack: prioritized partner shortlist with decision-maker hypotheses and warm-path plans, tiered offer structure that protects our limited engineering capacity, partner pitch framework, and an outreach sequence we can start running in the next 2 weeks.",
+    "method": "manual_fix"
+  },
+  "personal-productivity": {
+    "prompt": "I'm a product lead with 25–30 hours/week of meetings and I advise a startup. Build me a personal productivity system that protects deep work and stops tasks from slipping.",
+    "method": "manual_fix"
+  },
+  "planning-under-uncertainty": {
+    "prompt": "Use `planning-under-uncertainty`. We believe our self-serve onboarding is hurting conversion (trial-to-paid is 4% vs industry benchmark of 8-12%), but we don't know if the problem is activation UX, value demonstration, pricing page friction, or ICP mismatch. We have 1 PM, 2 engineers, and 1 designer for 6 weeks. Create an Uncertainty Planning Pack with an uncertainty map ranking the 4 hypotheses by impact and testability, an experiment portfolio (mix of qual interviews + quantitative A/B tests), a Plan v0 that commits to learning milestones (not delivery dates), pivot triggers for each hypothesis, and a weekly cadence for reviewing results and deciding next experiments. Output: Uncertainty Planning Pack.",
+    "method": "manual"
+  },
+  "platform-infrastructure": {
+    "prompt": "Use `platform-infrastructure`. We're a B2B analytics SaaS (Series B, 50 engineers) where every feature team keeps rebuilding export functionality, filtering logic, and permission checks. Our Postgres database is approaching limits (500GB, query latency increasing) and we expect 5x traffic growth in 6 months from an enterprise push. Create a Platform & Infrastructure Improvement Pack with a shared capabilities plan (export, filtering, permissions as platform services), a Postgres scaling analysis with a doomsday clock and migration options (read replicas, sharding, or move to a new DB), reliability SLOs (p99 latency, uptime targets), and an execution roadmap prioritized by blast radius. Output: Platform & Infrastructure Improvement Pack.",
+    "method": "manual"
+  },
+  "platform-strategy": {
+    "prompt": "Use `platform-strategy`. Internal ML platform used by 40 engineers. Biggest pain is shipping models reliably and quickly. PII present; SOC2. Two platform engineers.",
+    "method": "scenario_fields"
+  },
+  "positioning-messaging": {
+    "prompt": "Use `positioning-messaging`. Product: an audit-ready AI assistant for SOC2 evidence collection. ICP: security leaders at 200–2,000 employee SaaS companies. Alternative: spreadsheets + GRC consultants. Proof: ‘cut audit prep time by 40%’ + 3 case studies. Surfaces: homepage hero + sales talk track. Output: a Positioning & Messaging Pack.",
+    "method": "explicit_prompt"
+  },
+  "post-mortems-retrospectives": {
+    "prompt": "Use `post-mortems-retrospectives`. Yesterday we had a 90-minute outage in our payments processing API that affected ~2,000 transactions. The root cause was a database migration that passed staging but failed in production due to a data volume difference (staging has 1% of prod data). The on-call engineer escalated after 30 minutes, but the incident commander role was unclear and the rollback playbook was outdated. Run a blameless postmortem and produce the full Pack: evidence-backed timeline, 5-whys contributing factors analysis, a systems-level root cause summary (not individual blame), an action tracker with owners and due dates, and a shareout plan for engineering + leadership. Output: Post-mortem Pack.",
+    "method": "manual"
+  },
+  "pricing-strategy": {
+    "prompt": "Use `pricing-strategy`. We sell analytics to finance teams. Current: $99/user/mo with a 14-day trial. Goal: increase expansion revenue without hurting retention. Motion: self-serve + sales assist. Constraints: must keep a free tier; SSO only on enterprise. Output: Pricing Strategy Pack.",
+    "method": "explicit_prompt"
+  },
+  "prioritizing-roadmap": {
+    "prompt": "Use `prioritizing-roadmap`. Product: Team collaboration SaaS. ICP: 10-200 person tech companies, team leads. Decision: Pick Q2 roadmap themes and top 8 initiatives in 2 weeks. North Star: weekly active teams completing >=1 project. Constraints: 6 engineers, 1 designer; must complete SSO launch; platform migration dependency in May. Stakeholders: Head of Product (decider), Eng Manager, Growth PM, CS lead. We have 15 candidate initiatives from backlog, customer requests, and internal ideas. Output: Roadmap Prioritization Pack.",
+    "method": "manual_fix"
+  },
+  "problem-definition": {
+    "prompt": "Use `problem-definition`. Product: B2B analytics tool. Segment: ops managers at 50-500 employee companies. Signal: activation drops after connecting data sources. Decision: decide whether to invest in fixing activation this quarter. Output: Problem Definition Pack.",
+    "method": "manual_fix"
+  },
+  "product-led-sales": {
+    "prompt": "Use `product-led-sales`. We’re a B2B SaaS with a 14-day trial. ICP: data teams at 200–2,000 employee companies. Objective: improve trial-to-paid without spamming users. Signals: activation event, invites, integration setup, billing page views. Sales: 2 SDRs, SLA 2 hours. Output: a Product-Led Sales Motion Pack with PQL definition, routing rules, outreach emails, and a 4-week pilot plan.",
+    "method": "explicit_prompt"
+  },
+  "product-operations": {
+    "prompt": "Use `product-operations`. 8 PMs, rapid shipping, stakeholders complain about “no visibility” and surprise launches.",
+    "method": "scenario_fields"
+  },
+  "product-taste-intuition": {
+    "prompt": "Use `product-taste-intuition`. Domain: fintech onboarding. Target user: first-time user connecting their bank account and seeing their net worth dashboard for the first time. The user job is to feel confident their data is safe and see value within 2 minutes of connecting. Benchmarks: propose 4-5 (at least 2 outside fintech, e.g., best-in-class trust/identity flows). Time box: 90 minutes. Constraints: mobile-first, must meet accessibility AA, high-trust design required. Create a Taste Calibration Pack with benchmark study notes (3+ concrete moments per benchmark), 5-7 taste rules specific to fintech onboarding trust, falsifiable hypotheses about our current flow, and a validation plan (5-user task test + instrumentation). Output: Taste Calibration Pack.",
+    "method": "manual"
+  },
+  "retention-engagement": {
+    "prompt": "Use `retention-engagement`. Product: meditation and mindfulness app (B2C subscription). Segment: paid subscribers ($9.99/month). Baseline: D30 paid retention is 22%, with a clear engagement cliff after week 2 (daily sessions drop from 4.2 to 1.1). We have push and in-app channels only (no email). Constraint: 4-week sprint, 1 PM + 2 engineers, no major app redesign allowed. Create a Retention & Engagement Improvement Pack with a diagnosis naming the primary failure mode, an aha-moment definition tied to observable behavior, 6-8 experiment cards (e.g., streak mechanics, personalized session recommendations, 'resume your plan' entry point), a measurement plan with specific events and dashboard specs, and a 30/60/90 execution plan. Output: Retention & Engagement Improvement Pack.",
+    "method": "manual"
+  },
+  "running-decision-processes": {
+    "prompt": "Use `running-decision-processes`. Decision: sunset Feature X. Deadline: March 15. Context: support load is rising and adoption is falling. Constraints: no downtime; must notify top customers 30 days prior. Stakeholders: PM, Eng, Support, Sales, Legal. Options: keep as-is, invest to fix, sunset. Output: Decision Process Pack.",
+    "method": "explicit_prompt"
+  },
+  "running-design-reviews": {
+    "prompt": "Use `running-design-reviews`. We have a new web onboarding flow (Figma link). Decision: choose between Flow A and Flow B to ship next sprint. Target user: first-time admin setting up a team. Constraints: must be accessible (WCAG AA), limited eng bandwidth. Run a 45-minute live review and output a Design Review Pack.",
+    "method": "explicit_prompt"
+  },
+  "running-effective-1-1s": {
+    "prompt": "Use `running-effective-1-1s`. I'm a new product lead managing 5 direct reports (3 PMs, 1 designer, 1 data analyst) across PST and EST time zones. Two reports are senior and low-maintenance, one is a new hire (week 3), one is struggling with prioritization, and one just got passed over for promotion. My calendar is already at 85% utilization. Design a 1:1 Operating System Pack with a tiered cadence plan (not everyone needs weekly), a shared 1:1 doc template, a coaching question bank organized by situation type, a career conversation plan for the passed-over report, and a 4-week pilot schedule. Output: 1:1 Operating System Pack.",
+    "method": "manual"
+  },
+  "running-effective-meetings": {
+    "prompt": "Use `running-effective-meetings`. Design a 60-minute weekly product review meeting for a 12-person cross-functional team (PM, Eng leads, Design, Data, Marketing) at a Series B SaaS company. The current meeting devolves into status updates and runs over every week. The real need is to review metrics, make 1-2 decisions on experiment results, and surface blockers. Create a Meeting Pack with a meeting brief (purpose, attendees, decision owner), a pre-read template (metrics dashboard + decision memos), a timeboxed agenda, a facilitation script with transition cues, a notes + decision log template, and a follow-up email template with action items. Output: Meeting Pack.",
+    "method": "manual"
+  },
+  "running-offsites": {
+    "prompt": "Plan a 1-day strategy offsite for a 10-person product team (remote-first). We need to decide Q2 priorities and reset working agreements. Budget is moderate; location is NYC. Output the full Offsite Pack.",
+    "method": "manual_fix"
+  },
+  "sales-compensation": {
+    "prompt": "Use `sales-compensation`. We're a seed-stage B2B SaaS company selling an API monitoring tool. ACV is $15k, average sales cycle is 40 days, and we're hiring our first 2 AEs. ARR target: $600k this year (currently $50k). We have founder-led sales playbooks but no formal comp plan. Concern: we've seen early churns in the first 90 days from rushed deals. Create a Sales Comp Plan Pack with OTE/pay mix recommendations, quota-setting methodology with a 3-month ramp, commission mechanics (including an accelerator for >100% attainment), a retention-alignment addendum (clawback or holdback for 90-day churn), admin rules for edge cases (multi-year deals, expansion), and a rep-facing FAQ document. Output: Sales Comp Plan Pack.",
+    "method": "manual"
+  },
+  "sales-qualification": {
+    "prompt": "Use `sales-qualification`. We sell B2B SaaS to operations teams at 50–500 employee companies. Inbound is high volume, but AEs say meetings are low quality. ACV $12k, cycle ~45 days. We have SDRs qualifying and handing off to AEs. Output: Sales Qualification Pack.",
+    "method": "explicit_prompt"
+  },
+  "scoping-cutting": {
+    "prompt": "We’re building bulk CSV import for admins. We have 4 weeks. Cut scope so we can ship something useful; include a Wizard-of-Oz validation plan for risky parts.",
+    "method": "explicit_prompt"
+  },
+  "setting-okrs-goals": {
+    "prompt": "Set quarterly OKRs for Growth. Teams keep arguing about conversion rate vs volume.",
+    "method": "explicit_prompt"
+  },
+  "shipping-products": {
+    "prompt": "We’re shipping Role-Based Access Control (RBAC) for admins in 3 weeks. Create a Shipping & Launch Pack: staged rollout, go/no-go criteria (PQL), support enablement, and internal/external comms.",
+    "method": "explicit_prompt"
+  },
+  "stakeholder-alignment": {
+    "prompt": "Use `stakeholder-alignment`. We need exec alignment to pause our new analytics dashboard feature (6 weeks into a 12-week build) to address a critical reliability issue: our core data pipeline has had 3 outages in the past month, causing customer escalations from 2 enterprise accounts worth $400k ARR combined. The CTO is concerned about engineering morale from context-switching, the CRO is worried about the Q3 pipeline impact of delaying the dashboard (it was promised to 5 prospects), and the CEO wants a recommendation by Friday. Create a Stakeholder Alignment Pack with an alignment brief, a stakeholder map capturing each exec's principles and evidence preferences, a pre-brief sequence plan (who to talk to first), a 30-minute decision meeting plan, and a follow-up comms draft. Output: Stakeholder Alignment Pack.",
+    "method": "manual"
+  },
+  "startup-ideation": {
+    "prompt": "Use `startup-ideation`. We're 2 founders: ex‑ops managers in logistics + a PM from warehouse software. Constraints: 3 months runway, can do sales calls, prefer B2B SaaS. Decision: pick 1 idea to validate in 14 days. Output: Startup Ideation Pack.",
+    "method": "manual_fix"
+  },
+  "startup-pivoting": {
+    "prompt": "Use `startup-pivoting`. We built an AI support copilot for e-commerce SMBs. We have 12 trial sign-ups, 3 converted to paid ($200/month each), but D30 retention is 40% and sales cycles average 6 weeks (too long for our price point). We have 5 months of runway ($180k remaining) and a team of 3 (2 engineers + 1 founder doing sales). We're seeing stronger pull from mid-market companies asking for our AI to handle returns/refunds specifically rather than general support. Should we pivot, and if so how? Create a Pivot Decision & Execution Pack with an exhaustion check (could we fix retention/sales cycle without pivoting?), a 4P pivot options grid (including narrowing to returns-only and moving upmarket), a recommended thesis with metrics and kill criteria, and a 4-week validation sprint plan. Output: Pivot Decision & Execution Pack.",
+    "method": "manual"
+  },
+  "systems-thinking": {
+    "prompt": "Use `systems-thinking`. Our engineering on-call load has been rising for 6 months straight (now averaging 15 pages/week per team, up from 5). Teams are burned out and starting to cut corners on code reviews to ship faster, which we suspect is creating more incidents. Meanwhile, management is pushing for higher feature velocity because competitors are shipping faster. Map the system dynamics: identify actors and incentives, feedback loops (especially the firefighting-creates-more-fires loop), second-order effects of proposed interventions (hiring more engineers vs reducing scope vs investing in reliability), and propose 2-3 leverage points with an intervention plan and guardrails. Output: Systems Thinking Pack.",
+    "method": "manual"
+  },
+  "team-rituals": {
+    "prompt": "Use `team-rituals`. Remote cross-functional team (reduce chaos, increase decision velocity): - Team: 12 people (PM, Design, Eng, Data)",
+    "method": "example_title"
+  },
+  "technical-roadmaps": {
+    "prompt": "We’re adding 3× traffic in 6 months and reliability is shaky. Create a technical roadmap (2 quarters) for Platform Eng. Audience is VP Eng + Product leadership. Use quarterly format.",
+    "method": "explicit_prompt"
+  },
+  "usability-testing": {
+    "prompt": "Create a usability test plan + moderator guide for our checkout redesign. We’re a B2C web app. Run 6 remote moderated sessions with existing users this week.",
+    "method": "explicit_prompt"
+  },
+  "user-onboarding": {
+    "prompt": "We're a B2B team analytics tool where new admins must connect at least one integration (Slack, Jira, or GitHub) before they see any value. Our current 7-day activation rate is 12% and we need to get it to 18% by end of quarter, without reducing signup completion rate. Most users drop off during the integration setup step. We have about 5,000 new signups per month. Please produce the full onboarding redesign pack: first-30-seconds experience, first-mile milestone map, experiment backlog with prioritization, and measurement plan.",
+    "method": "manual_fix"
+  },
+  "vibe-coding": {
+    "prompt": "Use `vibe-coding`. 60-minute prototype: “AI meeting notes → action items”: - Demo promise: “In 60 minutes, we will demo pasting meeting notes and getting a prioritized action-item list for a PM.”",
+    "method": "example_title"
+  },
+  "working-backwards": {
+    "prompt": "We're a B2B analytics platform used by enterprise admins and department leads. The problem: admins can't tailor dashboards by role, so teams see irrelevant data and adoption stalls after initial rollout. Enterprise expansion requires governance and least-privilege views. We're targeting a beta in 8 weeks. Please run the full Working Backwards process: generate 2-3 divergent PR/FAQ options (e.g., role-based default dashboards vs. dashboard packs by department vs. permissioned saved views), select and write the full PR/FAQ for the strongest option, and produce a backcasting plan that includes security review, permissions model, analytics instrumentation, documentation, and support enablement.",
+    "method": "manual_fix"
+  },
+  "writing-job-descriptions": {
+    "prompt": "Use `writing-job-descriptions`. Write a job description for a founding Product Designer at a seed-stage B2B AI startup (6 people, $3M raised) building an AI-powered contract review tool for legal teams. The designer will be the first design hire, working directly with the CEO (former lawyer) and 3 engineers. They need to ship end-to-end (research through pixel-perfect UI) in high ambiguity with no design system yet. Include 12-month success outcomes, a clear design-major spike (information-dense UI + legal workflow), an honest 'what's hard here' section (no design peers, fast pace, ambiguous requirements), and filters that self-select wrong-fit candidates out. Create both a role scorecard and a public job posting. Output: Job Description Pack.",
+    "method": "manual"
+  },
+  "writing-north-star-metrics": {
+    "prompt": "Use `writing-north-star-metrics`. B2B SaaS (team collaboration tool): - Product: Team collaboration SaaS",
+    "method": "example_title"
+  },
+  "writing-prds": {
+    "prompt": "Use `writing-prds`. Product: analytics dashboard. Users: admins. Feature: saved views. Output: PR/FAQ + PRD.",
+    "method": "explicit_prompt"
+  },
+  "writing-specs-designs": {
+    "prompt": "Use `writing-specs-designs`. We’re a consumer iOS app. Add an ‘invite friends’ flow. Goal: increase successful invites. Constraint: ship in 4 weeks. Please optimize taps to first value.",
+    "method": "explicit_prompt"
+  },
+  "written-communication": {
+    "prompt": "Use `written-communication`. Artifact: email. Audience: exec stakeholders. Context: launch is slipping 2 weeks due to dependency delays. Ask: approve scope cut (drop Feature B) by Friday. Tone: direct, calm.",
+    "method": "explicit_prompt"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "prioritizing-roadmap",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `prioritizing-roadmap`. Product: Team collaboration SaaS. ICP: 10-200 person tech companies, team leads. Decision: Pick Q2 roadmap themes and top 8 initiatives in 2 weeks. North Star: weekly active teams completing >=1 project. Constraints: 6 engineers, 1 designer; must complete SSO launch; platform migration dependency in May. Stakeholders: Head of Product (decider), Eng Manager, Growth PM, CS lead. We have 15 candidate initiatives from backlog, customer requests, and internal ideas. Output: Roadmap Prioritization Pack.",
+    "baseline": "Product: Team collaboration SaaS. ICP: 10-200 person tech companies, team leads. Decision: Pick Q2 roadmap themes and top 8 initiatives in 2 weeks. North Star: weekly active teams completing >=1 project. Constraints: 6 engineers, 1 designer; must complete SSO launch; platform migration dependency in May. Stakeholders: Head of Product (decider), Eng Manager, Growth PM, CS lead. We have 15 candidate initiatives from backlog, customer requests, and internal ideas. Output: Roadmap Prioritization Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}

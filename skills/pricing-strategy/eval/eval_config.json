@@ -1,0 +1,15 @@
+{
+  "slug": "pricing-strategy",
+  "model": "claude-opus-4-6",
+  "date": "2026-03-17",
+  "prompt": {
+    "original": "Use `pricing-strategy`. We sell analytics to finance teams. Current: $99/user/mo with a 14-day trial. Goal: increase expansion revenue without hurting retention. Motion: self-serve + sales assist. Constraints: must keep a free tier; SSO only on enterprise. Output: Pricing Strategy Pack.",
+    "baseline": "We sell analytics to finance teams. Current: $99/user/mo with a 14-day trial. Goal: increase expansion revenue without hurting retention. Motion: self-serve + sales assist. Constraints: must keep a free tier; SSO only on enterprise. Output: Pricing Strategy Pack."
+  },
+  "with_skill": {
+    "file": "with_skill.md"
+  },
+  "without_skill": {
+    "file": "without_skill.md"
+  }
+}
