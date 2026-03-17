@@ -1,6 +1,6 @@
 ---
 name: "running-design-reviews"
-description: "Run high-signal design reviews (design critique / design crit / design feedback) by producing a Design Review Pack: review brief + requested feedback, agenda + facilitation script, feedback log prioritized by Value→Ease→Delight, decision record, and follow-up plan. Use for design review, design critique, design crit, design feedback, and UX review. Category: Product Design."
+description: "Run high-signal design reviews producing a Design Review Pack: brief, agenda, feedback log (Value>Ease>Delight), decision record, follow-up plan. NOT for general meetings (use running-effective-meetings), NOT for design systems (use design-systems), NOT for design-eng handoff (use design-engineering), NOT for user testing (use usability-testing). Use for design review, design critique, design crit, UX review. Category: Product Design."
 ---
 
 # Running Design Reviews
@@ -23,8 +23,11 @@ description: "Run high-signal design reviews (design critique / design crit / de
 **When NOT to use**
 - You don’t have a defined problem, target user, or goal yet (use `problem-definition` first).
 - You need build-ready interaction specs / acceptance criteria (use `writing-specs-designs`).
-- You need evidence from users rather than expert critique (use `usability-testing`).
+- You need evidence from users rather than expert critique -> use `usability-testing`.
 - You’re doing launch planning, comms, rollout/rollback (use `shipping-products`).
+- You need a general meeting facilitation framework, not a design-specific critique -> use `running-effective-meetings`.
+- You need to establish or audit design system components/tokens -> use `design-systems`.
+- You need to improve the design-to-engineering handoff process -> use `design-engineering`.
 
 ## Inputs
 
@@ -106,6 +109,19 @@ Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Examples
 See [references/EXAMPLES.md](references/EXAMPLES.md).
+
+**Boundary example (redirect):** "We want to test this prototype with 5 users and see where they get stuck."
+Response: redirect to `usability-testing` -- this request needs user evidence from real participants, not expert critique in a design review.
+
+## Anti-patterns
+
+Avoid these common failure modes when running design reviews:
+
+1. **Design-by-committee** -- Treating every reviewer comment as a requirement. The facilitator must synthesize feedback through the Value > Ease > Delight hierarchy and let the DRI make final calls.
+2. **Minutiae-first critique** -- Spending the review debating icon styles, colors, or copy polish before validating that the design solves the right problem (Value) and is usable (Ease). Always enforce the hierarchy.
+3. **Missing decision statement** -- Running a review without stating what will change afterward. "Get feedback" is not a decision. Every review must start with "After this review we will decide ___."
+4. **No pre-read, all context dump** -- Spending the first 15 minutes of a 30-minute review explaining context. Send a pre-read brief so reviewers arrive prepared and time is spent on critique.
+5. **Feedback without follow-through** -- Capturing feedback in a log but never converting it to action items with owners and due dates. The review is incomplete until a decision record and follow-up plan exist.
 
 ## Reference files
 - [references/INTAKE.md](references/INTAKE.md)

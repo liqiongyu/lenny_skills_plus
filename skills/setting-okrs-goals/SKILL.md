@@ -1,6 +1,6 @@
 ---
 name: "setting-okrs-goals"
-description: "Set aligned, measurable OKRs/goals and produce an OKR & Goals Pack (objectives, key results, anti-gaming guardrails, systems/habits, review cadence, grading plan). Use for OKRs, quarterly goals, team goals, company goals, key results, and goal-setting. Category: Strategy."
+description: "Set aligned, measurable OKRs/goals and produce an OKR & Goals Pack (objectives, key results, guardrails, systems/habits, review cadence). NOT for North Star definition (use writing-north-star-metrics), NOT for roadmap prioritization (use prioritizing-roadmap), NOT for vision/strategy (use defining-product-vision), NOT for sprint planning (use managing-timelines). Use for OKRs, quarterly goals, team goals, key results. Category: Strategy."
 ---
 
 # Setting OKRs & Goals
@@ -22,11 +22,13 @@ description: "Set aligned, measurable OKRs/goals and produce an OKR & Goals Pack
 - “We need an OKR review + grading process.”
 
 **When NOT to use**
-- You don’t have an agreed strategy/North Star at all (use `writing-north-star-metrics` or `defining-product-vision` first)
-- You need sprint planning or a delivery plan (tickets, estimates, timelines)
+- You don’t have an agreed strategy/North Star at all -> use `writing-north-star-metrics` or `defining-product-vision` first
+- You need sprint planning or a delivery plan (tickets, estimates, timelines) -> use `managing-timelines`
 - You’re using OKRs primarily for individual performance evaluation
 - You only need a single experiment metric for one test
 - You need an analytics/event tracking implementation plan from scratch
+- You need to prioritize which initiatives to pursue before setting goals -> use `prioritizing-roadmap`
+- You need a product vision or strategy document, not just quarterly goals -> use `defining-product-vision`
 
 ## Inputs
 
@@ -117,6 +119,19 @@ Expected: 1–2 objectives focused on new-team success, KRs with baselines/targe
 **Example 2 (Growth):** “Set quarterly OKRs for Growth; we keep arguing about conversion rate vs volume.”  
 Expected: KRs expressed as absolute numbers (e.g., activated users) plus denominator/quality guardrails to prevent ‘ratio gaming’.
 
-**Boundary example:** “Write OKRs, but we don’t have a company goal or baseline metrics.”  
-Response: ask for the minimum strategy anchor + baselines; if unavailable, produce 2–3 draft OKR options with explicit assumptions and recommend doing North Star/vision first.
+**Boundary example (redirect):** “We need to figure out our overall product strategy and vision before we can set goals.”
+Response: redirect to `defining-product-vision` -- this request needs upstream strategy work, not OKR design. Come back to OKRs once the strategy anchor is established.
+
+**Boundary example (insufficient context):** “Write OKRs, but we don’t have a company goal or baseline metrics.”
+Response: ask for the minimum strategy anchor + baselines; if unavailable, produce 2-3 draft OKR options with explicit assumptions and recommend doing North Star/vision first.
+
+## Anti-patterns
+
+Avoid these common failure modes when setting OKRs and goals:
+
+1. **Activity-as-key-result** -- Writing KRs like “Launch feature X” or “Ship 3 experiments.” Key results must measure outcomes (what changed for the user/business), not outputs (what the team shipped).
+2. **Ratio gaming** -- Using percentage-based KRs (e.g., “increase conversion rate to 15%”) without tracking the absolute numerator and denominator. Teams can hit ratio targets by shrinking the denominator.
+3. **Too many OKRs** -- Setting 5+ objectives with 5+ KRs each. More than 3 objectives means nothing is truly prioritized. If everything is a priority, nothing is.
+4. **OKR-as-performance-review** -- Tying OKR scores directly to compensation or promotion decisions. This incentivizes sandbagging (setting easy targets) and discourages ambitious goals.
+5. **Missing review cadence** -- Setting OKRs at the start of the quarter and only scoring them at the end. Without weekly check-ins and a mid-cycle checkpoint, OKRs become aspirational wallpaper.
 

@@ -1,6 +1,6 @@
 ---
 name: "behavioral-product-design"
-description: "Apply behavioral science to product design and produce a Behavioral Product Design Pack (target behavior, behavioral diagnosis, intervention map, prioritized concepts, design specs, experiment + instrumentation plan, ethics/trust review). Use for retention, onboarding, habit loops, and behavior change problems. Category: Product Design."
+description: "Apply behavioral science to product design: target behavior, diagnosis, intervention map, design specs, experiment plan, ethics review. NOT for onboarding without behavioral lens (use user-onboarding), NOT for retention metrics (use retention-engagement), NOT for survey design (use designing-surveys), NOT for usability testing (use usability-testing). Use for habit loops, behavior change, activation. Category: Product Design."
 ---
 
 # Behavioral Product Design
@@ -26,6 +26,10 @@ description: "Apply behavioral science to product design and produce a Behaviora
 - You can’t name the target user + target behavior + success metric (this becomes generic advice).
 - The goal is to create **dark patterns** (deception, coercion, addiction, hidden costs). Don’t do this.
 - The domain is regulated/high-stakes (medical, financial advice, minors). Require domain/legal review and tighter safeguards.
+- You need to design an onboarding flow without a behavioral science lens -> use `user-onboarding`.
+- You need to analyze retention/engagement metrics and cohort data, not design interventions -> use `retention-engagement`.
+- You need to design a survey or research study to collect user data -> use `designing-surveys`.
+- You need to test an existing design with real users -> use `usability-testing`.
 
 ## Inputs
 
@@ -117,6 +121,19 @@ Expected: diagnosis of the abandonment moment, intervention map, 2 intervention 
 **Example 2 (Retention/habit):** “We want a 7-day habit loop for daily check-ins without annoying notifications.”  
 Expected: habit/reinforcement plan (incl. bend-not-break), celebration moments, a streak spec, and guardrail metrics.
 
-**Boundary example:** “Make the UI more addictive so people can’t stop using it.”  
+**Boundary example (redirect):** “We need to analyze our retention cohorts and understand where users are churning.”
+Response: redirect to `retention-engagement` -- this request needs metric analysis and cohort diagnostics, not behavioral intervention design. Come back to behavioral-product-design once you know *where* and *why* users drop off.
+
+**Boundary example (ethical refusal):** “Make the UI more addictive so people can’t stop using it.”
 Response: refuse dark patterns; reframe toward user-beneficial behaviors, transparency, and opt-out controls.
+
+## Anti-patterns
+
+Avoid these common failure modes when applying behavioral science to product design:
+
+1. **Bias-name-dropping without diagnosis** -- Listing cognitive biases (anchoring, loss aversion, social proof) without mapping them to specific friction points in the user journey. Every cited bias must connect to a concrete step where users drop off or hesitate.
+2. **Notification-as-intervention** -- Defaulting to push notifications and reminders as the primary behavior change tool. Notifications address forgetting but not motivation, ability, or uncertainty. Cover all barrier types.
+3. **Dark pattern disguised as nudge** -- Using behavioral techniques to trick users (hidden costs, forced continuity, confirm-shaming). Every intervention must pass the transparency test: would the user agree this helps them if you explained it?
+4. **Generic habit loop** -- Applying a cookie-cutter trigger-action-reward loop without diagnosing the specific barriers for this user segment. Habit design must be grounded in the actual journey data and friction points.
+5. **Missing guardrail metrics** -- Designing interventions to increase a target behavior without tracking unintended side effects (e.g., increased task completion but lower satisfaction, or higher engagement but more support tickets).
 

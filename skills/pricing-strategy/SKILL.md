@@ -1,6 +1,6 @@
 ---
 name: "pricing-strategy"
-description: "Create a Pricing Strategy Pack (value metric + willingness-to-pay plan, packaging & price-point options, self-serve vs sales-led thresholds, experiments, rollout + review cadence). Use for pricing, monetization, freemium, free trial, reverse trial, and packaging decisions. Category: Growth."
+description: "Create a Pricing Strategy Pack (value metric, WTP plan, packaging, price points, conversion mechanics, rollout). NOT for competitive analysis (use competitive-analysis), NOT for positioning/messaging (use positioning-messaging), NOT for PMF assessment (use measuring-product-market-fit), NOT for partnerships (use partnership-bd). Use for pricing, monetization, freemium, free trial, packaging. Category: Growth."
 ---
 
 # Pricing Strategy
@@ -24,9 +24,12 @@ description: "Create a Pricing Strategy Pack (value metric + willingness-to-pay 
 
 **When NOT to use**
 - You need to define the customer, core use case, or value proposition first (do that before pricing)
-- You only want a quick competitor price scrape (no synthesis or decision support)
+- You only want a quick competitor price scrape (no synthesis or decision support) -> use `competitive-analysis`
 - You need legal/tax/accounting advice (coordinate with qualified experts)
 - You’re making irreversible billing changes without a rollback/migration plan
+- You need to craft brand positioning or messaging strategy -> use `positioning-messaging`
+- You need to assess whether you have product-market fit before setting prices -> use `measuring-product-market-fit`
+- You need to structure partnership or channel deals -> use `partnership-bd`
 
 ## Inputs
 
@@ -114,6 +117,19 @@ Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 **Example 2 (Freemium → paid, consumer):**  
 “Use `pricing-strategy`. We’re a creator tool with freemium + subscription. We want to introduce a reverse trial and improve upgrades without hurting retention. Output: pricing + trial mechanics + experiment backlog.”
 
-**Boundary example:**  
-“Pick a price for us with no product, customer, or market context.”  
-Response: request minimum inputs (ICP/use case, value metric candidates, objective) and propose a WTP plan + 2–3 pricing architecture options with explicit assumptions.
+**Boundary example (redirect):** “We need a full competitive landscape analysis with feature comparison tables and market positioning.”
+Response: redirect to `competitive-analysis` -- this request is about understanding the competitive landscape, not setting pricing. Use competitive insights as an input to pricing-strategy afterward.
+
+**Boundary example (insufficient context):**
+“Pick a price for us with no product, customer, or market context.”
+Response: request minimum inputs (ICP/use case, value metric candidates, objective) and propose a WTP plan + 2-3 pricing architecture options with explicit assumptions.
+
+## Anti-patterns
+
+Avoid these common failure modes when developing pricing strategy:
+
+1. **Cost-plus pricing** -- Setting prices by adding a margin to costs instead of anchoring to customer-perceived value. Costs set the floor; value sets the ceiling. Always start with value metrics and willingness-to-pay.
+2. **Competitor-copy pricing** -- Matching a competitor's price without understanding whether your value proposition, segment, or cost structure is comparable. Competitor prices are a reference point, not a strategy.
+3. **Feature-gating without value logic** -- Putting features behind paywalls based on development cost or engineering effort rather than customer value perception. Gate features that unlock more value as the customer grows.
+4. **Ignoring the buyer/user split** -- In B2B, the person who pays (buyer/procurement) and the person who uses the product are often different. Pricing must address both: usage value for the user, ROI narrative for the buyer.
+5. **One-and-done pricing** -- Setting prices at launch and never revisiting. Pricing should be reviewed every 6-12 months or when value delivery changes materially. Always define a review cadence.

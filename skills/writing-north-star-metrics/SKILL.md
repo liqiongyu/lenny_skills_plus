@@ -1,6 +1,6 @@
 ---
 name: "writing-north-star-metrics"
-description: "Define or refresh a product North Star metric + driver tree and produce a shareable North Star Metric Pack (narrative, metric spec, inputs, guardrails, rollout). Use for North Star metric, success metric, KPI definition, driver tree, and metric alignment. Category: Strategy."
+description: "Define or refresh a product North Star metric + driver tree and produce a North Star Metric Pack. NOT for setting OKRs (use setting-okrs-goals), NOT for product vision (use defining-product-vision), NOT for PMF assessment (use measuring-product-market-fit), NOT for retention diagnostics (use retention-engagement). Use for North Star metric, KPI definition, driver tree, metric alignment. Category: Strategy."
 ---
 
 # Writing North Star Metrics
@@ -20,10 +20,12 @@ description: "Define or refresh a product North Star metric + driver tree and pr
 - “We’re launching a new strategy and need a metric that aligns decisions.”
 
 **When NOT to use**
-- You only need OKRs for an already-agreed North Star
+- You only need OKRs for an already-agreed North Star -> use `setting-okrs-goals`
 - You need a full analytics taxonomy/event tracking plan from scratch
-- Stakeholders haven’t aligned on the customer value model / mission at all (do product vision/strategy first)
+- Stakeholders haven’t aligned on the customer value model / mission at all -> use `defining-product-vision` first
 - You’re choosing a single experiment metric for a one-off test
+- You need to diagnose retention or engagement patterns, not define the top-level metric -> use `retention-engagement`
+- You need to assess whether you have product-market fit -> use `measuring-product-market-fit`
 
 ## Inputs
 
@@ -116,6 +118,19 @@ Expected: a pack that chooses a customer-value metric (e.g., weekly active teams
 **Example 2 (Marketplace):** “Refresh North Star metric for a local services marketplace.”  
 Expected: a pack that measures delivered value (e.g., successful jobs completed with quality), plus input metrics for supply/demand balance and quality guardrails.
 
-**Boundary example:** “Our North Star should be retention.”  
+**Boundary example (redirect):** “We already have our North Star metric. Now set quarterly OKRs and key results for the team.”
+Response: redirect to `setting-okrs-goals` -- this request needs OKR design from an existing North Star, not metric definition work.
+
+**Boundary example (reframe):** “Our North Star should be retention.”
 Response: keep retention as an outcome/validation metric, and propose controllable input/proxy metrics (time-to-first-value, weekly value moments, repeat value delivery) as the operating focus.
+
+## Anti-patterns
+
+Avoid these common failure modes when defining North Star metrics:
+
+1. **Revenue-as-North-Star** -- Choosing revenue or profit as the North Star metric. Revenue is a trailing indicator of value delivery; it cannot be a decision tie-breaker for product teams. Use a customer-value metric that leads to revenue.
+2. **Vanity volume metric** -- Picking a metric that only goes up (total users, total messages sent) without a quality or frequency dimension. Always pair volume with a quality or engagement signal.
+3. **Uncontrollable lagging metric** -- Selecting a metric no team can move within a quarter. The North Star must decompose into leading input metrics with realistic levers.
+4. **Driver tree without levers** -- Building a decomposition tree where drivers are described as metrics but no team has a concrete initiative or experiment to move them. Every driver needs at least one actionable lever.
+5. **Metric without a spec** -- Agreeing on a metric name (“weekly active teams”) without defining formula, window, inclusion rules, and segmentation. Two analysts should compute the same number.
 
