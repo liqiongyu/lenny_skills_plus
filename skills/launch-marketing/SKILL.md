@@ -1,6 +1,6 @@
 ---
 name: "launch-marketing"
-description: "Plan and execute launch marketing by producing a Launch Marketing Pack (launch brief, hook/sizzle, channel plan, PR outreach kit, internal readiness kit, execution checklist, measurement + experiment plan). Use for product launch, feature launch, go-to-market, GTM, announcement, and press outreach. Category: Marketing."
+description: "Plan and execute launch marketing: launch brief, hook/sizzle, channel plan, PR outreach kit, internal readiness kit, checklist, measurement plan. NOT for ongoing content programs (content-marketing), release engineering (shipping-products), sustained PR (media-relations), or positioning (positioning-messaging). Use for product launch, feature launch, GTM, announcement. Category: Marketing."
 ---
 
 # Launch Marketing
@@ -22,10 +22,12 @@ description: "Plan and execute launch marketing by producing a Launch Marketing 
 - “We’re launching soon—give us a day-of checklist and measurement plan.”
 
 **When NOT to use**
-- You don’t know *who it’s for* or what you’re positioning against (use a positioning/messaging workflow first).
-- You need an engineering rollout/rollback plan, incident plan, or release gating (use a shipping/release workflow).
+- You don’t know *who it’s for* or what you’re positioning against (use `positioning-messaging` first).
+- You need an engineering rollout/rollback plan, incident plan, or release gating (use `shipping-products`).
 - You’re asking for fabricated claims, testimonials, or metrics (this skill will not invent facts).
 - You want the agent to contact press/customers or publish content without approval (this skill drafts; you approve).
+- You need an ongoing content program, editorial calendar, and SEO strategy beyond the launch window (use `content-marketing`).
+- You need a sustained journalist relationship and outreach tracking program, not a single launch pitch (use `media-relations`).
 
 ## Inputs
 
@@ -122,6 +124,18 @@ Expected: launch brief + hook options, exclusive outreach kit, channel plan + as
 “We’re shipping a new interactive dashboard feature. Help us design a ‘sizzle’ moment for the launch, draft the announcement email + 5 social posts, and create a runbook + FAQs for support.”  
 Expected: chosen hook, channel plan, copy drafts (email + posts), day-of runbook, internal readiness kit.
 
-**Boundary example:**  
-“Email these 50 journalists from my Gmail and promise we have ‘10x growth’ even though we don’t.”  
+**Boundary example (fabrication):**
+“Email these 50 journalists from my Gmail and promise we have ‘10x growth’ even though we don’t.”
 Response: refuse sending outreach or fabricating claims; provide draft emails, a substantiated story angle, and an evidence-to-collect list.
+
+**Boundary example (redirect to content-marketing):**
+“Build us a 6-month blog strategy with SEO topics and an editorial calendar.”
+Response: this is an ongoing content program, not a time-bound launch campaign. Redirect to `content-marketing` for the sustained plan; use this skill when you have a specific launch event to market.
+
+## Anti-patterns
+
+1. **All sizzle, no steak** — Leading with flashy visuals or bold claims but having no concrete demo, data, or proof point behind the hook. The hook must be backed by something showable or measurable.
+2. **Launching without internal readiness** — Announcing publicly before sales, support, and success teams know what the product does, how to demo it, and how to handle objections. Always ship the internal readiness kit before the external announcement.
+3. **Spray-and-pray channel plan** — Posting across every channel simultaneously with the same copy, no sequencing, and no owners. Each channel needs a specific message angle, a single CTA, and a named owner.
+4. **Treating the launch as the finish line** — Publishing the announcement and declaring victory without a measurement/experiment plan. Every launch needs a post-launch iteration loop with “double down” and “cut” rules.
+5. **Confusing launch marketing with positioning** — Trying to define ICP, competitive positioning, and messaging from scratch inside a launch plan. If positioning is not settled, pause and use `positioning-messaging` first.

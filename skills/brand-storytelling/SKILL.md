@@ -1,6 +1,6 @@
 ---
 name: "brand-storytelling"
-description: "Create a Brand Storytelling Pack (brand narrative, founder/origin story, five-second moment, channel scripts, building-in-public plan, Q&A bank). Use for brand story, founder story, origin story, narrative, pitch story, storytelling, and brand narrative. Category: Marketing."
+description: "Create a Brand Storytelling Pack: brand narrative, founder/origin story, five-second moment, channel scripts, build-in-public plan, Q&A bank. NOT for positioning (positioning-messaging), content programs/SEO (content-marketing), press outreach (media-relations), or launch campaigns (launch-marketing). Use for brand story, founder story, origin story, narrative, pitch story. Category: Marketing."
 ---
 
 # Brand Storytelling
@@ -22,10 +22,13 @@ description: "Create a Brand Storytelling Pack (brand narrative, founder/origin 
 - “Prep our pithy story + Q&A for fundraising / press / a keynote.”
 
 **When NOT to use**
-- You need to decide your ICP/positioning first (use a positioning/messaging workflow first).
+- You need to decide your ICP/positioning first (use `positioning-messaging`).
 - You need a full visual identity system (logo, typography, brand book, UI kit).
 - You want fictionalized or unverifiable claims (this skill will not fabricate facts).
 - You’re making regulated/high-risk claims (medical/legal/financial) without expert review.
+- You need an ongoing content program with SEO topics and editorial calendar (use `content-marketing`).
+- You need to pitch journalists and manage press outreach (use `media-relations`).
+- You need a full launch campaign with channel plan, internal readiness, and runbook (use `launch-marketing`).
 
 ## Inputs
 
@@ -120,5 +123,17 @@ Expected: story brief (five-second moment), scripts in 3 lengths, proof bank, di
 **Example 2 (Consumer):** “We’re launching a consumer app and want a brand story that creates identity-based loyalty (but stays honest). Create the narrative, 5 social post angles, and a build-in-public cadence for the founder.”  
 Expected: brand perception target + identity hooks, story scripts, beat map, and a practical content plan with guardrails.
 
-**Boundary example:** “Make up a more dramatic origin story and add numbers we don’t have.”  
+**Boundary example (fabrication):** “Make up a more dramatic origin story and add numbers we don’t have.”
 Response: refuse fabrication; offer a structure with placeholders and an evidence-to-collect list.
+
+**Boundary example (redirect to content-marketing):**
+“Create a 3-month blog strategy with SEO-validated topics and an editorial calendar, plus write our brand story.”
+Response: the blog/SEO program belongs in `content-marketing`. Use this skill for the brand narrative and origin story; then feed the narrative into your content program.
+
+## Anti-patterns
+
+1. **Generic origin story** — “We saw a problem and decided to solve it” with no specific moment, stakes, or emotion. The five-second moment must be vivid, singular, and meaningfully different from any other company’s story.
+2. **All aspiration, no proof** — Crafting a narrative filled with bold claims (“we’re redefining the industry”) but attaching zero evidence, customer outcomes, or concrete examples. Every key claim needs a proof point or explicit placeholder.
+3. **Confusing brand story with positioning** — Trying to define ICP, competitive differentiation, and messaging framework inside a storytelling exercise. If positioning is not settled, pause and use `positioning-messaging` first.
+4. **One-size-fits-all script** — Writing a single 2-minute version and copy-pasting it for pitch decks, social posts, and website About pages. Each channel needs a tailored length and tone.
+5. **Ignoring the “say/do” gap** — Telling a story that is not backed by actual company behavior. If the narrative says “we put customers first” but the company has no customer feedback loop, flag the gap explicitly.
