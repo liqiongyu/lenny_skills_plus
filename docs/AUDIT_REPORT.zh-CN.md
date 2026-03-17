@@ -2,7 +2,7 @@
 
 > English version: [AUDIT_REPORT.md](AUDIT_REPORT.md)
 
-生成时间：2026-01-23 11:53:03Z
+生成时间：2026-03-17 04:52:43Z
 
 本报告汇总了对 `skills/` 下 skill packs 的自动化检查结果。
 
