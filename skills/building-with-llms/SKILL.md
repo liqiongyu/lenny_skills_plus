@@ -1,6 +1,6 @@
 ---
 name: "building-with-llms"
-description: "Produce an LLM Build Pack (prompt+tool contract, data/eval plan, architecture+safety, launch checklist). Use for building with LLMs, GPT/Claude apps, prompt engineering, RAG, and tool-using agents. Category: AI & Technology."
+description: "Produce an LLM Build Pack (prompt+tool contract, data/eval plan, architecture+safety, launch checklist). Use for building with LLMs, GPT/Claude apps, prompt engineering, RAG, and tool-using agents. NOT for AI product strategy/positioning (use ai-product-strategy), NOT for eval framework design without a build target (use ai-evals), NOT for general tech-stack selection (use evaluating-new-technology), NOT for quick prototyping without production intent (vibe-coding). Category: AI & Technology."
 ---
 
 # Building with LLMs
@@ -27,6 +27,9 @@ description: "Produce an LLM Build Pack (prompt+tool contract, data/eval plan, a
 - You need primary user research (use `conducting-user-interviews` / `usability-testing`).
 - You are doing model training/research, infra architecture, or bespoke model tuning (delegate to ML/eng; this skill assumes API models).
 - You only want “which model/provider should we pick?” (treat as an input; if it dominates, do a separate evaluation doc).
+- You want to design an eval/benchmark framework without building a specific feature (use `ai-evals`).
+- You need to evaluate a vendor/tool for adoption rather than build an LLM feature (use `evaluating-new-technology`).
+- You want to quickly prototype or vibe-code an idea without production planning (use `vibe-coding`).
 
 ## Inputs
 
@@ -105,6 +108,14 @@ Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 - **Outputs:** Final **LLM Build Pack**.
 - **Checks:** A team can execute the plan without a meeting; unknowns are explicit and owned.
 
+## Anti-patterns (common failure modes)
+
+1. **"Prompt and pray"** — Shipping a system prompt with no eval set, no automated checks, and no iteration loop. Result: quality regresses silently after every model update.
+2. **Skipping the tool contract** — Giving the LLM tool access without explicit schemas, permission boundaries, and confirmation gates. Result: unintended side-effects (e.g., deleting records, sending emails) in production.
+3. **RAG without retrieval quality metrics** — Building a retrieval pipeline but never measuring recall, precision, or freshness of retrieved chunks. Result: the LLM confidently hallucinates from stale or irrelevant context.
+4. **Optimizing cost before correctness** — Compressing prompts, switching to smaller models, or removing examples to save tokens before the eval set proves the system works. Result: false savings with broken quality.
+5. **Ignoring adversarial inputs** — No red-team cases or prompt-injection tests. Result: the first creative user bypasses guardrails in ways the team never imagined.
+
 ## Quality gate (required)
 - Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
@@ -117,6 +128,9 @@ Expected: LLM Build Pack with prompt/tool contract, eval set (including privacy 
 **Example 2 (tool-using workflow):** “Use `building-with-llms` to design an LLM workflow that turns meeting notes into action items and Jira tickets (human review required). Output must be valid JSON.”  
 Expected: output schema + tool contract + eval plan for structured extraction + guardrails against over-creation.
 
-**Boundary example:** “Fine-tune/train a new LLM from scratch.”  
-Response: out of scope; propose an API-model approach and highlight what ML/infra work is required if training is truly needed.
+**Boundary example (out of scope — redirect):** “We need to decide whether to adopt an AI coding assistant tool for our engineering team.”
+Response: This is a technology evaluation/adoption decision, not an LLM build task. Redirect to `evaluating-new-technology` for an options matrix, pilot plan, and decision memo. If they later decide to build a custom coding assistant, return here.
+
+**Boundary example (out of scope — ML/infra):** “Fine-tune/train a new LLM from scratch.”
+Response: Out of scope; this skill assumes API-hosted models. Propose an API-model approach first and highlight what ML/infra work is required if training is truly needed.
 

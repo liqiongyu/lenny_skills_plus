@@ -1,6 +1,6 @@
 ---
 name: "shipping-products"
-description: "Plan and execute a product launch/release with speed and safety. Produces a Shipping & Launch Pack (release brief, rollout/rollback plan, product quality list, comms + enablement, monitoring plan, post-launch review). Use for ship, launch, release, deploy, go live. Category: Execution."
+description: "Plan and execute a product launch/release with speed and safety. Produces a Shipping & Launch Pack (release brief, rollout/rollback plan, PQL, comms, monitoring, post-launch review). NOT for scope cutting (scoping-cutting), timeline plans (managing-timelines), launch marketing copy (launch-marketing), or post-incident retros (post-mortems-retrospectives). Use for ship, launch, release, deploy, go live. Category: Execution."
 ---
 
 # Shipping Products
@@ -25,6 +25,9 @@ description: "Plan and execute a product launch/release with speed and safety. P
 - You need to right-size scope to hit a date/appetite (use `scoping-cutting`)
 - You need a decision-ready PRD (use `writing-prds`) or build-ready spec/design doc (use `writing-specs-designs`)
 - You’re setting long-term strategy/vision (use `defining-product-vision`) or choosing among initiatives (use `prioritizing-roadmap`)
+- You need a timeline/milestone plan with stakeholder cadence but are not yet launching (use `managing-timelines`)
+- You need launch marketing copy, positioning, or campaign planning (use `launch-marketing`)
+- You’re running a post-incident review after something went wrong (use `post-mortems-retrospectives`)
 
 ## Inputs
 
@@ -105,18 +108,32 @@ Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 - **Outputs:** Post-launch review notes + PQL updates + next steps.
 - **Checks:** At least 1 process improvement is identified and owners/dates are assigned.
 
+## Anti-patterns (common failure modes)
+
+1. **Big-bang launch with no rollback.** Shipping to 100% of users simultaneously with no kill switch or staged rollout. One regression impacts everyone and recovery is slow.
+2. **Go/no-go by gut feel.** Running a launch review without a concrete checklist or PQL. “It feels ready” replaces measurable stop-ship criteria, and known risks are hand-waved.
+3. **Monitoring as an afterthought.** Defining dashboards and alerts after launch day instead of before. The team discovers regressions from support tickets, not automated alerts.
+4. **Comms-last syndrome.** Internal teams (Support, Sales, CS) learn about the launch from customers. Enablement materials are written retroactively, creating a trust gap.
+5. **Ship and forget.** Declaring victory at launch without a post-launch review. Escapes, quality gaps, and process improvements go unrecorded and repeat next release.
+
 ## Quality gate (required)
 - Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples
 
-**Example 1 (B2B SaaS release):** “We’re launching role-based access control for admins next month. Create a Shipping & Launch Pack with a staged rollout, go/no-go criteria, and support enablement.”  
+**Example 1 (B2B SaaS release):** “We’re launching role-based access control for admins next month. Create a Shipping & Launch Pack with a staged rollout, go/no-go criteria, and support enablement.”
 Expected: a phased rollout with clear eligibility, a PQL including permission edge cases, and a launch runbook + comms plan.
 
-**Example 2 (Consumer app iteration):** “Ship ‘saved searches’ to 10% of users behind a flag next week; define monitoring and rollback triggers.”  
+**Example 2 (Consumer app iteration):** “Ship ‘saved searches’ to 10% of users behind a flag next week; define monitoring and rollback triggers.”
 Expected: a small-batch rollout plan, dashboards/alerts tied to guardrails, and explicit stop-the-line thresholds.
 
-**Boundary example:** “Decide what we should build this quarter.”  
+**Boundary example (scope cutting):** “We need to cut scope so we can ship by the deadline.”
+Response: use `scoping-cutting` to right-size the slice first; then return here to plan the actual launch.
+
+**Boundary example (post-mortem):** “The launch failed; let’s figure out what went wrong.”
+Response: use `post-mortems-retrospectives` to run a structured incident review; this skill covers pre-launch planning, not post-incident analysis.
+
+**Boundary example (roadmap):** “Decide what we should build this quarter.”
 Response: use `prioritizing-roadmap` (and/or `defining-product-vision`) first; then apply this skill to the chosen initiative’s release.
 

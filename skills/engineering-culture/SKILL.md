@@ -1,6 +1,6 @@
 ---
 name: "engineering-culture"
-description: "Build or refresh engineering culture and produce an Engineering Culture Operating System Pack (capability map, culture code, org↔architecture alignment, clock-speed/DevEx backlog, workflow contract, rollout + measurement). Use for engineering culture, DevOps capabilities, DevEx, clock speed, Conway's Law, and engineering principles. Category: Engineering."
+description: "Produce an Engineering Culture Operating System Pack (capability map, culture code, org/architecture alignment, clock-speed/DevEx backlog, workflow contract, rollout plan). Use for engineering culture, DevOps, DevEx, clock speed, Conway's Law. NOT for team culture broadly (use building-team-culture), org design (use organizational-design), technical roadmaps (use technical-roadmaps), or design-eng collaboration (use design-engineering). Category: Engineering."
 ---
 
 # Engineering Culture
@@ -28,6 +28,10 @@ description: "Build or refresh engineering culture and produce an Engineering Cu
 - You need HR/legal policy, investigations, or employee relations handling (involve HR/legal)
 - You only need to implement a specific technical improvement (e.g., “set up CI”) without culture/org/process work
 - You need a full company strategy/roadmap prioritization across many bets (use `prioritizing-roadmap`)
+- You want to build or refresh company-wide or team culture beyond engineering (use `building-team-culture`)
+- You need to redesign org structure, reporting lines, or team topology at a company level (use `organizational-design`)
+- You need a prioritized technical roadmap for specific projects or systems (use `technical-roadmaps`)
+- You want to improve designer-engineer collaboration workflows specifically (use `design-engineering`)
 
 ## Inputs
 
@@ -113,5 +117,16 @@ Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 **Example 2 (Conway misalignment):** “We have 6 teams but architecture ownership is unclear and everything depends on platform. Analyze Conway’s Law issues and propose a new operating model + standardization (leveling, code ownership, on-call) plus a rollout plan.”
 
-**Boundary example:** “Write a generic essay about what engineering culture is.”  
+**Boundary example:** “Write a generic essay about what engineering culture is.”
 Response: explain this skill produces a concrete operating system pack; ask for context/symptoms/timeline or provide the intake checklist and an example template from [references/TEMPLATES.md](references/TEMPLATES.md).
+
+**Boundary example 2:** “Help me redesign our company's organizational structure and reporting lines.”
+Response: full org design (reporting structure, span of control, team topology beyond engineering) is better served by `organizational-design`. This skill focuses on engineering culture, delivery systems, and Conway's Law alignment within the engineering org.
+
+## Anti-patterns (common failure modes)
+
+1. **Values poster syndrome**: Writing aspirational engineering principles (“we value quality”) without concrete behaviors, decision rules, or anti-patterns. Culture codes must be actionable: “when X happens, we do Y.”
+2. **Tool-first transformation**: Adopting a new CI/CD tool or framework and declaring culture improved. Culture change requires behavior change; tools are enablers, not solutions.
+3. **Ignoring Conway's Law**: Proposing a microservices architecture without acknowledging that the org structure has 2 teams and no clear ownership boundaries. Architecture must match team topology.
+4. **Clock speed without guardrails**: Pushing to ship faster without defining quality, reliability, or safety guardrails. Speed without safety creates incidents and erodes trust.
+5. **Top-down culture decree**: Announcing culture changes via email without rollout rituals, feedback loops, or measurement. Culture is reinforced through repeated behavior, not announcements.

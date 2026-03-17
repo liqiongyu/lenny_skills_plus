@@ -1,6 +1,6 @@
 ---
 name: "onboarding-new-hires"
-description: "Design a high-signal onboarding experience and produce a New Hire Onboarding Pack (preboarding checklist, first-week plan, buddy/first-pair plan, listening tour kit, working agreement, 30/60/90 + 1y/2y success plan, 30-day state-of-the-union memo). Use for onboarding, first 90 days, new hire ramp, manager onboarding plan, and joining plans. Category: Hiring & Teams."
+description: "Design an employee onboarding experience (first 90 days + trajectory). NOT for product/user onboarding (use user-onboarding), NOT for interview design (use conducting-interviews), NOT for team culture overhauls (use building-team-culture). Produces a New Hire Onboarding Pack. Use for onboarding, first 90 days, new hire ramp, manager onboarding plan, and joining plans. Category: Hiring & Teams."
 ---
 
 # Onboarding New Hires
@@ -23,9 +23,11 @@ description: "Design a high-signal onboarding experience and produce a New Hire 
 - “Write a working agreement / relationship design conversation guide for me and my new report.”
 
 **When NOT to use**
+- You need to design product/user onboarding flows or activation funnels (use `user-onboarding` — completely different domain)
 - You need to define the role outcomes or write the job description (use `writing-job-descriptions`)
 - You need to evaluate candidates or decide who to hire (use `conducting-interviews` and/or `evaluating-candidates`)
-- You need to run organization-wide culture change (this skill is for *per-hire* onboarding systems)
+- You need to run organization-wide culture change or write a culture code (use `building-team-culture` — this skill is for *per-hire* onboarding, not team-wide culture redesign)
+- You need to design team operating cadence or rituals (use `team-rituals`)
 - You need legal/HR compliance advice (this skill is not legal advice)
 
 ## Inputs
@@ -120,5 +122,19 @@ Expected: a complete pack with calendar-ready steps and role-specific success de
 **Example 2 (new leader joining):** “A new Engineering Manager is joining a team with morale issues. Build a 0–30 listening tour kit and a 30-day state-of-the-union memo outline, plus a cautious 30/60/90 plan that prioritizes trust.”  
 Expected: stakeholder map + question guide, synthesis template, and guarded plan that avoids premature changes.
 
-**Boundary example:** “Write a generic onboarding checklist for all roles.”  
+**Boundary example (generic):** “Write a generic onboarding checklist for all roles.”
 Response: ask for role + context; propose a minimal universal skeleton and require role-specific tailoring before finalizing.
+
+**Boundary example (wrong domain):** “Design the onboarding flow for new users signing up for our SaaS product.”
+Response: redirect to `user-onboarding` — this skill is for employee onboarding (new hires joining a team), not product user onboarding.
+
+**Boundary example (redirect to culture):** “Our whole team's norms are broken and we need to rebuild the culture from scratch. Can you include that in the onboarding plan?”
+Response: redirect to `building-team-culture` for the culture redesign; then return here for the new hire's onboarding within the refreshed culture.
+
+## Anti-patterns (common failure modes)
+
+1. **”Read the docs” first week** — Scheduling the new hire to sit alone reading documentation for 3-5 days before meeting anyone. This destroys belonging and delays productive collaboration. Integrate social connection from day 1.
+2. **Information firehose** — Dumping every wiki, Slack channel, and meeting invite on the new hire in week 1. Prioritize the 20% of context that covers 80% of day-to-day work; stagger the rest across 30/60/90 days.
+3. **Missing success definition** — Creating a detailed onboarding calendar without defining what success looks like at 30/60/90 days. Activities without outcomes lead to busy but unproductive ramp periods.
+4. **Buddy in name only** — Assigning a buddy who has no time, no guidance, and no accountability. Buddies need clear expectations (frequency, topics, duration) and protected time.
+5. **Skipping the listening tour** — Having a new leader jump straight to “fixing things” without first understanding the current state through structured conversations. This erodes trust and often leads to wrong interventions.

@@ -1,6 +1,6 @@
 ---
 name: "sales-qualification"
-description: "Build a Sales Qualification Pack (ICP + disqualification rules, qualification scorecard, discovery/qualification script, CRM note template, and pipeline hygiene rules). Use for sales qualification, lead scoring, pipeline quality, disqualification criteria, and discovery calls. Category: Sales & GTM."
+description: "Build a Sales Qualification Pack (ICP + disqualification rules, qualification scorecard, discovery/qualification script, CRM note template, and pipeline hygiene rules). Use for sales qualification, lead scoring, pipeline quality, disqualification criteria, and discovery calls. NOT for founder-led selling (use founder-sales), enterprise deal strategy (use enterprise-sales), or comp plan design (use sales-compensation). Category: Sales & GTM."
 ---
 
 # Sales Qualification
@@ -25,6 +25,8 @@ description: "Build a Sales Qualification Pack (ICP + disqualification rules, qu
 **When NOT to use**
 - You don’t have an ICP hypothesis or you’re still pre-problem/solution fit (start with `founder-sales` or `problem-definition`)
 - You need a full sales org design (roles, hiring, enablement system) rather than qualification (use `building-sales-team`)
+- You need to navigate a complex multi-stakeholder enterprise deal already in flight (use `enterprise-sales`)
+- You need to design OTE, quotas, or commission mechanics for reps (use `sales-compensation`)
 - You need pricing/packaging strategy, contracting, or legal/security review
 - You want lead scraping/spammy outreach or anything deceptive
 
@@ -104,14 +106,28 @@ Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 - Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
+## Anti-patterns
+
+Avoid these common failure modes when building qualification systems:
+
+1. **Qualification without disqualification.** Building a scorecard that only measures “how good” a lead is without defining hard “no” rules. The primary value of qualification is protecting rep time by saying no fast. Every qualification system must include explicit disqualifiers that can be applied in the first 10-15 minutes.
+2. **BANT/MEDDICC cargo-culting.** Adopting a framework label (BANT, MEDDICC, MEDDPICC) without calibrating criteria and thresholds to your specific product, ACV, and buying process. A $12k ACV deal does not need a champion-mapping exercise; a $200k enterprise deal does. Adapt the framework to your reality.
+3. **Scorecard without scoring anchors.** Listing criteria (budget, authority, need, timing) without defining what a 0, 1, 2, or 3 looks like for each. Two reps should score the same deal within one tier. If anchors are vague, the scorecard produces inconsistent decisions and is quickly abandoned.
+4. **Pipeline stages without exit criteria.** Defining stages (Discovery, Evaluation, Negotiation) but not specifying what evidence is required to advance. Deals drift forward on optimism. Every stage must have observable, verifiable exit criteria.
+5. **Over-qualifying early-stage pipelines.** Applying enterprise-grade qualification rigor when you have fewer than 50 opportunities and are still learning your ICP. At very early stages, you need signal collection, not gate-keeping. Use `founder-sales` first.
+
 ## Examples
 
-**Example 1 (inbound B2B SaaS):**  
-“Use `sales-qualification`. We sell workflow automation to HR ops teams (50–500 employees). Inbound leads are high volume but low close rate. We need an SDR qualification script + scorecard + stage exit criteria. Output: a Sales Qualification Pack.”
+**Example 1 (inbound B2B SaaS):**
+“Use `sales-qualification`. We sell workflow automation to HR ops teams (50-500 employees). Inbound leads are high volume but low close rate. We need an SDR qualification script + scorecard + stage exit criteria. Output: a Sales Qualification Pack.”
 
-**Example 2 (outbound mid-market/enterprise):**  
-“Use `sales-qualification`. We’re doing outbound to security leaders. ACV $50k–$200k, cycle 90–180 days. Deals stall after first call. Output: disqualifiers, MEDDICC-style scorecard, and CRM note template + hygiene rules.”
+**Example 2 (outbound mid-market/enterprise):**
+“Use `sales-qualification`. We’re doing outbound to security leaders. ACV $50k-$200k, cycle 90-180 days. Deals stall after first call. Output: disqualifiers, MEDDICC-style scorecard, and CRM note template + hygiene rules.”
 
-**Boundary example:**  
-“Just give me a list of leads to call and a generic pitch.”  
+**Boundary example (redirect to founder-sales):**
+“Just give me a list of leads to call and a generic pitch.”
 Response: explain this skill focuses on qualification decisions and artifacts; ask for ICP/product context and propose using `founder-sales` for outreach messaging if needed.
+
+**Boundary example (redirect to enterprise-sales):**
+“I have a $500k deal with 8 stakeholders and need help navigating the decision process and closing strategy.”
+Response: this skill builds qualification systems and scorecards, not deal-specific strategy. Redirect to `enterprise-sales` for multi-stakeholder deal navigation, and use the qualification artifacts from this skill to assess new opportunities going forward.

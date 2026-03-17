@@ -1,6 +1,6 @@
 ---
 name: "fundraising"
-description: "Plan and run an early-stage fundraising process and produce a Fundraising Pack (raise decision memo, round design brief, pitch narrative + deck outline, investor pipeline + tracker, outreach/follow-up scripts, diligence checklist). Use for fundraising, raising capital, venture capital, pitch deck, investor outreach, pre-seed, seed. Category: Career."
+description: "Plan and run an early-stage fundraising process: raise decision memo, round design, pitch narrative + deck outline, investor pipeline, outreach scripts, diligence prep. NOT for founder sales motions (founder-sales), startup idea validation (startup-ideation), presentation delivery skills (giving-presentations), or offer negotiation (negotiating-offers). Use for raising capital, VC, pitch deck, pre-seed, seed. Category: Career."
 ---
 
 # Fundraising
@@ -21,10 +21,14 @@ description: "Plan and run an early-stage fundraising process and produce a Fund
 - “I’m starting a pre-seed/seed raise; help me run the process end-to-end.”
 
 **When NOT to use**
-- You need legal, tax, or securities advice (term sheets, SAFE/notes, incorporation, compliance) — involve qualified professionals.
-- You’re raising grants/donations or structured debt (use a fundraising/grants/debt-specific workflow instead).
-- You only want visual slide design polish with no strategy/process work.
-- You’re in an immediate liquidity crisis where the only viable path is emergency financing within days (this skill can help structure messaging, but you should prioritize urgent financial triage with experts).
+- You need to build a founder-led sales motion or close your first customers — use `founder-sales` (this pack raises capital; that pack generates revenue)
+- You want to validate a startup idea before raising — use `startup-ideation` (validate the idea first, then raise)
+- You need help with presentation delivery, storytelling mechanics, or slide design — use `giving-presentations` (this pack builds the narrative and deck *outline*; that pack covers delivery and design)
+- You have a job offer to negotiate (not an investment round) — use `negotiating-offers`
+- You need legal, tax, or securities advice (term sheets, SAFE/notes, incorporation, compliance) — involve qualified professionals
+- You’re raising grants/donations or structured debt (use a fundraising/grants/debt-specific workflow instead)
+- You only want visual slide design polish with no strategy/process work
+- You’re in an immediate liquidity crisis where the only viable path is emergency financing within days (this skill can help structure messaging, but you should prioritize urgent financial triage with experts)
 
 ## Inputs
 
@@ -118,5 +122,13 @@ Expected: decision memo + round design + deck outline (strong first slide) + tar
 **Example 2 (seed with traction):** “We’re at $60k MRR and growing 10% MoM. We’re debating whether to raise now or wait 6 months. Use `fundraising` to help us decide and create an outreach plan if we choose to raise.”  
 Expected: raise-vs-wait decision memo with criteria + round design options + pipeline plan.
 
-**Boundary example:** “Draft a SAFE agreement and tell me what valuation I should take.”  
+**Boundary example:** “Draft a SAFE agreement and tell me what valuation I should take.”
 Response: out of scope for legal/pricing advice; offer to produce the negotiation inputs (round design assumptions, comps proxy approach, questions for counsel) and a fundraising process plan.
+
+## Anti-patterns
+
+1. **Raising without a thesis** — Jumping into investor outreach without a clear “why raise, why now, why this amount” decision memo. The raise decision memo is not optional — it prevents raising money you don't need or raising too little to hit the next milestone.
+2. **Deck-first, narrative-last** — Designing slides before having a crisp pitch narrative. The narrative (problem, wedge, why now, why you, why win) should drive the deck, not the other way around. Start with a strong one-liner and first-slide story.
+3. **Spray-and-pray outreach** — Sending the same cold email to 200 investors without ICP filtering. Effective fundraising targets 30-50 high-fit investors with warm paths, not a mass blast. Track signal-to-noise and iterate weekly.
+4. **Ignoring the “100 no's” reality** — Expecting a quick close and getting demoralized by rejection. The operating cadence should include resilience planning: rejection tracking, pitch iteration log, weekly learnings, and emotional support.
+5. **Diligence denial** — Waiting for a term sheet to start preparing for diligence. Build the data room checklist and FAQ/objection responses in parallel with outreach, not as an afterthought.

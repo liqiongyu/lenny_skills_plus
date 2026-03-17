@@ -1,6 +1,6 @@
 ---
 name: "competitive-analysis"
-description: "Produce a Competitive Analysis Pack (competitive alternatives map, competitor landscape, differentiation & positioning hypotheses, battlecards, monitoring plan). Use for competitor research, competitive landscape, win/loss analysis, and positioning vs alternatives. Category: Strategy."
+description: "Produce a Competitive Analysis Pack (competitive alternatives map, competitor landscape, differentiation & positioning hypotheses, battlecards, monitoring plan). NOT for positioning/messaging copy (use positioning-messaging), pricing model design (use pricing-strategy), problem discovery (use problem-definition), or technology evaluation (use evaluating-new-technology). Use for competitor research, competitive landscape, win/loss analysis, and positioning vs alternatives. Category: Strategy."
 ---
 
 # Competitive Analysis
@@ -20,10 +20,13 @@ description: "Produce a Competitive Analysis Pack (competitive alternatives map,
 - “Create sales battlecards and win/loss takeaways.”
 
 **When NOT to use**
-- You need market sizing / TAM/SAM/SOM as the primary output (different workflow)
-- You don’t know the target customer, core use case, or the decision this analysis should support
-- You only need a quick list of competitors (no synthesis, no artifacts)
-- You’re seeking confidential or non-public competitor information (do not attempt)
+- You need market sizing / TAM/SAM/SOM as the primary output (different workflow).
+- You don’t know the target customer, core use case, or the decision this analysis should support (use `problem-definition` first).
+- You only need a quick list of competitors (no synthesis, no artifacts).
+- You’re seeking confidential or non-public competitor information (do not attempt).
+- You need to write positioning copy, messaging frameworks, or landing page text (use `positioning-messaging` after this skill provides differentiation hypotheses).
+- You need to set or change your pricing model based on competitive data (use `pricing-strategy`; feed it the comparison matrix from this skill).
+- You’re evaluating a specific technology vendor for adoption (use `evaluating-new-technology`).
 
 ## Inputs
 
@@ -116,6 +119,17 @@ Expected: alternatives map (incl. status quo), decision criteria, X battlecard, 
 **Example 2 (Consumer subscription):** “We’re repositioning for a new segment. Analyze alternatives and propose 2 positioning hypotheses.”  
 Expected: comparison matrix by customer criteria and two clear positioning options with proof points and tradeoffs.
 
-**Boundary example:** “List every competitor in our industry worldwide.”  
+**Boundary example 1:** “List every competitor in our industry worldwide.”
 Response: narrow scope (ICP, geography, category) and propose a focused set + monitoring plan; otherwise output becomes a low-signal directory of logos.
+
+**Boundary example 2:** “Write our positioning statement and messaging framework based on how we differ from competitors.”
+Response: redirect to `positioning-messaging`. Offer to first run competitive analysis to produce differentiation hypotheses and proof points, then hand those off to the positioning/messaging skill.
+
+## Anti-patterns (common failure modes)
+
+1. **Logo wall without synthesis** -- Listing 20+ competitors with surface-level feature comparisons but no analysis of why customers actually choose them. The value is in customer decision criteria and win/loss patterns, not in the length of the competitor list.
+2. **Feature-checklist framing** -- Comparing competitors on internal feature names instead of customer outcomes and decision criteria. A customer does not choose based on “has SSO” but on “how quickly can I get my team onboarded securely.”
+3. **Ignoring the status quo** -- Treating only named software products as competitors while ignoring that the biggest “competitor” is often the customer's existing spreadsheet, manual process, or decision to do nothing.
+4. **Stale snapshot bias** -- Producing analysis as a one-time document with no monitoring plan or update triggers. Competitive landscapes shift; the pack must include signals to watch and a cadence for refresh.
+5. **Confidential data fishing** -- Attempting to include proprietary pricing, internal roadmaps, or NDA-covered information about competitors. All evidence must be from publicly available or user-provided sources with confidence labels.
 

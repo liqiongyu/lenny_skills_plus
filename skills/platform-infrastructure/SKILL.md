@@ -1,6 +1,6 @@
 ---
 name: "platform-infrastructure"
-description: "Produce a Platform & Infrastructure Improvement Pack (shared capabilities plan, reliability/performance/privacy targets, scaling triggers, analytics + discoverability decisions, execution roadmap). Use for platform engineering, infrastructure planning, scalability, reliability, and architecture foundations. Category: Engineering."
+description: "Produce a Platform & Infrastructure Improvement Pack (shared capabilities plan, reliability/performance/privacy targets, scaling triggers, analytics + discoverability decisions, execution roadmap). NOT for product/market positioning of a platform product (use platform-strategy), NOT for technical roadmap sequencing without infra focus (use technical-roadmaps), NOT for legacy code cleanup alone (use managing-tech-debt), NOT for org-culture work (use engineering-culture). Category: Engineering."
 ---
 
 # Platform & Infrastructure
@@ -27,6 +27,9 @@ description: "Produce a Platform & Infrastructure Improvement Pack (shared capab
 - You need product strategy/positioning for a platform-as-product (use `platform-strategy`).
 - You need a full feature spec or UX flows (use `writing-specs-designs` / `writing-prds`).
 - SEO/content strategy is the primary workstream (use `content-marketing`).
+- You need to sequence a broader technical roadmap across multiple teams (use `technical-roadmaps`).
+- You want to pay down tech debt without building new shared capabilities (use `managing-tech-debt`).
+- You want to improve engineering practices, rituals, or team culture (use `engineering-culture`).
 
 ## Inputs
 
@@ -117,6 +120,19 @@ Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 **Example 2 (scaling readiness):** “We expect 5× traffic in 6 months. Define a doomsday clock for Postgres limits, propose scaling projects, and set reliability/performance SLOs. Also standardize server-side analytics.”
 
-**Boundary example:** “We’re mid-incident and pages are down—tell us what to do right now.”  
+**Boundary example 1:** “We’re mid-incident and pages are down—tell us what to do right now.”
 Response: out of scope; recommend incident response first, then use this skill post-incident to create the scaling plan and reliability roadmap.
+
+**Boundary example 2:** “We need to decide how to price and position our internal platform as an external product for other companies.”
+Response: this is product/market strategy for a platform-as-product; redirect to `platform-strategy`. Use `platform-infrastructure` only for the internal shared-capabilities and reliability layer.
+
+## Anti-patterns
+
+Avoid these common failure modes when producing a Platform & Infrastructure Improvement Pack:
+
+1. **”Platform for its own sake”** — Proposing shared capabilities that have only one consumer. Every platformized capability must have at least two real consumers today (not hypothetical future ones) or it is premature abstraction.
+2. **SLO theater** — Setting reliability/performance targets with no measurement plan, no ownership, and no error budget policy. Targets without instrumentation are decoration, not engineering.
+3. **Boil-the-ocean scaling plan** — Listing every conceivable scaling bottleneck instead of focusing on the 3-5 limits closest to breach. A doomsday clock with 20 entries is a spreadsheet, not a decision tool.
+4. **Ignoring migration cost** — Defining a platformization plan that assumes teams will just “switch over” without accounting for migration effort, backward compatibility, and rollback paths.
+5. **Analytics wish-list without data contracts** — Specifying dozens of events without defining schemas, ownership, QA checks, or delivery guarantees. Volume of events is not the same as data quality.
 

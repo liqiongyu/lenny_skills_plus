@@ -1,6 +1,6 @@
 ---
 name: "media-relations"
-description: "Plan and execute earned media outreach and journalist relationships by producing a Media Relations Pack (newsworthiness brief, media list, exclusive/embargo plan, pitch templates, outreach tracker, interview prep, press materials checklist). Use for PR, media outreach, press pitch, embargo, exclusive, press release, and journalist pitching. Category: Marketing."
+description: "Plan earned media outreach and journalist relationships: newsworthiness brief, media list, exclusive/embargo plan, pitch templates, outreach tracker, interview prep. NOT for launch campaigns (launch-marketing), brand narratives (brand-storytelling), community programs (community-building), or keynote prep (giving-presentations). Use for PR, press pitch, embargo, exclusive, journalist pitching. Category: Marketing."
 ---
 
 # Media Relations
@@ -26,6 +26,9 @@ description: "Plan and execute earned media outreach and journalist relationship
 - You don’t have a real “news peg” yet (first do positioning/messaging or an announcement brief).
 - You want guaranteed coverage, placements, or paid distribution (this is earned media; outcomes aren’t guaranteed).
 - You need regulated claims review (medical/legal/financial) and can’t provide an approval path.
+- You need a full launch campaign with channel plan, internal readiness, and day-of runbook (use `launch-marketing`; it includes a PR outreach kit).
+- You want a brand story or founder narrative for your website/deck, not a press pitch (use `brand-storytelling`).
+- You want to build an online community or ambassador program, not pitch journalists (use `community-building`).
 
 ## Inputs
 
@@ -124,5 +127,17 @@ Expected: tiered media list + exclusive timeline, pitch templates, tracker table
 **Example 2 (Funding/announcement):** “Use `media-relations` to plan press outreach for our Series A announcement. Audience: founders and operators. Constraints: no revenue numbers. Create angles, target reporters, and a pitch kit.”  
 Expected: angle options that work without sensitive metrics, media list with hooks, and templates for embargo outreach.
 
-**Boundary example:** “Blast 500 journalists and guarantee TechCrunch will cover us.”  
+**Boundary example (spray-and-pray):** “Blast 500 journalists and guarantee TechCrunch will cover us.”
 Response: refuse guarantee/spray-and-pray; propose a targeted list + staggered outreach + realistic success metrics.
+
+**Boundary example (redirect to launch-marketing):**
+“Plan our full product launch: channel plan, internal enablement, day-of runbook, and also pitch some reporters.”
+Response: this is a full launch campaign. Redirect to `launch-marketing` (which includes a PR outreach kit); use `media-relations` separately if you need deeper journalist relationship management beyond the launch.
+
+## Anti-patterns
+
+1. **Spray-and-pray outreach** — Sending the same generic pitch to hundreds of journalists with no personalization. Every target must have a tailored hook tied to their beat and recent coverage.
+2. **Pitching without a news peg** — Reaching out to reporters when there is no genuinely new information (product exists, company exists). If there is no “what's new + why now,” pause and create one first.
+3. **Breaking embargo terms** — Sharing embargoed information with non-embargoed contacts or publishing before the agreed time. Embargo plans must have explicit timelines, decision points, and fallback scenarios.
+4. **Fabricating proof points** — Inventing metrics, customer quotes, or endorsements to strengthen a pitch. Every claim must be substantiated or explicitly labeled as a placeholder.
+5. **Ignoring relationship maintenance** — Treating journalists as a one-time transaction. Always send thank-yous, share coverage internally, and update relationship notes for future outreach cycles.

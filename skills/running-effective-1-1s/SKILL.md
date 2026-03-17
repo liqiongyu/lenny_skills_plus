@@ -1,6 +1,6 @@
 ---
 name: "running-effective-1-1s"
-description: "Run effective 1:1s and skip-levels as a manager/leader and produce a 1:1 Operating System Pack (cadence plan, agendas, shared doc templates, coaching prompts, career conversation plan, and quality gates). Use for 1:1, one-on-one, 1-on-1, manager check-ins, coaching, career conversations, and skip levels. Category: Leadership."
+description: "Produce a 1:1 Operating System Pack (cadence plan, agendas, shared doc templates, coaching prompts, career conversation plan, quality gates). Use for 1:1, one-on-one, manager check-ins, coaching, career conversations, skip levels. NOT for PM skill coaching (use coaching-pms), team meeting design (use running-effective-meetings), delegating work (use delegating-work), or managing your boss (use managing-up). Category: Leadership."
 ---
 
 # Running Effective 1:1s
@@ -25,6 +25,10 @@ description: "Run effective 1:1s and skip-levels as a manager/leader and produce
 - You need HR/legal guidance, an investigation, or a performance improvement plan (involve HR/legal; use your company process)
 - You need a project status meeting cadence (use team/ops rituals; 1:1s should not be the primary status channel)
 - The situation involves immediate safety/mental health crisis (seek professional help and follow company policy)
+- You want to develop a PM's product skills through structured coaching (use `coaching-pms`)
+- You need to design team-wide meetings, standups, or group rituals (use `running-effective-meetings`)
+- You want to delegate work effectively and track outcomes (use `delegating-work`)
+- You want to manage your relationship upward with your own boss (use `managing-up`)
 
 ## Inputs
 
@@ -118,5 +122,16 @@ Expected: cadence plan + templates + coaching toolkit + career sequence + qualit
 **Example 2 (meeting bloat):** “My calendar is overloaded with weekly 1:1s. I still want strong relationships and fast escalation on urgent topics. Propose a barbell approach, updated agendas, and a skip-level cadence.”  
 Expected: reduced standing roster with explicit alternatives; relationship catch-ups + urgent topical meetings; skip-level template.
 
-**Boundary example:** “I need to document poor performance and start a PIP.”  
+**Boundary example:** “I need to document poor performance and start a PIP.”
 Response: recommend HR/performance management process; offer to help create a feedback conversation plan and expectations doc, but not to run an HR process via 1:1 templates.
+
+**Boundary example 2:** “Help me coach my PM on prioritization frameworks and product sense.”
+Response: PM-specific skill development is better served by `coaching-pms`. This skill designs the 1:1 operating system (cadence, templates, coaching questions), not the content of PM coaching programs.
+
+## Anti-patterns (common failure modes)
+
+1. **Status update 1:1s**: Spending the entire 1:1 on project updates that could be async. The “what goes where” map must move status out of 1:1s into team rituals or written updates.
+2. **Manager monologue**: The manager talks 80% of the time, giving advice and direction. Effective 1:1s are coaching-first, with the report driving the agenda and the manager asking questions.
+3. **No shared doc or follow-through**: Running 1:1s with no written agenda, notes, or action items. Decisions and commitments evaporate between meetings; the same issues recur.
+4. **Career conversations never happen**: Filling every 1:1 with tactical topics and never scheduling the deeper life story/dreams/action plan conversations. Career development requires dedicated time, not leftover minutes.
+5. **One-size-fits-all cadence**: Running weekly 30-minute 1:1s with every report regardless of seniority, relationship stage, or need. Cadence should be tailored; a barbell approach (relationship catch-ups + urgent topical meetings) often works better.

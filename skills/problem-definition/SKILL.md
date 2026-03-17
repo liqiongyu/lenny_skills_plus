@@ -1,6 +1,6 @@
 ---
 name: "problem-definition"
-description: "Define a product problem and produce a Problem Definition Pack (problem statement, JTBD, current alternatives, evidence & assumptions, success metrics, scope boundaries, prototype/learning plan). Use for problem definition, problem statement, JTBD, jobs to be done, clarifying the problem space, and problem framing. Category: Product Discovery."
+description: "Define a product problem and produce a Problem Definition Pack (problem statement, JTBD, alternatives, evidence, metrics, scope, prototype plan). NOT for PRDs (writing-prds), NOT for interviews/surveys (conducting-user-interviews/designing-surveys), NOT for vision (defining-product-vision), NOT for competitive mapping (competitive-analysis). Use for problem definition, JTBD, problem framing. Category: Product Discovery."
 ---
 
 # Problem Definition
@@ -26,7 +26,9 @@ description: "Define a product problem and produce a Problem Definition Pack (pr
 - You already have an approved problem definition and need a delivery-ready PRD (use `writing-prds`)
 - You need roadmap prioritization across many competing initiatives (use `prioritizing-roadmap`)
 - You need to set company-level strategy/vision (use `defining-product-vision`)
-- You’re doing deep research execution (recruiting, interviews, analysis); use this to frame *what to learn*, not as a substitute for research
+- You need a competitive landscape analysis as the primary output (use `competitive-analysis`); this skill references alternatives only to frame the problem
+- You’re doing deep research execution (recruiting, interviews, analysis); use this to frame *what to learn*, not as a substitute for `conducting-user-interviews` or `designing-surveys`
+- You need to analyze existing user feedback data (use `analyzing-user-feedback`); this skill frames the problem, not the evidence pipeline
 
 ## Inputs
 
@@ -111,14 +113,25 @@ Expanded heuristics: [references/WORKFLOW.md](references/WORKFLOW.md)
 - Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
+## Anti-patterns (common failure modes)
+
+1. **Solution-first framing** — The problem statement embeds a specific technology or feature (“We need an AI chatbot for support”) instead of describing the user pain. Strip the solution; restate as a user struggle with evidence.
+2. **Segment hand-waving** — “Our users” without specifying who, when, and how often. A problem definition that applies to everyone applies to no one. Require a recruitable segment description.
+3. **Evidence-free conviction** — The pack lists assumptions but marks them all “high confidence” without citing any data, quotes, or signals. Insist on at least one concrete evidence artifact per top assumption.
+4. **Metric theater** — Success metrics exist but are unmeasurable within the stated timeline or are vanity metrics (e.g., “user happiness”). Every metric needs a measurement method and a realistic baseline.
+5. **Scope creep via JTBD** — Sub-jobs multiply until the problem definition covers the entire product. Cap sub-jobs at 3-5 and explicitly mark anything beyond as out-of-scope.
+
 ## Examples
 
-**Example 1 (B2B SaaS):** “Define the problem for improving onboarding activation in our analytics product.”  
+**Example 1 (B2B SaaS):** “Define the problem for improving onboarding activation in our analytics product.”
 Expected: a pack with a tight segment, current onboarding alternatives/workarounds, measurable activation outcomes, and a prototype plan to test the most uncertain hypothesis.
 
-**Example 2 (Consumer):** “Users abandon checkout on mobile; define the problem space and JTBD before proposing fixes.”  
+**Example 2 (Consumer):** “Users abandon checkout on mobile; define the problem space and JTBD before proposing fixes.”
 Expected: a problem statement grounded in evidence, an alternatives map (including ‘do nothing’), and guardrails (fraud/chargebacks/support load).
 
-**Boundary example:** “Write a PRD for building an AI assistant; we don’t know what problem it solves.”  
+**Boundary example (redirect to writing-prds):** “Write a PRD for building an AI assistant; we don’t know what problem it solves.”
 Response: push back; run this skill to define the user pain point and success metrics first, then hand off to `writing-prds`.
+
+**Boundary example (redirect to conducting-user-interviews):** “We think onboarding is broken but have zero user data. Define the problem.”
+Response: flag that the problem definition will be assumption-heavy; recommend running `conducting-user-interviews` first to gather evidence, then return here to frame the problem with real data.
 

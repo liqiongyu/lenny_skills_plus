@@ -1,6 +1,6 @@
 ---
 name: "writing-job-descriptions"
-description: "Write outcome-based, high-signal job descriptions and role scorecards that attract the right candidates and filter the wrong ones. Use for job description, job posting, job ad, role scorecard, hiring brief. Category: Hiring & Teams."
+description: "Write outcome-based job descriptions and role scorecards that attract the right candidates. NOT for designing interviews or evaluation rubrics (use conducting-interviews / evaluating-candidates), NOT for building a sales hiring pipeline (use building-sales-team), NOT for onboarding after the hire (use onboarding-new-hires). Use for job description, job posting, job ad, role scorecard, hiring brief. Category: Hiring & Teams."
 ---
 
 # Writing Job Descriptions (Outcome-Based)
@@ -21,7 +21,10 @@ description: "Write outcome-based, high-signal job descriptions and role scoreca
 
 **When NOT to use**
 - You haven’t decided whether to hire vs restructure/contract/automation (do org planning first)
-- You need a full interview loop / evaluation rubric / hiring process design (separate workstream)
+- You need a full interview loop, question maps, or structured interview design (use `conducting-interviews`)
+- You need to evaluate candidates, design work samples, or make a hiring decision (use `evaluating-candidates`)
+- You need to build a sales team hiring pipeline or GTM recruiting strategy (use `building-sales-team`)
+- You need to design the new hire’s onboarding experience (use `onboarding-new-hires`)
 - You need legal/HR review for compliance wording (this skill is not legal advice)
 
 ## Inputs
@@ -108,5 +111,19 @@ Expected: clear 12-month outcomes, a design-major spike, honest pace/constraints
 **Example 2 (Scale-up, specialized spike):** “Create a role scorecard + job posting for a Staff Backend Engineer owning reliability for a high-traffic API. Emphasize systems thinking and incident ownership.”  
 Expected: outcome-based responsibilities tied to reliability outcomes, plus a clear major spike (operational excellence) and measurable success criteria.
 
-**Boundary example:** “Write a JD for a ‘rockstar generalist’ to ‘do whatever is needed’ (no outcomes).”  
+**Boundary example (no outcomes):** “Write a JD for a ‘rockstar generalist’ to ‘do whatever is needed’ (no outcomes).”
 Response: refuse to invent a laundry list; run intake, define 12-month outcomes and spikes first, then draft.
+
+**Boundary example (redirect to interviews):** “I have the JD. Now help me design the interview loop and behavioral questions.”
+Response: redirect to `conducting-interviews` — this skill produces the job description and role scorecard, not the interview process.
+
+**Boundary example (redirect to evaluation):** “We posted the JD and have 5 applicants. Help me decide who to interview and how to score them.”
+Response: redirect to `evaluating-candidates` — this skill defines the role, not the evaluation process.
+
+## Anti-patterns (common failure modes)
+
+1. **Laundry-list responsibilities** — Writing 15+ bullet-point responsibilities that describe activities (“attend meetings”, “manage stakeholders”) instead of outcomes. Every responsibility should map to a 12-month outcome.
+2. **Unicorn requirements** — Requiring 10+ years experience AND a specific degree AND 5 tools AND 3 industries. This filters out strong candidates and signals org confusion about what matters. Identify 1 major spike and 1-2 minors.
+3. **Copy-paste from competitors** — Reusing another company’s JD with your logo. This attracts generic applicants and fails to differentiate your opportunity. The “why here / why now” must be specific to your context.
+4. **Hiding the hard parts** — Omitting pace, constraints, or dysfunction to maximize applicant volume. This wastes everyone’s time. Candid “what’s hard here” sections improve conversion of the right candidates.
+5. **One-and-done publishing** — Treating the JD as final after one draft. JDs should iterate based on candidate conversations and pipeline signal (who’s applying, who’s dropping off, and why).

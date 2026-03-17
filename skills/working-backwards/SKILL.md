@@ -1,6 +1,6 @@
 ---
 name: "working-backwards"
-description: "Create an Amazon-style PR/FAQ (future press release + FAQ) plus a backcasting launch plan to align on customer value, scope, and GTM readiness. Use for working backwards, PRFAQ / PR-FAQ, future press release, backcasting, launch plan. Category: Strategy."
+description: "Create an Amazon-style PR/FAQ (future press release + FAQ) plus a backcasting launch plan to align on customer value, scope, and GTM readiness. Use for working backwards, PRFAQ, future press release, backcasting. NOT for detailed requirements/specs (use writing-prds), early-stage ideation (use startup-ideation), vision/mission framing (use defining-product-vision), or launch marketing copy (use launch-marketing). Category: Strategy."
 ---
 
 # Working Backwards (PR/FAQ + Backcasting)
@@ -25,7 +25,9 @@ description: "Create an Amazon-style PR/FAQ (future press release + FAQ) plus a 
 - You already have narrative alignment and need detailed requirements (use `writing-prds`)
 - You need a build-ready engineering/design spec (use `writing-specs-designs`)
 - You’re prioritizing among many initiatives (use `prioritizing-roadmap`)
-- You only need marketing copy for an already-built product (this skill is for product decision-making)
+- You only need marketing copy for an already-built product (use `launch-marketing`)
+- You’re doing early-stage idea validation without a clear customer problem (use `startup-ideation`)
+- You need a long-term product vision or mission statement (use `defining-product-vision`)
 
 ## Inputs
 
@@ -118,6 +120,17 @@ Expected: 2–3 PR options, selected PR/FAQ, and a milestone plan covering secur
 **Example 2 (Consumer):** “Work backwards for ‘Saved routes’ in a navigation app; propose two alternative product concepts and pick one.”  
 Expected: divergent PRs that surface trade-offs, clear metrics (repeat usage, retention), and guardrails (privacy, battery, safety).
 
-**Boundary example:** “Write a PR/FAQ for ‘use AI’ (no user problem).”  
+**Boundary example:** “Write a PR/FAQ for ‘use AI’ (no user problem).”
 Response: ask intake questions, redirect to `problem-definition` if needed, and do not pretend to have customer clarity.
+
+**Boundary example 2:** “I have 10 product ideas and need to pick 3 to invest in.”
+Response: this skill goes deep on one idea (PR/FAQ + backcasting); for prioritizing across many initiatives, use `prioritizing-roadmap` or `startup-ideation` first, then return here for the winner.
+
+## Anti-patterns (common failure modes)
+
+1. **Solution-first PR**: Writing a press release that describes features and implementation before articulating the customer problem. The PR should read like a customer story, not a spec.
+2. **Single-option tunnel vision**: Skipping the 2-3 divergent PR options step and jumping straight to “the” solution. Without alternatives, you miss better framings and fail to surface hidden trade-offs.
+3. **FAQ as afterthought**: Treating the FAQ section as filler instead of rigorously answering the hardest internal objections (cost, feasibility, cannibalization, legal). Weak FAQs let real risks go unaddressed.
+4. **Backcasting without owners**: Creating a milestone plan where every row says “TBD” for the owner. A plan without named owners and dependencies is a wish list, not a launch plan.
+5. **Internal jargon in the PR**: Writing the press release using internal acronyms, technical terms, or company-speak that a target customer would not understand. The PR must pass the “would a journalist publish this?” test.
 

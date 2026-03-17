@@ -1,6 +1,6 @@
 ---
 name: "managing-timelines"
-description: "Turn a deadline, launch date, or delivery target into an executable Timeline Management Pack (deadline type + commitments, phase plan, milestone tracker, RAG cadence, scope/change control, stakeholder comms). Use for timeline/deadline/schedule/milestones. Category: Execution."
+description: "Turn a deadline or delivery target into an executable Timeline Management Pack (commitments, phase plan, milestone tracker, RAG cadence, scope control, stakeholder comms). NOT for scope cutting to fit an appetite (scoping-cutting), launch execution (shipping-products), roadmap prioritization (prioritizing-roadmap), or hypothesis-driven ambiguity planning (planning-under-uncertainty). Use for timeline/deadline/schedule/milestones. Category: Execution."
 ---
 
 # Managing Timelines
@@ -27,6 +27,8 @@ description: "Turn a deadline, launch date, or delivery target into an executabl
 - You need to pick which initiatives matter most (use `prioritizing-roadmap`)
 - You primarily need to cut scope to fit an appetite/timebox (use `scoping-cutting`)
 - You need a decision-ready PRD or build-ready spec/design doc (use `writing-prds` / `writing-specs-designs`)
+- You’re planning the actual launch rollout, rollback, and go/no-go (use `shipping-products`)
+- The plan is dominated by unknowns and you need hypothesis-driven experimentation before committing to dates (use `planning-under-uncertainty`)
 
 ## Inputs
 
@@ -106,18 +108,32 @@ Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 - **Outputs:** Final Timeline Management Pack.
 - **Checks:** A stakeholder can approve the plan async and the team can execute without re-litigating dates every week.
 
+## Anti-patterns (common failure modes)
+
+1. **False precision on unknowns.** Committing to exact dates for work that hasn’t been scoped or designed. Stakeholders treat forecasts as promises, and the team loses credibility when dates slip.
+2. **RAG theater.** Maintaining a milestone tracker where everything stays “green” until it suddenly turns “red” with no time to react. Amber is never used because no one wants to escalate early.
+3. **Deadline without a variable.** Treating scope, quality, resources, and date as all fixed. When reality forces a trade-off, the team burns out instead of making an explicit trade.
+4. **Calendar-only planning.** Building a Gantt chart of activities (design, build, test) without defining what artifact each phase produces or what decision gate advances the work.
+5. **Comms blackout until crisis.** Stakeholders receive no updates until the project is off-track. By then, trust is damaged and intervention options are limited.
+
 ## Quality gate (required)
 - Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples
 
-**Example 1 (fixed external date):** “We’re launching at an industry event on May 15. Create a milestone plan, RAG cadence, and a comms template for Sales/Marketing/Execs.”  
+**Example 1 (fixed external date):** “We’re launching at an industry event on May 15. Create a milestone plan, RAG cadence, and a comms template for Sales/Marketing/Execs.”
 Expected: a fixed-deadline plan that treats the date as P0, with change control and clear escalation triggers.
 
-**Example 2 (AI uneven cadence):** “We can demo an AI support agent in 2 weeks, but production will be risky. Build a plan that separates first demo vs production-ready and sets expectations.”  
+**Example 2 (AI uneven cadence):** “We can demo an AI support agent in 2 weeks, but production will be risky. Build a plan that separates first demo vs production-ready and sets expectations.”
 Expected: milestones that include evaluation, safety/reliability, and rollout steps; explicit commit vs forecast language.
 
-**Boundary example:** “Decide what we should build this quarter and set dates for everything.”  
+**Boundary example (scope cutting):** “We have too much scope for the timeline; help us cut to fit a 4-week appetite.”
+Response: use `scoping-cutting` to right-size the slice first; then return here to build the milestone plan and stakeholder cadence.
+
+**Boundary example (uncertainty):** “We don’t even know if this approach will work; there are too many unknowns to commit to dates.”
+Response: use `planning-under-uncertainty` to map unknowns and run experiments first; then use this skill once you have enough clarity to commit to phases.
+
+**Boundary example (roadmap):** “Decide what we should build this quarter and set dates for everything.”
 Response: use `prioritizing-roadmap` first; then apply this skill to the chosen initiative(s).
 

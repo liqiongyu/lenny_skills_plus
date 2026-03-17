@@ -1,6 +1,6 @@
 ---
 name: "planning-under-uncertainty"
-description: "Plan and lead execution when outcomes are uncertain and requirements are ambiguous. Produces an Uncertainty Planning Pack (uncertainty map, hypotheses + experiments, buffers + triggers, cadence + comms). Use for ambiguity, unknowns, hypothesis-driven planning, experimentation, contingency planning. Category: Execution."
+description: "Plan and lead execution when outcomes are uncertain and requirements are ambiguous. Produces an Uncertainty Planning Pack (uncertainty map, hypotheses + experiments, buffers + triggers, cadence + comms). NOT for clear-scope timelines (managing-timelines), trade-off decisions (evaluating-trade-offs), systemic analysis (systems-thinking), or scope cutting (scoping-cutting). Use for ambiguity, unknowns, hypothesis-driven planning, experimentation, contingency. Category: Execution."
 ---
 
 # Planning Under Uncertainty
@@ -25,6 +25,9 @@ description: "Plan and lead execution when outcomes are uncertain and requiremen
 - You need to choose what to do among many options (use `prioritizing-roadmap`).
 - You already have a clear plan and only need dates/milestones and stakeholder cadence (use `managing-timelines`).
 - You need a decision-ready PRD/spec for build execution (use `writing-prds` / `writing-specs-designs`).
+- You’re weighing a specific binary or multi-option decision with known trade-offs (use `evaluating-trade-offs`).
+- You need to map systemic interdependencies and feedback loops, not plan under ambiguity (use `systems-thinking`).
+- You need to cut scope to hit a fixed timebox, not explore unknowns (use `scoping-cutting`).
 
 ## Inputs
 
@@ -98,18 +101,32 @@ Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 - **Outputs:** Final Uncertainty Planning Pack.
 - **Checks:** A stakeholder can approve the plan async and the team can execute without re-litigating the ambiguity.
 
+## Anti-patterns (common failure modes)
+
+1. **Analysis paralysis.** Mapping every possible unknown without prioritizing. The team spends weeks building an exhaustive uncertainty map but never runs an experiment to resolve the top unknowns.
+2. **Premature commitment.** Skipping the hypothesis phase and committing to a delivery timeline before the core assumptions are validated. The plan looks precise but is built on unproven foundations.
+3. **Experiment theater.** Defining experiments that cannot actually falsify the hypothesis (e.g., “talk to 2 users and see if they like it”). The team goes through the motions but learns nothing actionable.
+4. **Buffer hoarding.** Adding excessive buffers to every phase without tying them to specific risks. Buffers become hidden slack instead of targeted contingency for named unknowns.
+5. **Compass-to-GPS drift.** Starting with directional signals (good) but gradually treating early data as definitive proof. The team locks into a path before the data warrants it.
+
 ## Quality gate (required)
 - Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples
 
-**Example 1 (ambiguous initiative):** “We think onboarding is hurting conversion, but we’re not sure why. Create an uncertainty plan with hypotheses, experiments, and pivot triggers.”  
+**Example 1 (ambiguous initiative):** “We think onboarding is hurting conversion, but we’re not sure why. Create an uncertainty plan with hypotheses, experiments, and pivot triggers.”
 Expected: an uncertainty map + experiment portfolio (qual + quant) + a Plan v0 that commits to learning milestones, not premature delivery dates.
 
-**Example 2 (wartime):** “Retention dropped 15% this week after a release. We need a wartime plan: diagnose root causes, run rapid tests, and decide whether to rollback or patch.”  
+**Example 2 (wartime):** “Retention dropped 15% this week after a release. We need a wartime plan: diagnose root causes, run rapid tests, and decide whether to rollback or patch.”
 Expected: diagnosis-first workflow with falsifiable hypotheses, tight guardrails, and explicit rollback/escalation triggers.
 
-**Boundary example:** “Write a full PRD for Feature X.”  
+**Boundary example (timeline management):** “We know what we’re building; just need a milestone plan with dates and stakeholder cadence.”
+Response: if the scope and approach are clear, use `managing-timelines` directly; this skill is for when the *what* or *how* is still uncertain.
+
+**Boundary example (trade-off decision):** “Should we build vs buy this component? Help us evaluate the trade-offs.”
+Response: use `evaluating-trade-offs` for a structured decision between known options; this skill is for when you don’t yet know what the options are.
+
+**Boundary example (PRD):** “Write a full PRD for Feature X.”
 Response: clarify uncertainty first (this skill), then use `writing-prds` once the hypotheses, constraints, and decision gates are clear.
 

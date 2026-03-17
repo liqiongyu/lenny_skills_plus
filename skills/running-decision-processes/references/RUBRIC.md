@@ -1,39 +1,39 @@
-# Rubric — Running Decision Processes (1–5)
+# Rubric — Running Decision Processes (0–2 per dimension)
 
-Score the Decision Process Pack before finalizing. Use the total to decide whether to ask for more input or proceed with assumptions.
+Score the Decision Process Pack before finalizing. Total max = 12.
 
 ## 1) Decision clarity
-1 = Vague / multiple decisions mixed together  
-3 = Clear decision, but deadline or scope is fuzzy  
-5 = One-sentence decision + deadline + scope boundaries are explicit
+- **0:** Decision is vague, multiple decisions are mixed together, or no decision statement exists.
+- **1:** Decision statement exists but deadline or scope boundaries are fuzzy; stakeholders would add qualifiers.
+- **2:** One-sentence decision + deadline + scope boundaries are explicit; any stakeholder can restate without ambiguity.
 
 ## 2) Options and tradeoffs
-1 = Only one “preferred” option; strawman alternatives  
-3 = Multiple options, but tradeoffs are not explicit  
-5 = 2–4 viable options; tradeoffs and reversibility are clearly articulated
+- **0:** Only one "preferred" option presented; alternatives are strawmen or missing entirely.
+- **1:** Multiple options listed but tradeoffs are implicit or reversibility is not assessed.
+- **2:** 2-4 genuinely viable options with explicit tradeoffs, reversibility classification, and key assumptions per option.
 
 ## 3) Assumptions explicitness (learning readiness)
-1 = Mostly intuition; assumptions not written down  
-3 = Some assumptions listed; not testable  
-5 = Key assumptions are explicit, testable, and paired with a review plan
+- **0:** Decision is based on intuition; assumptions are not written down anywhere.
+- **1:** Some assumptions are listed but they are not testable or paired with review triggers.
+- **2:** Key assumptions are explicit, testable (with observable signals), and paired with a review plan and revisit date.
 
 ## 4) Decision rights and alignment
-1 = Unclear who decides; hidden vetoes likely  
-3 = Roles exist but veto/escalation rules are fuzzy  
-5 = One Decider (or defined body), clear consult/inform list, explicit veto/escalation rules
+- **0:** Unclear who decides; likely hidden vetoes; no role assignments.
+- **1:** Roles are assigned (RAPID/DACI) but veto power is implicit or escalation rules are vague.
+- **2:** Exactly one Decider (or defined body), clear consult/inform list, explicit veto holders, and specific escalation rules.
 
 ## 5) Process fit (speed vs rigor)
-1 = Process is mismatched to stakes (too heavy or too light)  
-3 = Mostly right, but timelines/participants are unrealistic  
-5 = Process is timeboxed, executable, and matched to reversibility and stakes
+- **0:** Process is grossly mismatched to stakes (heavy process for reversible choice, or no process for irreversible one).
+- **1:** Mostly appropriate but timelines are unrealistic or participant list is incomplete.
+- **2:** Process is timeboxed, executable, and matched to reversibility and stakes; one-way vs two-way door is explicitly classified.
 
 ## 6) Communication and follow-through
-1 = Decision not logged or communicated; execution diffuses  
-3 = Some comms/logging; weak ownership or review loop  
-5 = Decision log + clear owner + comms + milestones + review date/metrics
+- **0:** Decision is not logged or communicated; no owner assigned for execution.
+- **1:** Decision log or comms exist but ownership, review date, or milestones are missing.
+- **2:** Decision log + clear owner + comms sent + milestones defined + review date with metrics for learning.
 
 ## Interpreting scores
-- **26–30:** ship as-is
-- **20–25:** ship with explicit assumptions + a short “unknowns” list
-- **< 20:** do another intake round (max 5 questions) before finalizing
+- **10–12:** Ship as-is.
+- **7–9:** Ship with explicit assumptions + a short "unknowns" list.
+- **< 7:** Do another intake round (max 5 questions) before finalizing.
 

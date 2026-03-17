@@ -1,6 +1,6 @@
 ---
 name: "cross-functional-collaboration"
-description: "Lead ongoing cross-functional collaboration by producing a Cross-Functional Collaboration Pack (mission charter, stakeholder/incentives map, roles & expectations contract, operating cadence, decision log, conflict + credit norms). Use for cross-functional collaboration, working with engineering, working with design, and reducing execution friction. NOT for one-time stakeholder buy-in (use stakeholder-alignment) or managing your boss (use managing-up). Category: Leadership."
+description: "Produce a Cross-Functional Collaboration Pack (charter, stakeholder map, roles contract, cadence, decision log, conflict norms). Use for cross-functional collaboration, working with eng/design, reducing friction. NOT for stakeholder buy-in (use stakeholder-alignment), managing your boss (use managing-up), one decision process (use running-decision-processes), or team rituals (use team-rituals). Category: Leadership."
 ---
 
 # Cross-functional Collaboration
@@ -24,6 +24,9 @@ description: "Lead ongoing cross-functional collaboration by producing a Cross-F
 - You need a full decision process for a single high-stakes decision (use `running-decision-processes`).
 - The issue is primarily a performance or accountability problem with an individual (use `having-difficult-conversations`).
 - You only need a timeline/milestone plan (use `managing-timelines`).
+- You want to get buy-in from a specific stakeholder or exec on a one-time decision (use `stakeholder-alignment`).
+- You want to build influence or set expectations with your own manager (use `managing-up`).
+- You need to design recurring team ceremonies like standups, retros, or demos (use `team-rituals`).
 
 ## Inputs
 
@@ -106,6 +109,17 @@ Expected: mission charter, stakeholder map, expectations contract, operating cad
 **Example 2:** “I’m an Engineering Manager partnering with PM+Design on a platform migration. Our decisions are slow and we keep re-litigating scope—create a Collaboration Pack.”  
 Expected: decision rights/escalation triggers, seeded decision log, prototype/working-slice plan, and a lightweight cadence.
 
-**Boundary example:** “Help me convince another team to do what I want.”  
+**Boundary example:** “Help me convince another team to do what I want.”
 Response: this skill aligns on shared goals/constraints and decision rights; if you need a one-way persuasion narrative or exec escalation, clarify the decision and use `running-decision-processes` or `managing-up`.
+
+**Boundary example 2:** “Set up a weekly standup and retro for my team.”
+Response: recurring team ceremonies are better served by `team-rituals`; this skill is for cross-functional collaboration across multiple teams, not intra-team meeting design.
+
+## Anti-patterns (common failure modes)
+
+1. **Charter-without-commitment**: Writing a beautiful collaboration charter that no stakeholder has actually reviewed or agreed to. The charter becomes shelf-ware because the “contract” step was skipped or rushed.
+2. **Decision rights on paper only**: Documenting decision rights but never enforcing them, so decisions continue to be re-litigated in every meeting. The decision log stays empty.
+3. **Over-engineering cadence**: Creating a dense meeting schedule (daily syncs + weekly reviews + biweekly retros) that burns out participants. Cadence should be the minimum that keeps decisions flowing.
+4. **Credit hoarding disguised as “leading”**: The collaboration lead takes credit for cross-functional wins in exec updates while partners feel invisible. The credit/recognition plan must be explicit and practiced.
+5. **Conflict avoidance theater**: Documenting a conflict protocol but defaulting to “escalate to the most senior person” every time. Real conflict norms require practice and reinforcement.
 

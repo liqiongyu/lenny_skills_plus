@@ -1,6 +1,6 @@
 ---
 name: "writing-prds"
-description: "Write a clear, decision-ready PRD (and optionally a PR/FAQ, AI eval spec, and prompt set) for cross-functional alignment. Use for PRD, product requirements document, product spec, requirements doc, and feature requirements. Category: Product Management."
+description: "Write a clear, decision-ready PRD (and optionally a PR/FAQ, AI eval spec, and prompt set) for cross-functional alignment. NOT for build-ready interaction specs (use writing-specs-designs), NOT for North Star metric definition (use writing-north-star-metrics), NOT for problem discovery (use problem-definition), NOT for roadmap prioritization (use working-backwards). Use for PRD, product requirements document, product spec, requirements doc, and feature requirements. Category: Product Management."
 ---
 
 # Writing PRDs
@@ -20,9 +20,11 @@ description: "Write a clear, decision-ready PRD (and optionally a PR/FAQ, AI eva
 
 **When NOT to use**
 - You’re still choosing *what strategy/market to pursue* (do product vision / strategy first)
-- You need discovery from scratch (research plan, problem validation) more than requirements
+- You need discovery from scratch (research plan, problem validation) more than requirements -> use `problem-definition`
 - You need a detailed engineering design doc (APIs, schemas, low-level architecture)
-- You’re prioritizing among many initiatives (do roadmap prioritization first)
+- You’re prioritizing among many initiatives -> use `working-backwards` or roadmap prioritization first
+- You need build-ready interaction specs, user flows, or prototype briefs -> use `writing-specs-designs`
+- You need to define or refresh the success metric / North Star before writing requirements -> use `writing-north-star-metrics`
 
 ## Inputs
 
@@ -117,6 +119,19 @@ Expected: PR/FAQ narrative, a scoped PRD with R1…Rn, metrics/guardrails, and a
 **Example 2 (AI feature):** “Write a PRD + Prompt Set + Eval Spec for an ‘AI email reply’ assistant with brand tone constraints.”  
 Expected: requirements that include safety/brand constraints, a prompt set with examples, and an eval spec with judge prompts + pass/fail thresholds.
 
-**Boundary example:** “Write a PRD for ‘make onboarding better’ (no product context).”  
+**Boundary example (redirect):** “Create a detailed interaction spec with user flows and acceptance criteria for our checkout redesign.”
+Response: redirect to `writing-specs-designs` — this request needs build-ready specs with flows/states and prototype briefs, not a decision-level PRD.
+
+**Boundary example (insufficient context):** “Write a PRD for ‘make onboarding better’ (no product context).”
 Response: ask the minimum intake questions; if context remains missing, produce 2–3 scoped options + assumptions and recommend discovery before committing to requirements.
+
+## Anti-patterns
+
+Avoid these common failure modes when writing PRDs:
+
+1. **Requirements-as-solutions** — Writing “build a modal dialog” instead of “user must confirm destructive actions before execution.” Requirements should describe *what* and *why*, not *how*.
+2. **Missing non-goals** — A PRD without explicit non-goals invites scope creep. Every PRD must state what is deliberately excluded from this version.
+3. **Vanity success metrics** — Choosing metrics that always go up (e.g., “total signups”) rather than metrics that reflect actual value delivery. Pair volume metrics with quality guardrails.
+4. **Spec-level detail in a PRD** — Including pixel-level UI descriptions, API schemas, or interaction states that belong in a spec/design doc. Keep the PRD at decision level.
+5. **Stakeholder alignment theater** — Listing stakeholders without clarifying who is the decision-maker (DRI) vs. consulted vs. informed. Ambiguous ownership leads to PRDs that never ship.
 

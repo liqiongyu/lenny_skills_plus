@@ -1,6 +1,6 @@
 ---
 name: "ai-evals"
-description: "Create an AI Evals Pack (eval PRD, test set, rubric, judge plan, results + iteration loop). Use for LLM evaluation, benchmarks, rubrics, error analysis/open coding, and ship/no-ship quality gates for AI features. Category: AI & Technology."
+description: "Create an AI Evals Pack (eval PRD, test set, rubric, judge plan, results + iteration loop). Use for LLM evaluation, benchmarks, rubrics, error analysis, ship/no-ship gates for AI features. NOT for deciding what AI to build (use building-with-llms or ai-product-strategy), measuring product-market fit (use measuring-product-market-fit), or writing product requirements (use writing-prds). Category: AI & Technology."
 ---
 
 # AI Evals
@@ -24,6 +24,8 @@ description: "Create an AI Evals Pack (eval PRD, test set, rubric, judge plan, r
 - You’re primarily doing traditional non-LLM software testing (use your standard eng QA/unit/integration tests).
 - You want model training research or infra design (this skill assumes API/model usage; delegate to ML/infra).
 - You only want vendor/model selection with no defined task + data (use `evaluating-new-technology` first, then come back with a concrete use case).
+- You want to measure overall product-market fit or retention, not AI output quality (use `measuring-product-market-fit`).
+- You need a product requirements document that includes but goes beyond eval design (use `writing-prds`).
 
 ## Inputs
 
@@ -106,6 +108,17 @@ Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 **Example 2 (structured extraction):** “Use `ai-evals` to create a rubric + golden set for an LLM that extracts invoice fields to JSON. Constraints: must always return valid JSON; prioritize recall for `amount` and `due_date`. Output: AI Evals Pack.”
 
-**Boundary example:** “We don’t know what the AI feature should do yet—just ‘add AI’ and pick a model.”  
+**Boundary example:** “We don’t know what the AI feature should do yet—just ‘add AI’ and pick a model.”
 Response: out of scope; first define the job/spec and success metrics (use `problem-definition` or `building-with-llms`), then return to `ai-evals` with a concrete SUT.
+
+**Boundary example 2:** “Our AI feature is live but users aren’t retaining. Help me figure out product-market fit.”
+Response: retention and PMF are business-level metrics, not eval-level metrics. Use `measuring-product-market-fit` for that analysis. Return to `ai-evals` if the issue is specifically AI output quality, accuracy, or safety.
+
+## Anti-patterns (common failure modes)
+
+1. **Happy-path-only test sets**: Building a golden set that only covers ideal inputs and expected behavior. The eval misses adversarial inputs, edge cases, and safety-critical scenarios.
+2. **Vibes-based rubrics**: Writing scoring criteria like “the response should be good” or “helpful and accurate” without concrete behavioral anchors, examples, or tie-breakers. Two judges will disagree on every case.
+3. **One-shot eval**: Running the eval once, celebrating a pass rate, and never re-running. Evals must be repeatable with a regression policy and an iteration loop that turns new failures into new tests.
+4. **Ignoring judge calibration**: Using LLM-as-judge without calibrating against human judgments on gold examples. Uncalibrated judges produce confident but unreliable scores.
+5. **Metric without decision rule**: Tracking accuracy or pass rate without defining what score triggers ship/no-ship/revise. Metrics without thresholds do not support decisions.
 

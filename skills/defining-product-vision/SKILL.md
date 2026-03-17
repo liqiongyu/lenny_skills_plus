@@ -1,6 +1,6 @@
 ---
 name: "defining-product-vision"
-description: "Define or refresh a product vision and produce a shareable Product Vision Pack (vision statement, narrative, pillars, strategic choices, rollout). Use for product vision, vision statement, product direction, long-term product strategy. Category: Strategy."
+description: "Define or refresh a product vision and produce a shareable Product Vision Pack (vision statement, narrative, pillars, strategic choices, rollout). NOT for AI/product strategy docs (use ai-product-strategy), metric selection (use writing-north-star-metrics), roadmap prioritization (use prioritizing-roadmap), or problem discovery (use problem-definition). Use for product vision, vision statement, product direction, long-term product strategy. Category: Strategy."
 ---
 
 # Defining Product Vision
@@ -23,8 +23,10 @@ description: "Define or refresh a product vision and produce a shareable Product
 **When NOT to use**
 - You only need a marketing tagline or positioning copy (do marketing/copywriting instead).
 - You need a detailed product strategy doc, roadmap, or OKRs *after* vision is already aligned (use those downstream skills).
-- You don’t have even a rough target customer/problem hypothesis (do discovery/research first).
-- You’re choosing metrics/measurement before agreeing on the future state (do vision first, then North Star metrics).
+- You don’t have even a rough target customer/problem hypothesis (do discovery/research first; use `problem-definition`).
+- You’re choosing metrics/measurement before agreeing on the future state (use `writing-north-star-metrics` after this skill).
+- You need to prioritize what to build next against an existing vision (use `prioritizing-roadmap`).
+- You need an AI-specific or company-wide product strategy, not a vision statement (use `ai-product-strategy`).
 
 ## Inputs
 
@@ -120,6 +122,17 @@ Expected: a Product Vision Pack with a concrete future state, pillars, and a str
 **Example 2 (Consumer):** “Refresh product vision for a personal finance app expanding into a full ‘financial operating system’.”  
 Expected: a vision that is lofty but attainable, tech-agnostic, grounded in a potent user problem, and packaged in a familiar form factor.
 
-**Boundary example:** “Write a tagline for our website.”  
+**Boundary example 1:** “Write a tagline for our website.”
 Response: clarify this skill produces product vision artifacts (not marketing copy). Offer to first produce a vision pack, then hand off a distilled tagline/positioning to a marketing/copy skill.
+
+**Boundary example 2:** “Help me decide what metrics to track for our product.”
+Response: redirect to `writing-north-star-metrics`. If the user lacks a clear vision to anchor metrics against, offer to run this skill first, then hand off to the metrics skill.
+
+## Anti-patterns (common failure modes)
+
+1. **Vision-as-tagline** -- Producing a vague aspirational slogan (“Empower everyone, everywhere”) instead of a concrete future-state narrative that describes who benefits, how, and what changes. A real vision should fail the “could any competitor say this?” test.
+2. **Pillar-without-teeth** -- Listing pillars that sound good but don't force any tradeoff or resource allocation decision. Each pillar must imply at least one “we will NOT do X” consequence.
+3. **Strategy creep** -- Expanding the vision pack into a full product strategy document with roadmap timelines, OKR trees, and GTM plans. Keep the pack focused on the future state and hand off downstream work to the appropriate skills.
+4. **Skipping the problem anchor** -- Jumping straight to the vision statement without grounding it in a specific, potent user problem. Visions disconnected from real pain drift into wish-lists.
+5. **Consensus theater** -- Writing a vision so broad that nobody disagrees but nobody can use it to make a decision. A good vision should make some stakeholders uncomfortable because it excludes their pet ideas.
 

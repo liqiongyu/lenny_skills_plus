@@ -1,6 +1,6 @@
 ---
 name: "building-sales-team"
-description: "Build an early sales team and operating cadence (readiness gate, hiring plan, role scorecards, interview loop, onboarding/ramp). Use for first AE/SDR hires, seed→Series A sales team build, and product-led sales pilot. Category: Sales & GTM."
+description: "Build an early sales team and operating cadence (readiness gate, hiring plan, role scorecards, interview loop, onboarding/ramp). Use for first AE/SDR hires, seed→Series A sales team build, and product-led sales pilot. NOT for founder-led selling (use founder-sales), comp plan design (use sales-compensation), or general interviewing (use conducting-interviews). Category: Sales & GTM."
 ---
 
 # Building Sales Team
@@ -23,6 +23,9 @@ description: "Build an early sales team and operating cadence (readiness gate, h
 
 **When NOT to use**
 - You need to get first customers / validate ICP from scratch (use `founder-sales` first)
+- You need to design OTE, quotas, commission mechanics, or pay mix for sales roles (use `sales-compensation`)
+- You need general interview best practices or structured hiring for non-sales roles (use `conducting-interviews`)
+- You need onboarding playbooks for non-sales new hires (use `onboarding-new-hires`)
 - You’re scaling a mature sales org (territories, forecasting, multi-layer management)
 - You need legal/HR advice, compensation plan legal review, or employment compliance guidance
 - You want generic hiring advice without a defined sales motion and measurable readiness gates
@@ -106,14 +109,28 @@ Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 - Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
+## Anti-patterns
+
+Avoid these common failure modes when building an early sales team:
+
+1. **Hiring a VP Sales before the motion is repeatable.** Founders delegate sales before proving a repeatable, measurable process. A VP Sales cannot “figure it out” for you at seed stage; the founder must own the first 20-50 deals. Redirect to `founder-sales` until win rate and cycle length are known.
+2. **One heroic rep dependency.** Hiring a single AE and declaring success when they close deals. You cannot distinguish a great rep from a great market with n=1. Always plan for comparability (hire two reps close together or run structured A/B).
+3. **Premature specialization.** Splitting SDR/AE/CS roles before the team has enough volume to justify handoffs. Early teams often need hybrid reps who can prospect, demo, and close. Over-specializing creates empty pipelines and finger-pointing.
+4. **Quota theater on day one.** Setting aggressive quotas during ramp and measuring new reps on bookings before they have pipeline, product knowledge, or territory coverage. Ramp plans must define leading indicators (calls, demos, pipeline created) before lagging ones (revenue).
+5. **Copy-pasting enterprise scorecards for seed-stage hires.** Using big-company role descriptions (15+ years experience, Rolodex required) when you need scrappy, coachable reps who can learn your product deeply. Scorecards must match your stage and selling motion.
+
 ## Examples
 
-**Example 1 (first AE hires):**  
+**Example 1 (first AE hires):**
 “Use `building-sales-team`. We’re seed-stage B2B SaaS. Founder has closed 12 customers; last 60 first meetings → 14 closed-won (~23%). ACV $12k. We want to hire our first AEs. Output: a Sales Team Build Pack with readiness gate, hire-two plan, role scorecards, and interview loop.”
 
-**Example 2 (PLG → PLS pilot):**  
+**Example 2 (PLG → PLS pilot):**
 “Use `building-sales-team`. We have steady inbound hand-raisers from our product. We want a pilot AE/SDR pod to close mid-market upgrades. Output: team topology, hiring sequence, and a 30/60/90 ramp with coaching cadence.”
 
-**Boundary example:**  
-“We have no repeatable sales motion or ICP yet—hire a VP Sales to ‘figure it out’.”  
+**Boundary example (redirect to founder-sales):**
+“We have no repeatable sales motion or ICP yet—hire a VP Sales to ‘figure it out’.”
 Response: recommend founder-led discovery/validation first (use `founder-sales`), define readiness milestones, and return to this skill once a motion can be written down and measured.
+
+**Boundary example (redirect to sales-compensation):**
+“What OTE and commission structure should we offer our first AEs?”
+Response: this skill designs the team, roles, and hiring process but not comp plans. Redirect to `sales-compensation` for OTE, pay mix, quota setting, and commission mechanics.

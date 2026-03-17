@@ -1,6 +1,6 @@
 ---
 name: "enterprise-sales"
-description: "Create an Enterprise Deal Execution Pack (buying committee map + champion enablement, “no decision” prevention plan + mutual action plan, procurement/security packet, and POC-as-business-case plan + ROI model). Use for enterprise sales, procurement, security reviews, and enterprise pilots/POCs. Category: Sales & GTM."
+description: "Create an Enterprise Deal Execution Pack (buying committee map, champion enablement, mutual action plan, procurement/security packet, POC-as-business-case + ROI model). For large enterprise deals. NOT for founder-led first customers (use founder-sales), NOT for PLG-to-sales conversion (use product-led-sales), NOT for lead qualification frameworks (use sales-qualification), NOT for channel/partner deals (use partnership-bd). Category: Sales & GTM."
 ---
 
 # Enterprise Sales
@@ -24,10 +24,13 @@ description: "Create an Enterprise Deal Execution Pack (buying committee map + c
 - “We have usage but can’t convert to enterprise—build an escalation story.”
 
 **When NOT to use**
-- You’re still validating ICP / first customers (use `founder-sales`)
+- You’re still validating ICP / getting first customers (pre-product-market-fit) -> use `founder-sales`
 - This is a transactional SMB sale without buying committee / procurement / security
-- You need legal advice or final contract language (coordinate with counsel)
+- You have self-serve PLG usage and want to convert it into sales pipeline -> use `product-led-sales`
+- You need a lead qualification or scoring framework (MQL/SQL definitions) -> use `sales-qualification`
+- You’re building a channel/partner/reseller deal structure -> use `partnership-bd`
 - You’re building a full sales org / forecasting system (use `building-sales-team`)
+- You need legal advice or final contract language (coordinate with counsel)
 
 ## Inputs
 
@@ -106,14 +109,32 @@ Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 - Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
+## Anti-patterns
+
+Avoid these common failure modes when producing an Enterprise Deal Execution Pack:
+
+1. **Single-threading the champion** — Relying on one internal contact without mapping the full buying committee. Champions leave, get overruled, or lose political capital. Always map 5-7 stakeholders and have a backup path.
+2. **POC as a feature demo** — Letting the POC become an open-ended technical evaluation without success criteria, timeline, or a business case. Every pilot must produce a decision-ready ROI model, not just “it works.”
+3. **Treating procurement as passive waiting** — Sending forms and waiting instead of proactively project-managing procurement, security, and legal like a joint workstream with owners, dates, and escalation paths.
+4. **Ignoring “no decision” risk** — Focusing on beating competitors while the real enemy is status quo inertia. The do-nothing cost must be made explicit and concrete with a decision guide and MAP.
+5. **Stopping at signature** — Declaring the deal done at contract signing without an implementation handoff, kickoff plan, or first-value milestones. Failed implementations destroy expansion and references.
+
 ## Examples
 
-**Example 1 (procurement + security stall):**  
+**Example 1 (procurement + security stall):**
 “Use `enterprise-sales`. We’re selling a workflow automation tool to a 5k-employee fintech. We have a champion in Ops, but procurement sent vendor onboarding forms and security wants a questionnaire + SOC 2. Output: an Enterprise Deal Execution Pack with a MAP, procurement/security tracker, and champion enablement one-pagers.”
 
-**Example 2 (POC request, ROI focus):**  
+**Example 2 (POC request, ROI focus):**
 “Use `enterprise-sales`. A healthcare enterprise wants a POC. ACV target $120k. They’re asking for a technical test, but we want to make it a business-case pilot. Output: a 30-day pilot plan with success metrics, ROI model, and a decision-ready business case.”
 
-**Boundary example:**  
-“Just write a generic enterprise sales script that closes anyone.”  
-Response: explain this skill is deal-specific and evidence-driven; request account context + stakeholders and produce a tailored MAP, champion kit, and pilot/business-case plan instead.
+**Boundary example (redirect to founder-sales):**
+“We’re pre-seed with no customers yet. Help me figure out how to sell to my first 5 design partners.”
+Response: This is founder-led early-stage sales, not enterprise deal execution. Use `founder-sales` for ICP wedge development, diagnostic discovery scripts, and a learning-oriented outreach plan for your first customers.
+
+**Boundary example (redirect to product-led-sales):**
+“We have 2,000 self-serve users and want to figure out which ones to reach out to for enterprise contracts.”
+Response: This is a product-led sales problem about converting PLG usage into pipeline. Use `product-led-sales` to define PQL/PQA signals, routing rules, and a sales-assist workflow. Once you have a qualified enterprise opportunity with a buying committee, return here.
+
+**Anti-pattern example:**
+“Just write a generic enterprise sales script that closes anyone.”
+Response: This skill is deal-specific and evidence-driven. Request account context + stakeholders and produce a tailored MAP, champion kit, and pilot/business-case plan instead.

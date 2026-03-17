@@ -1,6 +1,6 @@
 ---
 name: "post-mortems-retrospectives"
-description: "Run blameless post-mortems & retrospectives and produce a Post-mortems & Retrospectives Pack (brief + agenda, facts/timeline, contributing factors + root causes, decisions + action tracker, kill criteria, learning dissemination plan). Use for postmortem, post-mortem, retrospective, retro, after action review, lessons learned. Category: Leadership."
+description: "Run blameless post-mortems and retrospectives: Pack with brief, timeline, contributing factors, root causes, action tracker, kill criteria, dissemination plan. Use for postmortem, retro, after-action review, lessons learned. NOT for non-review meetings (use running-effective-meetings), shipping process design (use shipping-products), engineering culture (use engineering-culture), or future risk planning (use planning-under-uncertainty). Category: Leadership."
 ---
 
 # Post-mortems & Retrospectives
@@ -9,23 +9,27 @@ description: "Run blameless post-mortems & retrospectives and produce a Post-mor
 
 **Covers**
 - Running **blameless** incident post-mortems and project/OKR retrospectives
-- Turning “what happened?” into **system learnings + decisions** (not blame)
+- Turning "what happened?" into **system learnings + decisions** (not blame)
 - Creating **follow-through**: owners, due dates, success signals, and review cadence
 - Adding **kill criteria / triggers** so future pre-mortems lead to real action
-- Institutionalizing learning via a lightweight “**Impact & Learnings**” review
+- Institutionalizing learning via a lightweight "**Impact & Learnings**" review
 
 **When to use**
-- “Run a postmortem / retrospective for <incident/project> and write the doc.”
-- “We missed OKRs—lead a retro focused on learning and systemic blockers.”
-- “Create an after-action review with action items and owners.”
-- “Set up a weekly impact & learnings review so insights don’t die in docs.”
-- “Do a pre-mortem and define kill criteria / pivot triggers.”
+- "Run a postmortem / retrospective for <incident/project> and write the doc."
+- "We missed OKRs—lead a retro focused on learning and systemic blockers."
+- "Create an after-action review with action items and owners."
+- "Set up a weekly impact & learnings review so insights don't die in docs."
+- "Do a pre-mortem and define kill criteria / pivot triggers."
 
 **When NOT to use**
 - The incident is **still active** (do incident response first; schedule the review after stabilization)
-- The goal is to **assign blame** or evaluate an individual’s performance (use HR/management processes)
-- You need deep technical debugging without the right experts (this skill facilitates; it doesn’t replace engineering investigation)
+- The goal is to **assign blame** or evaluate an individual's performance (use HR/management processes)
+- You need deep technical debugging without the right experts (this skill facilitates; it doesn't replace engineering investigation)
 - You need to decide *what problem to solve* (use a problem-definition / discovery process first)
+- You need to **facilitate a meeting** that is not a post-mortem or retrospective (use `running-effective-meetings`)
+- You need to **improve the shipping process** itself, not review a past launch (use `shipping-products`)
+- You need to **change engineering culture or practices** based on systemic patterns across retros (use `engineering-culture`)
+- You need to **plan for future risks and uncertainties** rather than review past events (use `planning-under-uncertainty`)
 
 ## Inputs
 
@@ -48,11 +52,11 @@ Produce a **Post-mortems & Retrospectives Pack** in Markdown (in-chat; or as fil
 
 1) **Retro brief + agenda** (purpose, attendees, roles, pre-reads, ground rules)
 2) **Facts + timeline** (what happened; impact; timestamps; links)
-3) **Contributing factors + root cause hypotheses** (systems lens; “why it made sense”)
+3) **Contributing factors + root cause hypotheses** (systems lens; "why it made sense")
 4) **Learnings + decisions** (what changes; why; tradeoffs)
 5) **Action tracker** (owner, due date, success signal, follow-up date)
 6) **Kill criteria / triggers** (signals → committed action) for future work
-7) **Learning dissemination plan** (how to socialize + a recurring “Impact & Learnings” review)
+7) **Learning dissemination plan** (how to socialize + a recurring "Impact & Learnings" review)
 8) **Risks / Open questions / Next steps** (always)
 
 Templates: [references/TEMPLATES.md](references/TEMPLATES.md)  
@@ -62,43 +66,43 @@ Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ### 1) Classify the review + set blameless ground rules
 - **Inputs:** request context; [references/INTAKE.md](references/INTAKE.md).
-- **Actions:** Identify the review type (incident / project / OKR). Set a blameless norm (“fix systems, not people”) and decide whether to reframe language as “retrospective” to signal learning. Confirm facilitator, scribe, and decision owner.
+- **Actions:** Identify the review type (incident / project / OKR). Set a blameless norm ("fix systems, not people") and decide whether to reframe language as "retrospective" to signal learning. Confirm facilitator, scribe, and decision owner.
 - **Outputs:** Retro brief (draft) + attendee list + meeting invite outline.
 - **Checks:** Objective is explicit (learning + improvement). Roles are assigned.
 
 ### 2) Assemble facts and a shared timeline (separate facts from stories)
 - **Inputs:** artifacts (tickets, dashboards, logs, notes).
-- **Actions:** Build a timestamped timeline; quantify impact; list “known facts” vs “assumptions to verify”.
+- **Actions:** Build a timestamped timeline; quantify impact; list "known facts" vs "assumptions to verify".
 - **Outputs:** Facts + timeline section using [references/TEMPLATES.md](references/TEMPLATES.md).
 - **Checks:** Timeline has timestamps and links/evidence where possible. Assumptions are labeled.
 
 ### 3) Diagnose contributing factors (systems lens)
 - **Inputs:** timeline + impact.
-- **Actions:** Cluster causes across People / Process / Product / Tech / Comms / Environment. Use a “make it reasonable” lens: what conditions made the outcome likely? Optionally run 5 Whys on the top 1–2 factors.
+- **Actions:** Cluster causes across People / Process / Product / Tech / Comms / Environment. Use a "make it reasonable" lens: what conditions made the outcome likely? Optionally run 5 Whys on the top 1–2 factors.
 - **Outputs:** Contributing factors map + root cause hypotheses.
 - **Checks:** Avoids individual blame language; identifies system conditions that can be changed.
 
 ### 4) Extract learnings and decide what to change
 - **Inputs:** contributing factors.
-- **Actions:** Write 3–7 crisp learnings (“we learned that…”). Convert learnings into decisions (fix, guardrail, instrumentation, runbook, training, scope change). Keep OKR/grade discussion secondary to “why” and “what changes next”.
+- **Actions:** Write 3–7 crisp learnings ("we learned that…"). Convert learnings into decisions (fix, guardrail, instrumentation, runbook, training, scope change). Keep OKR/grade discussion secondary to "why" and "what changes next".
 - **Outputs:** Learnings + decisions section.
 - **Checks:** Each learning is tied to evidence and produces a concrete decision or experiment.
 
 ### 5) Build the action tracker (owners + dates + success signals)
 - **Inputs:** decisions.
-- **Actions:** Create action items with an owner, due date, and success signal. Add a follow-up review date (or a recurring review). Limit to what can realistically be executed; explicitly park “later ideas”.
+- **Actions:** Create action items with an owner, due date, and success signal. Add a follow-up review date (or a recurring review). Limit to what can realistically be executed; explicitly park "later ideas".
 - **Outputs:** Action tracker table + follow-up plan.
 - **Checks:** No orphan actions: every item has owner + date. Top actions address top factors.
 
 ### 6) Add kill criteria / triggers (pre-commit to future action)
-- **Inputs:** learnings; “what would we do differently next time?”
+- **Inputs:** learnings; "what would we do differently next time?"
 - **Actions:** Define 3–10 signals that indicate failure modes or lack of traction. For each signal, pre-commit to an action (pause, pivot, kill, escalate, add investment).
 - **Outputs:** Kill criteria / trigger list.
-- **Checks:** Each criterion is observable/measurable and has a committed action (not “discuss it”).
+- **Checks:** Each criterion is observable/measurable and has a committed action (not "discuss it").
 
 ### 7) Disseminate learning + quality gate + finalize
 - **Inputs:** full draft pack.
-- **Actions:** Create a 1-page shareout (TL;DR, top actions, decisions). Propose a lightweight weekly/biweekly “Impact & Learnings” review to socialize learnings beyond the team. Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add **Risks / Open questions / Next steps**.
+- **Actions:** Create a 1-page shareout (TL;DR, top actions, decisions). Propose a lightweight weekly/biweekly "Impact & Learnings" review to socialize learnings beyond the team. Run [references/CHECKLISTS.md](references/CHECKLISTS.md) and score with [references/RUBRIC.md](references/RUBRIC.md). Add **Risks / Open questions / Next steps**.
 - **Outputs:** Final Post-mortems & Retrospectives Pack.
 - **Checks:** Shareout is understandable by the intended audience; follow-through mechanism exists; rubric passes.
 
@@ -108,11 +112,22 @@ Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 
 ## Examples
 
-**Example 1 (incident postmortem):** “We had a 45-minute outage in our payments API yesterday. Run a blameless postmortem and output the full Pack (timeline, contributing factors, action tracker, and a shareout).”  
+**Example 1 (incident postmortem):** "We had a 45-minute outage in our payments API yesterday. Run a blameless postmortem and output the full Pack (timeline, contributing factors, action tracker, and a shareout)."  
 Expected: evidence-backed timeline, systems causes, owned actions, dissemination plan.
 
-**Example 2 (OKR retro):** “We hit 0.8 on our Q4 activation OKR. Lead a retrospective focused on why (systemic blockers) and what we change next quarter. Output the full Pack and kill criteria for the next initiative.”  
+**Example 2 (OKR retro):** "We hit 0.8 on our Q4 activation OKR. Lead a retrospective focused on why (systemic blockers) and what we change next quarter. Output the full Pack and kill criteria for the next initiative."  
 Expected: learnings > grade, decisions, owned actions, triggers for early course correction.
 
-**Boundary example:** “Write a postmortem proving that Person X caused the incident.”  
+**Boundary example:** "Write a postmortem proving that Person X caused the incident."
 Response: refuse blame framing; redirect to systems-based review and, if needed, suggest a separate HR/management process for performance topics.
+
+**Boundary example (neighbor redirect):** "Our last three retros all surfaced the same 'deploy process is broken' theme. Fix the deploy process."
+Response: recurring themes across retros indicate a systemic engineering culture or process issue. Use `engineering-culture` to design the process improvement. This skill is for running the review itself, not implementing the changes it surfaces.
+
+## Anti-patterns
+
+1. **Blame in disguise** — Using blameless language ("the system failed") while structuring the timeline and contributing factors to point at a single person. Contributing factors must focus on system conditions, not individual actions.
+2. **Action items without owners** — Producing a list of "we should" recommendations with no owner, due date, or success signal. Every action must be owned, dated, and measurable.
+3. **Shallow root cause** — Stopping at the first "why" (e.g., "the deploy script failed") instead of investigating systemic conditions (e.g., "no integration test coverage for deploy scripts, no runbook, no alerting"). Use at least 3 levels of "why" on top contributing factors.
+4. **Retro amnesia** — Running retrospectives that produce insights but never feeding them into durable process changes. Every retro must include a dissemination plan and a follow-up review date.
+5. **Grade over learning** — Spending most of the retrospective debating the OKR score or incident severity instead of investigating systemic causes and deciding what changes. Keep grading secondary to "why" and "what changes next."

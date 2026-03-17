@@ -1,6 +1,6 @@
 ---
 name: "design-engineering"
-description: "Stand up a Design Engineering practice (hybrid design+engineering) by producing a Design Engineering Execution Pack: charter, prototype→production workflow, design-to-code contract, component delivery plan, and quality bar. Use for design engineering, UI engineering, design systems engineering, and prototype-to-production processes. Category: Engineering."
+description: "Stand up a Design Engineering practice (hybrid design+engineering): charter, prototype-to-production workflow, design-to-code contract, component delivery plan, quality bar. NOT for building/evolving a design system (use design-systems), NOT for org-wide engineering culture (use engineering-culture), NOT for design reviews only (use running-design-reviews), NOT for writing feature specs (use writing-specs-designs). Category: Engineering."
 ---
 
 # Design Engineering
@@ -21,10 +21,14 @@ description: "Stand up a Design Engineering practice (hybrid design+engineering)
 - “We’re building a new UI/component library—create a component delivery plan and reviews.”
 
 **When NOT to use**
-- You need UX research, discovery, or product strategy (use interviews/surveys/PRD skills)
-- You’re doing mostly backend/platform architecture with minimal UI surface area
-- You only need to ship a single small UI fix (just implement it)
-- You need a brand/visual identity system (separate design/brand process)
+- You need UX research, discovery, or product strategy (use interviews/surveys/PRD skills).
+- You’re doing mostly backend/platform architecture with minimal UI surface area.
+- You only need to ship a single small UI fix (just implement it).
+- You need a brand/visual identity system (separate design/brand process).
+- You want to build or evolve a design system (tokens, components, governance) without standing up a new practice (use `design-systems`).
+- You want to improve engineering team culture, rituals, or hiring practices (use `engineering-culture`).
+- You need to run a one-off design review or design critique session (use `running-design-reviews`).
+- You need a feature spec or detailed UX flow document (use `writing-specs-designs`).
 
 ## Inputs
 
@@ -107,5 +111,18 @@ Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 **Example 2 (design system delivery):** “Create a design engineering plan for building a component library (buttons, inputs, tables, modals). Include the design-to-code contract, PR review checklist, and a 6-week milestone plan.”
 
-**Boundary example:** “What is design engineering?”  
+**Boundary example 1:** “What is design engineering?”
 Response: explain this skill produces an execution pack; ask for context (team, product, goals). If they only want a definition, give a brief definition and point them to the intake questions to proceed.
+
+**Boundary example 2:** “We need to build a component library with tokens, theming, and a governance model for adoption across teams.”
+Response: this is a design system buildout, not standing up a design engineering practice; redirect to `design-systems`. Use `design-engineering` when the goal is defining the hybrid role/function that ships UI, not the system of reusable components itself.
+
+## Anti-patterns
+
+Avoid these common failure modes when producing a Design Engineering Execution Pack:
+
+1. **Charter without boundaries** — Defining a design engineering function that overlaps with existing design and engineering roles without explicitly stating who owns what. If the charter does not answer “who decides on component API shape?” and “who signs off on visual fidelity?”, it will create turf wars.
+2. **Prototype graveyard** — Building prototypes that are never graduated or killed. Every prototype must have an explicit label (throwaway vs shippable) and a time-boxed decision point for graduation or disposal.
+3. **Design-to-code contract as a checklist dump** — Writing a long list of “must haves” without specifying how they are verified. A contract that says “a11y compliant” without naming the WCAG level, test method, and reviewer is unenforceable.
+4. **Delivery plan without thin slices** — Planning milestones around “build all buttons, then all inputs, then all modals” instead of shipping a thin vertical slice (one flow end-to-end) that proves the workflow.
+5. **Ignoring the operating model decision** — Jumping straight to delivery without deciding whether design engineering is embedded, centralized, or a tiger team. The operating model determines staffing, rituals, and escalation paths.

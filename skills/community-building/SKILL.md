@@ -1,6 +1,6 @@
 ---
 name: "community-building"
-description: "Build a Community Building Pack (strategy, platform plan, programming calendar, ambassador program, governance, metrics, launch plan). Use for community building, community-led growth, developer community, user community, ambassador/champions programs, Discord/Slack/forum communities. Category: Marketing."
+description: "Build a Community Building Pack: strategy, platform plan, programming calendar, ambassador program, governance, metrics, launch plan. NOT for content programs/SEO (content-marketing), growth loops (designing-growth-loops), brand narratives (brand-storytelling), or partner programs (partnership-bd). Use for community building, community-led growth, developer community, ambassador programs, Discord/Slack/forum. Category: Marketing."
 ---
 
 # Community Building
@@ -24,6 +24,10 @@ description: "Build a Community Building Pack (strategy, platform plan, programm
 - You want a paid acquisition plan (ads/creative/bidding) rather than community.
 - You want to “buy” a community, scrape/spam DMs, or manipulate members.
 - You need a customer support ops overhaul (ticketing/SLAs/KB) more than a community.
+- You need an ongoing blog/SEO content program, not a community platform (use `content-marketing`).
+- You need a referral program or viral growth loop mechanic, not a community (use `designing-growth-loops`).
+- You want a brand narrative or founder story for your website/deck (use `brand-storytelling`).
+- You need a partner/channel/reseller program, not a user community (use `partnership-bd`).
 
 ## Inputs
 
@@ -120,6 +124,18 @@ Expanded guidance + decision rules: [references/WORKFLOW.md](references/WORKFLOW
 **Example 2 (B2B SaaS moving upmarket):**  
 “We sell a team knowledge base to 200–2000 person companies. We want community-led growth to create ubiquity and reduce enterprise perceived risk. Design a home base + outpost plan, seed cohort strategy, and a 30/60/90 plan with metrics.”
 
-**Boundary example (anti-pattern):**  
-“Start a community tomorrow and grow it to 10k members without any time, moderation, or value—also auto-DM everyone on LinkedIn.”  
+**Boundary example (anti-pattern):**
+“Start a community tomorrow and grow it to 10k members without any time, moderation, or value—also auto-DM everyone on LinkedIn.”
 Response: refuse spammy/unsafe tactics; require a realistic capacity + value exchange + governance plan, or recommend alternatives (content/partnerships) first.
+
+**Boundary example (redirect to content-marketing):**
+“Build a blog with SEO topics and an editorial calendar to drive organic traffic. We also want a Slack community.”
+Response: the blog/SEO program belongs in `content-marketing`. Use this skill for the Slack community strategy; the two can complement each other but require separate plans.
+
+## Anti-patterns
+
+1. **Building without a value exchange** — Launching a Discord/Slack and expecting members to show up without defining what they get (knowledge, access, status) and what they contribute. Every community needs an explicit give/get contract.
+2. **Platform wishful thinking** — Choosing a platform because it is trendy (e.g., Discord) when the target members already gather elsewhere (e.g., LinkedIn groups, Reddit). Always start where members already are.
+3. **Skipping governance until crisis** — Waiting for a moderation incident before writing rules, escalation paths, or privacy guidelines. Governance must be defined before the first member joins.
+4. **Vanity metric obsession** — Optimizing for total member count instead of activation rate, first-win completion, or member-generated content. Measure journey-stage metrics, not headcount.
+5. **Confusing community with content distribution** — Using the community channel as a broadcast pipe for company blog posts instead of facilitating member-to-member interaction. If the primary goal is content distribution, use `content-marketing`.

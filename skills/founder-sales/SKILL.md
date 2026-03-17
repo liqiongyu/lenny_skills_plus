@@ -1,6 +1,6 @@
 ---
 name: "founder-sales"
-description: "Create a Founder Sales Sprint Pack (ICP wedge + target list, outreach sequences, diagnostic discovery script, decision-enablement assets to beat “no decision”, and a white-glove activation plan). Use for founder-led sales, early sales, first customers, and first 10 customers. Category: Sales & GTM."
+description: "Create a Founder Sales Sprint Pack (ICP wedge + target list, outreach sequences, diagnostic discovery script, decision-enablement assets, and a white-glove activation plan). For founder-led early-stage sales (first 10 customers). NOT for enterprise deal execution (use enterprise-sales), NOT for scaling a sales org (use building-sales-team), NOT for lead qualification frameworks (use sales-qualification). Category: Sales & GTM."
 ---
 
 # Founder Sales
@@ -26,7 +26,10 @@ description: "Create a Founder Sales Sprint Pack (ICP wedge + target list, outre
 
 **When NOT to use**
 - You need to define the product, ICP, or positioning from scratch (do that first; then return here)
-- You’re scaling a full sales org (SDRs, AEs, quotas, forecasting, territories) rather than founder-led learning
+- You’re scaling a full sales org (SDRs, AEs, quotas, forecasting, territories) rather than founder-led learning -> use `building-sales-team`
+- You’re running a complex enterprise deal with a buying committee, procurement, and security reviews -> use `enterprise-sales`
+- You need a lead qualification or scoring framework (MQL/SQL definitions, handoff criteria) -> use `sales-qualification`
+- You have self-serve PLG usage and want to layer a sales-assist motion on top -> use `product-led-sales`
 - You want scraped lead lists, spammy outreach, or anything deceptive/manipulative
 - You need legal/privacy/security advice or contract language (coordinate with qualified experts)
 
@@ -108,14 +111,32 @@ Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 - Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
+## Anti-patterns
+
+Avoid these common failure modes when producing a Founder Sales Sprint Pack:
+
+1. **”Spray and pray” outreach** — Generating high-volume, generic email blasts instead of small-batch, personalized sequences designed for learning. Founder sales is about learning velocity, not send volume.
+2. **Skipping discovery to demo** — Jumping straight to product demos without a diagnostic discovery phase. Founders must understand the buyer’s problem before showing solutions, or they waste their credibility advantage.
+3. **Treating “no decision” as “no”** — Giving up when prospects go silent instead of building decision-enablement assets (decision guide, risk reversal, MAP). In early-stage sales, “no decision” is the #1 competitor.
+4. **Closing without activating** — Declaring victory at verbal “yes” or signature without a white-glove activation plan. A customer who signs but never implements is worse than a lost deal (negative reference risk).
+5. **Over-engineering the process** — Building complex CRM workflows, lead scoring, or multi-touch automation sequences appropriate for a scaled sales team. Founder sales should be simple, manual, and fast to iterate.
+
 ## Examples
 
-**Example 1 (first 10 customers, B2B SaaS):**  
+**Example 1 (first 10 customers, B2B SaaS):**
 “Use `founder-sales`. We’re building scheduling automation for outpatient clinics. Goal: 10 paying customers in 8 weeks. ICP: clinic ops managers. Offer: $500/mo pilot. Output: a Founder Sales Sprint Pack with outreach sequences, a diagnostic discovery script, a MAP, and a white-glove onboarding plan.”
 
-**Example 2 (design partners, new category):**  
+**Example 2 (design partners, new category):**
 “Use `founder-sales`. We’re a security workflow tool for SOC teams. Goal: 6 design partners in 6 weeks. We have strong founder credibility but no case studies yet. Output: target list criteria + outreach kit + decision enablement assets that reduce buyer risk.”
 
-**Boundary example:**  
-“Write a generic cold email that works for any product, and send 10,000 emails.”  
-Response: explain this skill is for founder-led learning and ethical, targeted outreach; request an ICP wedge + proof points and produce a small, testable sequence and learning plan instead.
+**Boundary example (redirect to enterprise-sales):**
+“We have a $200K deal stuck in procurement at a Fortune 500. The CISO wants a security review, and legal is pushing back on our terms. Help me close it.”
+Response: This is an enterprise deal execution problem with a buying committee, procurement, and security review -- use `enterprise-sales` instead. That skill produces a buying committee map, champion enablement kit, procurement/security tracker, and MAP designed for complex enterprise cycles.
+
+**Boundary example (redirect to building-sales-team):**
+“We have 50 customers and need to hire our first 3 SDRs and build a quota/territory plan.”
+Response: This is about scaling a sales organization, not founder-led selling. Use `building-sales-team` for SDR hiring, quota design, territory planning, and sales process documentation.
+
+**Anti-pattern example:**
+“Write a generic cold email that works for any product, and send 10,000 emails.”
+Response: This skill is for founder-led learning and ethical, targeted outreach. Request an ICP wedge + proof points and produce a small, testable sequence and learning plan instead.

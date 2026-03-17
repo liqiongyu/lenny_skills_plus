@@ -1,6 +1,6 @@
 ---
 name: "content-marketing"
-description: "Build a content marketing program by producing a Content Marketing Plan Pack (content market fit brief, demand-validated SEO topic map, human voice + primary channel strategy, editorial calendar, content briefs, AI-assisted writing SOP, measurement plan). Use for content marketing, content strategy, blog, SEO, thought leadership, founder-led content. Category: Marketing."
+description: "Build a content marketing program: content market fit brief, SEO topic map, channel + voice strategy, editorial calendar, content briefs, AI writing SOP, measurement plan. NOT for launch campaigns (launch-marketing), brand narratives (brand-storytelling), community platforms (community-building), or positioning (positioning-messaging). Use for content marketing, content strategy, blog, SEO, thought leadership. Category: Marketing."
 ---
 
 # Content Marketing
@@ -27,6 +27,9 @@ description: "Build a content marketing program by producing a Content Marketing
 - You need a technical SEO audit (crawl/indexing, performance, schema, internal linking) more than a content program.
 - You need a paid acquisition strategy (ads, bidding, creative testing) rather than owned content.
 - You cannot publish without a review process and cannot provide one (this skill requires a compliant workflow).
+- You need a one-time launch campaign with a day-of runbook and press pitch (use `launch-marketing`).
+- You want a brand narrative, origin story, or founder storytelling arc (use `brand-storytelling`).
+- You need a community platform, ambassador program, or governance plan (use `community-building`).
 
 ## Inputs
 
@@ -128,7 +131,19 @@ Templates and checklists:
 **Example 2 (Founder-led thought leadership):**  
 “Our founder wants to become the face of the brand on LinkedIn. Pick a primary format, define voice rules, build a 6-week content calendar, and create 3 briefs that address our audience’s career anxieties.”
 
-**Boundary example (upstream missing ICP):**  
-“We don’t know who we’re for yet. Create a content strategy anyway.”  
+**Boundary example (upstream missing ICP):**
+“We don’t know who we’re for yet. Create a content strategy anyway.”
 Response: pause and recommend defining ICP/positioning first; offer a minimal discovery sprint and then return to content planning.
+
+**Boundary example (redirect to launch-marketing):**
+“We launch next Tuesday. Write the announcement blog, press pitch, and day-of checklist.”
+Response: this is a time-bound launch campaign, not an ongoing content program. Redirect to `launch-marketing` for the launch pack; return here afterward for the sustained editorial calendar.
+
+## Anti-patterns
+
+1. **Publishing without demand validation** — Writing 20 blog posts based on internal brainstorms with zero search-demand or distribution evidence. Every SEO topic must have a demand signal; every non-SEO topic must have a named distribution owner.
+2. **Ghost-written CEO content with no human voice** — Using AI to produce generic thought-leadership posts that lack specific opinions, vulnerability, or first-person experience. The content sounds like it could come from any company.
+3. **Calendar overload without capacity math** — Building an ambitious 3-posts-per-week calendar when the team has 0.5 FTE and no SME availability. Always match calendar density to actual hours and review bottlenecks.
+4. **Treating content as a one-time campaign** — Producing a burst of content for a launch and then going silent. This skill builds a repeatable program; if you only need launch assets, use `launch-marketing`.
+5. **Skipping the measurement loop** — Publishing content but never reviewing performance data or iterating. The plan must include a weekly review cadence with decision rules for doubling down or cutting topics.
 

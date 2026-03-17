@@ -1,6 +1,6 @@
 ---
 name: "product-operations"
-description: "Design and implement Product Operations systems that help product teams scale (cadences, standard artifacts, insights pipelines, release enablement). Produces a Product Ops Operating System Pack (charter, operating model, rituals, templates, implementation plan). Use for product ops, product org scaling, standardizing roadmaps/check-ins, release management enablement. Category: Execution."
+description: "Design Product Ops systems that help product teams scale (cadences, artifacts, insights pipelines, release enablement). Produces a Product Ops Pack (charter, operating model, rituals, templates, implementation plan). NOT for single-team rituals (team-rituals), individual meetings (running-effective-meetings), one launch (shipping-products), or roadmap prioritization (prioritizing-roadmap). Use for product ops, org scaling, standardizing check-ins. Category: Execution."
 ---
 
 # Product Operations
@@ -26,6 +26,9 @@ description: "Design and implement Product Operations systems that help product 
 - You need to define metrics/OKRs from scratch (use `writing-north-star-metrics` / `setting-okrs-goals`)
 - You need to write a decision-ready PRD (use `writing-prds`) or build-ready spec (use `writing-specs-designs`)
 - You need deep customer discovery, interviews, or usability testing (use `conducting-user-interviews` / `usability-testing`)
+- You need to design a single team's rituals (standup, retro, planning) rather than an org-wide operating system (use `team-rituals`)
+- You need to improve one specific meeting's format and facilitation (use `running-effective-meetings`)
+- You need to plan and execute a specific product launch (use `shipping-products`)
 
 ## Inputs
 
@@ -106,18 +109,32 @@ Expanded guidance: [references/WORKFLOW.md](references/WORKFLOW.md)
 - **Outputs:** 30/60/90 plan + measurement plan + iteration backlog.
 - **Checks:** At least 1 measurable improvement is targeted (cycle time, stakeholder satisfaction, fewer surprises, less PM overhead).
 
+## Anti-patterns (common failure modes)
+
+1. **Process for process's sake.** Introducing cadences, templates, and review meetings without tying each to a concrete friction point. The team spends more time on process overhead than on the problems it was meant to solve.
+2. **Shadow decision-making.** Product Ops starts making product decisions (prioritization, roadmap calls) instead of supporting PMs. The charter says “inform” but the operating model creates a bottleneck.
+3. **Template graveyard.** Standardizing 15 artifact templates that nobody uses because they don't match real workflows. Adoption fails silently and teams revert to ad-hoc docs.
+4. **Insights pipeline without routing.** Collecting feedback from Sales, CS, and Support into a central repository but never routing it to the right product area owner. Signal accumulates but never drives decisions.
+5. **Big-bang rollout.** Launching the entire Product Ops operating system to all teams simultaneously instead of piloting with one team. Change fatigue causes rejection before value is demonstrated.
+
 ## Quality gate (required)
 - Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
 ## Examples
 
-**Example 1 (scaling):** “We grew from 6 to 18 PMs and things feel chaotic. Set up a Product Ops operating cadence, standardized roadmap updates, and an insights pipeline.”  
+**Example 1 (scaling):** “We grew from 6 to 18 PMs and things feel chaotic. Set up a Product Ops operating cadence, standardized roadmap updates, and an insights pipeline.”
 Expected: charter + cadences + templates + 30/60/90 rollout plan.
 
-**Example 2 (shipping + enablement):** “Our launches surprise Support and Sales. Create a release enablement system with readiness checks and a comms workflow.”  
+**Example 2 (shipping + enablement):** “Our launches surprise Support and Sales. Create a release enablement system with readiness checks and a comms workflow.”
 Expected: release tiering + readiness checklist + enablement bundle template + post-launch capture loop.
 
-**Boundary example:** “Decide which initiatives we should prioritize next quarter.”  
+**Boundary example (team rituals):** “Help us design a better standup and retro for our product squad.”
+Response: use `team-rituals` for designing individual team ceremonies; this skill is for org-wide operating systems, not single-team rituals.
+
+**Boundary example (single launch):** “Plan the rollout for our v2.0 release next month.”
+Response: use `shipping-products` for a specific launch; this skill is for building the repeatable release enablement *system* across launches.
+
+**Boundary example (roadmap):** “Decide which initiatives we should prioritize next quarter.”
 Response: use `prioritizing-roadmap` first; then apply this skill to operationalize the chosen plan.
 

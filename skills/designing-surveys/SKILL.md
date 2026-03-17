@@ -1,6 +1,6 @@
 ---
 name: "designing-surveys"
-description: "Design and launch a product survey and produce a Survey Pack (brief, questionnaire/instrument, analysis plan, launch checklist, reporting outline). Use for customer surveys, onboarding surveys, NPS/CSAT/PMF, cancellation/churn, and feedback surveys. Category: Product Discovery."
+description: "Design and launch a product survey and produce a Survey Pack (brief, questionnaire, instrument, analysis plan, launch checklist). NOT for interviews (conducting-user-interviews), NOT for existing feedback analysis (analyzing-user-feedback), NOT for usability testing (usability-testing), NOT for full PMF assessment (measuring-product-market-fit). Use for NPS, CSAT, PMF surveys, onboarding, churn, feedback surveys. Category: Product Discovery."
 ---
 
 # Designing Surveys
@@ -22,9 +22,12 @@ description: "Design and launch a product survey and produce a Survey Pack (brie
 - “Help me write survey questions and an analysis plan.”
 
 **When NOT to use**
-- You need deep “why” stories and context (use `conducting-user-interviews`)
+- You need deep “why” stories and behavioral context (use `conducting-user-interviews`); surveys capture what/how-much, not rich narratives
+- You already have feedback data to analyze (use `analyzing-user-feedback`); this skill designs new collection instruments, not synthesis
 - You need to measure causal impact of a change (use an experiment/A/B test, not a survey)
-- Your reachable sample is extremely small (n < ~30) and you need directional insight → interviews may be better
+- You need task-based usability evaluation of a flow or prototype (use `usability-testing`)
+- You need a holistic PMF assessment beyond the survey instrument itself (use `measuring-product-market-fit` for the full framework)
+- Your reachable sample is extremely small (n < ~30) and you need directional insight — interviews may be better
 - The topic is high-risk (legal/medical/safety) or requires formal survey science review; involve an expert
 
 ## Inputs
@@ -103,14 +106,28 @@ Expanded heuristics: [references/WORKFLOW.md](references/WORKFLOW.md)
 - Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
+## Anti-patterns (common failure modes)
+
+1. **Kitchen-sink questionnaire** — Adding “nice-to-have” questions until the survey takes 15+ minutes. Every question must map to a decision or segment cut; if you can't name the action it drives, cut it.
+2. **Double-barreled questions** — “How satisfied are you with our pricing and support?” asks two things at once. Split into separate items or the response is uninterpretable.
+3. **Scale inconsistency** — Mixing 5-point and 7-point scales, or switching anchor labels mid-survey. Pick one scale family and use it consistently throughout.
+4. **Survivorship-biased sampling** — Sending a satisfaction survey only to active users and concluding “users love us.” Include churned/inactive segments or explicitly note the bias in the analysis plan.
+5. **No analysis plan before launch** — Designing questions without knowing how you'll cut and interpret the data. Define segment cuts, decision thresholds, and coding rules for open-ends before finalizing the instrument.
+
 ## Examples
 
-**Example 1 (Onboarding):** “Design an onboarding survey to identify the buyer vs user and route leads appropriately.”  
-Expected: short profiling questions (3–4 screens), clear segmentation fields, and a follow-up plan to avoid irrelevant outreach.
+**Example 1 (Onboarding):** “Design an onboarding survey to identify the buyer vs user and route leads appropriately.”
+Expected: short profiling questions (3-4 screens), clear segmentation fields, and a follow-up plan to avoid irrelevant outreach.
 
-**Example 2 (Product friction):** “Design a CSAT survey to find the top 3 productivity blockers for active users and how often they occur.”  
+**Example 2 (Product friction):** “Design a CSAT survey to find the top 3 productivity blockers for active users and how often they occur.”
 Expected: CSAT + forced-ranking diagnostics + frequency weighting, plus an analysis plan that yields a ranked backlog of issues.
 
-**Boundary example:** “We want to know if feature X caused retention to improve—send a survey.”  
+**Boundary example (redirect to conducting-user-interviews):** “We want to understand why enterprise buyers chose us over competitors — deep stories.”
+Response: redirect to `conducting-user-interviews` for rich narrative elicitation; a survey can quantify the themes afterward but won't surface the stories.
+
+**Boundary example (redirect to analyzing-user-feedback):** “We already ran a CSAT survey last quarter. Help us make sense of the open-ended responses.”
+Response: redirect to `analyzing-user-feedback`; this skill designs new instruments, not analyzes existing data.
+
+**Boundary example (causality):** “We want to know if feature X caused retention to improve — send a survey.”
 Response: push back; recommend experiment/instrumentation for causality, and use a survey only for qualitative context (or run interviews).
 

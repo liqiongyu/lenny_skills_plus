@@ -1,6 +1,6 @@
 ---
 name: "platform-strategy"
-description: "Create a Platform Strategy Pack (platform-as-product charter, interface map, lifecycle stage, ecosystem/moat model, governance, metrics, roadmap). Use for platform strategy, developer platforms, APIs, AI platforms, and ecosystems. Category: Strategy."
+description: "Create a Platform Strategy Pack (platform-as-product charter, interface map, lifecycle stage, ecosystem/moat model, governance, metrics, roadmap). NOT for company-wide AI/product strategy (use ai-product-strategy), infra architecture docs (use platform-infrastructure), design system governance (use design-systems), or pricing/packaging decisions (use pricing-strategy). Use for platform strategy, developer platforms, APIs, AI platforms, and ecosystems. Category: Strategy."
 ---
 
 # Platform Strategy
@@ -25,6 +25,9 @@ description: "Create a Platform Strategy Pack (platform-as-product charter, inte
 - You primarily need a product/company strategy and portfolio plan (use `ai-product-strategy`).
 - You’re selecting a vendor/tool rather than defining a platform strategy (use `evaluating-new-technology`).
 - You need an implementation design/architecture doc (use `writing-specs-designs` after this).
+- You need infrastructure capacity planning, service mesh architecture, or deployment topology (use `platform-infrastructure`).
+- You need a design system with component libraries and token governance (use `design-systems`).
+- You need to set API pricing tiers or monetization models specifically (use `pricing-strategy` after this skill defines the platform shape).
 
 ## Inputs
 
@@ -118,6 +121,17 @@ Expected: platform-as-product charter + paved-road interfaces + productivity met
 **Example 2 (external ecosystem):** “Use `platform-strategy` to define an API platform strategy for opening our analytics product to partners. We want 20 high-quality integrations in 12 months without breaking core reliability.”  
 Expected: stage diagnosis + open/close decisions + incentives + governance/versioning + roadmap.
 
-**Boundary example:** “We should become a platform like Apple—make us a platform strategy.”  
+**Boundary example 1:** “We should become a platform like Apple—make us a platform strategy.”
 Response: out of scope without specific users/jobs and a plausible compounding loop; ask intake questions and/or start with `problem-definition`.
+
+**Boundary example 2:** “Design the microservice architecture and deployment topology for our platform.”
+Response: redirect to `platform-infrastructure` or `writing-specs-designs`. This skill defines the strategic what/why/who of the platform, not the implementation architecture.
+
+## Anti-patterns (common failure modes)
+
+1. **Platform-as-aspiration** -- Declaring “we are a platform” without identifying specific platform users, their jobs-to-be-done, or a compounding loop. A platform strategy requires named consumers (internal teams, external developers, partners) with measurable adoption signals.
+2. **Premature openness** -- Opening APIs, extension points, or partner programs before the core product is stable and before governance (versioning, deprecation, support) is in place. This creates ecosystem debt that compounds faster than ecosystem value.
+3. **Moat-by-assertion** -- Claiming network effects or switching costs without describing the causal loop that produces them. Every moat hypothesis must have a measurable leading indicator and an investment gate.
+4. **Infrastructure project disguised as strategy** -- Producing a technical migration plan (re-platform to Kubernetes, adopt event sourcing) instead of a strategic document about user value, lifecycle stage, and ecosystem design. Keep implementation in downstream skills.
+5. **Governance vacuum** -- Defining what the platform exposes without defining who decides what changes, how breaking changes are communicated, what SLAs are guaranteed, and how abuse is handled. Governance is not optional for platforms with external consumers.
 

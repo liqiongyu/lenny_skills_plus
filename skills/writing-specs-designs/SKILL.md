@@ -1,6 +1,6 @@
 ---
 name: "writing-specs-designs"
-description: "Create a build-ready spec + design doc pack (low-fi diagram, user flows/states, prototype brief, acceptance criteria) for a feature or UX change. Use for spec, design doc, feature spec, technical spec, interaction spec. Category: Product Management."
+description: "Create a build-ready spec + design doc pack (low-fi diagram, user flows/states, prototype brief, acceptance criteria) for a feature or UX change. NOT for decision-level PRDs (use writing-prds), NOT for design critique/feedback (use running-design-reviews), NOT for usability validation with users (use usability-testing), NOT for design-engineering handoff standards (use design-engineering). Use for spec, design doc, feature spec, technical spec, interaction spec. Category: Product Management."
 ---
 
 # Writing Specs & Designs
@@ -23,6 +23,10 @@ description: "Create a build-ready spec + design doc pack (low-fi diagram, user 
 - You need a high-level strategy/vision document (do product vision / north star work first).
 - You need a deep engineering architecture design (APIs, schemas, scaling, reliability) rather than product interaction clarity.
 - You only need pixel-perfect UI mocks (this produces specs and structured guidance, not final visuals).
+- You need a decision-level PRD with requirements and success metrics but not build-ready flows -> use `writing-prds`
+- You need expert design critique on an existing prototype -> use `running-design-reviews`
+- You need to validate designs with real users -> use `usability-testing`
+- You need to establish design-engineering handoff processes or design system standards -> use `design-engineering`
 
 ## Inputs
 
@@ -114,6 +118,19 @@ Expected: tap budget + flow/state tables, a low-fi diagram of screens/transition
 **Example 2 (B2B web feature):** “Create a design doc/spec for ‘bulk edit roles’ for admins. Include edge cases and acceptance criteria.”  
 Expected: permissions-focused flows/states, requirements with acceptance criteria, and a measurement plan.
 
-**Boundary example:** “Write a spec to ‘improve engagement’ (no product context, no user, no success metric).”  
-Response: ask the minimum intake questions; if still missing, provide 2–3 scoped options + assumptions and recommend upstream discovery before committing to a spec.
+**Boundary example (redirect):** “We need to decide whether to build this feature and align stakeholders on requirements and success metrics.”
+Response: redirect to `writing-prds` -- this request is about decision-level alignment and requirements, not build-ready interaction specs and flows.
+
+**Boundary example (insufficient context):** “Write a spec to ‘improve engagement’ (no product context, no user, no success metric).”
+Response: ask the minimum intake questions; if still missing, provide 2-3 scoped options + assumptions and recommend upstream discovery before committing to a spec.
+
+## Anti-patterns
+
+Avoid these common failure modes when writing specs and design docs:
+
+1. **Diagram-as-decoration** -- Including a diagram that restates the text without showing moving pieces, data flow, or decision points. The diagram should reveal structure that prose cannot.
+2. **Happy-path-only flows** -- Documenting only the ideal path and omitting error, empty, loading, and permission states. Edge cases discovered during build are 10x more expensive to handle.
+3. **Prototype without a question** -- Proposing a prototype brief without a clear hypothesis or success criteria. Every prototype must answer a specific design uncertainty.
+4. **Spec-as-PRD** -- Including strategic rationale, market context, or stakeholder alignment content that belongs in a PRD. Specs should assume the “what” and “why” are decided and focus on “how it works.”
+5. **Missing platform specifics** -- Writing platform-agnostic flows when the feature has mobile-specific constraints (tap economy, notifications, offline states). Always call out platform differences explicitly.
 

@@ -1,6 +1,6 @@
 ---
 name: "designing-growth-loops"
-description: "Design growth loops (viral/referral/acquisition loops, flywheels) and produce a Growth Loop Design Pack (loop map, loop scorecard, channel fit + paid-loop feasibility, experiment backlog, measurement plan). Use for growth teams creating new growth loops or innovating beyond incremental optimization. Category: Growth."
+description: "Design growth loops (viral/referral/acquisition loops, flywheels) and produce a Growth Loop Design Pack (loop map, scorecard, channel fit, experiment backlog, measurement plan). NOT for post-activation retention (use retention-engagement), NOT for first-time onboarding UX (use user-onboarding), NOT for content strategy/SEO editorial calendars (use content-marketing), NOT for community programs (use community-building). For growth teams. Category: Growth."
 ---
 
 # Designing Growth Loops
@@ -26,6 +26,10 @@ description: "Design growth loops (viral/referral/acquisition loops, flywheels) 
 - You’re still establishing PMF and need a PMF signal set (use `measuring-product-market-fit`).
 - You only need an experiment list/prioritization, not loop design (use `prioritizing-roadmap`).
 - You’re making a one-way-door launch decision (use `shipping-products` / `running-decision-processes`).
+- You need to improve retention, reduce churn, or design re-engagement for existing users (use `retention-engagement`); this skill designs acquisition/growth loops, not post-activation retention.
+- You need to redesign signup-to-activation onboarding flows (use `user-onboarding`); this skill may feed new users into onboarding but does not design the onboarding UX itself.
+- You need a content editorial calendar or SEO keyword strategy, not a content-as-a-growth-loop system (use `content-marketing` for editorial execution).
+- You need to build and manage a user community, not design a community-powered growth loop (use `community-building` for community programs).
 
 ## Inputs
 
@@ -107,6 +111,14 @@ Templates and checklists:
 - **Outputs:** Final Growth Loop Design Pack.
 - **Checks:** Next 2 weeks of work are unblocked and measurable; risks include policy/ethics considerations.
 
+## Anti-patterns (common failure modes)
+
+1. **"Go viral" without a mechanism** — Proposing virality as a goal without specifying the concrete feedback path (input, action, output, re-entry); loops without a plausible self-reinforcing mechanism are wishful thinking, not growth strategy.
+2. **Paid loop without unit economics gating** — Recommending paid acquisition loops without validating LTV/CAC/payback math; spending without a clear payback window burns cash and creates false growth signals.
+3. **Tactic list masquerading as a loop** — Listing growth tactics (SEO, referral bonuses, social sharing) as independent items instead of connecting them into feedback loops with measurable cycle times and compounding; tactics without loop structure don't compound.
+4. **Ignoring channel-product fit** — Forcing a channel (e.g., TikTok virality for enterprise B2B) because it worked for a different product type; the Customer x Business x Medium fit check must pass before investing.
+5. **Single-loop fragility** — Betting entirely on one loop without a backup; platform policy changes, algorithm shifts, or market saturation can kill a single loop overnight. Always design at least a primary + secondary loop.
+
 ## Quality gate (required)
 - Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
@@ -119,7 +131,15 @@ Templates and checklists:
 **Example 2 (B2C, viral/content loop):**  
 “We’re building a mobile photo editor for creators. Goal: grow from 20k to 60k MAU in 8 weeks. Output a loop map, a mechanism library for Instagram/TikTok sharing, and a prioritized experiment backlog.”
 
-**Boundary example (not a loop problem):**  
-“Write copy for our landing page headline.”  
+**Boundary example (not a loop problem):**
+“Write copy for our landing page headline.”
 Response: this is primarily copywriting/positioning, not loop design; clarify the goal and use `copywriting` or a messaging skill instead.
+
+**Boundary example (retention, not acquisition):**
+“Our D30 retention is dropping and we need to reduce churn with re-engagement campaigns.”
+Response: this is a retention/churn problem, not a growth loop design problem; use `retention-engagement` to diagnose and fix post-activation retention. Growth loops focus on acquiring and circulating new users, not retaining existing ones.
+
+**Boundary example (onboarding, not loop design):**
+“Users sign up but drop off before completing setup. Redesign the first-time experience.”
+Response: this is an onboarding/activation problem; use `user-onboarding` to redesign the signup-to-activation flow. Growth loops may feed users into onboarding, but the onboarding UX itself is a separate skill.
 

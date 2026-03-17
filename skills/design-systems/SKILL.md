@@ -1,6 +1,6 @@
 ---
 name: "design-systems"
-description: "Build or evolve a design system by producing a Design System Operating Pack: charter, token model (incl. depth/elevation), component inventory + roadmap, blockframe-to-component mapping, documentation plan, and governance/adoption plan. Use for design systems, component libraries, design tokens, UI kits, and pattern libraries. Category: Engineering."
+description: "Build or evolve a design system (tokens, components, governance): charter, token model, component inventory + roadmap, blockframe-to-component mapping, documentation plan, governance/adoption plan. NOT for standing up a design engineering practice (use design-engineering), NOT for design critiques (use running-design-reviews), NOT for engineering culture (use engineering-culture), NOT for feature specs (use writing-specs-designs). Category: Design."
 ---
 
 # Design Systems
@@ -26,6 +26,10 @@ description: "Build or evolve a design system by producing a Design System Opera
 - You need user research/discovery to decide *what* to build.
 - You only need to ship one isolated UI change (just implement it).
 - You’re doing pure front-end architecture unrelated to UI consistency.
+- You want to stand up a design engineering function or define the hybrid role (use `design-engineering`).
+- You need to run a one-off design review or critique session (use `running-design-reviews`).
+- You want to improve engineering team culture, rituals, or hiring (use `engineering-culture`).
+- You need a detailed feature spec or UX flow document (use `writing-specs-designs`).
 
 ## Inputs
 
@@ -106,3 +110,19 @@ Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 
 ## Examples
 See [references/EXAMPLES.md](references/EXAMPLES.md).
+
+**Boundary example 1:** "We want to create a design engineering team that owns UI craft and ships production code."
+Response: this is about standing up a hybrid practice/role, not building a system of reusable tokens and components; redirect to `design-engineering`. Use `design-systems` when the goal is the system itself (tokens, components, governance), not the organizational function.
+
+**Boundary example 2:** "Can you run a design critique on our new checkout flow mockups?"
+Response: a one-off design review is not a design system engagement; redirect to `running-design-reviews`. Use `design-systems` when the goal is building or evolving the reusable component/token layer, not reviewing a specific flow.
+
+## Anti-patterns
+
+Avoid these common failure modes when producing a Design System Operating Pack:
+
+1. **Token taxonomy without consumers** — Defining hundreds of tokens (color, spacing, typography, elevation) before any component uses them. Start with the tokens needed by the first milestone of components; expand the taxonomy as real consumers demand it.
+2. **Component library as a museum** — Building components that look great in Storybook but are never adopted by product teams. Every component in the roadmap must have at least one committed consumer (a real product flow), and the governance plan must track adoption rates.
+3. **Governance without teeth** — Defining contribution guidelines and decision rights on paper but having no enforcement mechanism (no review gate in CI, no required design-system review on PRs). Governance that relies solely on goodwill will erode within one quarter.
+4. **Blockframe skipping** — Jumping directly to hi-fi mockups without locking information architecture and flow logic in lo-fi blockframes first. This leads to expensive rework when IA changes invalidate hi-fi work.
+5. **One-size-fits-all documentation** — Writing component docs aimed only at designers or only at engineers. The documentation plan must explicitly address both audiences and include recipes/starter templates for non-experts.

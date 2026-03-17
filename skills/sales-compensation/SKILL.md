@@ -1,6 +1,6 @@
 ---
 name: "sales-compensation"
-description: "Design a sales compensation plan (OTE & pay mix, quotas & ramp, commission mechanics, and retention-aligned incentives) and produce a Sales Comp Plan Pack. Use for AE/SDR/AM comp plans, early sales hires, and GTM scaling. Category: Sales & GTM."
+description: "Design a sales compensation plan (OTE & pay mix, quotas & ramp, commission mechanics, and retention-aligned incentives) and produce a Sales Comp Plan Pack. Use for AE/SDR/AM comp plans, early sales hires, and GTM scaling. NOT for sales team hiring/org design (use building-sales-team), pipeline qualification (use sales-qualification), or offer negotiation (use negotiating-offers). Category: Sales & GTM."
 ---
 
 # Sales Compensation
@@ -22,6 +22,9 @@ description: "Design a sales compensation plan (OTE & pay mix, quotas & ramp, co
 - “Our reps close bad-fit deals that churn—align comp with retention/NRR.”
 
 **When NOT to use**
+- You need to hire, structure, or onboard an early sales team (use `building-sales-team` for org design, scorecards, and ramp plans)
+- You need to improve pipeline quality, lead scoring, or qualification criteria (use `sales-qualification`)
+- You need to negotiate a specific offer with an individual candidate (use `negotiating-offers`)
 - You need legal/tax/HR advice, employment compliance guidance, or jurisdiction-specific plan language (use qualified professionals)
 - You’re designing **executive compensation** or equity plans (different problem)
 - You don’t yet have basic GTM foundations (ICP, pricing, what counts as a closed-won) — do that first, then return
@@ -109,14 +112,28 @@ Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 - Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
+## Anti-patterns
+
+Avoid these common failure modes when designing sales compensation:
+
+1. **Formula soup.** Creating a comp plan with 4+ metrics, nested multipliers, and conditional accelerators that no rep can mentally model. If a rep cannot estimate their payout from memory after closing a deal, the plan is too complex. Stick to 1 primary metric per role and at most 1-2 secondary adjustments.
+2. **Paying for bookings while ignoring churn.** Rewarding reps purely on closed-won ARR with no retention alignment. This incentivizes closing bad-fit customers, aggressive discounting to pull deals forward, and over-promising during the sales process. Always include at least one retention-alignment mechanism.
+3. **Unrealistic quotas that kill morale.** Setting quotas top-down from the board plan without a bottom-up cross-check (pipeline coverage, conversion rates, ramp time). When fewer than 50-60% of reps hit quota, the plan is broken, not the reps. Always stress-test quotas under low/base/high scenarios.
+4. **Copy-pasting comp plans across stages.** Using a Series C comp structure (territories, overlays, SPIFs, multi-tier accelerators) for a seed-stage team with 2 reps and no pipeline history. Early-stage plans should be simple: base + variable on one metric, with a clear ramp and draw.
+5. **No ramp protection for new hires.** Putting new reps on full quota from day one without a draw, guarantee, or reduced ramp quota. Reps who feel underwater from week one either leave or cut corners. Ramp plans must reflect realistic time-to-productivity.
+
 ## Examples
 
-**Example 1 (first AE comp plan, seed-stage SaaS):**  
+**Example 1 (first AE comp plan, seed-stage SaaS):**
 “Use `sales-compensation`. We’re seed-stage B2B SaaS, $12k ACV, 45-day cycle. Hiring first 2 AEs. Goal: $600k ARR this year. Output: a Sales Comp Plan Pack with OTE/pay mix, quotas+ramp, commission mechanics, and a rep-facing FAQ.”
 
-**Example 2 (retention-aligned comp, churn problem):**  
+**Example 2 (retention-aligned comp, churn problem):**
 “Use `sales-compensation`. Reps optimize for bookings and we churn in the first 90 days. We want comp to reflect retention/NRR without being overly complex. Output: a Sales Comp Plan Pack with a retention-alignment addendum and clear admin rules.”
 
-**Boundary example:**  
-“Write a legally binding compensation agreement for California employees and tell me what’s compliant.”  
+**Boundary example (redirect to legal counsel):**
+“Write a legally binding compensation agreement for California employees and tell me what’s compliant.”
 Response: explain this skill produces a comp-plan spec and rep-facing materials, but legal/compliance review must be done by qualified counsel.
+
+**Boundary example (redirect to building-sales-team):**
+“We need to figure out what roles to hire, how to interview them, and how much to pay them.”
+Response: the org design, scorecards, and hiring process belong to `building-sales-team`. Use this skill specifically for the comp plan (OTE, quotas, commission mechanics) once you know which roles you are hiring.

@@ -1,6 +1,6 @@
 ---
 name: "analyzing-user-feedback"
-description: "Analyze user/customer feedback and produce a User Feedback Analysis Pack (source inventory, normalized feedback table, taxonomy/codebook, themes + evidence, recommendations, and feedback loop). Use for voice of customer, feature request analysis, support ticket synthesis, churn reason synthesis, and survey open-ends. Category: Product Discovery."
+description: "Analyze existing user/customer feedback and produce a Feedback Analysis Pack (source inventory, taxonomy, themes, recommendations, feedback loop). NOT for collecting new feedback (conducting-user-interviews/designing-surveys), NOT for usability testing (usability-testing), NOT for retention metrics (retention-engagement). Use for voice of customer, feature requests, support tickets, churn reasons, survey open-ends. Category: Product Discovery."
 ---
 
 # Analyzing User Feedback
@@ -21,9 +21,11 @@ description: "Analyze user/customer feedback and produce a User Feedback Analysi
 - “Cluster survey open-ends into insights and recommendations.”
 
 **When NOT to use**
-- You need to collect new feedback first (use `conducting-user-interviews` / `designing-surveys`)
+- You need to **collect new feedback** via interviews (use `conducting-user-interviews`) or surveys (use `designing-surveys`); this skill analyzes data you already have
+- You need **task-based usability evaluation** of a specific flow or prototype (use `usability-testing`)
 - You need backlog prioritization as the primary output (use `prioritizing-roadmap`)
 - You need a PRD/spec for a chosen solution (use `writing-prds` / `writing-specs-designs`)
+- You need **retention/engagement metric analysis** (quantitative cohort/funnel work) rather than qualitative feedback synthesis (use `retention-engagement`)
 - You only need to respond to individual tickets (support workflow, not synthesis)
 
 ## Inputs
@@ -110,14 +112,28 @@ Templates: [references/TEMPLATES.md](references/TEMPLATES.md)
 - Use [references/CHECKLISTS.md](references/CHECKLISTS.md) and [references/RUBRIC.md](references/RUBRIC.md).
 - Always include: **Risks**, **Open questions**, **Next steps**.
 
+## Anti-patterns (common failure modes)
+
+1. **Theme inflation** — Creating dozens of micro-themes that obscure the signal. Limit top-level themes to 5-10 and nest sub-themes underneath; if you have 20+ themes, you haven't synthesized yet.
+2. **Source bias blindness** — Treating support tickets and NPS comments as equivalent without accounting for who writes each (complainers vs promoters, power users vs new users). Always note source bias in confidence levels.
+3. **Counting without context** — Reporting “42% of tickets mention onboarding” without severity, segment, or lifecycle context. Frequency alone is misleading; pair counts with severity/impact and segment breakdowns.
+4. **Copy-paste taxonomy** — Reusing a generic tag set (bug/feature/UX/other) instead of building a codebook grounded in the product's actual problem space. The taxonomy should reflect how the team makes decisions.
+5. **One-and-done report** — Delivering a synthesis with no feedback loop plan. Without cadence, owners, and storage, the analysis becomes shelfware within a sprint.
+
 ## Examples
 
-**Example 1 (support tickets):** “Analyze the last 60 days of onboarding-related tickets. Output a User Feedback Analysis Pack and top 10 recommended fixes.”  
+**Example 1 (support tickets):** “Analyze the last 60 days of onboarding-related tickets. Output a User Feedback Analysis Pack and top 10 recommended fixes.”
 Expected: source inventory + sampling, taxonomy, tagged table, themes with quotes, and ranked actions.
 
-**Example 2 (survey + reviews):** “Synthesize survey open-ends and app store reviews for our new pricing change. What are the biggest friction points and why?”  
+**Example 2 (survey + reviews):** “Synthesize survey open-ends and app store reviews for our new pricing change. What are the biggest friction points and why?”
 Expected: themes split by source/segment, severity signals, and recommendations (incl. messaging/UX changes).
 
-**Boundary example:** “Read all our feedback and tell us what to build next.”  
+**Boundary example (redirect to conducting-user-interviews):** “We have no feedback data yet but want to understand why users churn.”
+Response: redirect to `conducting-user-interviews` to collect first-person stories first; return here once you have data to analyze.
+
+**Boundary example (redirect to designing-surveys):** “We want to collect structured feedback from our user base about the new pricing.”
+Response: redirect to `designing-surveys` to design and launch the instrument; return here to analyze the results.
+
+**Boundary example (scope guard):** “Read all our feedback and tell us what to build next.”
 Response: ask for scope/time window/decision + a sample dataset; otherwise produce a sampling plan + a minimal first-pass synthesis with explicit limitations.
 

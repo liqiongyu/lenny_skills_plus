@@ -1,6 +1,6 @@
 ---
 name: "team-rituals"
-description: "Design a lightweight set of named, templated “Golden Rituals” (team operating cadence) and produce a Team Rituals Pack (ritual inventory, ritual specs + agendas, onboarding primer, rollout + iteration plan). Use for team rituals, operating cadence, meeting templates, team operating system, golden rituals. Category: Hiring & Teams."
+description: "Design a lightweight set of named, templated Golden Rituals (team operating cadence). NOT for defining team culture code or values (use building-team-culture), NOT for running a single meeting or workshop (use running-effective-meetings), NOT for engineering-specific ceremonies (use engineering-culture). Produces a Team Rituals Pack. Use for team rituals, operating cadence, meeting templates, team operating system, golden rituals. Category: Hiring & Teams."
 ---
 
 # Team Rituals
@@ -19,8 +19,11 @@ description: "Design a lightweight set of named, templated “Golden Rituals” 
 - “We need better alignment and decision velocity without adding meeting load.”
 
 **When NOT to use**
+- You need to define team culture code, values, or norms first (use `building-team-culture` — rituals should express decisions you’ve already made about culture)
+- You need to facilitate or improve a single meeting or workshop (use `running-effective-meetings` — this skill designs an end-to-end ritual system, not one meeting)
+- You need to set up product operations cadence or cross-team coordination (use `product-operations`)
+- You need engineering-specific ceremonies like sprint retros, incident reviews, or deploy cadences (use `engineering-culture`)
 - You need to define company values, org design, or strategy from scratch (do that first; rituals should express decisions you’ve made)
-- You need help facilitating a single workshop/meeting agenda only (this skill produces an end-to-end ritual system)
 - You need HR/legal policy guidance (this is not compliance or legal advice)
 - You’re trying to use rituals for surveillance or performance policing (this will backfire; redesign for trust and psychological safety)
 
@@ -110,5 +113,19 @@ Expected: a small set of named rituals with templates, mapped to outcomes, plus 
 **Example 2 (new manager operating system):** “I’m inheriting a team of 7 ICs with low accountability and unclear priorities. Create a weekly operating cadence with minimal meetings and clear artifact outputs.”  
 Expected: ritual inventory audit + a minimal Golden Rituals set + artifact-first templates.
 
-**Boundary example:** “Fix our company culture.”  
-Response: ask what specifically is broken and at what scope; propose a small team-level ritual system only, or suggest doing values/strategy/org work first.
+**Boundary example (scope too broad):** “Fix our company culture.”
+Response: ask what specifically is broken and at what scope; propose a small team-level ritual system only, or redirect to `building-team-culture` for culture code and norms work first.
+
+**Boundary example (single meeting):** “Help me run a better weekly standup — just give me an agenda template.”
+Response: redirect to `running-effective-meetings` for a single meeting redesign. Use this skill if you want to design the full team operating cadence (standup is one ritual among several).
+
+**Boundary example (engineering ceremonies):** “Set up our sprint retro, incident review, and deploy cadence for the engineering team.”
+Response: redirect to `engineering-culture` for engineering-specific ceremonies. This skill designs cross-functional team operating cadence, not engineering-specific process.
+
+## Anti-patterns (common failure modes)
+
+1. **Ritual sprawl** — Adding new meetings without killing old ones. Every new ritual must justify its slot against the time budget. If you cannot retire something, you are adding load, not a system.
+2. **Status-only meetings** — Rituals that exist solely for one-directional status reporting. These should be replaced with async updates (written status docs, dashboards) and sync time reserved for decisions, alignment, or learning.
+3. **No artifact output** — Running a ritual that produces no durable artifact (decision log, commitment list, learning summary). If nothing is written down, the ritual did not happen. Every Golden Ritual must produce an output.
+4. **Cargo-cult adoption** — Copying another company's rituals without adapting to your team's context, size, or work mode. “Google does weekly business reviews” does not mean your 6-person startup needs one.
+5. **Rituals without governance** — Never reviewing whether rituals are still working. Institute a quarterly ritual audit with explicit keep/change/kill decisions and retirement rules.

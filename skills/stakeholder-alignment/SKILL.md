@@ -1,6 +1,6 @@
 ---
 name: "stakeholder-alignment"
-description: "Align stakeholders and secure buy-in for a specific proposal or decision by producing a Stakeholder Alignment Pack (alignment brief, stakeholder map, exec decision principles, pre-brief plan, alignment meeting plan, decision summary + comms). Use for stakeholder alignment, buy-in, executive alignment, and securing approval. NOT for ongoing cross-functional collaboration (use cross-functional-collaboration) or managing your boss relationship (use managing-up). Category: Communication."
+description: "Align stakeholders and secure buy-in for a proposal or decision via a Stakeholder Alignment Pack (brief, stakeholder map, pre-brief plan, meeting plan, decision summary + comms). Use for stakeholder alignment, buy-in, exec alignment, securing approval. NOT for ongoing cross-functional collaboration (use cross-functional-collaboration), managing-up (use managing-up), decision frameworks (use running-decision-processes), or presentation decks (use giving-presentations). Category: Communication."
 ---
 
 # Stakeholder Alignment
@@ -23,8 +23,10 @@ description: "Align stakeholders and secure buy-in for a specific proposal or de
 
 **When NOT to use**
 - You don’t yet have a clear problem to solve (use problem definition first).
-- You mainly need a decision framework/roles for a complex choice (use a decision-process skill; this skill assumes you can name the decision and stakeholders).
-- You only need a polished deck (use a presentation skill; this focuses on alignment mechanics and artifacts).
+- You mainly need a decision framework/roles for a complex choice (use `running-decision-processes`; this skill assumes you can name the decision and stakeholders).
+- You only need a polished deck or talk track (use `giving-presentations`; this skill focuses on alignment mechanics and artifacts, not slide design).
+- The work is ongoing cross-functional coordination, not a discrete alignment push (use `cross-functional-collaboration`).
+- You need to influence or manage your relationship with your manager specifically (use `managing-up`).
 - The request is interpersonal/HR/legal or requires specialist counsel.
 
 ## Inputs
@@ -115,5 +117,16 @@ Expected: Alignment Brief, Stakeholder Map, pre-brief plan + notes template, mee
 **Example 2:** “Sales and Legal are blocking a self-serve launch. Create a cross-functional alignment plan that surfaces constraints early and lands on a committed path.”  
 Expected: explicit constraints, evaluation criteria, no-surprises pre-brief loop, decision capture, and follow-up comms.
 
-**Boundary example:** “Make them agree with me; they’re irrational.”  
+**Boundary example (redirect):** “Set up a recurring cross-functional sync so Eng, Design, and Sales stay coordinated on the roadmap.”
+Response: This is ongoing coordination, not a discrete alignment push. Redirect to `cross-functional-collaboration` for cadence design and operating rhythms. If there is also a specific decision that needs alignment, handle that decision with this skill first.
+
+**Boundary example (reframe):** “Make them agree with me; they’re irrational.”
 Response: refuse to ‘win politics’; reframe to an evidence-based alignment process (principles, criteria, tradeoffs). If the user can’t name a decision/goal, do problem definition first.
+
+## Anti-patterns (common failure modes)
+
+1. **”Alignment theater”** -- Running the pre-brief loop and meeting rituals but never naming the actual decision or commitment. The pack looks complete but nothing changes because there is no concrete ask.
+2. **Skipping the pre-brief loop** -- Going straight to a large meeting with new information. Surprises in the room create defensive reactions and kill alignment.
+3. **Treating all stakeholders the same** -- Sending one deck to everyone instead of tailoring messaging to each stakeholder’s principles and incentives. Leads to “polite nods” followed by private objections.
+4. **Confusing “inform” with “align”** -- Broadcasting a decision already made and calling it alignment. If stakeholders have no real input, label it “inform” honestly.
+5. **No follow-through artifact** -- Ending with verbal agreement but no written decision summary, owners, or review checkpoint. Alignment decays within days.

@@ -1,6 +1,6 @@
 ---
 name: "energy-management"
-description: "Build an Energy Management Operating System Pack (energy drivers/drains map, calendar energy audit, zone-of-genius expansion plan, energy-aligned weekly schedule, recovery routines, and 2-week experiments). Use for sustainable leadership performance and burnout prevention. Category: Leadership."
+description: "Build an Energy Management Operating System Pack (drivers/drains map, calendar energy audit, zone-of-genius expansion, energy-aligned schedule, recovery routines, 2-week experiments). NOT for time/task systems (personal-productivity), imposter syndrome (managing-imposter-syndrome), 1:1 agendas (running-effective-1-1s), or delegation frameworks (delegating-work). Use for burnout prevention, sustainable leadership. Category: Leadership."
 ---
 
 # Energy Management
@@ -21,9 +21,13 @@ description: "Build an Energy Management Operating System Pack (energy drivers/d
 - “Create meeting norms and boundaries so I stop hemorrhaging energy.”
 
 **When NOT to use**
-- You are in an acute physical/mental health crisis or need medical advice. Seek professional help and follow your company policy.
-- You need HR/legal guidance (harassment, discrimination, retaliation, threats, investigations).
-- Your environment is unsafe or coercive; prioritize safety and support systems first. This skill can help document constraints and draft a negotiation plan, but it won’t “optimize” an unsafe situation.
+- You need a time/task management system (timeboxing, capture, to-do lists) without an energy focus — use `personal-productivity` (this pack optimizes *energy*; that pack optimizes *time*)
+- You are dealing with imposter syndrome and self-doubt, not energy depletion — use `managing-imposter-syndrome`
+- You need better 1:1 meeting structures with your reports — use `running-effective-1-1s`
+- You need a delegation framework for distributing work — use `delegating-work` (this pack identifies *what* to offload; that pack covers *how* to delegate effectively)
+- You are in an acute physical/mental health crisis or need medical advice. Seek professional help and follow your company policy
+- You need HR/legal guidance (harassment, discrimination, retaliation, threats, investigations)
+- Your environment is unsafe or coercive; prioritize safety and support systems first. This skill can help document constraints and draft a negotiation plan, but it won’t “optimize” an unsafe situation
 
 ## Inputs
 
@@ -117,5 +121,12 @@ Expected: drivers/drains map, calendar audit, offload plan, default week, meetin
 **Example 2 (role fit signals):** “After certain calls I feel energized, after others I feel drained. Help me build a tracking system and use it to redesign my scope.”  
 Expected: energy log + drivers/drains map, patterns, specific levers (time-shift/batch/delegate), and a 2-week experiment tracker.
 
-**Boundary example (medical crisis):** “I’m having panic attacks and can’t sleep; fix my energy.”  
+**Boundary example (medical crisis):** “I’m having panic attacks and can’t sleep; fix my energy.”
 Response: do not provide medical advice; encourage professional help. Offer a minimal work-boundary plan (reduce commitments, document constraints, notify stakeholders) and a tracking template only if appropriate.
+
+## Anti-patterns
+
+1. **Coping without changing** — Adding recovery rituals (meditation, walks, breathing) without addressing the structural drains (back-to-back meetings, poor delegation, scope creep). Recovery is necessary but insufficient; the drivers/drains map must produce concrete structural changes.
+2. **”Zone of genius” fantasy** — Trying to eliminate all non-genius work immediately. Some drains are non-negotiable (compliance, hiring, stakeholder management). The expansion plan must distinguish between drains you can remove now vs. drains you must redesign or time-shift.
+3. **Calendar redesign without stakeholder buy-in** — Blocking focus time and declining meetings without communicating the change to your team and manager. Every calendar change needs a communication plan, or it will be overridden within a week.
+4. **Energy tracking without action** — Building an elaborate logging system that produces insights but no behavior changes. The 2-week pilot must pair every observation with a specific experiment (change one thing, measure the effect, decide to keep/modify/stop).

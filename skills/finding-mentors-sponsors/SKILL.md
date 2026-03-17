@@ -1,6 +1,6 @@
 ---
 name: "finding-mentors-sponsors"
-description: "Build a Mentor & Sponsor Plan Pack (mentor portfolio, sponsor strategy, target list, outreach scripts, meeting agenda, tracking + cadence). Use for finding a mentor, finding a sponsor, mentorship, sponsorship, career advisor, career coaching, networking outreach. Category: Career."
+description: "Build a Mentor & Sponsor Plan Pack (mentor portfolio, sponsor strategy, target list, outreach scripts, meeting agenda, tracking + cadence). NOT for promotion cases (building-a-promotion-case), manager-relationship tactics (managing-up), career pivots (career-transitions), or PM coaching frameworks (coaching-pms). Use for finding a mentor, sponsor, career advisor, networking outreach. Category: Career."
 ---
 
 # Finding Mentors & Sponsors
@@ -24,6 +24,10 @@ description: "Build a Mentor & Sponsor Plan Pack (mentor portfolio, sponsor stra
 - “I need a system to build relationships and get guidance for my career.”
 
 **When NOT to use**
+- You already have sponsors and need to build a promotion packet — use `building-a-promotion-case` (this pack builds the network; that pack uses it for a promo push)
+- You want to improve your relationship with your current manager (not find new mentors) — use `managing-up`
+- You are planning a career pivot and need a transition roadmap — use `career-transitions` (this pack can complement it for networking, but the decision framework lives there)
+- You need a PM coaching framework for your reports — use `coaching-pms`
 - You need therapy/mental-health support (use a licensed professional)
 - You’re in an HR/performance escalation (PIP/investigation) where advice could be sensitive — follow the formal process first
 - You only want a resume/LinkedIn rewrite (use a resume/job-search workflow)
@@ -121,5 +125,13 @@ Expected: A prioritized list (internal + external), warm paths, and 3 message te
 **Example 2 (no strong network):** “I moved industries and don’t know many people. Help me find mentors outside my company and build a system to reach out without feeling spammy.”  
 Expected: Targeting criteria + community sourcing plan + outreach and follow-up sequence + tracking.
 
-**Boundary example:** “I want you to message 500 people on LinkedIn with the same pitch until someone replies.”  
+**Boundary example:** “I want you to message 500 people on LinkedIn with the same pitch until someone replies.”
 Response: decline; offer a smaller, personalized approach with ethics/safety constraints and warm-path prioritization.
+
+## Anti-patterns
+
+1. **”One perfect mentor” thinking** — Searching for a single oracle who can solve all career problems. Effective mentorship uses a portfolio model: different people for different gaps (technical depth, leadership, political navigation, domain expertise).
+2. **Generic outreach blast** — Sending the same “Would you be my mentor?” message to 20 people. Each outreach must name the specific gap, show what you've already tried, and propose a small concrete ask (15-30 minutes, not a lifelong commitment).
+3. **Confusing mentors with sponsors** — Asking a mentor to advocate in rooms they don't have access to, or asking a sponsor for coaching they don't have time for. Mentors give advice; sponsors bet political capital. Map each person to the right role.
+4. **Extraction without reciprocity** — Taking advice and introductions without giving back value (updates, help, referrals, content). Sustainable relationships require a value exchange plan from the start.
+5. **No follow-through system** — Having great first conversations that fade because there is no cadence, no tracking, and no next-step commitments. Install the relationship operating system in week 1.
