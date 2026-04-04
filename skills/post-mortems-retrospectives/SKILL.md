@@ -1,6 +1,6 @@
 ---
 name: "post-mortems-retrospectives"
-description: "Run blameless post-mortems and retrospectives: Pack with brief, timeline, contributing factors, root causes, action tracker, kill criteria, dissemination plan. Use for postmortem, retro, after-action review, lessons learned. NOT for non-review meetings (use running-effective-meetings), shipping process design (use shipping-products), engineering culture (use engineering-culture), or future risk planning (use planning-under-uncertainty). Category: Leadership."
+description: "Run blameless post-mortems and retrospectives: timeline, root causes, action tracker."
 ---
 
 # Post-mortems & Retrospectives

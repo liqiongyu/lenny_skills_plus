@@ -1,6 +1,6 @@
 ---
 name: "written-communication"
-description: "Draft and edit high-signal written artifacts and produce a Written Communication Pack (brief, outline, draft email/memo/doc, canonical doc option, quality gate). Use for writing, written communication, memo, email, doc, async update, rewrite for clarity. NOT for presentation decks/talk tracks (use giving-presentations), full product specs/PRDs (use writing-prds), stakeholder alignment campaigns (use stakeholder-alignment), or managing-up communications (use managing-up). Category: Communication."
+description: "Draft and edit written artifacts (email, memo, doc) with a quality gate."
 ---
 
 # Written Communication

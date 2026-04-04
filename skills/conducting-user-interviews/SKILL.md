@@ -1,6 +1,6 @@
 ---
 name: "conducting-user-interviews"
-description: "Plan, conduct, and synthesize user/customer interviews and produce a User Interview Pack. NOT for hiring interviews (conducting-interviews), NOT for surveys (designing-surveys), NOT for existing feedback analysis (analyzing-user-feedback), NOT for usability testing (usability-testing). Use for discovery, JTBD switch, churn, concept interviews. Category: Product Discovery."
+description: "Plan, conduct, and synthesize user/customer interviews. See also: conducting-interviews (hiring), designing-surveys (quantitative)."
 ---
 
 # Conducting User Interviews

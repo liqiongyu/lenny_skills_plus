@@ -1,6 +1,6 @@
 ---
 name: "startup-pivoting"
-description: "Decide whether/how to pivot a startup or product via a Pivot Decision & Execution Pack (diagnosis, exhaustion check, pivot options map, thesis + metrics, validation plan). NOT for greenfield ideation (startup-ideation), NOT for measuring PMF (measuring-product-market-fit), NOT for known trade-off comparison (evaluating-trade-offs), NOT for problem framing (problem-definition). Use for pivot decision, stuck pre-PMF, growth stalled, change ICP, reposition. Category: Strategy."
+description: "Decide whether/how to pivot: diagnosis, exhaustion check, pivot options, validation plan."
 ---
 
 # Startup Pivoting

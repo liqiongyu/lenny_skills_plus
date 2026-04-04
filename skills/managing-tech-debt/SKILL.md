@@ -1,6 +1,6 @@
 ---
 name: "managing-tech-debt"
-description: "Produce a Tech Debt Management Pack (debt register, scoring, refactor vs rewrite memo, paydown plan, migration/rollback, metrics). Use for tech debt, refactoring, legacy modernization, and migrations. NOT for roadmap prioritization across product bets (use technical-roadmaps), NOT for infra/platform design (use platform-infrastructure), NOT for cutting scope on a current project (use scoping-cutting), NOT for engineering culture or process issues (use engineering-culture). Category: Engineering."
+description: "Produce a Tech Debt Management Pack (debt register, scoring, refactor vs rewrite memo, paydown plan)."
 ---
 
 # Managing Tech Debt

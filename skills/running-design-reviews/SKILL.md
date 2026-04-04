@@ -1,6 +1,6 @@
 ---
 name: "running-design-reviews"
-description: "Run high-signal design reviews producing a Design Review Pack: brief, agenda, feedback log (Value>Ease>Delight), decision record, follow-up plan. NOT for general meetings (use running-effective-meetings), NOT for design systems (use design-systems), NOT for design-eng handoff (use design-engineering), NOT for user testing (use usability-testing). Use for design review, design critique, design crit, UX review. Category: Product Design."
+description: "Run high-signal design reviews: brief, feedback log, decision record, follow-up plan."
 ---
 
 # Running Design Reviews

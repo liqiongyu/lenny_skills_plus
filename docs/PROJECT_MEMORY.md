@@ -2,6 +2,8 @@
 
 > 中文版: [PROJECT_MEMORY.zh-CN.md](PROJECT_MEMORY.zh-CN.md)
 
+Quick-reference summary for agent context. Authoritative source of truth: [AGENTS.md](../AGENTS.md).
+
 This repository is a **Skillpack Factory**: it converts RefoundAI “Lenny skills” into **agent-executable skill packs** using the **Agent Skills** common subset, compatible with **OpenAI Codex** and **Claude Code**.
 
 ## Core goals

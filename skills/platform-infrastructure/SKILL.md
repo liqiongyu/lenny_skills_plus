@@ -1,6 +1,6 @@
 ---
 name: "platform-infrastructure"
-description: "Produce a Platform & Infrastructure Improvement Pack (shared capabilities plan, reliability/performance/privacy targets, scaling triggers, analytics + discoverability decisions, execution roadmap). NOT for product/market positioning of a platform product (use platform-strategy), NOT for technical roadmap sequencing without infra focus (use technical-roadmaps), NOT for legacy code cleanup alone (use managing-tech-debt), NOT for org-culture work (use engineering-culture). Category: Engineering."
+description: "Produce a Platform & Infrastructure Pack (capabilities plan, scaling triggers, execution roadmap)."
 ---
 
 # Platform & Infrastructure

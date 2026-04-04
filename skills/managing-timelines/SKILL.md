@@ -1,6 +1,6 @@
 ---
 name: "managing-timelines"
-description: "Turn a deadline or delivery target into an executable Timeline Management Pack (commitments, phase plan, milestone tracker, RAG cadence, scope control, stakeholder comms). NOT for scope cutting to fit an appetite (scoping-cutting), launch execution (shipping-products), roadmap prioritization (prioritizing-roadmap), or hypothesis-driven ambiguity planning (planning-under-uncertainty). Use for timeline/deadline/schedule/milestones. Category: Execution."
+description: "Turn a deadline into a Timeline Management Pack (phase plan, milestone tracker, scope control). See also: scoping-cutting (cut scope to fit)."
 ---
 
 # Managing Timelines

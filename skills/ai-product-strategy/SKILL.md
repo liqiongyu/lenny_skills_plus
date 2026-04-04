@@ -1,6 +1,6 @@
 ---
 name: "ai-product-strategy"
-description: "Create an AI Product Strategy Pack (thesis, use cases, system plan, eval plan, autonomy policy, roadmap). Use for AI product strategy, LLM/agent strategy, AI roadmap, AI-first product direction. NOT for building an LLM system (use building-with-llms), evaluating an AI vendor (use evaluating-new-technology), platform ecosystem design (use platform-strategy), or rapid prototyping (use vibe-coding). Category: AI & Technology."
+description: "Create an AI Product Strategy Pack (thesis, use cases, system plan, eval plan, roadmap)."
 ---
 
 # AI Product Strategy

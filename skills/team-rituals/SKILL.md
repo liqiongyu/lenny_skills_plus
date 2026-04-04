@@ -1,6 +1,6 @@
 ---
 name: "team-rituals"
-description: "Design a lightweight set of named, templated Golden Rituals (team operating cadence). NOT for defining team culture code or values (use building-team-culture), NOT for running a single meeting or workshop (use running-effective-meetings), NOT for engineering-specific ceremonies (use engineering-culture). Produces a Team Rituals Pack. Use for team rituals, operating cadence, meeting templates, team operating system, golden rituals. Category: Hiring & Teams."
+description: "Design named, templated team rituals (operating cadence)."
 ---
 
 # Team Rituals

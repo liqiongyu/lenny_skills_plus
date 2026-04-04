@@ -1,6 +1,6 @@
 ---
 name: "energy-management"
-description: "Build an Energy Management Operating System Pack (drivers/drains map, calendar energy audit, zone-of-genius expansion, energy-aligned schedule, recovery routines, 2-week experiments). NOT for time/task systems (personal-productivity), imposter syndrome (managing-imposter-syndrome), 1:1 agendas (running-effective-1-1s), or delegation frameworks (delegating-work). Use for burnout prevention, sustainable leadership. Category: Leadership."
+description: "Build an Energy Management System: drivers/drains map, energy-aligned schedule, recovery routines."
 ---
 
 # Energy Management

@@ -1,6 +1,6 @@
 ---
 name: "competitive-analysis"
-description: "Produce a Competitive Analysis Pack (competitive alternatives map, competitor landscape, differentiation & positioning hypotheses, battlecards, monitoring plan). NOT for positioning/messaging copy (use positioning-messaging), pricing model design (use pricing-strategy), problem discovery (use problem-definition), or technology evaluation (use evaluating-new-technology). Use for competitor research, competitive landscape, win/loss analysis, and positioning vs alternatives. Category: Strategy."
+description: "Produce a Competitive Analysis Pack (alternatives map, landscape, battlecards, monitoring plan)."
 ---
 
 # Competitive Analysis

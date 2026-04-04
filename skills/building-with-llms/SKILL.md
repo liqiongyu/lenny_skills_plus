@@ -1,6 +1,6 @@
 ---
 name: "building-with-llms"
-description: "Produce an LLM Build Pack (prompt+tool contract, data/eval plan, architecture+safety, launch checklist). Use for building with LLMs, GPT/Claude apps, prompt engineering, RAG, and tool-using agents. NOT for AI product strategy/positioning (use ai-product-strategy), NOT for eval framework design without a build target (use ai-evals), NOT for general tech-stack selection (use evaluating-new-technology), NOT for quick prototyping without production intent (vibe-coding). Category: AI & Technology."
+description: "Produce an LLM Build Pack (prompt+tool contract, data/eval plan, architecture+safety, launch checklist). See also: ai-evals (eval only), ai-product-strategy (strategy only)."
 ---
 
 # Building with LLMs

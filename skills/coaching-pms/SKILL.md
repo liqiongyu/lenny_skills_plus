@@ -1,6 +1,6 @@
 ---
 name: "coaching-pms"
-description: "Coach PMs: PM Coaching Pack (definition of good PM, evidence-based assessment, growth bets, development plan, coaching cadence, follow-up tracker). Use for coaching PMs, development plans, leveling expectations, growth plans. NOT for 1:1 design (use running-effective-1-1s), task delegation (use delegating-work), promotion cases (use building-a-promotion-case), or difficult conversations (use having-difficult-conversations). Category: Leadership."
+description: "Coach PMs: evidence-based assessment, growth bets, development plan, coaching cadence."
 ---
 
 # Coaching Product Managers

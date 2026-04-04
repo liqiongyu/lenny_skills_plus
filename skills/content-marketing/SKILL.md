@@ -1,6 +1,6 @@
 ---
 name: "content-marketing"
-description: "Build a content marketing program: content market fit brief, SEO topic map, channel + voice strategy, editorial calendar, content briefs, AI writing SOP, measurement plan. NOT for launch campaigns (launch-marketing), brand narratives (brand-storytelling), community platforms (community-building), or positioning (positioning-messaging). Use for content marketing, content strategy, blog, SEO, thought leadership. Category: Marketing."
+description: "Build a content marketing program: SEO topic map, editorial calendar, content briefs, measurement plan."
 ---
 
 # Content Marketing

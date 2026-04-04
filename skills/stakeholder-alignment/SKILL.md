@@ -1,6 +1,6 @@
 ---
 name: "stakeholder-alignment"
-description: "Align stakeholders and secure buy-in for a proposal or decision via a Stakeholder Alignment Pack (brief, stakeholder map, pre-brief plan, meeting plan, decision summary + comms). Use for stakeholder alignment, buy-in, exec alignment, securing approval. NOT for ongoing cross-functional collaboration (use cross-functional-collaboration), managing-up (use managing-up), decision frameworks (use running-decision-processes), or presentation decks (use giving-presentations). Category: Communication."
+description: "Align stakeholders and secure buy-in: stakeholder map, pre-brief plan, decision summary."
 ---
 
 # Stakeholder Alignment

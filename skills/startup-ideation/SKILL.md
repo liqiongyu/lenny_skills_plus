@@ -1,6 +1,6 @@
 ---
 name: "startup-ideation"
-description: "Generate and evaluate startup ideas using off-the-beaten-path insights + Why-Now shift analysis. Produces a Startup Ideation Pack (theses table, scorecard, top idea brief, validation plan). NOT for pivoting an existing product (startup-pivoting), NOT for validating PMF (measuring-product-market-fit), NOT for defining a known problem (problem-definition), NOT for writing a PRD from a chosen idea (working-backwards). Use for startup ideation, idea selection, tarpit avoidance. Category: Strategy."
+description: "Generate and evaluate startup ideas: theses table, scorecard, top idea brief, validation plan. See also: startup-pivoting (existing product)."
 ---
 
 # Startup Ideation

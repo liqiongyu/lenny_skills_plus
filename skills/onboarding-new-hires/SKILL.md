@@ -1,6 +1,6 @@
 ---
 name: "onboarding-new-hires"
-description: "Design an employee onboarding experience (first 90 days + trajectory). NOT for product/user onboarding (use user-onboarding), NOT for interview design (use conducting-interviews), NOT for team culture overhauls (use building-team-culture). Produces a New Hire Onboarding Pack. Use for onboarding, first 90 days, new hire ramp, manager onboarding plan, and joining plans. Category: Hiring & Teams."
+description: "Design employee onboarding (first 90 days + trajectory). See also: user-onboarding (product UX onboarding)."
 ---
 
 # Onboarding New Hires

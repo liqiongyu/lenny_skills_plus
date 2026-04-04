@@ -1,6 +1,6 @@
 ---
 name: "writing-job-descriptions"
-description: "Write outcome-based job descriptions and role scorecards that attract the right candidates. NOT for designing interviews or evaluation rubrics (use conducting-interviews / evaluating-candidates), NOT for building a sales hiring pipeline (use building-sales-team), NOT for onboarding after the hire (use onboarding-new-hires). Use for job description, job posting, job ad, role scorecard, hiring brief. Category: Hiring & Teams."
+description: "Write outcome-based job descriptions and role scorecards."
 ---
 
 # Writing Job Descriptions (Outcome-Based)

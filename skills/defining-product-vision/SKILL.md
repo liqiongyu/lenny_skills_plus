@@ -1,6 +1,6 @@
 ---
 name: "defining-product-vision"
-description: "Define or refresh a product vision and produce a shareable Product Vision Pack (vision statement, narrative, pillars, strategic choices, rollout). NOT for AI/product strategy docs (use ai-product-strategy), metric selection (use writing-north-star-metrics), roadmap prioritization (use prioritizing-roadmap), or problem discovery (use problem-definition). Use for product vision, vision statement, product direction, long-term product strategy. Category: Strategy."
+description: "Define or refresh a product vision: vision statement, narrative, pillars, strategic choices, rollout."
 ---
 
 # Defining Product Vision

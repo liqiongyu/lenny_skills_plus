@@ -1,6 +1,6 @@
 ---
 name: "running-effective-1-1s"
-description: "Produce a 1:1 Operating System Pack (cadence plan, agendas, shared doc templates, coaching prompts, career conversation plan, quality gates). Use for 1:1, one-on-one, manager check-ins, coaching, career conversations, skip levels. NOT for PM skill coaching (use coaching-pms), team meeting design (use running-effective-meetings), delegating work (use delegating-work), or managing your boss (use managing-up). Category: Leadership."
+description: "Produce a 1:1 Operating System Pack (agendas, coaching prompts, career conversation plan). See also: running-effective-meetings (group meetings)."
 ---
 
 # Running Effective 1:1s

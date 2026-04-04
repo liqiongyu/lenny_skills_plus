@@ -1,6 +1,6 @@
 ---
 name: "evaluating-new-technology"
-description: "Create a Technology Evaluation Pack (problem framing, options matrix, build vs buy, pilot plan, risk review, decision memo). Use for evaluating new tech, AI tools, vendor selection, and tech stack decisions. NOT for design trade-offs within existing systems (use evaluating-trade-offs), NOT for AI product strategy (use ai-product-strategy), NOT for building LLM features (use building-with-llms), NOT for paying down tech debt (use managing-tech-debt). Category: Engineering."
+description: "Create a Technology Evaluation Pack (problem framing, options matrix, build vs buy, pilot plan, decision memo). See also: evaluating-trade-offs (general decisions)."
 ---
 
 # Evaluating New Technology

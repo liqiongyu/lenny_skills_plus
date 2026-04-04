@@ -1,6 +1,6 @@
 ---
 name: "negotiating-offers"
-description: "Negotiate job offers: success-conditions asks, tradeoff matrix, A/B/C strategy, scripts, optional contract proposal. NOT for career pivots (career-transitions), sales comp plans (sales-compensation), internal promotion cases (building-a-promotion-case), or manager-relationship tactics (managing-up). Use for salary, equity, offer, comp negotiation. Category: Career."
+description: "Negotiate job offers: tradeoff matrix, strategy scripts, optional contract proposal."
 ---
 
 # Negotiating Offers

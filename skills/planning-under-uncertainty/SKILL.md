@@ -1,6 +1,6 @@
 ---
 name: "planning-under-uncertainty"
-description: "Plan and lead execution when outcomes are uncertain and requirements are ambiguous. Produces an Uncertainty Planning Pack (uncertainty map, hypotheses + experiments, buffers + triggers, cadence + comms). NOT for clear-scope timelines (managing-timelines), trade-off decisions (evaluating-trade-offs), systemic analysis (systems-thinking), or scope cutting (scoping-cutting). Use for ambiguity, unknowns, hypothesis-driven planning, experimentation, contingency. Category: Execution."
+description: "Plan under uncertainty: uncertainty map, hypotheses + experiments, buffers + triggers, cadence."
 ---
 
 # Planning Under Uncertainty

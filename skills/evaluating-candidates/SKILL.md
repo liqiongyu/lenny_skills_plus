@@ -1,6 +1,6 @@
 ---
 name: "evaluating-candidates"
-description: "Make an evidence-based hiring decision using scorecards, work samples, and reference checks. NOT for designing interview questions or running interviews (use conducting-interviews), NOT for writing the job description (use writing-job-descriptions), NOT for negotiating offers (use negotiating-offers). Produces a Candidate Evaluation Decision Pack. Use for candidate evaluation, hiring decisions, reference checks, work samples/take-homes, and hiring bar calibration. Category: Hiring & Teams."
+description: "Make evidence-based hiring decisions: scorecards, work samples, reference checks. See also: conducting-interviews (run interviews)."
 ---
 
 # Evaluating Candidates

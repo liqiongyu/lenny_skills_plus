@@ -1,6 +1,6 @@
 ---
 name: "enterprise-sales"
-description: "Create an Enterprise Deal Execution Pack (buying committee map, champion enablement, mutual action plan, procurement/security packet, POC-as-business-case + ROI model). For large enterprise deals. NOT for founder-led first customers (use founder-sales), NOT for PLG-to-sales conversion (use product-led-sales), NOT for lead qualification frameworks (use sales-qualification), NOT for channel/partner deals (use partnership-bd). Category: Sales & GTM."
+description: "Create an Enterprise Deal Execution Pack (buying committee map, mutual action plan, ROI model)."
 ---
 
 # Enterprise Sales

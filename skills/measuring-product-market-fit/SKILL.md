@@ -1,6 +1,6 @@
 ---
 name: "measuring-product-market-fit"
-description: "Measure product-market fit (PMF) and produce a PMF Measurement Pack (Sean Ellis survey, retention evidence, reference-customer signals, and action plan). NOT for retention/engagement optimization (use retention-engagement), pivot decision-making (use startup-pivoting), idea generation (use startup-ideation), or defining a north-star metric (use writing-north-star-metrics). Category: Growth."
+description: "Measure PMF: Sean Ellis survey, retention evidence, reference-customer signals, action plan. See also: retention-engagement (optimize post-PMF)."
 ---
 
 # Measuring Product-Market Fit

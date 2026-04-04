@@ -1,6 +1,6 @@
 ---
 name: "launch-marketing"
-description: "Plan and execute launch marketing: launch brief, hook/sizzle, channel plan, PR outreach kit, internal readiness kit, checklist, measurement plan. NOT for ongoing content programs (content-marketing), release engineering (shipping-products), sustained PR (media-relations), or positioning (positioning-messaging). Use for product launch, feature launch, GTM, announcement. Category: Marketing."
+description: "Plan launch marketing: brief, hook, channel plan, PR kit, measurement plan. See also: shipping-products (release execution)."
 ---
 
 # Launch Marketing

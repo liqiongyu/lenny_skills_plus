@@ -1,6 +1,6 @@
 ---
 name: "personal-productivity"
-description: "Build a Personal Productivity System Pack (weekly timebox plan, capture+to-do system, daily/weekly review rituals, 7-day rollout). NOT for energy/burnout redesign (energy-management), project timelines (managing-timelines), team process design (team-rituals), or delegation frameworks (delegating-work). Use for timeboxing, calendar blocking, task capture. Category: Career."
+description: "Build a Personal Productivity System: weekly timebox plan, capture system, daily/weekly review rituals."
 ---
 
 # Personal Productivity

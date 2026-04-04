@@ -1,6 +1,6 @@
 ---
 name: "running-effective-meetings"
-description: "Run effective meetings via a Meeting Pack (brief, pre-read, agenda, facilitation script, notes + decision log, follow-up). Use for meeting planning, agendas, decision meetings, strategic discussions, operational syncs, meeting hygiene. NOT for 1:1s (use running-effective-1-1s), offsites (use running-offsites), decision frameworks (use running-decision-processes), or design reviews (use running-design-reviews). Category: Communication."
+description: "Run effective meetings: brief, agenda, facilitation script, decision log. See also: running-effective-1-1s (1:1s), running-offsites (offsites)."
 ---
 
 # Running Effective Meetings

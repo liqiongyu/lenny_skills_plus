@@ -1,6 +1,6 @@
 ---
 name: "positioning-messaging"
-description: "Create a Positioning & Messaging Pack (positioning statement, messaging hierarchy, value prop, tagline/headlines, copy set, validation plan). Use for positioning, messaging, value prop, tagline, homepage hero, elevator pitch. NOT for competitive landscape analysis (use competitive-analysis), brand narrative/storytelling (use brand-storytelling), pricing/packaging (use pricing-strategy), or launch campaigns (use launch-marketing). Category: Marketing."
+description: "Create a Positioning & Messaging Pack (positioning statement, messaging hierarchy, value prop, copy set)."
 ---
 
 # Positioning & Messaging

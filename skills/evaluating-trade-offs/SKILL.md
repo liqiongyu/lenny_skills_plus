@@ -1,6 +1,6 @@
 ---
 name: "evaluating-trade-offs"
-description: "Produce a Trade-off Evaluation Pack (brief, options matrix, all-in cost table, impact ranges, recommendation, stop/continue triggers). Use for trade-off, pros/cons, cost-benefit, opportunity cost, sunk costs. NOT for technology build-vs-buy (use evaluating-new-technology), full decision process (use running-decision-processes), systems modeling (use systems-thinking), or scope cutting (use scoping-cutting). Category: Leadership."
+description: "Produce a Trade-off Evaluation Pack (options matrix, cost table, impact ranges, recommendation). See also: evaluating-new-technology (tech-specific)."
 ---
 
 # Evaluating Trade-offs
