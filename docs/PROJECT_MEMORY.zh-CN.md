@@ -2,6 +2,8 @@
 
 > English version: [PROJECT_MEMORY.md](PROJECT_MEMORY.md)
 
+供 agent 快速参考的摘要。权威来源：[AGENTS.md](../AGENTS.md)。
+
 本仓库是一个 **Skillpack Factory**：把 RefoundAI 的 “Lenny skills” 转化为 **agent-executable skill packs**，使用 **Agent Skills** common subset，并兼容 **OpenAI Codex** 与 **Claude Code**。
 
 ## 核心目标
