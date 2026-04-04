@@ -67,6 +67,8 @@ python3 scripts/generate_audit_report.py
 - **YAML quotes**: Always use ASCII double quotes (`"`) in SKILL.md frontmatter. Unicode smart quotes (curly quotes) break YAML parsing.
 - **Bilingual docs**: Root and `docs/` files need EN + `*.zh-CN.md` pairs with language switch markers.
 - **Bilingual doc markers**: Use `> 中文版: [FILE.zh-CN.md](FILE.zh-CN.md)` in EN files and `> English version: [FILE.md](FILE.md)` in zh-CN files. Other formats will fail `check_bilingual_docs.py`.
+- **Docs index**: `docs/README.md` (+ zh-CN) is the docs landing page. When adding or removing files in `docs/`, update this index in both language versions.
+- **Local-only files**: `.agents/` and `skills-lock.json` are generated locally and not tracked in git.
 - **GitHub operations**: Use `gh` CLI for anything GitHub-related (PRs, issues, releases).
 - **Indentation**: 4 spaces for Python, 2 spaces for YAML. UTF-8, LF line endings.
 
