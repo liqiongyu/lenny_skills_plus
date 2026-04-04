@@ -1,6 +1,6 @@
 ---
 name: "building-team-culture"
-description: "Build or refresh a team culture code, norms, and reinforcement plan. NOT for designing team meeting cadence or rituals (use team-rituals), NOT for engineering-specific practices (use engineering-culture), NOT for org-wide restructuring (use organizational-design). Produces a Team Culture Operating System Pack. Use for team culture, culture code, team values, team norms, psychological safety, and coaching culture. Category: Hiring & Teams."
+description: "Build or refresh a team culture code, norms, and reinforcement plan."
 ---
 
 # Building Team Culture

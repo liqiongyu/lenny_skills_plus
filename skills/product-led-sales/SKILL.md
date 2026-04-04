@@ -1,6 +1,6 @@
 ---
 name: "product-led-sales"
-description: "Create a Product-Led Sales Motion Pack (PQL/PQA definition, usage-signal spec + routing/SLA, outreach playbook, pilot/scale plan). For converting self-serve PLG usage into sales opportunities. NOT for founder-led first customers (use founder-sales), NOT for enterprise deal execution (use enterprise-sales), NOT for lead qualification without product signals (use sales-qualification), NOT for onboarding optimization (use user-onboarding). Category: Sales & GTM."
+description: "Create a Product-Led Sales Pack (PQL/PQA definition, usage-signal routing, outreach playbook)."
 ---
 
 # Product-Led Sales

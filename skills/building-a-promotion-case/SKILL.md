@@ -1,6 +1,6 @@
 ---
 name: "building-a-promotion-case"
-description: "Build a promotion case: target role + timeline, ladder mapping, evidence log, impact narrative, manager alignment plan, sponsor/visibility map, submission-ready promo doc. NOT for career pivots (career-transitions), mentor networking (finding-mentors-sponsors), coaching frameworks (coaching-pms), or managing-up without a promo goal. Use for promotion packet, leveling up, career ladder. Category: Career."
+description: "Build a promotion case: evidence log, impact narrative, manager alignment plan, submission-ready promo doc."
 ---
 
 # Building a Promotion Case

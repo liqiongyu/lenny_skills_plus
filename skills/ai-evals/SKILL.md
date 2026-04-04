@@ -1,6 +1,6 @@
 ---
 name: "ai-evals"
-description: "Create an AI Evals Pack (eval PRD, test set, rubric, judge plan, results + iteration loop). Use for LLM evaluation, benchmarks, rubrics, error analysis, ship/no-ship gates for AI features. NOT for deciding what AI to build (use building-with-llms or ai-product-strategy), measuring product-market fit (use measuring-product-market-fit), or writing product requirements (use writing-prds). Category: AI & Technology."
+description: "Create an AI Evals Pack (eval PRD, test set, rubric, judge plan, results + iteration loop). See also: building-with-llms (build), ai-product-strategy (strategy)."
 ---
 
 # AI Evals

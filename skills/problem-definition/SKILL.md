@@ -1,6 +1,6 @@
 ---
 name: "problem-definition"
-description: "Define a product problem and produce a Problem Definition Pack (problem statement, JTBD, alternatives, evidence, metrics, scope, prototype plan). NOT for PRDs (writing-prds), NOT for interviews/surveys (conducting-user-interviews/designing-surveys), NOT for vision (defining-product-vision), NOT for competitive mapping (competitive-analysis). Use for problem definition, JTBD, problem framing. Category: Product Discovery."
+description: "Define a product problem: problem statement, JTBD, alternatives, evidence, metrics. See also: writing-prds (solution spec)."
 ---
 
 # Problem Definition

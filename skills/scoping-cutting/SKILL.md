@@ -1,6 +1,6 @@
 ---
 name: "scoping-cutting"
-description: "Right-size scope to ship within a fixed timebox (appetite). Produces a Scoping & Cutting Pack: appetite, minimum lovable slice, cut list, validation plan, and a scope-creep guardrail plan. NOT for choosing which initiatives to pursue (prioritizing-roadmap), building milestone/deadline plans (managing-timelines), writing full PRDs (writing-prds), or planning launches (shipping-products). Use for MVP/descoping/scope creep. Category: Execution."
+description: "Right-size scope for a fixed timebox: minimum lovable slice, cut list, scope-creep guardrails. See also: managing-timelines (deadline plans)."
 ---
 
 # Scoping & Cutting

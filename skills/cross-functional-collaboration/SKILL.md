@@ -1,6 +1,6 @@
 ---
 name: "cross-functional-collaboration"
-description: "Produce a Cross-Functional Collaboration Pack (charter, stakeholder map, roles contract, cadence, decision log, conflict norms). Use for cross-functional collaboration, working with eng/design, reducing friction. NOT for stakeholder buy-in (use stakeholder-alignment), managing your boss (use managing-up), one decision process (use running-decision-processes), or team rituals (use team-rituals). Category: Leadership."
+description: "Produce a Cross-Functional Collaboration Pack (charter, stakeholder map, roles contract, decision log)."
 ---
 
 # Cross-functional Collaboration

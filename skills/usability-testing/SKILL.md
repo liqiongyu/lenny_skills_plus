@@ -1,6 +1,6 @@
 ---
 name: "usability-testing"
-description: "Plan, run, and synthesize usability tests and produce a Usability Test Pack (test plan, tasks, script, issue log, findings, recommendations). NOT for discovery interviews (conducting-user-interviews), NOT for design critique (running-design-reviews), NOT for writing specs (writing-specs-designs), NOT for behavioral design (behavioral-product-design). Use for usability test, prototype test, Wizard of Oz, fake door. Category: Product Discovery."
+description: "Plan, run, and synthesize usability tests: test plan, tasks, script, findings, recommendations."
 ---
 
 # Usability Testing

@@ -1,6 +1,6 @@
 ---
 name: "designing-surveys"
-description: "Design and launch a product survey and produce a Survey Pack (brief, questionnaire, instrument, analysis plan, launch checklist). NOT for interviews (conducting-user-interviews), NOT for existing feedback analysis (analyzing-user-feedback), NOT for usability testing (usability-testing), NOT for full PMF assessment (measuring-product-market-fit). Use for NPS, CSAT, PMF surveys, onboarding, churn, feedback surveys. Category: Product Discovery."
+description: "Design and launch a product survey: brief, questionnaire, analysis plan, launch checklist. See also: conducting-user-interviews (qualitative)."
 ---
 
 # Designing Surveys

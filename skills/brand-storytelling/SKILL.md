@@ -1,6 +1,6 @@
 ---
 name: "brand-storytelling"
-description: "Create a Brand Storytelling Pack: brand narrative, founder/origin story, five-second moment, channel scripts, build-in-public plan, Q&A bank. NOT for positioning (positioning-messaging), content programs/SEO (content-marketing), press outreach (media-relations), or launch campaigns (launch-marketing). Use for brand story, founder story, origin story, narrative, pitch story. Category: Marketing."
+description: "Create a Brand Storytelling Pack: brand narrative, founder story, channel scripts, Q&A bank."
 ---
 
 # Brand Storytelling

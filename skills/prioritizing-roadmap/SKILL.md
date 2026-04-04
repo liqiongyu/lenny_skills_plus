@@ -1,6 +1,6 @@
 ---
 name: "prioritizing-roadmap"
-description: "Prioritize a product roadmap/backlog and produce a Roadmap Prioritization Pack (scoring model, ranked opportunities, roadmap, decision narrative). NOT for setting OKRs (use setting-okrs-goals), cutting scope mid-project (use scoping-cutting), engineering roadmaps (use technical-roadmaps), or timeline tracking (use managing-timelines). Use for roadmap prioritization, backlog ranking, what to build next, quarterly planning. Category: Strategy."
+description: "Prioritize product roadmap: scoring model, ranked opportunities, decision narrative. See also: technical-roadmaps (engineering roadmap)."
 ---
 
 # Prioritizing Roadmap

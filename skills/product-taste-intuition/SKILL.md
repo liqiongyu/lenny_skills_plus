@@ -1,6 +1,6 @@
 ---
 name: "product-taste-intuition"
-description: "Build product taste via a Taste Calibration Sprint (benchmark set, critique notes, hypothesis log, validation plan, practice loop). Use for product taste, product sense, intuition, calibrate taste. NOT for design reviews (use running-design-reviews), user testing (use dogfooding), PM coaching (use coaching-pms), or competitive analysis (use competitive-analysis). Category: Career."
+description: "Build product taste via a Taste Calibration Sprint (benchmarks, critique notes, hypothesis log)."
 ---
 
 # Product Taste & Intuition

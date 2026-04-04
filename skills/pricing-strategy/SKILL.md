@@ -1,6 +1,6 @@
 ---
 name: "pricing-strategy"
-description: "Create a Pricing Strategy Pack (value metric, WTP plan, packaging, price points, conversion mechanics, rollout). NOT for competitive analysis (use competitive-analysis), NOT for positioning/messaging (use positioning-messaging), NOT for PMF assessment (use measuring-product-market-fit), NOT for partnerships (use partnership-bd). Use for pricing, monetization, freemium, free trial, packaging. Category: Growth."
+description: "Create a Pricing Strategy Pack (value metric, packaging, price points, conversion mechanics, rollout)."
 ---
 
 # Pricing Strategy

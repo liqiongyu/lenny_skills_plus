@@ -1,6 +1,6 @@
 ---
 name: "managing-up"
-description: "Produce a Managing Up Operating System Pack (manager profile, comms cadence, weekly updates, escalation/ask plan, boundary script, exec-ready memo). Use for managing up, managing your boss, exec communication, escalation. NOT for broad stakeholder buy-in (use stakeholder-alignment), cross-team collaboration (use cross-functional-collaboration), 1:1 system design (use running-effective-1-1s), or delegating to reports (use delegating-work). Category: Leadership."
+description: "Produce a Managing Up Pack (manager profile, comms cadence, escalation plan, exec-ready memo)."
 ---
 
 # Managing Up

@@ -1,6 +1,6 @@
 ---
 name: "designing-growth-loops"
-description: "Design growth loops (viral/referral/acquisition loops, flywheels) and produce a Growth Loop Design Pack (loop map, scorecard, channel fit, experiment backlog, measurement plan). NOT for post-activation retention (use retention-engagement), NOT for first-time onboarding UX (use user-onboarding), NOT for content strategy/SEO editorial calendars (use content-marketing), NOT for community programs (use community-building). For growth teams. Category: Growth."
+description: "Design growth loops (viral/referral/acquisition): loop map, scorecard, experiment backlog."
 ---
 
 # Designing Growth Loops

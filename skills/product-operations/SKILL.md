@@ -1,6 +1,6 @@
 ---
 name: "product-operations"
-description: "Design Product Ops systems that help product teams scale (cadences, artifacts, insights pipelines, release enablement). Produces a Product Ops Pack (charter, operating model, rituals, templates, implementation plan). NOT for single-team rituals (team-rituals), individual meetings (running-effective-meetings), one launch (shipping-products), or roadmap prioritization (prioritizing-roadmap). Use for product ops, org scaling, standardizing check-ins. Category: Execution."
+description: "Design Product Ops systems: cadences, artifacts, insights pipelines, release enablement."
 ---
 
 # Product Operations

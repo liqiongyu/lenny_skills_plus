@@ -1,6 +1,6 @@
 ---
 name: "shipping-products"
-description: "Plan and execute a product launch/release with speed and safety. Produces a Shipping & Launch Pack (release brief, rollout/rollback plan, PQL, comms, monitoring, post-launch review). NOT for scope cutting (scoping-cutting), timeline plans (managing-timelines), launch marketing copy (launch-marketing), or post-incident retros (post-mortems-retrospectives). Use for ship, launch, release, deploy, go live. Category: Execution."
+description: "Plan product launch/release: rollout/rollback plan, comms, monitoring, post-launch review. See also: launch-marketing (marketing side)."
 ---
 
 # Shipping Products

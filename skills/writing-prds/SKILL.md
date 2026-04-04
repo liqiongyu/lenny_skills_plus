@@ -1,6 +1,6 @@
 ---
 name: "writing-prds"
-description: "Write a clear, decision-ready PRD (and optionally a PR/FAQ, AI eval spec, and prompt set) for cross-functional alignment. NOT for build-ready interaction specs (use writing-specs-designs), NOT for North Star metric definition (use writing-north-star-metrics), NOT for problem discovery (use problem-definition), NOT for roadmap prioritization (use working-backwards). Use for PRD, product requirements document, product spec, requirements doc, and feature requirements. Category: Product Management."
+description: "Write a decision-ready PRD for cross-functional alignment. See also: writing-specs-designs (build-ready spec)."
 ---
 
 # Writing PRDs

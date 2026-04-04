@@ -1,6 +1,6 @@
 ---
 name: "platform-strategy"
-description: "Create a Platform Strategy Pack (platform-as-product charter, interface map, lifecycle stage, ecosystem/moat model, governance, metrics, roadmap). NOT for company-wide AI/product strategy (use ai-product-strategy), infra architecture docs (use platform-infrastructure), design system governance (use design-systems), or pricing/packaging decisions (use pricing-strategy). Use for platform strategy, developer platforms, APIs, AI platforms, and ecosystems. Category: Strategy."
+description: "Create a Platform Strategy Pack (charter, interface map, ecosystem model, governance, metrics)."
 ---
 
 # Platform Strategy

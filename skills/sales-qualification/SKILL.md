@@ -1,6 +1,6 @@
 ---
 name: "sales-qualification"
-description: "Build a Sales Qualification Pack (ICP + disqualification rules, qualification scorecard, discovery/qualification script, CRM note template, and pipeline hygiene rules). Use for sales qualification, lead scoring, pipeline quality, disqualification criteria, and discovery calls. NOT for founder-led selling (use founder-sales), enterprise deal strategy (use enterprise-sales), or comp plan design (use sales-compensation). Category: Sales & GTM."
+description: "Build a Sales Qualification Pack (ICP, scorecard, discovery script, pipeline hygiene rules)."
 ---
 
 # Sales Qualification

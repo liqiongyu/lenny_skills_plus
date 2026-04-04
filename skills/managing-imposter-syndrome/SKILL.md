@@ -1,6 +1,6 @@
 ---
 name: "managing-imposter-syndrome"
-description: "Manage imposter syndrome at work: trigger & pattern map, reframes, evidence bank, experiment plan, support scripts, maintenance routine. NOT for promotion cases (building-a-promotion-case), energy/burnout redesign (energy-management), PM coaching (coaching-pms), or mentor networking (finding-mentors-sponsors). Use for self-doubt, feeling like a fraud, new role anxiety. Category: Career."
+description: "Manage imposter syndrome: trigger map, reframes, evidence bank, experiment plan, support scripts."
 ---
 
 # Managing Imposter Syndrome

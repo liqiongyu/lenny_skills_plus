@@ -1,6 +1,6 @@
 ---
 name: "fundraising"
-description: "Plan and run an early-stage fundraising process: raise decision memo, round design, pitch narrative + deck outline, investor pipeline, outreach scripts, diligence prep. NOT for founder sales motions (founder-sales), startup idea validation (startup-ideation), presentation delivery skills (giving-presentations), or offer negotiation (negotiating-offers). Use for raising capital, VC, pitch deck, pre-seed, seed. Category: Career."
+description: "Plan early-stage fundraising: raise decision memo, round design, pitch narrative, investor pipeline, diligence prep."
 ---
 
 # Fundraising

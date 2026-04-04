@@ -1,6 +1,6 @@
 ---
 name: "setting-okrs-goals"
-description: "Set aligned, measurable OKRs/goals and produce an OKR & Goals Pack (objectives, key results, guardrails, systems/habits, review cadence). NOT for North Star definition (use writing-north-star-metrics), NOT for roadmap prioritization (use prioritizing-roadmap), NOT for vision/strategy (use defining-product-vision), NOT for sprint planning (use managing-timelines). Use for OKRs, quarterly goals, team goals, key results. Category: Strategy."
+description: "Set aligned OKRs/goals: objectives, key results, guardrails, review cadence."
 ---
 
 # Setting OKRs & Goals

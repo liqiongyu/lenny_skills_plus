@@ -1,6 +1,6 @@
 ---
 name: "community-building"
-description: "Build a Community Building Pack: strategy, platform plan, programming calendar, ambassador program, governance, metrics, launch plan. NOT for content programs/SEO (content-marketing), growth loops (designing-growth-loops), brand narratives (brand-storytelling), or partner programs (partnership-bd). Use for community building, community-led growth, developer community, ambassador programs, Discord/Slack/forum. Category: Marketing."
+description: "Build a Community Pack: strategy, platform plan, ambassador program, governance, metrics."
 ---
 
 # Community Building

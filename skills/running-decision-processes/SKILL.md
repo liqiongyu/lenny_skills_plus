@@ -1,6 +1,6 @@
 ---
 name: "running-decision-processes"
-description: "Run a decision process end-to-end: Decision Process Pack (brief, options matrix, RAPID/DACI roles, meeting plan, decision log, comms, review). Use for decision memo, one-way/two-way door, RAPID, DACI, exec alignment. NOT for trade-off scoring (use evaluating-trade-offs), systemic effects (use systems-thinking), stakeholder buy-in (use stakeholder-alignment), or non-decision meetings (use running-effective-meetings). Category: Leadership."
+description: "Run a decision process end-to-end: RAPID/DACI roles, options matrix, decision log, comms."
 ---
 
 # Running Decision Processes

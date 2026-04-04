@@ -1,6 +1,6 @@
 ---
 name: "engineering-culture"
-description: "Produce an Engineering Culture Operating System Pack (capability map, culture code, org/architecture alignment, clock-speed/DevEx backlog, workflow contract, rollout plan). Use for engineering culture, DevOps, DevEx, clock speed, Conway's Law. NOT for team culture broadly (use building-team-culture), org design (use organizational-design), technical roadmaps (use technical-roadmaps), or design-eng collaboration (use design-engineering). Category: Engineering."
+description: "Produce an Engineering Culture Operating System Pack (culture code, DevEx backlog, workflow contract)."
 ---
 
 # Engineering Culture

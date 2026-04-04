@@ -1,6 +1,6 @@
 ---
 name: "vibe-coding"
-description: "Turn an idea into a demo-ready prototype using AI-assisted vibe coding (timeboxed build loop, prompt pack, build plan, demo script, safety checks). Use for rapid prototyping, proving concepts, non-engineer builders. NOT for production LLM systems (use building-with-llms), AI strategy (use ai-product-strategy), technology evaluation (use evaluating-new-technology), or startup idea validation (use startup-ideation). Category: AI & Technology."
+description: "Turn an idea into a demo-ready prototype using AI-assisted vibe coding."
 ---
 
 # Vibe Coding

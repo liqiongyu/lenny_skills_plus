@@ -1,6 +1,6 @@
 ---
 name: "marketplace-liquidity"
-description: "Diagnose and improve marketplace liquidity (match rate, time-to-match, reliability) by segment. Produces a Liquidity Management Pack: metric tree, fragmentation map, scorecard, bottleneck diagnosis, experiment backlog, and operating cadence. NOT for retention playbooks (retention-engagement), growth loops (designing-growth-loops), pricing-only (pricing-strategy), or PMF measurement (measuring-product-market-fit). Category: Growth."
+description: "Diagnose and improve marketplace liquidity: metric tree, fragmentation map, bottleneck diagnosis."
 ---
 
 # Marketplace Liquidity Management

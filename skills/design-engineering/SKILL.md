@@ -1,6 +1,6 @@
 ---
 name: "design-engineering"
-description: "Stand up a Design Engineering practice (hybrid design+engineering): charter, prototype-to-production workflow, design-to-code contract, component delivery plan, quality bar. NOT for building/evolving a design system (use design-systems), NOT for org-wide engineering culture (use engineering-culture), NOT for design reviews only (use running-design-reviews), NOT for writing feature specs (use writing-specs-designs). Category: Engineering."
+description: "Stand up a Design Engineering practice: charter, prototype-to-production workflow, component delivery plan."
 ---
 
 # Design Engineering

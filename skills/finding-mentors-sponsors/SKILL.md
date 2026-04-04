@@ -1,6 +1,6 @@
 ---
 name: "finding-mentors-sponsors"
-description: "Build a Mentor & Sponsor Plan Pack (mentor portfolio, sponsor strategy, target list, outreach scripts, meeting agenda, tracking + cadence). NOT for promotion cases (building-a-promotion-case), manager-relationship tactics (managing-up), career pivots (career-transitions), or PM coaching frameworks (coaching-pms). Use for finding a mentor, sponsor, career advisor, networking outreach. Category: Career."
+description: "Build a Mentor & Sponsor Plan: target list, outreach scripts, meeting agenda, tracking cadence."
 ---
 
 # Finding Mentors & Sponsors

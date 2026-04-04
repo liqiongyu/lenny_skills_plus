@@ -1,6 +1,6 @@
 ---
 name: "retention-engagement"
-description: "Improve retention, churn, engagement, and activation with a Retention & Engagement Improvement Pack (diagnosis, aha moment, lever hypotheses, experiment backlog, 30/60/90 plan). NOT for first-time onboarding UX (use user-onboarding), NOT for viral/referral loop design (use designing-growth-loops), NOT for PMF measurement (use measuring-product-market-fit), NOT for behavioral nudge frameworks (use behavioral-product-design). For Growth teams. Category: Growth."
+description: "Improve retention and engagement: diagnosis, aha moment, lever hypotheses, experiment backlog. See also: user-onboarding (first-time UX)."
 ---
 
 # Retention & Engagement

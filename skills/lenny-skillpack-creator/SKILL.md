@@ -1,6 +1,6 @@
 ---
 name: "lenny-skillpack-creator"
-description: "Converts a Refound/Lenny Skill into a high-density, agent-executable Skill Pack (Agent Skills standard). Output must be in English. Use for skill conversion, skill pack creation, Refound skill import, and agent skill authoring. Category: Meta."
+description: "Convert a Refound/Lenny Skill into an agent-executable Skill Pack."
 ---
 
 # Lenny Skillpack Creator

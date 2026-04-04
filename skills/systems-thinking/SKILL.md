@@ -1,6 +1,6 @@
 ---
 name: "systems-thinking"
-description: "Apply systems thinking: Systems Thinking Pack (boundary, actors/incentives map, feedback loops, second-order effects ledger, leverage points, intervention plan). Use for complex ecosystems, feedback loops, second-order effects, preventing unintended consequences. NOT for trade-off scoring (use evaluating-trade-offs), decision processes (use running-decision-processes), org chart redesign (use organizational-design), or scenario planning (use planning-under-uncertainty). Category: Leadership."
+description: "Apply systems thinking: feedback loops, second-order effects, leverage points, intervention plan."
 ---
 
 # Systems Thinking

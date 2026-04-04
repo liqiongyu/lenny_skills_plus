@@ -1,6 +1,6 @@
 ---
 name: "organizational-transformation"
-description: "Lead org transformation toward a product operating model: Transformation Pack (diagnostic, target model, pilot plan, roadmap, comms, governance). Use for org transformation, feature-to-empowered teams, change management. NOT for org chart redesign only (use organizational-design), engineering practices (use engineering-culture), team culture (use building-team-culture), or single-decision alignment (use stakeholder-alignment). Category: Leadership."
+description: "Lead org transformation toward a product operating model: diagnostic, pilot plan, roadmap, governance."
 ---
 
 # Organizational Transformation

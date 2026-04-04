@@ -1,6 +1,6 @@
 ---
 name: "design-systems"
-description: "Build or evolve a design system (tokens, components, governance): charter, token model, component inventory + roadmap, blockframe-to-component mapping, documentation plan, governance/adoption plan. NOT for standing up a design engineering practice (use design-engineering), NOT for design critiques (use running-design-reviews), NOT for engineering culture (use engineering-culture), NOT for feature specs (use writing-specs-designs). Category: Design."
+description: "Build or evolve a design system: charter, token model, component inventory, governance plan."
 ---
 
 # Design Systems

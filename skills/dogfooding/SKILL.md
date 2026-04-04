@@ -1,6 +1,6 @@
 ---
 name: "dogfooding"
-description: "Run an internal dogfooding program and produce a Dogfooding Pack (charter, scenario map, routines, log + triage spec, weekly report, ship/no-ship gate). NOT for external usability testing (usability-testing), launch planning (shipping-products), design critiques (running-design-reviews), or product taste frameworks (product-taste-intuition). Use for dogfooding, internal beta, team using the product daily to find friction before shipping. Category: Product Quality."
+description: "Run an internal dogfooding program: scenario map, routines, triage spec, ship/no-ship gate."
 ---
 
 # Dogfooding

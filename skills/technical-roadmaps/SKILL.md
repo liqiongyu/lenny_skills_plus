@@ -1,6 +1,6 @@
 ---
 name: "technical-roadmaps"
-description: "Turn engineering strategy into a Technical Roadmap Pack (Rumelt-style Diagnosis/Guiding Policy/Coherent Actions, roadmap table, initiative briefs, alignment cadence). NOT for product-bet prioritization (prioritizing-roadmap), NOT for delivery tracking (managing-timelines), NOT for platform ecosystem design (platform-infrastructure), NOT for eng culture work (engineering-culture). Use for technical roadmap, engineering roadmap, architecture roadmap. Category: Engineering."
+description: "Turn engineering strategy into a Technical Roadmap Pack (diagnosis, roadmap table, initiative briefs)."
 ---
 
 # Technical Roadmaps

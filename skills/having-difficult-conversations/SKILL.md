@@ -1,6 +1,6 @@
 ---
 name: "having-difficult-conversations"
-description: "Produce a Difficult Conversation Pack (conversation brief, talk track/script, objection+emotion handling plan, follow-up note). Use for difficult conversation, tough feedback, performance conversation, promotion denial, layoff/termination. NOT for ongoing coaching/1:1 systems (use running-effective-1-1s), PM skill development (use coaching-pms), upward expectation-setting (use managing-up), or incident/failure retrospectives (use post-mortems-retrospectives). Category: Leadership."
+description: "Produce a Difficult Conversation Pack (talk track, objection handling, follow-up note)."
 ---
 
 # Having Difficult Conversations

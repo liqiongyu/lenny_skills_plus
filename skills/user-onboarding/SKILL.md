@@ -1,6 +1,6 @@
 ---
 name: "user-onboarding"
-description: "Design and improve product user onboarding (first-time UX) to drive activation and early retention. Produces an Onboarding & Activation Pack (aha moment spec, first 30s + first mile plan, journey map, experiment backlog). NOT for employee/HR onboarding (use onboarding-new-hires), NOT for post-activation retention (use retention-engagement), NOT for growth loop design (use designing-growth-loops), NOT for behavioral nudge theory (use behavioral-product-design). For Growth teams. Category: Growth."
+description: "Design product user onboarding to drive activation: aha moment, first-mile plan, experiment backlog. See also: onboarding-new-hires (employee)."
 ---
 
 # User Onboarding

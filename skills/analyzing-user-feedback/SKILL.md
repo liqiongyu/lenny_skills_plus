@@ -1,6 +1,6 @@
 ---
 name: "analyzing-user-feedback"
-description: "Analyze existing user/customer feedback and produce a Feedback Analysis Pack (source inventory, taxonomy, themes, recommendations, feedback loop). NOT for collecting new feedback (conducting-user-interviews/designing-surveys), NOT for usability testing (usability-testing), NOT for retention metrics (retention-engagement). Use for voice of customer, feature requests, support tickets, churn reasons, survey open-ends. Category: Product Discovery."
+description: "Analyze user/customer feedback into a Feedback Analysis Pack (taxonomy, themes, recommendations). See also: conducting-user-interviews (collect new), designing-surveys (quantitative)."
 ---
 
 # Analyzing User Feedback

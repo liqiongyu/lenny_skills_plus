@@ -1,6 +1,6 @@
 ---
 name: "writing-north-star-metrics"
-description: "Define or refresh a product North Star metric + driver tree and produce a North Star Metric Pack. NOT for setting OKRs (use setting-okrs-goals), NOT for product vision (use defining-product-vision), NOT for PMF assessment (use measuring-product-market-fit), NOT for retention diagnostics (use retention-engagement). Use for North Star metric, KPI definition, driver tree, metric alignment. Category: Strategy."
+description: "Define or refresh a product North Star metric + driver tree."
 ---
 
 # Writing North Star Metrics

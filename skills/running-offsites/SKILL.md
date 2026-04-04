@@ -1,6 +1,6 @@
 ---
 name: "running-offsites"
-description: "Plan and run a team offsite/retreat via an Offsite Pack (brief, agenda + run-of-show, prework, facilitation guide, logistics checklist, post-offsite decisions + action plan + comms). Use for offsite, retreat, strategy offsite, quarterly burst, onsite. NOT for single meetings (use running-effective-meetings), recurring rituals (use team-rituals), stakeholder buy-in (use stakeholder-alignment), or talks/decks (use giving-presentations). Category: Communication."
+description: "Plan and run a team offsite/retreat: agenda, facilitation guide, logistics, post-offsite action plan."
 ---
 
 # Running Offsites

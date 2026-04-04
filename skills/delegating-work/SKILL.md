@@ -1,6 +1,6 @@
 ---
 name: "delegating-work"
-description: "Create a Delegation Pack (delegation brief, decision rights, context handoff, check-in cadence, review plan, debrief). Use for delegation, letting go, empowering reports, and avoiding micromanagement. NOT for 1:1 meeting design (use running-effective-1-1s), PM development plans (use coaching-pms), upward influence (use managing-up), or cross-team coordination (use cross-functional-collaboration). Category: Leadership."
+description: "Create a Delegation Pack (brief, decision rights, context handoff, check-in cadence, debrief)."
 ---
 
 # Delegating Work

@@ -1,6 +1,6 @@
 ---
 name: "organizational-design"
-description: "Design/redesign org structure and operating model: Org Design Pack (brief, current-state map, operating-model decision, target blueprint, transition plan). Use for reorgs, team topology, functional vs divisional, centralized vs decentralized. NOT for transformation programs (use organizational-transformation), engineering culture (use engineering-culture), team culture (use building-team-culture), or cross-team coordination (use cross-functional-collaboration). Category: Leadership."
+description: "Design/redesign org structure and operating model: current-state map, target blueprint, transition plan."
 ---
 
 # Organizational Design

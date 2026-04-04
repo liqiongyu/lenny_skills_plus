@@ -1,6 +1,6 @@
 ---
 name: "career-transitions"
-description: "Plan and execute a career transition: progress metric, push/pull map, target archetypes, option scorecard, pipeline + outreach, skills plan, experiment plan. NOT for internal promotion cases (building-a-promotion-case), offer negotiation (negotiating-offers), mentor networking (finding-mentors-sponsors), or startup ideation (startup-ideation). Use for career change, pivot, switching roles. Category: Career."
+description: "Plan a career transition: push/pull map, target archetypes, option scorecard, pipeline + outreach, skills plan."
 ---
 
 # Career Transitions

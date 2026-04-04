@@ -1,6 +1,6 @@
 ---
 name: "giving-presentations"
-description: "Plan and deliver persuasive presentations via a Presentation Pack (brief, narrative, slide outline, Q&A bank, pre-brief plan, rehearsal plan). Use for deck, keynote, all-hands, exec review, demo talk track. NOT for stakeholder alignment (use stakeholder-alignment), written memos/docs (use written-communication), offsite facilitation (use running-offsites), or meeting agendas (use running-effective-meetings). Category: Communication."
+description: "Plan and deliver presentations: brief, narrative, slide outline, Q&A bank, rehearsal plan. See also: written-communication (async writing)."
 ---
 
 # Giving Presentations

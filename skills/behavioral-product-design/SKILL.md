@@ -1,6 +1,6 @@
 ---
 name: "behavioral-product-design"
-description: "Apply behavioral science to product design: target behavior, diagnosis, intervention map, design specs, experiment plan, ethics review. NOT for onboarding without behavioral lens (use user-onboarding), NOT for retention metrics (use retention-engagement), NOT for survey design (use designing-surveys), NOT for usability testing (use usability-testing). Use for habit loops, behavior change, activation. Category: Product Design."
+description: "Apply behavioral science to product design: target behavior, intervention map, experiment plan."
 ---
 
 # Behavioral Product Design

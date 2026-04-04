@@ -1,6 +1,6 @@
 ---
 name: "writing-specs-designs"
-description: "Create a build-ready spec + design doc pack (low-fi diagram, user flows/states, prototype brief, acceptance criteria) for a feature or UX change. NOT for decision-level PRDs (use writing-prds), NOT for design critique/feedback (use running-design-reviews), NOT for usability validation with users (use usability-testing), NOT for design-engineering handoff standards (use design-engineering). Use for spec, design doc, feature spec, technical spec, interaction spec. Category: Product Management."
+description: "Create a build-ready spec + design doc (user flows, prototype brief, acceptance criteria). See also: writing-prds (decision-level PRD)."
 ---
 
 # Writing Specs & Designs

@@ -1,6 +1,6 @@
 ---
 name: "sales-compensation"
-description: "Design a sales compensation plan (OTE & pay mix, quotas & ramp, commission mechanics, and retention-aligned incentives) and produce a Sales Comp Plan Pack. Use for AE/SDR/AM comp plans, early sales hires, and GTM scaling. NOT for sales team hiring/org design (use building-sales-team), pipeline qualification (use sales-qualification), or offer negotiation (use negotiating-offers). Category: Sales & GTM."
+description: "Design a sales compensation plan: OTE, quotas, commission mechanics, retention incentives."
 ---
 
 # Sales Compensation

@@ -1,6 +1,6 @@
 ---
 name: "media-relations"
-description: "Plan earned media outreach and journalist relationships: newsworthiness brief, media list, exclusive/embargo plan, pitch templates, outreach tracker, interview prep. NOT for launch campaigns (launch-marketing), brand narratives (brand-storytelling), community programs (community-building), or keynote prep (giving-presentations). Use for PR, press pitch, embargo, exclusive, journalist pitching. Category: Marketing."
+description: "Plan earned media outreach: media list, pitch templates, outreach tracker, interview prep."
 ---
 
 # Media Relations
